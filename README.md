@@ -1,1 +1,2 @@
-# shiftsharepoint
+# ShiftSharepoint
+

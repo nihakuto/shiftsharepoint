@@ -1,0 +1,31 @@
+
+.pointer-cursor {
+  text-align: center;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
+  cursor: pointer;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.child-minh-200 div {
+  min-height: 200px
+}
+#brandformrow>div {
+  min-height: 150px;
+  padding-bottom: 30px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: pointer;
+}
+#brandformrow img {
+  margin-top :auto;
+  margin-bottom: auto;
+  padding-left: 5px;
+  padding-right: 5px;
+}
