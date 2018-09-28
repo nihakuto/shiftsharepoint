@@ -24,11 +24,11 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 
 ga('create', 'UA-126360445-1', 'auto');
 
-//url = document.referrer;
-var url = "lolitworks";
-ga('set', 'sharepoint_page', url);
+var url = document.referrer;
+ga('set', 'dimension', url);
 
-ga('set', 'dimension2', url );
+var url2 = "lolitworks";
+ga('set', 'dimension2', url2 );
 
 // ga('send', 'pageview', {
 //   'sharepoint_page': url
