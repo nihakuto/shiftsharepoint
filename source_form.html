@@ -144,8 +144,11 @@
             }
         </script>
 
+        <input type="button" onclick="document.getElementById('output1').innerHTML = 'There was an error exterminating this page. Please replace <code>.innerHTML</code> with <code>document.write()</code> to complete extermination.';" value="exterminate"/>
+         me!
+        <p id="output1"></p>
         <button type="button" class="btn btn-secondary" onclick="settestcookie()">Set the test cookie!</button>
-        
+
     </div>
     <!-- /.container -->
 
@@ -172,7 +175,7 @@
 
     <script>
         $(document).ready(function() {
-            document.write(localStorage.getItem('testcookie'));
+          document.getElementById('output1').innerHTML = '';
 
             if (localStorage.getItem('testcookie') == null) {
                 localStorage.setItem('testcookie', 'cookie_set')
