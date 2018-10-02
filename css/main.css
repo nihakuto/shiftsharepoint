@@ -42,3 +42,7 @@
 #brand-bar-modal-content {
   border: 0;
 }
+#modal-instruction {
+  font-variant: small-caps;
+  margin-bottom: 1px;
+}
