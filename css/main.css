@@ -36,6 +36,8 @@
   margin: 0;
   width: 100%;
   max-width: none;
+  position: relative;
+  top: 0px;
 }
 #brand-bar-modal-content {
   border: 0;
