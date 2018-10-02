@@ -1,0 +1,45 @@
+#popup-container {
+  margin-top: 20px!important;
+  margin-right: 20px!important;
+  margin-left: 20px!important;
+  width: 990px!important;
+  margin: 0 auto!important;
+}
+
+.modal-content {
+  background-color: rgba(38, 38, 40, 0.92)!important;
+  color: #fff!important;
+  padding: 20px 40px!important;
+}
+
+.modal-content input {
+  height: 57px!important;
+  border-radius: 0px!important;
+  margin-bottom: 1em!important;
+}
+
+.modal-content .btn-primary {
+  width: 100%!important;
+  background-color: #ef9919!important;
+  border: 0px!important;
+}
+
+.modal-content .btn-primary:hover {
+  background-color: #0073b7!important;
+  border: 0px!important;
+}
+
+.modal-content .logorow {
+  text-align: center!important;
+}
+
+.close {
+  margin-right: 10px!important;
+  margin-top: 5px!important;
+  color: #fff!important;
+  opacity: .8!important;
+}
+
+.close:hover {
+  color: #efefef!important;
+}
