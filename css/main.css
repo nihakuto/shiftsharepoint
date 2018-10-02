@@ -19,3 +19,24 @@
   height : 50px;
   background-color:blue;
 }
+#brandnav a {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height:40px;
+  margin-left: 1px;
+  margin-right: 1px;
+  padding-left: 0;
+  padding-right: 0;
+}
+#brand-bar-modal-body {
+  padding: 0;
+}
+#brand-bar-modal-dialog {
+  margin: 0;
+  width: 100%;
+  max-width: none;
+}
+#brand-bar-modal-content {
+  border: 0;
+}
