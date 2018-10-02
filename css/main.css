@@ -14,16 +14,17 @@
 .child-minh-200 div {
   min-height: 200px
 }
-#brandformrow>div {
+#brandformcontent>div {
   min-height: 120px;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
+  margin-top: 10px;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
   cursor: pointer;
 }
-#brandformrow img {
+#brandformcontent img {
   margin-top :auto;
   margin-bottom: auto;
   padding-left: 5px;
