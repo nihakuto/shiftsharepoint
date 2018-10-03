@@ -44,6 +44,7 @@ body {
 }
 #brand-bar-modal-content {
   border: 0;
+  background: none transparent;
 }
 #modal-instruction {
   font-variant: small-caps;
