@@ -1,5 +1,6 @@
 body {
   background:none transparent;
+  /* background-color: #000; */
 }
 #brandformcontent>div {
   min-height: 120px;
@@ -49,4 +50,20 @@ body {
 #modal-instruction {
   font-variant: small-caps;
   margin-bottom: 1px;
+}
+
+@import "compass/css3";
+
+@keyframes fadeIn {
+  /* from {opacity: 1;} */
+  from {opacity: 0.3;}
+}
+
+.blinker {
+  -webkit-animation: fadeIn 1s infinite alternate-reverse;
+  animation: fadeIn 1s infinite alternate-reverse;
+}
+.blinker:hover {
+  -webkit-animation: notexistent;
+  animation: notexistent;
 }
