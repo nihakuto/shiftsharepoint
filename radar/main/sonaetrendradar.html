@@ -1,0 +1,145 @@
+
+<!DOCTYPE html>
+	<head>
+        
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+
+	    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+	    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+
+        <title>Sonae Trend Radar</title>
+
+        <meta property="og:title" content="Sonae Trend Radar" />
+        <meta property="og:url" content="https://ich.unesco.org/dive/threat" />
+        <meta property="og:image" content="https://ich.unesco.org/dive/threat/img/threats.png" />
+        <meta property="og:description" content="Designed on an experimental basis, this interactive visual is intended to highlight the phenomena that threaten the elements of intangible cultural heritage inscribed on the List of Intangible Cultural Heritage in Need of Urgent Safeguarding. By studying the nomination files, UNESCO identified 46 of them which are often referred to as ‘risks’ or ‘threats’. For easier navigation, these phenomena have been grouped into nine categories: the one in the centre (‘Weakened practice and transmission’) corresponds to symptoms of endangered heritage, and the others to underlying factors, threats or risks. Select a ‘threat’ to see how it impacts the related elements; select an element to see which factors affect its viability." />
+
+        <!-- Analytics -->
+        <script src="../common/app/js/analytics.js"></script>
+
+        <!-- Sharing -->
+        <script type='text/javascript' src='//platform-api.sharethis.com/js/sharethis.js#property=5c0122c64b87f6001159588d&product=custom-share-buttons' async='async'></script>
+
+		<!-- Styling -->
+        <link href="../common/vendor/css/glide.core.min.css" rel="stylesheet">
+        <link href="../common/vendor/css/glide.theme.min.css" rel="stylesheet">
+        <link href="../common/app/css/style.css" rel="stylesheet">
+        <link href="../common/app/css/modal.css" rel="stylesheet">
+        <link href="../common/app/css/unesco-modal-intro.css" rel="stylesheet">
+        <link href="../common/app/css/unesco-modal-node.css" rel="stylesheet">
+        <link href="../common/app/css/unesco-modal-legend.css" rel="stylesheet">
+        <link href="../common/app/css/unesco-modal-mega.css" rel="stylesheet"> <!-- RADAR -->
+        <link href="../common/app/css/menu.css" rel="stylesheet">
+
+        <!-- Google fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Oswald:300,400,500|IBM+Plex+Serif" rel="stylesheet">
+
+		<!-- JavaScript files -->
+        <script src="../common/vendor/js/d3.v5.min.js"></script>
+        <script src="../common/vendor/js/chroma.min.js"></script>
+        <script src="../common/vendor/js/modal.min.js"></script>
+        <script src="../common/vendor/js/fontfaceobserver.js"></script>
+        <script src="../common/vendor/js/search-params-polyfill.js"></script>
+        <script src="../common/vendor/js/glide.min.js"></script>
+        <script src="../common/app/js/translations.js"></script>
+        <script src="../common/app/js/unesco-modal-node.js"></script>
+        <script src="../data/version.js"></script>
+
+        <!-- The visual function -->
+        <script src="js/createThreatVisual.js"></script>
+        <script src="js/translationsThreat.js"></script>
+	</head>
+
+	<body>
+
+        <!-- The dropdown menu -->
+        <nav id="menu">
+            <button id="menu-button"></button>
+            <ul>
+                <li id="menu-intro"></li>
+                <li id="menu-legend"></li>
+                <li id="menu-about"><a href="../" target="_blank"></a></li>
+                <li id="menu-more">
+                    <ul>
+                        <li id="menu-more-constellation"><a href="../constellation/"></a></li>
+                        <li id="menu-more-biome"><a href="../biome/"></a></li>
+                        <li id="menu-more-domain"><a href="../domain/"></a></li>
+                        <li id="menu-more-threat"><a href="../threat/"></a></li>
+                    </ul>
+                </li>
+                <li id="menu-language">
+                    <ul>
+                        <li id="menu-language-en">English</li>
+                        <li id="menu-language-fr">Français</li>
+                        <li id="menu-language-es">Español</li>
+                    </ul>
+                </li>
+                <li id="menu-share">
+                    <ul>
+                        <li data-network="facebook" class="st-custom-button">Facebook</li>
+                        <li data-network="twitter" class="st-custom-button">Twitter</li>
+                        <li data-network="reddit" class="st-custom-button">Reddit</li>
+                        <li data-network="pinterest" class="st-custom-button">Pinterest</li>
+                        <li data-network="email" class="st-custom-button">Email</li>
+                        <li data-network="sms" class="st-custom-button">SMS</li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- The chart container -->
+        <div id="chart"></div>
+
+        <!-- The modal container -->
+        <div class="modal" id="container-modal">
+            <div class="modal-inner">
+                <a id="modal-close" data-modal-close>x</a>
+                <div class="modal-content"></div>
+            </div>
+        </div>
+
+        <!-- The ICH element info modal -->
+        <div id="chart-modal" style="display:none">
+            <div id="chart-modal-full-img"></div>
+            <div id="chart-modal-inner">
+                <p id="modal-node-year"></p>
+                <p id="modal-node-type"></p>
+                <p id="modal-node-countries"></p>
+                <p id="modal-node-title"></p>
+                <div id="modal-node-watch"></div>
+                <div id="modal-node-description"></div>
+                <div id="modal-node-link"></div>
+            </div>
+            <div class="slider glide" id="chart-modal-img-slider"></div>
+        </div>
+
+        <!-- The intro modal's content -->
+        <div id="intro-modal" style="display:none">
+            <div id="modal-intro-inner">
+                <div id="intro-bar">
+                    <p id="intro-welcome"></p>
+                    <p id="intro-unesco"></p>
+                    <p id="intro-title"></p>
+                    <p id="intro-subtext"></p>
+                    <p id="intro-info"></p>
+                </div>
+            </div>
+        </div>
+
+        <!-- The legend modal -->
+        <div id="legend-modal" style="display:none">
+            <div id="modal-legend-inner">
+                <img id="modal-legend-img" class="boxed" />
+            </div>
+        </div>
+
+        <!-- Initialize everything -->
+        <script src="js/main.js"></script>
+
+</body>
+</html>
