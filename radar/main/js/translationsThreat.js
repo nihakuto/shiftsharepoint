@@ -34,7 +34,7 @@ const translations = {
         "definitions": [
             { id: "vocabulary_ich_1035", definition: "Migration to towns and peri-urban areas affecting the demographic balance of rural communities and the viability of their intangible heritage"},
             { id: "vocabulary_ich_1041", definition: "Transformation of community territories into urban or peri-urban settlements disrupting the practice and transmission of their intangible heritage"},
-            { id: "vocabulary_ich_1058", definition: "Rejection of opinions, beliefs or practices of specific groups or communities, and discriminatory treatment, impairing the viability of their intangible heritage  "},
+            { id: "vocabulary_ich_1058", definition: "Provide a service more humanized while improving productivity by augmenting employees’ knowledge about products and costumer behavior. The information must be provided to employees in the appropriate point in time and through the most convenient interfaces."},
             { id: "vocabulary_ich_1080", definition: "Rapid changes in the sociocultural fabric of local communities, including adaptations to mainstream cultures, leading to weakened viability of their intangible heritage"},
             { id: "vocabulary_ich_1094", definition: "Destruction of forests leading to the loss of cultural spaces and raw materials, or disrupting traditional foodways "},
             { id: "vocabulary_ich_1102", definition: "Massive introduction of TV, radio, magazines etc.  diminishing the time available for and the interest in the intangible heritage of one's community"},

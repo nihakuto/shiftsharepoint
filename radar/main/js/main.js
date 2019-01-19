@@ -289,4 +289,48 @@ function deletestuff(reg) {
              // if (i == 50) break;
         };
     }
-}   
+}
+
+threat_metadata = [
+        { id: "vocabulary_ich_1265", color: "#EFB605", megatrend_relevance: 99}, //Adverse circumstances                     // RADAR   Authenticity / Disconnection
+        { id: "vocabulary_ich_1268", color: "#E58903", megatrend_relevance: 140}, //Demographic issues                     // RADAR Continuous Connection
+        { id: "vocabulary_ich_1287", color: "#E01A25", megatrend_relevance: 588}, //Derived practice                     // RADAR   Experiences
+        { id: "vocabulary_ich_1264", color: "#C20049", megatrend_relevance: 615}, //Environmental degradation                     // RADAR  Health and Wellness
+        { id: "vocabulary_ich_1286"}, //Weakened practice and transmission                     // RADAR    Sustainability
+        { id: "vocabulary_ich_1263", color: "#66489F", megatrend_relevance: 298}, //Globalized information                     // RADAR Informed Consumers
+        { id: "vocabulary_ich_1284", color: "#2074A0", megatrend_relevance: 242}, //New products and techniques                     // RADAR    Corporate Responsibility
+        { id: "vocabulary_ich_1269", color: "#10A66E", megatrend_relevance: 159}, //Missing objects, spaces or systems                     // RADAR Seamlessness / Ease
+        { id: "vocabulary_ich_1267", color: "#7EB852", megatrend_relevance: 174}, //Socioeconomical problems                     // RADAR   Hiper Personalization
+    ]
+
+Papa.parse("../data/tempconcepts.csv", {
+    download: true,
+    header: true,
+    complete: function(results) {
+        window.tempcsv = results;
+        console.log(results);
+    }
+});
+
+function changeconcepts(reg) {
+    index=0;jindex=0;
+    window.test = [];
+    window.catlist =[];
+    for (j in threat_metadata) {window.catlist.push(threat_metadata[j].id);};
+
+    for (x in myjson.nodes) {
+             ++index;
+             // if (index == 50) break;
+             // console.log(x)
+      if (reg.test(x)) {
+        if (myjson.nodes[x].type === "concept" && myjson.nodes[x].group === "threat" && !catlist.includes(x)) {
+            // console.log(myjson.nodes[x].label);
+            window.test.push(myjson.nodes[x].label);
+            console.log(tempcsv.data[jindex]["Nome do destaque"]+myjson.nodes[x].label)
+            // delete myjson.nodes[x].label = ;
+             // if (index == 50) break;
+            ++jindex;if (jindex > tempcsv.length) break;
+         };
+        };
+    }
+}

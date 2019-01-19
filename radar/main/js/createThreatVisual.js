@@ -51,16 +51,177 @@ function createThreatVisual() {
 
     //Threats metadata
     const threat_metadata = [
-        { id: "vocabulary_ich_1265", color: "#EFB605", megatrend_relevance: 99}, //Adverse circumstances                     // RADAR 	Authenticity / Disconnection
-        { id: "vocabulary_ich_1268", color: "#E58903", megatrend_relevance: 140}, //Demographic issues                     // RADAR	Continuous Connection
-        { id: "vocabulary_ich_1287", color: "#E01A25", megatrend_relevance: 588}, //Derived practice                     // RADAR	Experiences
-        { id: "vocabulary_ich_1264", color: "#C20049", megatrend_relevance: 615}, //Environmental degradation                     // RADAR	Health and Wellness
-        { id: "vocabulary_ich_1286", color: "#991C71", megatrend_relevance: 400}, //Weakened practice and transmission                     // RADAR	Sustainability
-        { id: "vocabulary_ich_1263", color: "#66489F", megatrend_relevance: 298}, //Globalized information                     // RADAR	Informed Consumers
-        { id: "vocabulary_ich_1284", color: "#2074A0", megatrend_relevance: 242}, //New products and techniques                     // RADAR	Corporate Responsibility
-        { id: "vocabulary_ich_1269", color: "#10A66E", megatrend_relevance: 159}, //Missing objects, spaces or systems                     // RADAR	Seamlessness / Ease
-        { id: "vocabulary_ich_1267", color: "#7EB852", megatrend_relevance: 174}, //Socioeconomical problems                     // RADAR	Hiper Personalization
+        { id: "vocabulary_ich_1265",
+            color: "#EFB605",
+            megatrend_relevance: 99,
+            icon: {
+                "small": "https://trello-attachments.s3.amazonaws.com/5c3c5633d9bfc4792a65502c/5c3c5a03391e4d3ae3dbb21f/ff117a46e9ac96da51f82fae7dc9d18b/art-close-up-ecology-886521.jpg",
+                "large": "https://trello-attachments.s3.amazonaws.com/5c3c5633d9bfc4792a65502c/5c3c5a03391e4d3ae3dbb21f/ff117a46e9ac96da51f82fae7dc9d18b/art-close-up-ecology-886521.jpg"
+            },
+            description: "",
+            list: "megatrend",
+            year: "",
+            multinational: true,
+            link: "#",
+            images: [
+                {}
+            ],
+            video: [
+                {}
+            ]
+        }, //Adverse circumstances                     // RADAR 	Authenticity / Disconnection
+        { id: "vocabulary_ich_1268",
+            color: "#E58903",
+            megatrend_relevance: 140,
+            icon: {
+                "small": "https://trello-attachments.s3.amazonaws.com/5c3c5633d9bfc4792a65502c/5c3c59ce58d1e28d883edd7d/2db87446f8c8a7d0952a2a0fcdf80813/american-casual-cellphone-1262971.jpg",
+                "large": "https://trello-attachments.s3.amazonaws.com/5c3c5633d9bfc4792a65502c/5c3c59ce58d1e28d883edd7d/2db87446f8c8a7d0952a2a0fcdf80813/american-casual-cellphone-1262971.jpg"
+            },
+            description: "<p> It&rsquo;s&nbsp;a common online joke that Maslow&rsquo;s&nbsp;Pyramid of Needs should have &ldquo;Wi-Fi&rdquo;&nbsp;on its base.</p><p> Nowadays,&nbsp;the ability to share something is perceived as having the same importance&nbsp;as&nbsp;the most basic human needs.&nbsp;People want to track their number of&nbsp;steps,&nbsp;but they also want to compare it with their friends and family.</p><p> Data mining and machine learning tools pushed&nbsp;consumer&rsquo;s expectations to stratospheric levels:&nbsp;people are&nbsp;placing all their trust into algorithms that suggest the content they should&nbsp;consume&nbsp;or the products or services they should purchase.&nbsp;To feed those algorithms, all&nbsp;they&nbsp;need to&nbsp;do is&nbsp;to continually&nbsp;generate&nbsp;(and track)&nbsp;huge amounts of data.</p><p> There are free lunches, if you&rsquo;re willing to&nbsp;share&nbsp;a picture of&nbsp;what you ate.&nbsp;</p><h3> Opinion piece</h3><p> Paying your lunch with&nbsp;a&nbsp;Revolut&nbsp;card&nbsp;and immediately getting a notification on your smartwatch&nbsp;is the kind of&nbsp;brilliant&nbsp;interactions&nbsp;that we currently take for granted.</p><p> In fact, <em> Integration </em> may end up being the&nbsp;most important verb&nbsp;in the near future.&nbsp;Take the Apple Watch Series 4&nbsp;as an example: you can wear a gadget on your wrist&nbsp;that is able to make phone calls, read emails, track your&nbsp;all-day activity, perform ECGs and, eventually, call an ambulance.&nbsp;</p><p> This&nbsp;example shows&nbsp;that people are willing to share their data if&nbsp;there&rsquo;s a clear benefit for them in the deal.&nbsp;Thus, geo-location&nbsp;exclusive promotions, gamification campaigns and&nbsp;offers powered by data mining may&nbsp;have a big impact on consumer&rsquo;s choices from now on.</p>",
+            list: "megatrend",
+            year: "",
+            multinational: true,
+            link: "#",
+            images: [
+                {}
+            ],
+            video: [
+                {}
+            ]
+        }, //Demographic issues                     // RADAR	Continuous Connection
+        { id: "vocabulary_ich_1287",
+            color: "#E01A25",
+            megatrend_relevance: 588,
+            icon: {
+                "small": "https://trello-attachments.s3.amazonaws.com/5c3c5633d9bfc4792a65502c/5c3c59d8c468d449f3215466/aeb0dfa3ac871f6d33b71eae8894c429/adult-african-afro-1059115.jpg",
+                "large": "https://trello-attachments.s3.amazonaws.com/5c3c5633d9bfc4792a65502c/5c3c59d8c468d449f3215466/aeb0dfa3ac871f6d33b71eae8894c429/adult-african-afro-1059115.jpg"
+            },
+            description: "<p>Remember the Starbucks&rsquo; Unicorn Frappuccino that Anthony&nbsp;Bordain&nbsp;reviewed as &ldquo;the perfect nexus of awfulness&rdquo;?&nbsp;Well, according to UBS research,&nbsp;there were around 180.000 Instagram photos of the drink being posted in just one week.&nbsp;</p><p>According to a survey conducted by&nbsp;Schofields, &ldquo;more than 40% of those under 33 prioritize&nbsp; <em> Instagrammability </em> &nbsp;when choosing their next holiday spot&rdquo;.&nbsp;&nbsp;</p><p>The Marketing Mix is becoming ever more dynamic and the weights that consumers allocate to Price, Packaging, Place,&nbsp;and Product are continually changing.&nbsp;Customers rationale is shifting from transactional to relational&nbsp;as new variables are&nbsp;being brought to the equation.&nbsp;</p><p>More than good or cheap products, consumers&nbsp;are looking for memorable and sharable experiences.&nbsp;</p><h3>Opinion piece</h3><p>Colorful,&nbsp;insta-worthy&nbsp;products, packages and&nbsp;set ups&nbsp;have an increasing influence in the decision-making process,&nbsp;especially&nbsp;on millennial consumers.&nbsp;Retailers who are willing to provide&nbsp;those kinds of experiences&nbsp;will&nbsp;eventually&nbsp;gain the upper hand over their competitors.&nbsp;</p>",
+            list: "megatrend",
+            year: "",
+            multinational: true,
+            link: "#",
+            images: [
+                {}
+            ],
+            video: [
+                {}
+            ]
+        }, //Derived practice                     // RADAR	Experiences
+        { id: "vocabulary_ich_1264",
+            color: "#C20049",
+            megatrend_relevance: 615,
+            icon: {
+                "small": "https://trello-attachments.s3.amazonaws.com/5c3c5633d9bfc4792a65502c/5c3c56ba3edf251f4322696e/52fc7162caa0cd5f8df42c9f5c316cfc/apricot-background-berry-1028599.jpg",
+                "large": "https://trello-attachments.s3.amazonaws.com/5c3c5633d9bfc4792a65502c/5c3c56ba3edf251f4322696e/52fc7162caa0cd5f8df42c9f5c316cfc/apricot-background-berry-1028599.jpg"
+            },
+            description: "<p> This may not look like a trend, because healthy lifestyles have been a&nbsp;big part of the&nbsp;social&nbsp;paradigm in the past few years.&nbsp;But the truth is that emergent technologies and new business models are&nbsp;leveraging disruptive behaviors and new opportunities for companies to explore.</p><p> A big example of these new opportunities is the&nbsp;appearance of&nbsp;standardized treatments, tailored from personal data collected from continuous connected platforms and devices.&nbsp;The successful advancements in&nbsp;anti-aging research are also a huge breakthrough, as life expectancy&nbsp;is predicted to exceed 90 years in coming decades.</p><p> With the mental health taboo&nbsp;finally&nbsp;being&nbsp;addressed by companies and the&nbsp;public opinion,&nbsp;solutions to tackle depression or to boost mindfulness will&nbsp;continue to increase in value&nbsp;perceived by the consumers.&nbsp;</p><h3> Opinion piece</h3><p> The progress in preventive healthcare,&nbsp;the expansion of life expectancy&nbsp;and the&nbsp;increasing openness&nbsp;for new debates will probably have a considerable impact&nbsp;on&nbsp;customer profiling, as people will&nbsp;experience&nbsp;extended life quality and&nbsp;will no longer be hesitant in looking for solutions to tackle mental illnesses.</p>",
+            list: "megatrend",
+            year: "",
+            multinational: true,
+            link: "#",
+            images: [
+                {}
+            ],
+            video: [
+                {}
+            ]
+            }, //Environmental degradation                     // RADAR	Health and Wellness
+        { id: "vocabulary_ich_1286",
+            color: "#991C71",
+            megatrend_relevance: 400,
+            icon: {
+                "small": "https://trello-attachments.s3.amazonaws.com/5c3c5633d9bfc4792a65502c/5c3c5a03391e4d3ae3dbb21f/ff117a46e9ac96da51f82fae7dc9d18b/art-close-up-ecology-886521.jpg",
+                "large": "https://trello-attachments.s3.amazonaws.com/5c3c5633d9bfc4792a65502c/5c3c5a03391e4d3ae3dbb21f/ff117a46e9ac96da51f82fae7dc9d18b/art-close-up-ecology-886521.jpg"
+            },
+            description: "<p> <strong> It is very common to exclusively link Sustainability to environmental issues. But in fact, the concept is much broader as it addresses different (yet interconnected) domains: environment, economic and social. <br /> <br /> </strong></p><p> According to the&nbsp;Bruntland&nbsp;Report for the World Commission on Environment and Development (1992), Sustainability is defined as 'development that meets the needs of the present without compromising the ability of future generations to meet their own needs'.&nbsp;</p><p> The number of people putting on their ethical lenses is increasing every day, as many studies show that most consumers are willing to pay more for responsibly-produced goods and services.</p><p> From an ecological point of view, it's of paramount importance for all businesses to convert processes across the entire supply chain in order to conserve resources and reduce emissions.&nbsp;</p><p> As for sustainable work, the Gig Economy boosted the debate about responsible work practices (e.g. <a href='https://twitter.com/search?q=%23slaveroo&amp;src=typd'> #slaveroo </a> ). <br /> <br /></p><h3> Opinion piece&nbsp;</h3><p> Sonae&nbsp;has been&nbsp;tackling&nbsp;the&nbsp;Social&nbsp;Sustainability topic for a long time&nbsp;with&nbsp;initiatives&nbsp;addressing the&nbsp;general society such as&nbsp;Miss&atilde;o&nbsp;Continente,&nbsp;Para um&nbsp;Futuro&nbsp;com&nbsp;Mais&nbsp;Beb&eacute;s&nbsp;and&nbsp;Colega&nbsp;Mudei-te&nbsp;a&nbsp;Casa.&nbsp;Also,&nbsp;in&nbsp;environmental sustainability,&nbsp;SONAE developed&nbsp;economic consequential&nbsp;projects&nbsp;such as&nbsp;Transformar.te&nbsp;or Waste2Energy.&nbsp;</p><p> In the next years, Sustainability will continue to be a big part of the public debate while new solutions to address it will continue to pop up.&nbsp;More than a&nbsp;moral duty&nbsp;for all companies and individuals, addressing&nbsp;it&nbsp;is&nbsp;a&nbsp;responsible and&nbsp;business-efficient decision.</p><p> Go to <a href='https://geekprank.com/' target='_blank'> Geek Prank </a> and try the online Windows XP simulator, play with the classic Minesweeper and Tetris games or listen to some music.</p>",
+            list: "megatrend",
+            year: "",
+            multinational: true,
+            link: "#",
+            images: [
+                {
+                    "url": "https://ich.unesco.org/img/photo/thumb/00015-BIG.jpg",
+                    "copyright": " UNESCO/Yoshihiro Higuchi",
+                    "title": "The Gelede ceremony, held in honour of the primordial mother Iyà Nlà, is directed by women, reflecting their important role in Yoruba life. After weeks of preparations, singers and drummers open the night-time ceremony, followed by an orchestra and masked dancers wearing\nsplendid costumes."
+                },
+                {
+                    "url": "https://ich.unesco.org/img/photo/thumb/00151-BIG.jpg",
+                    "copyright": "UNESCO/Yves Parfait Koffi",
+                    "title": "The Gelede ceremony, held in honour of the primordial mother Iyà Nlà, is directed by women, reflecting their important role in Yoruba life. After weeks of preparations, singers and drummers open the night-time ceremony, followed by an orchestra and masked dancers wearing\nsplendid costumes."
+                }
+            ],
+            video: [
+                {
+                    url: "https://www.youtube.com/watch?v=o86Ut6kAEMQ",
+                    copyright: "",
+                    title: "Test RADAR"
+                },
+            ]
+            }, //Weakened practice and transmission                     // RADAR	Sustainability
+        { id: "vocabulary_ich_1263",
+            color: "#66489F",
+            megatrend_relevance: 298,
+            icon: {
+                "small": "https://trello-attachments.s3.amazonaws.com/5c3c5633d9bfc4792a65502c/5c3c59ec24fa7a8b15f90972/42d28d4a9599686d7748e386b25d143e/analysis-business-businesswoman-955447.jpg",
+                "large": "https://trello-attachments.s3.amazonaws.com/5c3c5633d9bfc4792a65502c/5c3c59ec24fa7a8b15f90972/42d28d4a9599686d7748e386b25d143e/analysis-business-businesswoman-955447.jpg"
+            },
+            description: "<p> According to Euromonitor International,&nbsp;by 2013, three-fourths of the global population will have access to the Internet.&nbsp;Digitalization keeps democratizing&nbsp;the access to content and information,&nbsp;which is triggering&nbsp;new and unpredictable&nbsp;socioeconomic impacts.&nbsp;</p><p> Convenience, simplicity and knowledge are a few of the perks&nbsp;that the information era brought to the consumers.&nbsp;Thus, additionally to&nbsp;expecting zero-effort experiences, people know exactly what they want, how they want it, and where they can find it.&nbsp;&nbsp;</p><p> The helicopter view over the whole market is&nbsp;becoming more and more accessible to all customers.&nbsp;At any moment, with the tip of their fingers, people can compare prices, quality, customer service, and&nbsp;understand which supply chain&nbsp;is&nbsp;a better match for their needs and beliefs.&nbsp;&nbsp;</p><h3> Opinion piece</h3><p> As irrationality&nbsp;keeps losing&nbsp;space in the decision-making process,&nbsp;companies&nbsp;should prepare and be ready to address&nbsp;demanding&nbsp;customers that are more aware then ever of the market&rsquo;s big picture.&nbsp;That presents a&nbsp;continuous challenge/opportunity&nbsp;trade-off&nbsp;for retailers:&nbsp;people can now compare competitors by the&nbsp;smallest&nbsp;details, but the&nbsp;companies can&nbsp;also&nbsp;identify,&nbsp;and address people&rsquo;s needs&nbsp;a lot more efficiently.&nbsp;&nbsp;</p><p> Social Media presence and SEO are powerful tools to&nbsp;take advantage of this social trend.&nbsp;A best practice example of how to address the advent of&nbsp;the informed society is&nbsp;Worten&rsquo;s&nbsp;&ldquo;Pre&ccedil;o&nbsp;M&iacute;nimo&nbsp;Garantido&rdquo; campaign.</p>",
+            list: "megatrend",
+            year: "",
+            multinational: true,
+            link: "#",
+            images: [
+                {}
+            ],
+            video: [
+                {}
+            ]
+        }, //Globalized information                     // RADAR	Informed Consumers
+        { id: "vocabulary_ich_1284",
+            color: "#2074A0",
+            megatrend_relevance: 242,
+            icon: {
+                "small": "https://trello-attachments.s3.amazonaws.com/5c3c5633d9bfc4792a65502c/5c3c59f574b782708d04a9c3/b49801c02c2d5ef4b966baa0dc48f3f5/20-fenchurch-street-architecture-buildings-34092.jpg",
+                "large": "https://trello-attachments.s3.amazonaws.com/5c3c5633d9bfc4792a65502c/5c3c59f574b782708d04a9c3/b49801c02c2d5ef4b966baa0dc48f3f5/20-fenchurch-street-architecture-buildings-34092.jpg"
+            },
+            description: "<p> With the advent of the&nbsp;information society, people started keeping big entities accountable&nbsp;for their social and environmental footprints.&nbsp;&nbsp;</p><p> Career opportunities are being democratized, as&nbsp;the debate on religious, racial and gender inclusion keeps getting louder&nbsp;by the day.&nbsp;&nbsp;</p><h3> Opinion piece</h3><p> People expect companies to tackle recruiting biases, the gender pay gap and all the other inclusion-inefficient processes. Those who fail to address people&rsquo;s concerns may also lose their preference.</p>",
+            list: "megatrend",
+            year: "",
+            multinational: true,
+            link: "#",
+            images: [
+                {}
+            ],
+            video: [
+                {}
+            ]
+        }, //New products and techniques                     // RADAR	Corporate Responsibility
+        { id: "vocabulary_ich_1269",
+            color: "#10A66E",
+            megatrend_relevance: 159,
+            icon: {
+                "small": "https://trello-attachments.s3.amazonaws.com/5c3c5633d9bfc4792a65502c/5c3c59fdfa11208579e077ff/461a7a2dbea925a57c61f57eb5aa04e7/android-wallpaper-artistic-asphalt-799443_(1).jpg",
+                "large": "https://trello-attachments.s3.amazonaws.com/5c3c5633d9bfc4792a65502c/5c3c59fdfa11208579e077ff/461a7a2dbea925a57c61f57eb5aa04e7/android-wallpaper-artistic-asphalt-799443_(1).jpg"
+            },
+            description: "<p> &nbsp;&ldquo;The only thing that moves faster than the speed of technology is the speed of our expectations&rdquo;&nbsp;&ndash;&nbsp;this&nbsp;is&nbsp;how Martin&nbsp;Harbech, Group Director at Facebook,&nbsp;summarized&nbsp;the&nbsp;search for friction-free experiences and the&nbsp;current&nbsp;rise of&nbsp;our&nbsp;impatience levels.&nbsp;&ldquo;We used to be completely comfortable with booking a cab within a period of 24 hours. Now, we&rsquo;ll go completely nuts if we&nbsp;have to&nbsp;wait more than 5 minutes for&nbsp;an&nbsp;Uber ride&rdquo;, he added.&nbsp;</p><p> Nowadays,&nbsp;not only the customer is always right,&nbsp;but his/her&nbsp;thumb is also always almighty.&nbsp;Omnichannel solutions are shaping the&nbsp;way business is done, as people&rsquo;s expectations keep&nbsp;evolving every day.</p><h3> Opinion piece</h3><p> With customer journeys becoming&nbsp;more&nbsp;dynamic&nbsp;by the second, retailers&nbsp;should&nbsp;focus on&nbsp;providing&nbsp;every possible solution to address&nbsp;the&nbsp;always changing&nbsp;needs&nbsp;of its clients.&nbsp;This effervescency will only get stronger as emergent technologies and new information will keep on&nbsp;lifting people&rsquo;s expectations.&nbsp;</p><p> Nowadays, customers want everything, right now, at their door.&nbsp;And they want to try it before they buy it.&nbsp;And, if possible, they will pay it with their phones.&nbsp;Successful examples such as Amazon Go,&nbsp;Revolut&nbsp;or Apple&nbsp;Pay show that&nbsp;people want&nbsp;Retail&nbsp;to become a friction-free industry.</p>",
+            list: "megatrend",
+            year: "",
+            multinational: true,
+            link: "#",
+            images: [
+                {}
+            ],
+            video: [
+                {}
+            ]
+            }, //Missing objects, spaces or systems                     // RADAR	Seamlessness / Ease
+        { id: "vocabulary_ich_1267",
+            color: "#7EB852",
+            megatrend_relevance: 174
+        }, //Socioeconomical problems                     // RADAR	Hiper Personalization
     ]
+    window.categorythreatjson = threat_metadata;
     const threat_ids = threat_metadata.map(d => d.id)
     const color_threat_scale = d3.scaleOrdinal()
         .domain(threat_ids)
@@ -829,11 +990,18 @@ function createThreatVisual() {
         hover_ich
             .on("click", d => {
                 mouseClick(d,"element")
+                window.test = d //RADAR
+                console.log(window.test) //RADAR
                 showModal(d)
             })
 
         hover_category
-            .on("click", d => mouseClick(d,"category"))
+            .on("click", d => {
+                mouseClick(d,"category")
+                window.test = d //RADAR
+                console.log(window.test) //RADAR
+                showModal(d) //RADAR
+            })
             .on("mouseover", d => {
                 if(!click_active) mouseOverCategory(d)
                 else {
@@ -1122,9 +1290,9 @@ function createThreatVisual() {
         threats.forEach(d => { 
             ctx_nodes.save();
             ctx_nodes.translate(d.x, d.y-50)
-            ctx_nodes.rotate(15 * Math.PI / 180);
+            ctx_nodes.rotate(0 * Math.PI / 180 + d.x*0.004);
             ctx_nodes.fillStyle = "black";
-            ctx_nodes.fillText(d.id,0,0);
+            // ctx_nodes.fillText(d.id,0,0);
             ctx_nodes.restore();
             //svg.append("text").attr("x",d.x*0.85+550).attr("y", d.y*0.85+550).attr("text-anchor","left").attr("font-size", "14px").text(d.id)
             //console.log(ctx_nodes)
@@ -1141,6 +1309,17 @@ function createThreatVisual() {
         ctx_nodes.textBaseline = 'middle'
         ctx_nodes.font = "normal normal 300 19px " + font_family
         concepts.forEach(d => { drawConcepts(ctx_nodes, d) })
+        //DELETETHIS
+        concepts.forEach(d => { 
+            ctx_nodes.save();
+            ctx_nodes.font = "normal normal 600 19px sans-serif"
+            ctx_nodes.translate(d.x * 0.97, d.y * 0.97)
+            ctx_nodes.rotate(90 * Math.PI / 180 + d.x*0.001);
+            ctx_nodes.fillStyle = "black";
+            // ctx_nodes.fillText(d.id.split("_").pop(),0,0);
+            ctx_nodes.restore();
+             })
+        // DELETETHIS
 
         //Draw the ICH elements around the bottom outside
         elements.forEach(d => { drawElements(ctx_nodes, d) })
@@ -1150,9 +1329,9 @@ function createThreatVisual() {
             ctx_nodes.save();
             ctx_nodes.font = "normal normal 600 19px sans-serif"
             ctx_nodes.translate(d.x * 0.97, d.y * 0.97)
-            ctx_nodes.rotate(90 * Math.PI / 180);
+            ctx_nodes.rotate(90 * Math.PI / 180 + d.x*0.001);
             ctx_nodes.fillStyle = "black";
-            ctx_nodes.fillText(d.id.split("_").pop(),0,0);
+            // ctx_nodes.fillText(d.id.split("_").pop(),0,0);
             ctx_nodes.restore();
              })
         // DELETETHIS
