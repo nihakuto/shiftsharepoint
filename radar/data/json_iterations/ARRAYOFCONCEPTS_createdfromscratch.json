@@ -1,0 +1,2172 @@
+[
+    {
+        "vocabulary_ich_1215": {
+            "type": "concept",
+            "group": "threat",
+            "label": "Genius Bar experience",
+            "meta": {
+                "icon": {
+                    "small": "",
+                    "large": ""
+                },
+                "description": "\"One of the specific ways that the Genius Bar works is by appointment. Apple customers are encouraged to make appointments before visiting the store in order to get quick and personalized service. In some cases, this practice has become controversial for customers who would prefer to get walk-in repair service. Nevertheless, the Genius Bar service is generally part of Apple�s reputation for superior customer service and its dominant position in the consumer hardware market. Customers compare their visit to the Genius bar to their visit to the doctor\" - ",
+                "list": "RL-Radar",
+                "year": 2008,
+                "multinational": false,
+                "link": "https://www.techopedia.com/definition/29516/genius-bar",
+                "images": [
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05391-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Refining the sands in order to get the best quality of the iron ore"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05392-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Refining the sands in order to get the best quality of the iron ore"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05393-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "A plate of nickel between two plates of iron. The plates were resulted from the heatened ores."
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05395-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris) done after the three plates unites into a single plate of metal through another forging work. The plate is called saton."
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05396-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05397-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05398-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05399-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05400-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05401-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    }
+                ],
+                "video": [
+                    {
+                        "url": "https://www.youtube.com/watch?v=uUBIkjRgO9c",
+                        "copyright": "",
+                        "title": "Indonesian Kris"
+                    },
+                    {
+                        "url": "https://www.youtube.com/watch?v=ZL0_uX0hDqs",
+                        "copyright": "",
+                        "title": "Indonesian Kris"
+                    },
+                    {
+                        "url": "https://www.youtube.com/watch?v=xFCq8qMzy1s",
+                        "copyright": "",
+                        "title": "Indonesian Kris"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "vocabulary_ich_1301": {
+            "type": "concept",
+            "group": "threat",
+            "label": "Try out clothes digitally",
+            "meta": {
+                "icon": {
+                    "small": "",
+                    "large": ""
+                },
+                "description": "",
+                "list": "RL-Radar",
+                "year": 2008,
+                "multinational": false,
+                "link": "https://stylecaster.com/stylewhile/",
+                "images": [
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05391-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Refining the sands in order to get the best quality of the iron ore"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05392-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Refining the sands in order to get the best quality of the iron ore"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05393-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "A plate of nickel between two plates of iron. The plates were resulted from the heatened ores."
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05395-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris) done after the three plates unites into a single plate of metal through another forging work. The plate is called saton."
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05396-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05397-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05398-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05399-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05400-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05401-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    }
+                ],
+                "video": [
+                    {
+                        "url": "https://www.youtube.com/watch?v=uUBIkjRgO9c",
+                        "copyright": "",
+                        "title": "Indonesian Kris"
+                    },
+                    {
+                        "url": "https://www.youtube.com/watch?v=ZL0_uX0hDqs",
+                        "copyright": "",
+                        "title": "Indonesian Kris"
+                    },
+                    {
+                        "url": "https://www.youtube.com/watch?v=xFCq8qMzy1s",
+                        "copyright": "",
+                        "title": "Indonesian Kris"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "vocabulary_ich_1118": {
+            "type": "concept",
+            "group": "threat",
+            "label": "Try on lipsticks�",
+            "meta": {
+                "icon": {
+                    "small": "",
+                    "large": ""
+                },
+                "description": "The best part? You can actually buy the lipsticks when you're done. Just select the colour you want, point the camera at yourself and you'll be able to choose your perfect shade -",
+                "list": "RL-Radar",
+                "year": 2008,
+                "multinational": false,
+                "link": "https://mashable.com/2017/06/22/meitu-makeup-counter/?europe=true#pPc4ck.RRkqu",
+                "images": [
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05391-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Refining the sands in order to get the best quality of the iron ore"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05392-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Refining the sands in order to get the best quality of the iron ore"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05393-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "A plate of nickel between two plates of iron. The plates were resulted from the heatened ores."
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05395-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris) done after the three plates unites into a single plate of metal through another forging work. The plate is called saton."
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05396-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05397-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05398-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05399-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05400-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05401-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    }
+                ],
+                "video": [
+                    {
+                        "url": "https://www.youtube.com/watch?v=uUBIkjRgO9c",
+                        "copyright": "",
+                        "title": "Indonesian Kris"
+                    },
+                    {
+                        "url": "https://www.youtube.com/watch?v=ZL0_uX0hDqs",
+                        "copyright": "",
+                        "title": "Indonesian Kris"
+                    },
+                    {
+                        "url": "https://www.youtube.com/watch?v=xFCq8qMzy1s",
+                        "copyright": "",
+                        "title": "Indonesian Kris"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "vocabulary_ich_1058": {
+            "type": "concept",
+            "group": "threat",
+            "label": "Amazon Prime",
+            "meta": {
+                "icon": {
+                    "small": "",
+                    "large": ""
+                },
+                "description": "",
+                "list": "RL-Radar",
+                "year": 2008,
+                "multinational": false,
+                "link": "https://www.amazon.com/b?ie=UTF8&node=15247183011",
+                "images": [
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05391-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Refining the sands in order to get the best quality of the iron ore"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05392-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Refining the sands in order to get the best quality of the iron ore"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05393-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "A plate of nickel between two plates of iron. The plates were resulted from the heatened ores."
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05395-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris) done after the three plates unites into a single plate of metal through another forging work. The plate is called saton."
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05396-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05397-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05398-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05399-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05400-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05401-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    }
+                ],
+                "video": [
+                    {
+                        "url": "https://www.youtube.com/watch?v=uUBIkjRgO9c",
+                        "copyright": "",
+                        "title": "Indonesian Kris"
+                    },
+                    {
+                        "url": "https://www.youtube.com/watch?v=ZL0_uX0hDqs",
+                        "copyright": "",
+                        "title": "Indonesian Kris"
+                    },
+                    {
+                        "url": "https://www.youtube.com/watch?v=xFCq8qMzy1s",
+                        "copyright": "",
+                        "title": "Indonesian Kris"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "vocabulary_ich_1035": {
+            "type": "concept",
+            "group": "threat",
+            "label": "Amazon Go",
+            "meta": {
+                "icon": {
+                    "small": "",
+                    "large": ""
+                },
+                "description": "",
+                "list": "RL-Radar",
+                "year": 2008,
+                "multinational": false,
+                "link": "https://www.amazon.com/b?ie=UTF8&node=16008589011",
+                "images": [
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05391-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Refining the sands in order to get the best quality of the iron ore"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05392-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Refining the sands in order to get the best quality of the iron ore"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05393-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "A plate of nickel between two plates of iron. The plates were resulted from the heatened ores."
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05395-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris) done after the three plates unites into a single plate of metal through another forging work. The plate is called saton."
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05396-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05397-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05398-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05399-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05400-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05401-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    }
+                ],
+                "video": [
+                    {
+                        "url": "https://www.youtube.com/watch?v=uUBIkjRgO9c",
+                        "copyright": "",
+                        "title": "Indonesian Kris"
+                    },
+                    {
+                        "url": "https://www.youtube.com/watch?v=ZL0_uX0hDqs",
+                        "copyright": "",
+                        "title": "Indonesian Kris"
+                    },
+                    {
+                        "url": "https://www.youtube.com/watch?v=xFCq8qMzy1s",
+                        "copyright": "",
+                        "title": "Indonesian Kris"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "vocabulary_ich_1305": {
+            "type": "concept",
+            "group": "threat",
+            "label": "Food sharing with neighbors",
+            "meta": {
+                "icon": {
+                    "small": "",
+                    "large": ""
+                },
+                "description": "OLIO connects neighbours with each other and with local shops so surplus food and other items can be shared, not thrown away.\nIf you love food, hate waste, care about the environment or want to connect with your community, OLIO is for you.",
+                "list": "RL-Radar",
+                "year": 2008,
+                "multinational": false,
+                "link": "https://olioex.com/",
+                "images": [
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05391-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Refining the sands in order to get the best quality of the iron ore"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05392-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Refining the sands in order to get the best quality of the iron ore"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05393-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "A plate of nickel between two plates of iron. The plates were resulted from the heatened ores."
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05395-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris) done after the three plates unites into a single plate of metal through another forging work. The plate is called saton."
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05396-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05397-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05398-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05399-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05400-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05401-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    }
+                ],
+                "video": [
+                    {
+                        "url": "https://www.youtube.com/watch?v=uUBIkjRgO9c",
+                        "copyright": "",
+                        "title": "Indonesian Kris"
+                    },
+                    {
+                        "url": "https://www.youtube.com/watch?v=ZL0_uX0hDqs",
+                        "copyright": "",
+                        "title": "Indonesian Kris"
+                    },
+                    {
+                        "url": "https://www.youtube.com/watch?v=xFCq8qMzy1s",
+                        "copyright": "",
+                        "title": "Indonesian Kris"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "vocabulary_ich_1300": {
+            "type": "concept",
+            "group": "threat",
+            "label": "Hidro soluble - PVOH packaging",
+            "meta": {
+                "icon": {
+                    "small": "http://cdn-cv.r4you.co/wp-content/uploads/2018/07/imagenPrincipal-499-800x400.jpg",
+                    "large": "http://cdn-cv.r4you.co/wp-content/uploads/2018/07/imagenPrincipal-499-800x400.jpg"
+                },
+                "description": "PVOH (Polyvinyl alcohol) is a synthetic polymer that degrades when is in contact with water and do not contaminate. It has no odor and is not toxic, and is resistant to grease, oils, and solvents. It is ductile but strong, flexible, and functions as a high oxygen and aroma barrier. It can be used to do plastic bags or other packagings.",
+                "list": "RL-Radar",
+                "year": 2008,
+                "multinational": false,
+                "link": "https://www.noticiasmagazine.pt/2018/sacos-plastico-amigos-do-planeta-sim-ja-existem/ ",
+                "images": [
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05391-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Refining the sands in order to get the best quality of the iron ore"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05392-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Refining the sands in order to get the best quality of the iron ore"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05393-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "A plate of nickel between two plates of iron. The plates were resulted from the heatened ores."
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05395-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris) done after the three plates unites into a single plate of metal through another forging work. The plate is called saton."
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05396-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05397-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05398-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05399-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05400-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05401-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    }
+                ],
+                "video": [
+                    {
+                        "url": "https://www.youtube.com/watch?v=uUBIkjRgO9c",
+                        "copyright": "",
+                        "title": "Indonesian Kris"
+                    },
+                    {
+                        "url": "https://www.youtube.com/watch?v=ZL0_uX0hDqs",
+                        "copyright": "",
+                        "title": "Indonesian Kris"
+                    },
+                    {
+                        "url": "https://www.youtube.com/watch?v=xFCq8qMzy1s",
+                        "copyright": "",
+                        "title": "Indonesian Kris"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "vocabulary_ich_1122": {
+            "type": "concept",
+            "group": "threat",
+            "label": "Collaborative robots for Food production",
+            "meta": {
+                "icon": {
+                    "small": "https://youtu.be/hXSeK5T2yII",
+                    "large": "https://youtu.be/hXSeK5T2yII"
+                },
+                "description": "Robots can be applied to a variety of food production systems to improve performance. ",
+                "list": "RL-Radar",
+                "year": 2008,
+                "multinational": false,
+                "link": "https://food.ndtv.com/food-drinks/robots-used-for-packaging-processing-fruits-and-veggies-1208177",
+                "images": [
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05391-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Refining the sands in order to get the best quality of the iron ore"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05392-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Refining the sands in order to get the best quality of the iron ore"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05393-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "A plate of nickel between two plates of iron. The plates were resulted from the heatened ores."
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05395-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris) done after the three plates unites into a single plate of metal through another forging work. The plate is called saton."
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05396-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05397-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05398-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05399-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05400-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05401-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    }
+                ],
+                "video": [
+                    {
+                        "url": "https://www.youtube.com/watch?v=uUBIkjRgO9c",
+                        "copyright": "",
+                        "title": "Indonesian Kris"
+                    },
+                    {
+                        "url": "https://www.youtube.com/watch?v=ZL0_uX0hDqs",
+                        "copyright": "",
+                        "title": "Indonesian Kris"
+                    },
+                    {
+                        "url": "https://www.youtube.com/watch?v=xFCq8qMzy1s",
+                        "copyright": "",
+                        "title": "Indonesian Kris"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "vocabulary_ich_1132": {
+            "type": "concept",
+            "group": "threat",
+            "label": "Artificial vision for Stock management",
+            "meta": {
+                "icon": {
+                    "small": "",
+                    "large": ""
+                },
+                "description": "Artificial vision promises real time analysis of video footage to monitor, control and report any visible situation with minimal-to-none human intervention. By analyzing images collected in the stores it would be possible to identify out-of-stock items, low stock items,�misplaced items, and pricing and planogram errors.  ",
+                "list": "RL-Radar",
+                "year": 2008,
+                "multinational": false,
+                "link": "https://www.traxretail.com/",
+                "images": [
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05391-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Refining the sands in order to get the best quality of the iron ore"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05392-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Refining the sands in order to get the best quality of the iron ore"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05393-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "A plate of nickel between two plates of iron. The plates were resulted from the heatened ores."
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05395-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris) done after the three plates unites into a single plate of metal through another forging work. The plate is called saton."
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05396-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05397-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05398-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05399-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05400-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05401-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    }
+                ],
+                "video": [
+                    {
+                        "url": "https://www.youtube.com/watch?v=uUBIkjRgO9c",
+                        "copyright": "",
+                        "title": "Indonesian Kris"
+                    },
+                    {
+                        "url": "https://www.youtube.com/watch?v=ZL0_uX0hDqs",
+                        "copyright": "",
+                        "title": "Indonesian Kris"
+                    },
+                    {
+                        "url": "https://www.youtube.com/watch?v=xFCq8qMzy1s",
+                        "copyright": "",
+                        "title": "Indonesian Kris"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "vocabulary_ich_1297": {
+            "type": "concept",
+            "group": "threat",
+            "label": "Artificial Intelligence for employee assistence",
+            "meta": {
+                "icon": {
+                    "small": "https://www.petfoodindustry.com/ext/resources/Images-by-month-year/16_06/woman-salesman-using-tablet-in-pet-store.jpg",
+                    "large": "https://www.petfoodindustry.com/ext/resources/Images-by-month-year/16_06/woman-salesman-using-tablet-in-pet-store.jpg"
+                },
+                "description": "Chatbots are about delivering convenience, personalization, and decision support while people are multitasking. Either for customers on the go, for allow call centers operators reach valuable information about the requirements of the multiple customers they are chatting with, or for sales associates to access details about products and customers while assisting a client.",
+                "list": "RL-Radar",
+                "year": 2008,
+                "multinational": false,
+                "link": "https://www.akumina.com/office-365/akumina-helping-to-enable-retail-execution-at-nrf-2018-retails-big-show/",
+                "images": [
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05391-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Refining the sands in order to get the best quality of the iron ore"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05392-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Refining the sands in order to get the best quality of the iron ore"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05393-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "A plate of nickel between two plates of iron. The plates were resulted from the heatened ores."
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05395-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris) done after the three plates unites into a single plate of metal through another forging work. The plate is called saton."
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05396-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05397-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05398-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05399-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05400-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05401-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    }
+                ],
+                "video": [
+                    {
+                        "url": "https://www.youtube.com/watch?v=uUBIkjRgO9c",
+                        "copyright": "",
+                        "title": "Indonesian Kris"
+                    },
+                    {
+                        "url": "https://www.youtube.com/watch?v=ZL0_uX0hDqs",
+                        "copyright": "",
+                        "title": "Indonesian Kris"
+                    },
+                    {
+                        "url": "https://www.youtube.com/watch?v=xFCq8qMzy1s",
+                        "copyright": "",
+                        "title": "Indonesian Kris"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "vocabulary_ich_1314": {
+            "type": "concept",
+            "group": "threat",
+            "label": "Artificial intelligence for Customer profiling",
+            "meta": {
+                "icon": {
+                    "small": "",
+                    "large": ""
+                },
+                "description": "Sensors (e.g. cameras or microphones) capture customer's images or voice to be processed using algorithms. The output are details about the profile of the customers such as mood, age or gender that can be delivered to sales associates or to call center operators to deliver an appropriate service.",
+                "list": "RL-Radar",
+                "year": 2008,
+                "multinational": false,
+                "link": "https://behavioralsignals.com/behavioral-patterns/",
+                "images": [
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05391-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Refining the sands in order to get the best quality of the iron ore"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05392-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Refining the sands in order to get the best quality of the iron ore"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05393-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "A plate of nickel between two plates of iron. The plates were resulted from the heatened ores."
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05395-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris) done after the three plates unites into a single plate of metal through another forging work. The plate is called saton."
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05396-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05397-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05398-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05399-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05400-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05401-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    }
+                ],
+                "video": [
+                    {
+                        "url": "https://www.youtube.com/watch?v=uUBIkjRgO9c",
+                        "copyright": "",
+                        "title": "Indonesian Kris"
+                    },
+                    {
+                        "url": "https://www.youtube.com/watch?v=ZL0_uX0hDqs",
+                        "copyright": "",
+                        "title": "Indonesian Kris"
+                    },
+                    {
+                        "url": "https://www.youtube.com/watch?v=xFCq8qMzy1s",
+                        "copyright": "",
+                        "title": "Indonesian Kris"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "vocabulary_ich_1127": {
+            "type": "concept",
+            "group": "threat",
+            "label": "Artificial intelligence for Recommendations",
+            "meta": {
+                "icon": {
+                    "small": "http://linktoleaders.com/wp-content/uploads/2018/01/shutterstock_683493121.jpg",
+                    "large": "http://linktoleaders.com/wp-content/uploads/2018/01/shutterstock_683493121.jpg"
+                },
+                "description": "Machine learning and optimization algorithms can look for and exploit observed patterns, correlations, and relationships among data elements of customer�s purchases. \nIn this way, automatic suggestion of discounts based on previous and continuous purchases. ",
+                "list": "RL-Radar",
+                "year": 2008,
+                "multinational": false,
+                "link": "https://shelf.ai/",
+                "images": [
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05391-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Refining the sands in order to get the best quality of the iron ore"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05392-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Refining the sands in order to get the best quality of the iron ore"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05393-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "A plate of nickel between two plates of iron. The plates were resulted from the heatened ores."
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05395-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris) done after the three plates unites into a single plate of metal through another forging work. The plate is called saton."
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05396-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05397-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05398-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05399-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05400-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05401-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    }
+                ],
+                "video": [
+                    {
+                        "url": "https://www.youtube.com/watch?v=uUBIkjRgO9c",
+                        "copyright": "",
+                        "title": "Indonesian Kris"
+                    },
+                    {
+                        "url": "https://www.youtube.com/watch?v=ZL0_uX0hDqs",
+                        "copyright": "",
+                        "title": "Indonesian Kris"
+                    },
+                    {
+                        "url": "https://www.youtube.com/watch?v=xFCq8qMzy1s",
+                        "copyright": "",
+                        "title": "Indonesian Kris"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "vocabulary_ich_1235": {
+            "type": "concept",
+            "group": "threat",
+            "label": "Agrivoltaics",
+            "meta": {
+                "icon": {
+                    "small": "https://sunagri.fr/wp-content/uploads/2017/04/Arboriculture-vue-1-Modif-5-06-2017-e1496999309325-1120x340.jpg",
+                    "large": "https://sunagri.fr/wp-content/uploads/2017/04/Arboriculture-vue-1-Modif-5-06-2017-e1496999309325-1120x340.jpg"
+                },
+                "description": "A way of combining renewable energy with agriculture in a hot, arid landscape, positioning elevated solar panels over an understory of plants.",
+                "list": "RL-Radar",
+                "year": 2008,
+                "multinational": false,
+                "link": "https://www.wired.co.uk/article/energy-agrivoltaic-farms",
+                "images": [
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05391-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Refining the sands in order to get the best quality of the iron ore"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05392-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Refining the sands in order to get the best quality of the iron ore"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05393-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "A plate of nickel between two plates of iron. The plates were resulted from the heatened ores."
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05395-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris) done after the three plates unites into a single plate of metal through another forging work. The plate is called saton."
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05396-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05397-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05398-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05399-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05400-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05401-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    }
+                ],
+                "video": [
+                    {
+                        "url": "https://www.youtube.com/watch?v=uUBIkjRgO9c",
+                        "copyright": "",
+                        "title": "Indonesian Kris"
+                    },
+                    {
+                        "url": "https://www.youtube.com/watch?v=ZL0_uX0hDqs",
+                        "copyright": "",
+                        "title": "Indonesian Kris"
+                    },
+                    {
+                        "url": "https://www.youtube.com/watch?v=xFCq8qMzy1s",
+                        "copyright": "",
+                        "title": "Indonesian Kris"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "vocabulary_ich_1094": {
+            "type": "concept",
+            "group": "threat",
+            "label": "Reusable container program",
+            "meta": {
+                "icon": {
+                    "small": "",
+                    "large": ""
+                },
+                "description": "The Bulk Nation USA launched a program to encourage customers to bring their own containers to be filled with the products being sold in bulk at their stores. Hygiene and food safety concerns are covered in the program as well as the process to tare the containers before filling.",
+                "list": "RL-Radar",
+                "year": 2008,
+                "multinational": false,
+                "link": "",
+                "images": [
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05391-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Refining the sands in order to get the best quality of the iron ore"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05392-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Refining the sands in order to get the best quality of the iron ore"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05393-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "A plate of nickel between two plates of iron. The plates were resulted from the heatened ores."
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05395-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris) done after the three plates unites into a single plate of metal through another forging work. The plate is called saton."
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05396-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05397-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05398-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05399-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05400-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05401-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    }
+                ],
+                "video": [
+                    {
+                        "url": "https://www.youtube.com/watch?v=uUBIkjRgO9c",
+                        "copyright": "",
+                        "title": "Indonesian Kris"
+                    },
+                    {
+                        "url": "https://www.youtube.com/watch?v=ZL0_uX0hDqs",
+                        "copyright": "",
+                        "title": "Indonesian Kris"
+                    },
+                    {
+                        "url": "https://www.youtube.com/watch?v=xFCq8qMzy1s",
+                        "copyright": "",
+                        "title": "Indonesian Kris"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "vocabulary_ich_1303": {
+            "type": "concept",
+            "group": "threat",
+            "label": "SmartFlower",
+            "meta": {
+                "icon": {
+                    "small": "https://youtu.be/vZuQOUA9rLk",
+                    "large": "https://youtu.be/vZuQOUA9rLk"
+                },
+                "description": "All-in-one solar module that includes a sun tracker and storage capacity capable of enabling off the grid buildings.",
+                "list": "RL-Radar",
+                "year": 2008,
+                "multinational": false,
+                "link": "https://youtu.be/vZuQOUA9rLk",
+                "images": [
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05391-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Refining the sands in order to get the best quality of the iron ore"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05392-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Refining the sands in order to get the best quality of the iron ore"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05393-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "A plate of nickel between two plates of iron. The plates were resulted from the heatened ores."
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05395-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris) done after the three plates unites into a single plate of metal through another forging work. The plate is called saton."
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05396-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05397-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05398-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05399-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05400-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05401-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    }
+                ],
+                "video": [
+                    {
+                        "url": "https://www.youtube.com/watch?v=uUBIkjRgO9c",
+                        "copyright": "",
+                        "title": "Indonesian Kris"
+                    },
+                    {
+                        "url": "https://www.youtube.com/watch?v=ZL0_uX0hDqs",
+                        "copyright": "",
+                        "title": "Indonesian Kris"
+                    },
+                    {
+                        "url": "https://www.youtube.com/watch?v=xFCq8qMzy1s",
+                        "copyright": "",
+                        "title": "Indonesian Kris"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "vocabulary_ich_1307": {
+            "type": "concept",
+            "group": "threat",
+            "label": "Solar panel windows",
+            "meta": {
+                "icon": {
+                    "small": "https://wp.physee.eu/wp-content/uploads/2018/08/Home-e1534845282140.jpg",
+                    "large": "https://wp.physee.eu/wp-content/uploads/2018/08/Home-e1534845282140.jpg"
+                },
+                "description": "SmartWindow controls inside systems, such as ventilation and sun blinds, based on information about the outside conditions around the building. Simultaneously these systems are powered by patented integrated solar technology, making energy consumption go down, while the sustainable electricity production of the building goes up.",
+                "list": "RL-Radar",
+                "year": 2008,
+                "multinational": false,
+                "link": "https://news.energysage.com/solar-panel-windows-solar-blinds/",
+                "images": [
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05391-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Refining the sands in order to get the best quality of the iron ore"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05392-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Refining the sands in order to get the best quality of the iron ore"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05393-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "A plate of nickel between two plates of iron. The plates were resulted from the heatened ores."
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05395-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris) done after the three plates unites into a single plate of metal through another forging work. The plate is called saton."
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05396-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05397-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05398-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05399-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05400-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05401-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    }
+                ],
+                "video": [
+                    {
+                        "url": "https://www.youtube.com/watch?v=uUBIkjRgO9c",
+                        "copyright": "",
+                        "title": "Indonesian Kris"
+                    },
+                    {
+                        "url": "https://www.youtube.com/watch?v=ZL0_uX0hDqs",
+                        "copyright": "",
+                        "title": "Indonesian Kris"
+                    },
+                    {
+                        "url": "https://www.youtube.com/watch?v=xFCq8qMzy1s",
+                        "copyright": "",
+                        "title": "Indonesian Kris"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "vocabulary_ich_1212": {
+            "type": "concept",
+            "group": "threat",
+            "label": "�Tesla solar and Powerpack systems",
+            "meta": {
+                "icon": {
+                    "small": "https://www.tesla.com/sites/default/files/images/energy/solarroof-smooth-glass.jpg",
+                    "large": "https://www.tesla.com/sites/default/files/images/energy/solarroof-smooth-glass.jpg"
+                },
+                "description": "Commercial organizations and government entities can achieve greater control, reliability and security with our solar and Powerpack systems. Powerpack integrates seamlessly with solar to shave peak energy usage, lower demand charges and generate new revenue streams from grid services and demand response programs.",
+                "list": "RL-Radar",
+                "year": 2008,
+                "multinational": false,
+                "link": "https://www.tesla.com/en_EU/energy",
+                "images": [
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05391-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Refining the sands in order to get the best quality of the iron ore"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05392-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Refining the sands in order to get the best quality of the iron ore"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05393-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "A plate of nickel between two plates of iron. The plates were resulted from the heatened ores."
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05395-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris) done after the three plates unites into a single plate of metal through another forging work. The plate is called saton."
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05396-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05397-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05398-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05399-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05400-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05401-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    }
+                ],
+                "video": [
+                    {
+                        "url": "https://www.youtube.com/watch?v=uUBIkjRgO9c",
+                        "copyright": "",
+                        "title": "Indonesian Kris"
+                    },
+                    {
+                        "url": "https://www.youtube.com/watch?v=ZL0_uX0hDqs",
+                        "copyright": "",
+                        "title": "Indonesian Kris"
+                    },
+                    {
+                        "url": "https://www.youtube.com/watch?v=xFCq8qMzy1s",
+                        "copyright": "",
+                        "title": "Indonesian Kris"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "vocabulary_ich_1239": {
+            "type": "concept",
+            "group": "threat",
+            "label": "Nano Influencers",
+            "meta": {
+                "icon": {
+                    "small": "",
+                    "large": ""
+                },
+                "description": "Tubular is the only company that measures all video content cross-platform, all-device, globally. Allowing the shift from micro influencer to nano influencers.",
+                "list": "RL-Radar",
+                "year": 2008,
+                "multinational": false,
+                "link": "https://tubularlabs.com/",
+                "images": [
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05391-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Refining the sands in order to get the best quality of the iron ore"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05392-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Refining the sands in order to get the best quality of the iron ore"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05393-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "A plate of nickel between two plates of iron. The plates were resulted from the heatened ores."
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05395-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris) done after the three plates unites into a single plate of metal through another forging work. The plate is called saton."
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05396-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05397-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05398-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05399-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05400-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05401-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    }
+                ],
+                "video": [
+                    {
+                        "url": "https://www.youtube.com/watch?v=uUBIkjRgO9c",
+                        "copyright": "",
+                        "title": "Indonesian Kris"
+                    },
+                    {
+                        "url": "https://www.youtube.com/watch?v=ZL0_uX0hDqs",
+                        "copyright": "",
+                        "title": "Indonesian Kris"
+                    },
+                    {
+                        "url": "https://www.youtube.com/watch?v=xFCq8qMzy1s",
+                        "copyright": "",
+                        "title": "Indonesian Kris"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "vocabulary_ich_1041": {
+            "type": "concept",
+            "group": "threat",
+            "label": "Sensei autonomous stores",
+            "meta": {
+                "icon": {
+                    "small": "https://www.sensei.tech/wp-content/uploads/tech-dragger2.jpg",
+                    "large": "https://www.sensei.tech/wp-content/uploads/tech-dragger2.jpg"
+                },
+                "description": "Sensei is a scalable, seamless store-wide solution that empowers the stores of the future to be check-out and cash free.",
+                "list": "RL-Radar",
+                "year": 2008,
+                "multinational": false,
+                "link": "https://www.sensei.tech/",
+                "images": [
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05391-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Refining the sands in order to get the best quality of the iron ore"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05392-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Refining the sands in order to get the best quality of the iron ore"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05393-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "A plate of nickel between two plates of iron. The plates were resulted from the heatened ores."
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05395-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris) done after the three plates unites into a single plate of metal through another forging work. The plate is called saton."
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05396-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05397-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05398-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05399-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05400-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05401-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    }
+                ],
+                "video": [
+                    {
+                        "url": "https://www.youtube.com/watch?v=uUBIkjRgO9c",
+                        "copyright": "",
+                        "title": "Indonesian Kris"
+                    },
+                    {
+                        "url": "https://www.youtube.com/watch?v=ZL0_uX0hDqs",
+                        "copyright": "",
+                        "title": "Indonesian Kris"
+                    },
+                    {
+                        "url": "https://www.youtube.com/watch?v=xFCq8qMzy1s",
+                        "copyright": "",
+                        "title": "Indonesian Kris"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "vocabulary_ich_1207": {
+            "type": "concept",
+            "group": "threat",
+            "label": "Exosqueletons",
+            "meta": {
+                "icon": {
+                    "small": "",
+                    "large": ""
+                },
+                "description": "Robotic devices are used to improve the life and everyday activities of people with reduced mobility and with heavy tasks by using robotics and other devices that fit in our bodies. These devices helps with the movement.",
+                "list": "RL-Radar",
+                "year": 2008,
+                "multinational": false,
+                "link": "https://exoskeletonreport.com/product-category/exoskeleton-catalog/industrial/",
+                "images": [
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05391-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Refining the sands in order to get the best quality of the iron ore"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05392-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Refining the sands in order to get the best quality of the iron ore"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05393-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "A plate of nickel between two plates of iron. The plates were resulted from the heatened ores."
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05395-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris) done after the three plates unites into a single plate of metal through another forging work. The plate is called saton."
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05396-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05397-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05398-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05399-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05400-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05401-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    }
+                ],
+                "video": [
+                    {
+                        "url": "https://www.youtube.com/watch?v=uUBIkjRgO9c",
+                        "copyright": "",
+                        "title": "Indonesian Kris"
+                    },
+                    {
+                        "url": "https://www.youtube.com/watch?v=ZL0_uX0hDqs",
+                        "copyright": "",
+                        "title": "Indonesian Kris"
+                    },
+                    {
+                        "url": "https://www.youtube.com/watch?v=xFCq8qMzy1s",
+                        "copyright": "",
+                        "title": "Indonesian Kris"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "vocabulary_ich_1109": {
+            "type": "concept",
+            "group": "threat",
+            "label": "PHA - Waste based bioplastic",
+            "meta": {
+                "icon": {
+                    "small": "",
+                    "large": ""
+                },
+                "description": "polyhydroxyalkanoates (PHA) are polyesters produced in nature by numerous microorganisms, including through bacterial fermentation of sugar or lipids. PHA have active properties and act as a passive barrier to reduce food waste by prolonging food shelf life. PHA can be produced using food industry by-products, such as cheese whey and almond shells, which assure the biodegradability and recyclability, and reduce food waste.",
+                "list": "RL-Radar",
+                "year": 2008,
+                "multinational": false,
+                "link": "https://www.ypack.eu/",
+                "images": [
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05391-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Refining the sands in order to get the best quality of the iron ore"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05392-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Refining the sands in order to get the best quality of the iron ore"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05393-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "A plate of nickel between two plates of iron. The plates were resulted from the heatened ores."
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05395-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris) done after the three plates unites into a single plate of metal through another forging work. The plate is called saton."
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05396-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05397-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05398-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05399-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05400-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05401-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    }
+                ],
+                "video": [
+                    {
+                        "url": "https://www.youtube.com/watch?v=uUBIkjRgO9c",
+                        "copyright": "",
+                        "title": "Indonesian Kris"
+                    },
+                    {
+                        "url": "https://www.youtube.com/watch?v=ZL0_uX0hDqs",
+                        "copyright": "",
+                        "title": "Indonesian Kris"
+                    },
+                    {
+                        "url": "https://www.youtube.com/watch?v=xFCq8qMzy1s",
+                        "copyright": "",
+                        "title": "Indonesian Kris"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "vocabulary_ich_1246": {
+            "type": "concept",
+            "group": "threat",
+            "label": "Structured emulsions and edible oleogels",
+            "meta": {
+                "icon": {
+                    "small": "https://i2.wp.com/learntolovefood.com/wp-content/uploads/2015/01/2015-01-26-08-54-05.jpg",
+                    "large": "https://i2.wp.com/learntolovefood.com/wp-content/uploads/2015/01/2015-01-26-08-54-05.jpg"
+                },
+                "description": "Structured emulsions and edible oleogels are solutions to substitute solid unhealth fats (e.g. butter) with liquid heathy fats (e.g. linen oil). This allows the production of crunchy meltable food containing fatty acids instead of saturated fats (e.g. chocolate, cookies).",
+                "list": "RL-Radar",
+                "year": 2008,
+                "multinational": false,
+                "link": "http://www.emulsar.com/",
+                "images": [
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05391-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Refining the sands in order to get the best quality of the iron ore"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05392-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Refining the sands in order to get the best quality of the iron ore"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05393-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "A plate of nickel between two plates of iron. The plates were resulted from the heatened ores."
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05395-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris) done after the three plates unites into a single plate of metal through another forging work. The plate is called saton."
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05396-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05397-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05398-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05399-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05400-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05401-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    }
+                ],
+                "video": [
+                    {
+                        "url": "https://www.youtube.com/watch?v=uUBIkjRgO9c",
+                        "copyright": "",
+                        "title": "Indonesian Kris"
+                    },
+                    {
+                        "url": "https://www.youtube.com/watch?v=ZL0_uX0hDqs",
+                        "copyright": "",
+                        "title": "Indonesian Kris"
+                    },
+                    {
+                        "url": "https://www.youtube.com/watch?v=xFCq8qMzy1s",
+                        "copyright": "",
+                        "title": "Indonesian Kris"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "vocabulary_ich_1236": {
+            "type": "concept",
+            "group": "threat",
+            "label": "Genetic metabolic analysis",
+            "meta": {
+                "icon": {
+                    "small": "https://cdn.vox-cdn.com/thumbor/_DgeJfMtFSnt-LSMrXMF15XEmXI=/0x0:2124x1593/920x613/filters:focal(0x0:2124x1593):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/51633001/dna-lettuce-3.0.0.jpg",
+                    "large": "https://cdn.vox-cdn.com/thumbor/_DgeJfMtFSnt-LSMrXMF15XEmXI=/0x0:2124x1593/920x613/filters:focal(0x0:2124x1593):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/51633001/dna-lettuce-3.0.0.jpg"
+                },
+                "description": "The genetic metabolic analysis determines how the client digests the macronutrients (carbohydrates, proteins and fats ) which are differently digested by people. This way it is possible to recommend the diet type which is likely to work best for the client.",
+                "list": "RL-Radar",
+                "year": 2008,
+                "multinational": false,
+                "link": "https://www.cogap.de/en",
+                "images": [
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05391-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Refining the sands in order to get the best quality of the iron ore"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05392-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Refining the sands in order to get the best quality of the iron ore"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05393-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "A plate of nickel between two plates of iron. The plates were resulted from the heatened ores."
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05395-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris) done after the three plates unites into a single plate of metal through another forging work. The plate is called saton."
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05396-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05397-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05398-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05399-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05400-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05401-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    }
+                ],
+                "video": [
+                    {
+                        "url": "https://www.youtube.com/watch?v=uUBIkjRgO9c",
+                        "copyright": "",
+                        "title": "Indonesian Kris"
+                    },
+                    {
+                        "url": "https://www.youtube.com/watch?v=ZL0_uX0hDqs",
+                        "copyright": "",
+                        "title": "Indonesian Kris"
+                    },
+                    {
+                        "url": "https://www.youtube.com/watch?v=xFCq8qMzy1s",
+                        "copyright": "",
+                        "title": "Indonesian Kris"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "vocabulary_ich_1296": {
+            "type": "concept",
+            "group": "threat",
+            "label": "A2 milk",
+            "meta": {
+                "icon": {
+                    "small": "https://demedbook.com/images/1/a2-milk-what-you-need-to-know.jpg",
+                    "large": "https://demedbook.com/images/1/a2-milk-what-you-need-to-know.jpg"
+                },
+                "description": "A2 milk is cow's milk that mostly lacks a form of ?-casein proteins called A1 and instead has mostly the A2 form which many believe causes the same gut problems as lactose intolerance. The australian A2 Milk Company claims that this milk is a result of breeding, not GMOs, brough this product to the market and has 10% of milk market share in Australia.",
+                "list": "RL-Radar",
+                "year": 2008,
+                "multinational": false,
+                "link": "https://thea2milkcompany.com/",
+                "images": [
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05391-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Refining the sands in order to get the best quality of the iron ore"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05392-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Refining the sands in order to get the best quality of the iron ore"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05393-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "A plate of nickel between two plates of iron. The plates were resulted from the heatened ores."
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05395-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris) done after the three plates unites into a single plate of metal through another forging work. The plate is called saton."
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05396-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05397-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05398-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05399-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05400-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05401-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    }
+                ],
+                "video": [
+                    {
+                        "url": "https://www.youtube.com/watch?v=uUBIkjRgO9c",
+                        "copyright": "",
+                        "title": "Indonesian Kris"
+                    },
+                    {
+                        "url": "https://www.youtube.com/watch?v=ZL0_uX0hDqs",
+                        "copyright": "",
+                        "title": "Indonesian Kris"
+                    },
+                    {
+                        "url": "https://www.youtube.com/watch?v=xFCq8qMzy1s",
+                        "copyright": "",
+                        "title": "Indonesian Kris"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "vocabulary_ich_1295": {
+            "type": "concept",
+            "group": "threat",
+            "label": "",
+            "meta": {
+                "icon": {},
+                "list": "RL-Radar",
+                "year": 2008,
+                "multinational": false,
+                "images": [
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05391-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Refining the sands in order to get the best quality of the iron ore"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05392-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Refining the sands in order to get the best quality of the iron ore"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05393-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "A plate of nickel between two plates of iron. The plates were resulted from the heatened ores."
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05395-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris) done after the three plates unites into a single plate of metal through another forging work. The plate is called saton."
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05396-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05397-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05398-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05399-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05400-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    },
+                    {
+                        "url": "https://ich.unesco.org/img/photo/thumb/05401-BIG.jpg",
+                        "copyright": "Gaura Mancacaritadipura",
+                        "title": "Forging work (the shaping of the metal into a kris)"
+                    }
+                ],
+                "video": [
+                    {
+                        "url": "https://www.youtube.com/watch?v=uUBIkjRgO9c",
+                        "copyright": "",
+                        "title": "Indonesian Kris"
+                    },
+                    {
+                        "url": "https://www.youtube.com/watch?v=ZL0_uX0hDqs",
+                        "copyright": "",
+                        "title": "Indonesian Kris"
+                    },
+                    {
+                        "url": "https://www.youtube.com/watch?v=xFCq8qMzy1s",
+                        "copyright": "",
+                        "title": "Indonesian Kris"
+                    }
+                ]
+            }
+        }
+    }
+]

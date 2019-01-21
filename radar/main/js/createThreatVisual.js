@@ -586,6 +586,7 @@ function createThreatVisual() {
             if(a.label > b.label) return 1
             return 0
         })//sort
+        console.log(concepts);window.globalconcepts=concepts;
 
         concepts_other = concepts.filter(d => d.threat_category !== "vocabulary_ich_1286")
         //Those threats connected to "Weakened practice and transmission (categ)"
@@ -606,10 +607,14 @@ function createThreatVisual() {
                 if(a_threat > b_threat) return 1
                 return 0
             })//sort
-            d.threat_categories = [...new Set(d.threats.map(l => concept_by_id[l].threat_category))]
+            // d.threat_categories = [...new Set(d.threats.map(l => concept_by_id[l].threat_category))] //HERE IS WHERE EACH ELEMENT IS GIVEN A CATEGORY... how to make it append to existing array??
+            
+            tempthreatcat = Array.from(new Set(d.threats.map(l => concept_by_id[l].threat_category))) //HERE IS WHERE EACH ELEMENT IS GIVEN A CATEGORY... how to make it append to existing array??
+            // console.log(d.threat_categories);
+            if (d.threat_categories) {d.threat_categories = Array.from(new Set(tempthreatcat.concat(d.threat_categories)));} else {d.threat_categories = tempthreatcat;}
+            // console.log(concept_by_id);
         })//forEach
         ICH_num_all = elements.length
-        console.log(ICH_num_all)
 
         //Sort alphabetically
         elements = elements.sort((a,b) => {
@@ -711,6 +716,9 @@ function createThreatVisual() {
             else if (threat_ids.indexOf(d.target) >= 0 && concept_ids.indexOf(d.source) >= 0) return true
             else return false
         })//filter
+        // console.log(concept_ids)
+        // console.log(threat_ids)
+        // console.log(edges_concepts)
 
         edges_concepts.forEach(d => {
             edge_concept_by_id[d.source + "," + d.target] = true
@@ -1018,7 +1026,10 @@ function createThreatVisual() {
             })
 
         hover_concept
-            .on("click", d => mouseClick(d,"concept"))
+            .on("click", d => {
+                mouseClick(d,"concept")
+                showModal(d) //RADAR
+            })
             .on("mouseover", d => {
                 if(!click_active) mouseOverConcept(d)
                 else {
@@ -1045,6 +1056,7 @@ function createThreatVisual() {
 
         //Draw the circles as mini pie charts
         let arcs = pie_nodes(d.threat_categories)
+        // console.log(d.threat_categories)
         ctx.save()
         ctx.translate(d.x, d.y)
         ctx.rotate(d.angle)
@@ -1292,7 +1304,7 @@ function createThreatVisual() {
             ctx_nodes.translate(d.x, d.y-50)
             ctx_nodes.rotate(0 * Math.PI / 180 + d.x*0.004);
             ctx_nodes.fillStyle = "black";
-            // ctx_nodes.fillText(d.id,0,0);
+            ctx_nodes.fillText(d.id,0,0);
             ctx_nodes.restore();
             //svg.append("text").attr("x",d.x*0.85+550).attr("y", d.y*0.85+550).attr("text-anchor","left").attr("font-size", "14px").text(d.id)
             //console.log(ctx_nodes)
@@ -1316,7 +1328,7 @@ function createThreatVisual() {
             ctx_nodes.translate(d.x * 0.97, d.y * 0.97)
             ctx_nodes.rotate(90 * Math.PI / 180 + d.x*0.001);
             ctx_nodes.fillStyle = "black";
-            // ctx_nodes.fillText(d.id.split("_").pop(),0,0);
+            ctx_nodes.fillText(d.id.split("_").pop(),0,0);
             ctx_nodes.restore();
              })
         // DELETETHIS
@@ -1331,7 +1343,7 @@ function createThreatVisual() {
             ctx_nodes.translate(d.x * 0.97, d.y * 0.97)
             ctx_nodes.rotate(90 * Math.PI / 180 + d.x*0.001);
             ctx_nodes.fillStyle = "black";
-            // ctx_nodes.fillText(d.id.split("_").pop(),0,0);
+            ctx_nodes.fillText(d.id.split("_").pop(),0,0);
             ctx_nodes.restore();
              })
         // DELETETHIS
