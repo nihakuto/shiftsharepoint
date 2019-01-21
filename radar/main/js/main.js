@@ -246,6 +246,11 @@ function prepareEdges(graph) {
 }//function prepareEdges
 
 
+
+
+
+
+
 function downloadjson(content, fileName, contentType) {
     newcontent = JSON.stringify(content, null, 4);
     var a = document.createElement("a");
@@ -312,31 +317,31 @@ Papa.parse("../data/tempconcepts.csv", {
     }
 });
 
-function changeconcepts(reg) {
-    index=0;jindex=0;
-    window.test = [];
-    window.catlist =[];
-    for (j in threat_metadata) {window.catlist.push(threat_metadata[j].id);};
+// function changeconcepts(reg) { //this function was deprecated for the new createNewConceptsObjectArray
+//     index=0;jindex=0;
+//     window.test = [];
+//     window.catlist =[];
+//     for (j in threat_metadata) {window.catlist.push(threat_metadata[j].id);};
 
-    for (x in myjson.nodes) {
-             ++index;
-             // if (index == 50) break;
-             // console.log(x)
-      if (reg.test(x)) {
-        if (myjson.nodes[x].type === "concept" && myjson.nodes[x].group === "threat" && !catlist.includes(x)) {
-            console.log("-"+ x + "-" + myjson.nodes[x].label + "(---->)" + tempcsv.data[jindex]["Nome do destaque"]);
-            // window.test.push(myjson.nodes[x].label);
-            // console.log(tempcsv.data);
-            // console.log(tempcsv.data[jindex]["Nome do destaque"]+myjson.nodes[x].label)
-            myjson.nodes[x].label = tempcsv.data[jindex]["Nome do destaque"];
-             // if (index == 50) break;
-            ++jindex;if (jindex > tempcsv.data.length) break;
-         };
-        };
-    }
-}
+//     for (x in myjson.nodes) {
+//              ++index;
+//              // if (index == 50) break;
+//              // console.log(x)
+//       if (reg.test(x)) {
+//         if (myjson.nodes[x].type === "concept" && myjson.nodes[x].group === "threat" && !catlist.includes(x)) {
+//             console.log("-"+ x + "-" + myjson.nodes[x].label + "(---->)" + tempcsv.data[jindex]["Nome do destaque"]);
+//             // window.test.push(myjson.nodes[x].label);
+//             // console.log(tempcsv.data);
+//             // console.log(tempcsv.data[jindex]["Nome do destaque"]+myjson.nodes[x].label)
+//             myjson.nodes[x].label = tempcsv.data[jindex]["Nome do destaque"];
+//              // if (index == 50) break;
+//             ++jindex;if (jindex > tempcsv.data.length) break;
+//          };
+//         };
+//     }
+// }
 
-function createNewConceptsObjectArray(csv,conceptarray) {
+function replaceOldConcepts(csv,conceptarray,oldjson) { //replaceOldConcepts(tempcsv,window.globalconcepts,myjson)
     // make list of category ids
     window.catlist =[];
     for (j in threat_metadata) {
@@ -347,6 +352,7 @@ function createNewConceptsObjectArray(csv,conceptarray) {
     newconceptarray = [];
     var iOld=0;
     for (r in data) {
+        if (iOld===data.length-1) break;
         window.newconceptarray.push({
             [conceptarray[iOld].id]: {
                 "type": conceptarray[iOld].type,
@@ -436,18 +442,249 @@ function createNewConceptsObjectArray(csv,conceptarray) {
         })
         iOld++;
     };
+    // create array with object for every concept in csv
+    for (r in newconceptarray) {
+        console.log(Object.keys(newconceptarray[r]))
+        console.log(oldjson.nodes[Object.keys(newconceptarray[r])])
+        oldjson.nodes[Object.keys(newconceptarray[r])] = newconceptarray[r][Object.keys(newconceptarray[r])];
+        console.log(oldjson.nodes[Object.keys(newconceptarray[r])])
+    };
+    // for every line in the CSV, create the respective Micro -> Concept edges
+    tempnewedgesarray = [];
+    counterCSV = 0;
+    loop1:
+    for (r in data) {
+        if (counterCSV===data.length-1) break;
+        loop2:
+        for (n in oldjson.nodes) {
+            if (oldjson.nodes[n].label === data[r]["micro trend associada #1"]) {
+                // console.log(oldjson.nodes[n].label);
+                tempMicroID = n;
+                console.log("found Micro: "+n+" = "+data[r]["micro trend associada #1"]);
+                break loop2;
+            }
+        };
+        loop3:
+        for (n in newconceptarray) {
+            currentID = String(Object.keys(newconceptarray[n])[0]);
+            if (newconceptarray[n][currentID].label === data[r]["Nome do destaque"]) {
+                // console.log(oldjson.nodes[n].label);
+                tempConceptID = Object.keys(newconceptarray[n])[0];
+                console.log("found Concept: "+tempConceptID+" = "+data[r]["Nome do destaque"]);
+                break loop3;
+            }
+        };
+        tempnewedgesarray.push({
+            "subject": tempMicroID,
+            "predicate": "related",
+            "object": tempConceptID,
+            "weight": 2
+        })
+        counterCSV++;
+    };
+    console.log(tempnewedgesarray)
+    Array.prototype.push.apply(oldjson.edges,tempnewedgesarray)
 };
 
-function replaceOldConcepts(oldjson,newconcepts) {
+// function replaceOldConcepts(oldjson,newconcepts) { //replaceOldConcepts(myjson,newconceptarray)
+//     // create array with object for every concept in csv
+//     for (r in newconcepts) {
+//         console.log(Object.keys(newconcepts[r]))
+//         console.log(oldjson.nodes[Object.keys(newconcepts[r])])
+//         oldjson.nodes[Object.keys(newconcepts[r])] = newconcepts[r][Object.keys(newconcepts[r])];
+//         console.log(oldjson.nodes[Object.keys(newconcepts[r])])
+//     };
+// };
+
+function setAllMicroEdgesToSameMega(oldjson,conceptid,microarray) { //setAllMicroEdgesToSameMega(myjson,"vocabulary_ich_1284",globalelements)
     // create array with object for every concept in csv
+    temparray = [];
+    for (r in oldjson.edges) {
+        if (/^element_/.test(oldjson.edges[r].subject) && (oldjson.edges[r].subject)!=="element_9999") {
+            console.log(oldjson.edges[r].subject);
+            delete oldjson.edges[r];
+        };
+
+
+        // console.log(Object.keys(newconcepts[r]))
+        // console.log(oldjson.nodes[Object.keys(newconcepts[r])])
+        // oldjson.nodes[Object.keys(newconcepts[r])] = newconcepts[r][Object.keys(newconcepts[r])];
+        // console.log(oldjson.nodes[Object.keys(newconcepts[r])])
+    };
+    console.log("deleted "+r+" elements")
+
+    oldjson.edges = oldjson.edges.filter((obj) => obj);
+    console.log("json now has " + oldjson.edges.length + " edges")
+    //build temp array with new connections
+    for (r in microarray) {
+            temparray.push({
+                "subject": microarray[r].id,
+                "predicate": "related",
+                "object": conceptid,
+                "weight": 2
+            })
+    };
+    console.log(temparray)
+    Array.prototype.push.apply(oldjson.edges,temparray)
+    console.log("json now has " + oldjson.edges.length + " edges")
+};
+
+
+Papa.parse("../data/tempmicros.csv", {
+    download: true,
+    header: true,
+    complete: function(results) {
+        window.tempmicroscsv = results;
+        console.log(results);
+    }
+});
+
+function createNewMicrosObjectArray(csv,microsarray) { // createNewMicrosObjectArray(tempmicroscsv,globalelements)
+    // create array with object for every concept in csv
+    data = csv.data;
+    newmicroarray = [];
     var iOld=0;
-    for (r in newconcepts) {
-        console.log(Object.keys(newconcepts[r]))
-        console.log(oldjson.nodes[Object.keys(newconcepts[r])])
-        oldjson.nodes[Object.keys(newconcepts[r])] = newconcepts[r][Object.keys(newconcepts[r])];
-        console.log(oldjson.nodes[Object.keys(newconcepts[r])])
+    // console.log([data[0]["threat_categories"]][0].split(","))
+    for (r in data) {
+        if (iOld===data.length-1) break;
+        tempcatlist=new Array([data[r]["threat_categories"]][0])//.split(",");
+        tempcatlist=String(tempcatlist).split(",");
+        console.log(tempcatlist);
+        window.newmicroarray.push({
+            [microsarray[iOld].id]: {
+                "type": microsarray[iOld].type,
+                "label": data[r]["Trend Title"],
+                "threat_categories": tempcatlist,
+                "meta": {
+                    "icon": {
+                        "small": data[r]["Images"], //data[r]["Video or image #1"],
+                        "large": data[r]["Images"], //data[r]["Video or image #1"],
+                    },
+                    "description": data[r]["New Description"],
+                    "list": "microtrends-list",
+                    "year": 2008,
+                    "multinational": false,
+                    // "link": "https://ich.unesco.org/img/photo/thumb/05391-BIG.jpg", //data[r]["Link #1"],
+                    // "images": [
+                    //     {
+                    //         "url": "https://ich.unesco.org/img/photo/thumb/05391-BIG.jpg",
+                    //         "copyright": "Gaura Mancacaritadipura",
+                    //         "title": "Refining the sands in order to get the best quality of the iron ore"
+                    //     },
+                    //     {
+                    //         "url": "https://ich.unesco.org/img/photo/thumb/05392-BIG.jpg",
+                    //         "copyright": "Gaura Mancacaritadipura",
+                    //         "title": "Refining the sands in order to get the best quality of the iron ore"
+                    //     },
+                    //     {
+                    //         "url": "https://ich.unesco.org/img/photo/thumb/05393-BIG.jpg",
+                    //         "copyright": "Gaura Mancacaritadipura",
+                    //         "title": "A plate of nickel between two plates of iron. The plates were resulted from the heatened ores."
+                    //     },
+                    //     {
+                    //         "url": "https://ich.unesco.org/img/photo/thumb/05395-BIG.jpg",
+                    //         "copyright": "Gaura Mancacaritadipura",
+                    //         "title": "Forging work (the shaping of the metal into a kris) done after the three plates unites into a single plate of metal through another forging work. The plate is called saton."
+                    //     },
+                    //     {
+                    //         "url": "https://ich.unesco.org/img/photo/thumb/05396-BIG.jpg",
+                    //         "copyright": "Gaura Mancacaritadipura",
+                    //         "title": "Forging work (the shaping of the metal into a kris)"
+                    //     },
+                    //     {
+                    //         "url": "https://ich.unesco.org/img/photo/thumb/05397-BIG.jpg",
+                    //         "copyright": "Gaura Mancacaritadipura",
+                    //         "title": "Forging work (the shaping of the metal into a kris)"
+                    //     },
+                    //     {
+                    //         "url": "https://ich.unesco.org/img/photo/thumb/05398-BIG.jpg",
+                    //         "copyright": "Gaura Mancacaritadipura",
+                    //         "title": "Forging work (the shaping of the metal into a kris)"
+                    //     },
+                    //     {
+                    //         "url": "https://ich.unesco.org/img/photo/thumb/05399-BIG.jpg",
+                    //         "copyright": "Gaura Mancacaritadipura",
+                    //         "title": "Forging work (the shaping of the metal into a kris)"
+                    //     },
+                    //     {
+                    //         "url": "https://ich.unesco.org/img/photo/thumb/05400-BIG.jpg",
+                    //         "copyright": "Gaura Mancacaritadipura",
+                    //         "title": "Forging work (the shaping of the metal into a kris)"
+                    //     },
+                    //     {
+                    //         "url": "https://ich.unesco.org/img/photo/thumb/05401-BIG.jpg",
+                    //         "copyright": "Gaura Mancacaritadipura",
+                    //         "title": "Forging work (the shaping of the metal into a kris)"
+                    //     }
+                    // ],
+                    // "video": [
+                    //     {
+                    //         "url": "https://www.youtube.com/watch?v=uUBIkjRgO9c",
+                    //         "copyright": "",
+                    //         "title": "Indonesian Kris"
+                    //     },
+                    //     {
+                    //         "url": "https://www.youtube.com/watch?v=ZL0_uX0hDqs",
+                    //         "copyright": "",
+                    //         "title": "Indonesian Kris"
+                    //     },
+                    //     {
+                    //         "url": "https://www.youtube.com/watch?v=xFCq8qMzy1s",
+                    //         "copyright": "",
+                    //         "title": "Indonesian Kris"
+                    //     }
+                    // ]
+                }
+            }
+        })
+        iOld++;
     };
 };
+
+function replaceOldMicros(oldjson,newmicros) { //replaceOldConcepts(myjson,newmicroarray)
+    // create array with object for every micro in csv
+    for (r in newmicros) {
+        console.log(Object.keys(newmicros[r]))
+        console.log(oldjson.nodes[Object.keys(newmicros[r])])
+        oldjson.nodes[Object.keys(newmicros[r])] = newmicros[r][Object.keys(newmicros[r])];
+        console.log(oldjson.nodes[Object.keys(newmicros[r])])
+    };
+};
+
+
+function setNewMicro2ConceptEdges(oldjson,conceptcsv) { //setAllMicroEdgesToSameMega(myjson,"vocabulary_ich_1284",globalelements)
+    // create array with object for every concept in csv
+    temparray = [];
+    for (r in oldjson.edges) {
+        if (/^element_/.test(oldjson.edges[r].subject) && (oldjson.edges[r].subject)!=="element_9999") {
+            console.log(oldjson.edges[r].subject);
+            delete oldjson.edges[r];
+        };
+
+
+        // console.log(Object.keys(newconcepts[r]))
+        // console.log(oldjson.nodes[Object.keys(newconcepts[r])])
+        // oldjson.nodes[Object.keys(newconcepts[r])] = newconcepts[r][Object.keys(newconcepts[r])];
+        // console.log(oldjson.nodes[Object.keys(newconcepts[r])])
+    };
+    console.log("deleted "+r+" elements")
+
+    oldjson.edges = oldjson.edges.filter((obj) => obj);
+    console.log("json now has " + oldjson.edges.length + " edges")
+    //build temp array with new connections
+    for (r in conceptcsv) {
+            temparray.push({
+                "subject": conceptcsv[r].id,
+                "predicate": "related",
+                "object": conceptcsv[r],
+                "weight": 2
+            })
+    };
+    console.log(temparray)
+    Array.prototype.push.apply(oldjson.edges,temparray)
+    console.log("json now has " + oldjson.edges.length + " edges")
+};
+
 
 // window.temp1 = concepts; //(concepts comes from createThreatVisual.js)
 // window.new99 = [];
@@ -469,87 +706,3 @@ function replaceOldConcepts(oldjson,newconcepts) {
 //         "weight": 1
 //     })
 // )
-
-
-            // "type": "concept",
-            // "group": "threat",
-            // "label": "Small details CRM",
-            // "meta": {
-            //     "icon": {
-            //         "small": "https://ich.unesco.org/img/photo/thumb/05391-MED.jpg",
-            //         "large": "https://ich.unesco.org/img/photo/thumb/05391-HUG.jpg"
-            //     },
-            //     "description": "The kris or keris is a distinctive, asymmetrical dagger from Indonesia. Both weapon and spiritual object, the kris is considered to possess magical powers. The earliest known kris go back to the tenth century and most probably spread from the island of Java throughout South-East Asia. <br><br>Kris blades are usually narrow with a wide, asymmetrical base. The sheath is often made from wood, though examples from ivory, even gold, abound. A kris’ aesthetic value covers the dhapur (the form and design of the blade, with some 40 variants), the pamor (the pattern of metal alloy decoration on the blade, with approximately 120 variants), and tangguh referring to the age and origin of a kris. A bladesmith, or empu, makes the blade in layers of different iron ores and meteorite nickel. In high quality kris blades, the metal is folded dozens or hundreds of times and handled with the utmost precision. Empus are highly respected craftsmen with additional knowledge in literature, history and occult sciences. <br><br>Kris were worn everyday and at special ceremonies, and heirloom blades are handed down through successive generations. Both men and women wear them. A rich spirituality and mythology developed around this dagger. Kris are used for display, as talismans with magical powers, weapons, sanctified heirlooms, auxiliary equipment for court soldiers, accessories for ceremonial dress, an indicator of social status, a symbol of heroism, etc.<br><br>Over the past three decades, kris have lost some of their prominent social and spiritual meaning in society. Although active and honoured empus who produce high-quality kris in the traditional way can still be found on many islands, their number is dramatically decreasing, and it is more difficult for them to find people to whom they can transmit their skills.",
-            //     "list": "RL",
-            //     "year": 2008,
-            //     "multinational": false,
-            //     "link": "https://ich.unesco.org/en/RL/indonesian-kris-00112",
-            //     "images": [
-            //         {
-            //             "url": "https://ich.unesco.org/img/photo/thumb/05391-BIG.jpg",
-            //             "copyright": "Gaura Mancacaritadipura",
-            //             "title": "Refining the sands in order to get the best quality of the iron ore"
-            //         },
-            //         {
-            //             "url": "https://ich.unesco.org/img/photo/thumb/05392-BIG.jpg",
-            //             "copyright": "Gaura Mancacaritadipura",
-            //             "title": "Refining the sands in order to get the best quality of the iron ore"
-            //         },
-            //         {
-            //             "url": "https://ich.unesco.org/img/photo/thumb/05393-BIG.jpg",
-            //             "copyright": "Gaura Mancacaritadipura",
-            //             "title": "A plate of nickel between two plates of iron. The plates were resulted from the heatened ores."
-            //         },
-            //         {
-            //             "url": "https://ich.unesco.org/img/photo/thumb/05395-BIG.jpg",
-            //             "copyright": "Gaura Mancacaritadipura",
-            //             "title": "Forging work (the shaping of the metal into a kris) done after the three plates unites into a single plate of metal through another forging work. The plate is called saton."
-            //         },
-            //         {
-            //             "url": "https://ich.unesco.org/img/photo/thumb/05396-BIG.jpg",
-            //             "copyright": "Gaura Mancacaritadipura",
-            //             "title": "Forging work (the shaping of the metal into a kris)"
-            //         },
-            //         {
-            //             "url": "https://ich.unesco.org/img/photo/thumb/05397-BIG.jpg",
-            //             "copyright": "Gaura Mancacaritadipura",
-            //             "title": "Forging work (the shaping of the metal into a kris)"
-            //         },
-            //         {
-            //             "url": "https://ich.unesco.org/img/photo/thumb/05398-BIG.jpg",
-            //             "copyright": "Gaura Mancacaritadipura",
-            //             "title": "Forging work (the shaping of the metal into a kris)"
-            //         },
-            //         {
-            //             "url": "https://ich.unesco.org/img/photo/thumb/05399-BIG.jpg",
-            //             "copyright": "Gaura Mancacaritadipura",
-            //             "title": "Forging work (the shaping of the metal into a kris)"
-            //         },
-            //         {
-            //             "url": "https://ich.unesco.org/img/photo/thumb/05400-BIG.jpg",
-            //             "copyright": "Gaura Mancacaritadipura",
-            //             "title": "Forging work (the shaping of the metal into a kris)"
-            //         },
-            //         {
-            //             "url": "https://ich.unesco.org/img/photo/thumb/05401-BIG.jpg",
-            //             "copyright": "Gaura Mancacaritadipura",
-            //             "title": "Forging work (the shaping of the metal into a kris)"
-            //         }
-            //     ],
-            //     "video": [
-            //         {
-            //             "url": "https://www.youtube.com/watch?v=uUBIkjRgO9c",
-            //             "copyright": "",
-            //             "title": "Indonesian Kris"
-            //         },
-            //         {
-            //             "url": "https://www.youtube.com/watch?v=ZL0_uX0hDqs",
-            //             "copyright": "",
-            //             "title": "Indonesian Kris"
-            //         },
-            //         {
-            //             "url": "https://www.youtube.com/watch?v=xFCq8qMzy1s",
-            //             "copyright": "",
-            //             "title": "Indonesian Kris"
-            //         }
-            //     ]

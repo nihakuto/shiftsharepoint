@@ -1,6 +1,6 @@
 const translations = {
     "en": {
-        "titles": ["Intangible Cultural Heritage inscribed on the Urgent Safeguarding List"],
+        "titles": ["Societal Microtrends shaping the future"],
 
         "intro_welcome": "Welcome to",
         "intro_unesco": "UNESCO's interactive visual",

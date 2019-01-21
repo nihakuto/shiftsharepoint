@@ -494,7 +494,7 @@ function createThreatVisual() {
 
         nodes = nodes.filter(d => {
             //Filter out any elements that are not on the urgent list
-            if (d.type === "element") return d.meta.list === "USL" || d.meta.list === "GSP-Radar" || d.meta.list === "RL-Radar" ? true : false //RADAR
+            if (d.type === "element") return d.meta.list === "USL" || d.meta.list === "microtrends-list" || d.meta.list === "RL-Radar" ? true : false //RADAR
             //Filter out any node that is a concept that isn't of group: threat
             else if (d.type === "concept") return (d.group === "threat" ? true : false)
             else return false
@@ -622,6 +622,7 @@ function createThreatVisual() {
             if(a.label > b.label) return 1
             return 0
         })
+        window.globalelements = elements; // RADAR
     }//function dataPreparation
 
     ////////////////// Calculate node placement //////////////////
@@ -752,6 +753,7 @@ function createThreatVisual() {
         //Calculate the line points for the edges
         line.context(ctx_edges)
         edges_elements.forEach(d => {
+            // console.log(d) // diagnostic for finding where it's hanging
             let target_y = d.target.y + d.sign_pos * d.target.circle_offset
 
             let dx = d.target.x - d.source.x
@@ -1304,7 +1306,7 @@ function createThreatVisual() {
             ctx_nodes.translate(d.x, d.y-50)
             ctx_nodes.rotate(0 * Math.PI / 180 + d.x*0.004);
             ctx_nodes.fillStyle = "black";
-            ctx_nodes.fillText(d.id,0,0);
+            // ctx_nodes.fillText(d.id,0,0); // ids for editing
             ctx_nodes.restore();
             //svg.append("text").attr("x",d.x*0.85+550).attr("y", d.y*0.85+550).attr("text-anchor","left").attr("font-size", "14px").text(d.id)
             //console.log(ctx_nodes)
@@ -1328,7 +1330,7 @@ function createThreatVisual() {
             ctx_nodes.translate(d.x * 0.97, d.y * 0.97)
             ctx_nodes.rotate(90 * Math.PI / 180 + d.x*0.001);
             ctx_nodes.fillStyle = "black";
-            ctx_nodes.fillText(d.id.split("_").pop(),0,0);
+            // ctx_nodes.fillText(d.id.split("_").pop(),0,0); // ids for editing
             ctx_nodes.restore();
              })
         // DELETETHIS
@@ -1343,7 +1345,7 @@ function createThreatVisual() {
             ctx_nodes.translate(d.x * 0.97, d.y * 0.97)
             ctx_nodes.rotate(90 * Math.PI / 180 + d.x*0.001);
             ctx_nodes.fillStyle = "black";
-            ctx_nodes.fillText(d.id.split("_").pop(),0,0);
+            // ctx_nodes.fillText(d.id.split("_").pop(),0,0); // ids for editing
             ctx_nodes.restore();
              })
         // DELETETHIS

@@ -9,6 +9,7 @@ const common_translations = {
         "concept": "Concept",
         "rl": "Representative List",
         "rl-radar": "Microtrend",
+        "microtrends-list": "Microtrend",
         "megatrend": "Megatrend",
         "usl": "Urgent Safeguarding List",
         "gsp": "Register of Good Safeguarding Practices",
