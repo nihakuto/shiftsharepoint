@@ -1,0 +1,39 @@
+
+        "element_9999": {
+            "type": "element",
+            "label": "New luxury",
+            "threat_categories": [
+                "vocabulary_ich_1263",
+                "vocabulary_ich_1286"
+            ],
+            "meta": {
+                "icon": {
+                    "small": "https://images.pexels.com/photos/949590/pexels-photo-949590.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                    "large": "https://images.pexels.com/photos/949590/pexels-photo-949590.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                },
+                "description": "With the increasing convenience brought by eCommerce, the luxury industry is becoming more democratic as it gets more accessible to everyone. This shift is happening across various industries and represents a big opportunity to be explored.",
+                "list": "microtrends-list",
+                "year": 2008,
+                "multinational": false,
+                "link": "https://ich.unesco.org/img/photo/thumb/05391-BIG.jpg"
+            }
+        },
+        "element_9998": {
+            "type": "element",
+            "label": "New luxury",
+            "threat_categories": [
+                "vocabulary_ich_1263",
+                "vocabulary_ich_1286"
+            ],
+            "meta": {
+                "icon": {
+                    "small": "https://images.pexels.com/photos/949590/pexels-photo-949590.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                    "large": "https://images.pexels.com/photos/949590/pexels-photo-949590.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                },
+                "description": "With the increasing convenience brought by eCommerce, the luxury industry is becoming more democratic as it gets more accessible to everyone. This shift is happening across various industries and represents a big opportunity to be explored.",
+                "list": "microtrends-list",
+                "year": 2008,
+                "multinational": false,
+                "link": "https://ich.unesco.org/img/photo/thumb/05391-BIG.jpg"
+            }
+        },

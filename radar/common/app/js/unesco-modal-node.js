@@ -20,6 +20,7 @@ function createModal(obj) {
 
     //Change titles
     d3.select("#modal-node-type").html((obj.meta && obj.meta.list) ? common_translations[language][obj.meta.list.toLowerCase()] : typeConversion(obj.type))
+    d3.select("#modal-node-highlighttype").html((obj.meta && obj.meta.highlighttype) ? obj.meta.highlighttype : '')
     d3.select("#modal-node-title").html(obj.label)
     d3.select("#modal-node-year").html((obj.meta && obj.meta.year) ? obj.meta.year : '')
     // d3.select("#modal-node-countries").html(obj.countries.sort().join(", "))
@@ -28,7 +29,13 @@ function createModal(obj) {
 
     d3.select("#modal-node-link").html(null);
     if (obj.meta && obj.meta.link) {
-    	d3.select("#modal-node-link").html('<a href="' + obj.meta.link + '" target="_blank">' + common_translations[language]['more'] + '</a>');
+        if (obj.meta && obj.meta.link2) {
+            d3.select("#modal-node-link").html('<a href="' + obj.meta.link + '" target="_blank">' + common_translations[language]['more'] + '</a>' +
+             ', <a href="' + obj.meta.link2 + '" target="_blank">' + "and here for even more" + '</a>');
+        }
+        else {
+            d3.select("#modal-node-link").html('<a href="' + obj.meta.link + '" target="_blank">' + common_translations[language]['more'] + '</a>');
+        }
     }
 
     //Show the modal

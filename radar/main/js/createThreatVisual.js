@@ -96,7 +96,7 @@ function createThreatVisual() {
                 "small": "https://trello-attachments.s3.amazonaws.com/5c3c5633d9bfc4792a65502c/5c3c59d8c468d449f3215466/aeb0dfa3ac871f6d33b71eae8894c429/adult-african-afro-1059115.jpg",
                 "large": "https://trello-attachments.s3.amazonaws.com/5c3c5633d9bfc4792a65502c/5c3c59d8c468d449f3215466/aeb0dfa3ac871f6d33b71eae8894c429/adult-african-afro-1059115.jpg"
             },
-            description: "<p>Remember the Starbucks&rsquo; Unicorn Frappuccino that Anthony&nbsp;Bordain&nbsp;reviewed as &ldquo;the perfect nexus of awfulness&rdquo;?&nbsp;Well, according to UBS research,&nbsp;there were around 180.000 Instagram photos of the drink being posted in just one week.&nbsp;</p><p>According to a survey conducted by&nbsp;Schofields, &ldquo;more than 40% of those under 33 prioritize&nbsp; <em> Instagrammability </em> &nbsp;when choosing their next holiday spot&rdquo;.&nbsp;&nbsp;</p><p>The Marketing Mix is becoming ever more dynamic and the weights that consumers allocate to Price, Packaging, Place,&nbsp;and Product are continually changing.&nbsp;Customers rationale is shifting from transactional to relational&nbsp;as new variables are&nbsp;being brought to the equation.&nbsp;</p><p>More than good or cheap products, consumers&nbsp;are looking for memorable and sharable experiences.&nbsp;</p><h3>Opinion piece</h3><p>Colorful,&nbsp;insta-worthy&nbsp;products, packages and&nbsp;set ups&nbsp;have an increasing influence in the decision-making process,&nbsp;especially&nbsp;on millennial consumers.&nbsp;Retailers who are willing to provide&nbsp;those kinds of experiences&nbsp;will&nbsp;eventually&nbsp;gain the upper hand over their competitors.&nbsp;</p>",
+            description: "<p>The Marketing Mix is becoming ever more dynamic and the weights that consumers allocate to Price, Packaging, Place, and Product are continually changing. Customers rationale is shifting from transactional to relational as new variables are being brought to the equation.&nbsp;</p><p>More than good or cheap products, consumers are looking for memorable and sharable experiences.&nbsp;</p><p>A good example of how brands are adapting to people&rsquo;s&nbsp;cravenness&nbsp;for the new and exciting is that luxury fashion stores are hiring museum curators to set up instore displays.&nbsp;</p><h3>Opinion piece</h3><p>Remember the Starbucks&rsquo; Unicorn Frappuccino that Anthony&nbsp;Bordain&nbsp;reviewed as &ldquo;the perfect nexus of awfulness&rdquo;?&nbsp;Well, according to UBS research,&nbsp;there were around 180.000 Instagram photos of the drink being posted in just one week.&nbsp;</p><p>According to a survey conducted by&nbsp;Schofields, &ldquo;more than 40% of those under 33 prioritize&nbsp; <em> Instagrammability </em> &nbsp;when choosing their next holiday spot&rdquo;.&nbsp;&nbsp;</p><p>Colorful,&nbsp;insta-worthy&nbsp;products, packages and&nbsp;set ups&nbsp;have an increasing influence in the decision-making process,&nbsp;especially&nbsp;on millennial consumers.&nbsp;Retailers who are willing to provide&nbsp;those kinds of experiences&nbsp;will&nbsp;eventually&nbsp;gain the upper hand over their competitors.</p>",
             list: "megatrend",
             year: "",
             multinational: true,
@@ -509,8 +509,12 @@ function createThreatVisual() {
         //Second filtering based on connections
         nodes = nodes.filter(d => {
             d.degree = edges.filter(l => l.source == d.id || l.target == d.id).length
+            // console.log(d.threat_categories)
+            // console.log(d.id + " : " + d.degree)
+            // if(d.threat_categories) return d.degree = d.degree+1// This forces the radar to keep elements with threat_category = [] set in the graph_edited_en JSON
+            // console.log(d.id + " : " + d.degree)
             //Filter out any element that has 0 degrees
-            if(d.type === "element") return d.degree >= 1 ? true : false
+            if(d.type === "element") return (d.degree >= 1) ? true : false
             //Keep all threat categories
             else if(threat_ids.indexOf(d.id) >= 0) return true
             else {
@@ -1306,7 +1310,7 @@ function createThreatVisual() {
             ctx_nodes.translate(d.x, d.y-50)
             ctx_nodes.rotate(0 * Math.PI / 180 + d.x*0.004);
             ctx_nodes.fillStyle = "black";
-            // ctx_nodes.fillText(d.id,0,0); // ids for editing
+            ctx_nodes.fillText(d.id,0,0); // ids for editing
             ctx_nodes.restore();
             //svg.append("text").attr("x",d.x*0.85+550).attr("y", d.y*0.85+550).attr("text-anchor","left").attr("font-size", "14px").text(d.id)
             //console.log(ctx_nodes)
@@ -1330,7 +1334,7 @@ function createThreatVisual() {
             ctx_nodes.translate(d.x * 0.97, d.y * 0.97)
             ctx_nodes.rotate(90 * Math.PI / 180 + d.x*0.001);
             ctx_nodes.fillStyle = "black";
-            // ctx_nodes.fillText(d.id.split("_").pop(),0,0); // ids for editing
+            ctx_nodes.fillText(d.id.split("_").pop(),0,0); // ids for editing
             ctx_nodes.restore();
              })
         // DELETETHIS
@@ -1345,7 +1349,7 @@ function createThreatVisual() {
             ctx_nodes.translate(d.x * 0.97, d.y * 0.97)
             ctx_nodes.rotate(90 * Math.PI / 180 + d.x*0.001);
             ctx_nodes.fillStyle = "black";
-            // ctx_nodes.fillText(d.id.split("_").pop(),0,0); // ids for editing
+            ctx_nodes.fillText(d.id.split("_").pop(),0,0); // ids for editing
             ctx_nodes.restore();
              })
         // DELETETHIS

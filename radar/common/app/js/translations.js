@@ -14,7 +14,7 @@ const common_translations = {
         "usl": "Urgent Safeguarding List",
         "gsp": "Register of Good Safeguarding Practices",
         "watch": "See the video and the images",
-        "more": "See all the information available on this element",
+        "more": "Click here to read more about this element",
         "menu_search": "Search",
         "menu_intro": "Introduction",
         "menu_legend": "Legend",

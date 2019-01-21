@@ -353,6 +353,13 @@ function replaceOldConcepts(csv,conceptarray,oldjson) { //replaceOldConcepts(tem
     var iOld=0;
     for (r in data) {
         if (iOld===data.length-1) break;
+        // parse array of images
+        tempimglist=new Array([data[r]["Images"]][0]);
+        tempimglist=String(tempimglist).split(",");
+        // parse array of videos
+        tempvidlist=new Array([data[r]["Videos"]][0]);
+        tempvidlist=String(tempvidlist).split(",");
+
         window.newconceptarray.push({
             [conceptarray[iOld].id]: {
                 "type": conceptarray[iOld].type,
@@ -360,14 +367,16 @@ function replaceOldConcepts(csv,conceptarray,oldjson) { //replaceOldConcepts(tem
                 "label": data[r]["Nome do destaque"],
                 "meta": {
                     "icon": {
-                        "small": data[r]["Video or image #1"],
-                        "large": data[r]["Video or image #1"]
+                        "small": tempimglist[0],
+                        "large": tempimglist[0]
                     },
                     "description": data[r]["Descri��o"],
-                    "list": "RL-Radar",
-                    "year": 2008,
+                    "list": data[r]["tipo de destaque"],
+                    "year": data[r]["mega trend associada"],
                     "multinational": false,
                     "link": data[r]["Link #1"],
+                    "link2": data[r]["Link #2"],
+                    //"highlighttype": data[r]["tipo de destaque"],
                     "images": [
                         {
                             "url": "https://ich.unesco.org/img/photo/thumb/05391-BIG.jpg",
@@ -474,10 +483,27 @@ function replaceOldConcepts(csv,conceptarray,oldjson) { //replaceOldConcepts(tem
                 break loop3;
             }
         };
-        tempnewedgesarray.push({
+        loop4:
+        for (n in oldjson.edges) {
+            if (oldjson.edges[n].subject === tempConceptID) {
+                // console.log(oldjson.nodes[n].label);
+                console.log("found old concept<->Mega edges to delete: "+oldjson.edges[n].subject+" <-> "+oldjson.edges[n].object);
+                delete oldjson.edges[n];
+                break loop4;
+            }
+        };
+        oldjson.edges = oldjson.edges.filter((obj) => obj); //remove nulls
+
+        tempnewedgesarray.push({ // add Micro to Concept edge
             "subject": tempMicroID,
             "predicate": "related",
             "object": tempConceptID,
+            "weight": 2
+        })
+        tempnewedgesarray.push({ // also add Concept to Mega edge (based on main mega trend from CSV)
+            "subject": tempConceptID,
+            "predicate": "broader",
+            "object": data[r]["threat_categories"],
             "weight": 2
         })
         counterCSV++;
@@ -496,11 +522,12 @@ function replaceOldConcepts(csv,conceptarray,oldjson) { //replaceOldConcepts(tem
 //     };
 // };
 
-function setAllMicroEdgesToSameMega(oldjson,conceptid,microarray) { //setAllMicroEdgesToSameMega(myjson,"vocabulary_ich_1284",globalelements)
+function resetMicroEdges(oldjson,microarray) { //setAllMicroEdgesToSameMega(myjson,globalelements)
+//use replaceOldConcepts afterwards
     // create array with object for every concept in csv
     temparray = [];
     for (r in oldjson.edges) {
-        if (/^element_/.test(oldjson.edges[r].subject) && (oldjson.edges[r].subject)!=="element_9999") {
+        if (/^element_/.test(oldjson.edges[r].subject) && (oldjson.edges[r].subject)!=="element_9999" && (oldjson.edges[r].subject)!=="element_9998") {
             console.log(oldjson.edges[r].subject);
             delete oldjson.edges[r];
         };
@@ -513,16 +540,23 @@ function setAllMicroEdgesToSameMega(oldjson,conceptid,microarray) { //setAllMicr
     };
     console.log("deleted "+r+" elements")
 
-    oldjson.edges = oldjson.edges.filter((obj) => obj);
+    oldjson.edges = oldjson.edges.filter((obj) => obj); //remove nulls
     console.log("json now has " + oldjson.edges.length + " edges")
     //build temp array with new connections
     for (r in microarray) {
             temparray.push({
                 "subject": microarray[r].id,
                 "predicate": "related",
-                "object": conceptid,
+                "object": microarray[r].threat_categories[0],
                 "weight": 2
             })
+            // console.log(microarray[r])
+            // temparray.push({ // introduce at least 1 connection edge to a Mega trend to make sure the micro stays even if its not linked to a highlight
+            //     "subject": conceptcsv[r].id,
+            //     "predicate": "related",
+            //     "object": conceptcsv[r],
+            //     "weight": 2
+            // })
     };
     console.log(temparray)
     Array.prototype.push.apply(oldjson.edges,temparray)
@@ -652,38 +686,46 @@ function replaceOldMicros(oldjson,newmicros) { //replaceOldConcepts(myjson,newmi
 };
 
 
-function setNewMicro2ConceptEdges(oldjson,conceptcsv) { //setAllMicroEdgesToSameMega(myjson,"vocabulary_ich_1284",globalelements)
-    // create array with object for every concept in csv
-    temparray = [];
-    for (r in oldjson.edges) {
-        if (/^element_/.test(oldjson.edges[r].subject) && (oldjson.edges[r].subject)!=="element_9999") {
-            console.log(oldjson.edges[r].subject);
-            delete oldjson.edges[r];
-        };
+// function setNewMicro2ConceptEdges(oldjson,conceptcsv) { //setAllMicroEdgesToSameMega(myjson,"vocabulary_ich_1284",globalelements)
+//     // create array with object for every concept in csv
+//     temparray = [];
+//     for (r in oldjson.edges) { //delete all edges for elements
+//         if (/^element_/.test(oldjson.edges[r].subject) && (oldjson.edges[r].subject)!=="element_9999") {
+//             console.log(oldjson.edges[r].subject);
+//             delete oldjson.edges[r];
+//         };
 
 
-        // console.log(Object.keys(newconcepts[r]))
-        // console.log(oldjson.nodes[Object.keys(newconcepts[r])])
-        // oldjson.nodes[Object.keys(newconcepts[r])] = newconcepts[r][Object.keys(newconcepts[r])];
-        // console.log(oldjson.nodes[Object.keys(newconcepts[r])])
-    };
-    console.log("deleted "+r+" elements")
+//         // console.log(Object.keys(newconcepts[r]))
+//         // console.log(oldjson.nodes[Object.keys(newconcepts[r])])
+//         // oldjson.nodes[Object.keys(newconcepts[r])] = newconcepts[r][Object.keys(newconcepts[r])];
+//         // console.log(oldjson.nodes[Object.keys(newconcepts[r])])
+//     };
+//     console.log("deleted "+r+" elements")
 
-    oldjson.edges = oldjson.edges.filter((obj) => obj);
-    console.log("json now has " + oldjson.edges.length + " edges")
-    //build temp array with new connections
-    for (r in conceptcsv) {
-            temparray.push({
-                "subject": conceptcsv[r].id,
-                "predicate": "related",
-                "object": conceptcsv[r],
-                "weight": 2
-            })
-    };
-    console.log(temparray)
-    Array.prototype.push.apply(oldjson.edges,temparray)
-    console.log("json now has " + oldjson.edges.length + " edges")
-};
+//     oldjson.edges = oldjson.edges.filter((obj) => obj); // remove nulls
+//     console.log("json now has " + oldjson.edges.length + " edges")
+//     //build temp array with new connections
+//     for (r in conceptcsv) {
+//             temparray.push({
+//                 "subject": conceptcsv[r].id,
+//                 "predicate": "related",
+//                 "object": conceptcsv[r],
+//                 "weight": 2
+//             })
+//             console.log(conceptcsv[r].id)
+//             console.log(conceptcsv[r])
+//             // temparray.push({ // introduce at least 1 connection edge to a Mega trend to make sure the micro stays even if its not linked to a highlight
+//             //     "subject": conceptcsv[r].id,
+//             //     "predicate": "related",
+//             //     "object": conceptcsv[r],
+//             //     "weight": 2
+//             // })
+//     };
+//     console.log(temparray)
+//     Array.prototype.push.apply(oldjson.edges,temparray)
+//     console.log("json now has " + oldjson.edges.length + " edges")
+// };
 
 
 // window.temp1 = concepts; //(concepts comes from createThreatVisual.js)

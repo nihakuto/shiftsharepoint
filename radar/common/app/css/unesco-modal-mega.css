@@ -118,6 +118,15 @@
     margin-bottom: 0;
 }
 
+#modal-node-highlighttype {
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    color: #717171;
+    font-weight: 300;
+    letter-spacing: 0.02em;
+    margin-bottom: 0;
+}
+
 #modal-node-year {
     font-family: 'Oswald', sans-serif;
     font-size: 20px;
