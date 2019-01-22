@@ -108,6 +108,10 @@
     padding: 20px 40px 40px 40px;
     text-align: left;
 }
+#chart-modal-aftervid {
+    padding: 20px 40px 40px 40px;
+    text-align: left;
+}
 
 #modal-node-type {
     font-family: 'Oswald', sans-serif;
@@ -160,6 +164,16 @@
     font-size: 15px;
     line-height: 1.75;
     margin: 0 auto;
+    /*
+    max-height: 200px;
+    overflow-y: scroll;
+    */
+}
+
+#modal-node-howtoapproach, #modal-node-prevwork {
+    font-size: 15px;
+    line-height: 1.75;
+    margin: 1em auto;
     /*
     max-height: 200px;
     overflow-y: scroll;

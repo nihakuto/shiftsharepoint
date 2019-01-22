@@ -28,26 +28,27 @@ document.getElementById('intro-info').innerHTML = translations[language]['intro_
 // Translate
 document.getElementById('menu-intro').innerHTML = common_translations[language]['menu_intro'];
 document.getElementById('menu-legend').innerHTML = common_translations[language]['menu_legend'];
-document.querySelectorAll('#menu-about a')[0].innerHTML = common_translations[language]['menu_about'];
-document.querySelectorAll('#menu-about a')[0].setAttribute('href', common_translations[language]['menu_about_link'])
-let menu_more = document.getElementById('menu-more');
-menu_more.innerHTML = common_translations[language]['menu_more'] + menu_more.innerHTML;
-let menu_share = document.getElementById('menu-share');
-menu_share.innerHTML = common_translations[language]['menu_share'] + menu_share.innerHTML;
-document.querySelectorAll('#menu-more-constellation a')[0].innerHTML = common_translations[language]['menu_more_constellation'];
-document.querySelectorAll('#menu-more-biome a')[0].innerHTML = common_translations[language]['menu_more_biome'];
-document.querySelectorAll('#menu-more-domain a')[0].innerHTML = common_translations[language]['menu_more_domain'];
-document.querySelectorAll('#menu-more-threat a')[0].innerHTML = common_translations[language]['menu_more_threat'];
-document.querySelectorAll('#menu-more a').forEach(e => e.setAttribute('href', e.getAttribute('href') + '?language=' + language));
-let menu_language = document.getElementById('menu-language');
-menu_language.innerHTML = common_translations[language]['menu_language'] + menu_language.innerHTML;
+document.getElementById('menu-method').innerHTML = "Methodology";
+// document.querySelectorAll('#menu-about a')[0].innerHTML = common_translations[language]['menu_about'];
+// document.querySelectorAll('#menu-about a')[0].setAttribute('href', common_translations[language]['menu_about_link'])
+// let menu_more = document.getElementById('menu-more');
+// menu_more.innerHTML = common_translations[language]['menu_more'] + menu_more.innerHTML;
+// let menu_share = document.getElementById('menu-share');
+// menu_share.innerHTML = common_translations[language]['menu_share'] + menu_share.innerHTML;
+// document.querySelectorAll('#menu-more-constellation a')[0].innerHTML = common_translations[language]['menu_more_constellation'];
+// document.querySelectorAll('#menu-more-biome a')[0].innerHTML = common_translations[language]['menu_more_biome'];
+// document.querySelectorAll('#menu-more-domain a')[0].innerHTML = common_translations[language]['menu_more_domain'];
+// document.querySelectorAll('#menu-more-threat a')[0].innerHTML = common_translations[language]['menu_more_threat'];
+// document.querySelectorAll('#menu-more a').forEach(e => e.setAttribute('href', e.getAttribute('href') + '?language=' + language));
+// let menu_language = document.getElementById('menu-language');
+// menu_language.innerHTML = common_translations[language]['menu_language'] + menu_language.innerHTML;
 
 // Share
-let share_url = window.location.protocol + '//' + window.location.host + window.location.pathname;
-let share_buttons = document.querySelectorAll('.st-custom-button');
-for (let button of share_buttons) {
-    button.setAttribute('data-url', share_url)
-}
+// let share_url = window.location.protocol + '//' + window.location.host + window.location.pathname;
+// let share_buttons = document.querySelectorAll('.st-custom-button');
+// for (let button of share_buttons) {
+//     button.setAttribute('data-url', share_url)
+// }
 
 // Hide
 hide.push('more-threat', 'language-' + language);
@@ -62,6 +63,12 @@ for (let item of hide) {
 //////////////////////////////////////////////////////////////
 
 document.getElementById('modal-legend-img').setAttribute('src', 'img/Legend-Threat_' + language + '.png');
+
+//////////////////////////////////////////////////////////////
+//////////////////////// Method setup ////////////////////////
+//////////////////////////////////////////////////////////////
+
+document.getElementById('modal-method-img').setAttribute('src', 'img/methodology.png');
 
 //////////////////////////////////////////////////////////////
 ////////////////////// Switch language ///////////////////////
@@ -131,8 +138,22 @@ let legend_modal_open = function() {
         legend_modal.open('#legend-modal');
     }
 }
+
+let method_modal = new VanillaModal.default({ //new modal for methodology
+    onBeforeOpen: function() {
+        document.querySelectorAll('.modal-content')[0].setAttribute('style', 'max-width: 1400px;');
+    },
+    onClose: function() {
+        document.querySelectorAll('.modal-content')[0].removeAttribute('style');
+    }
+});
+let method_modal_open = function() {
+    // document.getElementById('menu').style.display = 'none';
+    method_modal.open('#method-modal');
+}
 document.getElementById('menu-legend').addEventListener('click', legend_modal_open);
 document.getElementById('intro-legend').addEventListener('click', legend_modal_open);
+document.getElementById('menu-method').addEventListener('click', method_modal_open);
 
 //////////////////////////////////////////////////////////////
 ///////////////////////// Chart setup ////////////////////////
@@ -357,8 +378,9 @@ function replaceOldConcepts(csv,conceptarray,oldjson) { //replaceOldConcepts(tem
         tempimglist=new Array([data[r]["Images"]][0]);
         tempimglist=String(tempimglist).split(",");
         // parse array of videos
-        tempvidlist=new Array([data[r]["Videos"]][0]);
-        tempvidlist=String(tempvidlist).split(",");
+        // tempvidlist=new Array([data[r]["Videos"]][0]);
+        // tempvidlist=String(tempvidlist).split(",");
+        tempvidvar=data[r]["Videos"];
 
         window.newconceptarray.push({
             [conceptarray[iOld].id]: {
@@ -376,93 +398,52 @@ function replaceOldConcepts(csv,conceptarray,oldjson) { //replaceOldConcepts(tem
                     "multinational": false,
                     "link": data[r]["Link #1"],
                     "link2": data[r]["Link #2"],
+                    "prevwork": data[r]["Previous work in SONAE"],
+                    "howtoapproach": data[r]["How to approach?"]
                     //"highlighttype": data[r]["tipo de destaque"],
-                    "images": [
-                        {
-                            "url": "https://ich.unesco.org/img/photo/thumb/05391-BIG.jpg",
-                            "copyright": "Gaura Mancacaritadipura",
-                            "title": "Refining the sands in order to get the best quality of the iron ore"
-                        },
-                        {
-                            "url": "https://ich.unesco.org/img/photo/thumb/05392-BIG.jpg",
-                            "copyright": "Gaura Mancacaritadipura",
-                            "title": "Refining the sands in order to get the best quality of the iron ore"
-                        },
-                        {
-                            "url": "https://ich.unesco.org/img/photo/thumb/05393-BIG.jpg",
-                            "copyright": "Gaura Mancacaritadipura",
-                            "title": "A plate of nickel between two plates of iron. The plates were resulted from the heatened ores."
-                        },
-                        {
-                            "url": "https://ich.unesco.org/img/photo/thumb/05395-BIG.jpg",
-                            "copyright": "Gaura Mancacaritadipura",
-                            "title": "Forging work (the shaping of the metal into a kris) done after the three plates unites into a single plate of metal through another forging work. The plate is called saton."
-                        },
-                        {
-                            "url": "https://ich.unesco.org/img/photo/thumb/05396-BIG.jpg",
-                            "copyright": "Gaura Mancacaritadipura",
-                            "title": "Forging work (the shaping of the metal into a kris)"
-                        },
-                        {
-                            "url": "https://ich.unesco.org/img/photo/thumb/05397-BIG.jpg",
-                            "copyright": "Gaura Mancacaritadipura",
-                            "title": "Forging work (the shaping of the metal into a kris)"
-                        },
-                        {
-                            "url": "https://ich.unesco.org/img/photo/thumb/05398-BIG.jpg",
-                            "copyright": "Gaura Mancacaritadipura",
-                            "title": "Forging work (the shaping of the metal into a kris)"
-                        },
-                        {
-                            "url": "https://ich.unesco.org/img/photo/thumb/05399-BIG.jpg",
-                            "copyright": "Gaura Mancacaritadipura",
-                            "title": "Forging work (the shaping of the metal into a kris)"
-                        },
-                        {
-                            "url": "https://ich.unesco.org/img/photo/thumb/05400-BIG.jpg",
-                            "copyright": "Gaura Mancacaritadipura",
-                            "title": "Forging work (the shaping of the metal into a kris)"
-                        },
-                        {
-                            "url": "https://ich.unesco.org/img/photo/thumb/05401-BIG.jpg",
-                            "copyright": "Gaura Mancacaritadipura",
-                            "title": "Forging work (the shaping of the metal into a kris)"
-                        }
-                    ],
-                    "video": [
-                        {
-                            "url": "https://www.youtube.com/watch?v=uUBIkjRgO9c",
-                            "copyright": "",
-                            "title": "Indonesian Kris"
-                        },
-                        {
-                            "url": "https://www.youtube.com/watch?v=ZL0_uX0hDqs",
-                            "copyright": "",
-                            "title": "Indonesian Kris"
-                        },
-                        {
-                            "url": "https://www.youtube.com/watch?v=xFCq8qMzy1s",
-                            "copyright": "",
-                            "title": "Indonesian Kris"
-                        }
-                    ]
+                    // "images": tempimgobjarray,
+                    // "video": tempvidobjarray
                 }
             }
         })
+        //if images exist, push image property to json, else dont
+        window.tempimgobjarray = [];
+        for (var i = 1; i < tempimglist.length; i++) {
+            tempimgobjarray.push({
+                "url": tempimglist[i],
+                "copyright": "",
+                "title": ""
+            })
+        }
+        if (tempimgobjarray.length) {
+            newconceptarray[iOld][conceptarray[iOld].id].meta.images = tempimgobjarray;
+        }
+        window.tempvidobjarray = [];
+        tempvidobjarray.push({
+            "url": tempvidvar,
+            "copyright": "",
+            "title": ""
+        })
+        if (tempvidvar.length) {
+            newconceptarray[iOld][conceptarray[iOld].id].meta.video = tempvidobjarray;
+        }
         iOld++;
+
     };
     // create array with object for every concept in csv
     for (r in newconceptarray) {
-        console.log(Object.keys(newconceptarray[r]))
-        console.log(oldjson.nodes[Object.keys(newconceptarray[r])])
+        // console.log(Object.keys(newconceptarray[r]))
+        // console.log(oldjson.nodes[Object.keys(newconceptarray[r])])
         oldjson.nodes[Object.keys(newconceptarray[r])] = newconceptarray[r][Object.keys(newconceptarray[r])];
-        console.log(oldjson.nodes[Object.keys(newconceptarray[r])])
+        // console.log(oldjson.nodes[Object.keys(newconceptarray[r])])
     };
     // for every line in the CSV, create the respective Micro -> Concept edges
     tempnewedgesarray = [];
+    window.concepthoverdefinitionsarray = [];//variable to hold definitions for translationsThreat.js (the ones when hovering concepts)
     counterCSV = 0;
     loop1:
     for (r in data) {
+        tempMicroID2 = [];
         if (counterCSV===data.length-1) break;
         loop2:
         for (n in oldjson.nodes) {
@@ -471,6 +452,15 @@ function replaceOldConcepts(csv,conceptarray,oldjson) { //replaceOldConcepts(tem
                 tempMicroID = n;
                 console.log("found Micro: "+n+" = "+data[r]["micro trend associada #1"]);
                 break loop2;
+            }
+        };
+        loop2_0:
+        for (n in oldjson.nodes) {
+            if (oldjson.nodes[n].label === data[r]["micro trend associada #2"]) {
+                // console.log(oldjson.nodes[n].label);
+                tempMicroID2 = n;
+                console.log("found Micro: "+n+" = "+data[r]["micro trend associada #2"]);
+                break loop2_0;
             }
         };
         loop3:
@@ -500,15 +490,27 @@ function replaceOldConcepts(csv,conceptarray,oldjson) { //replaceOldConcepts(tem
             "object": tempConceptID,
             "weight": 2
         })
+        if (tempMicroID2.length) {
+            tempnewedgesarray.push({ // add Micro to Concept edge
+                "subject": tempMicroID2,
+                "predicate": "related",
+                "object": tempConceptID,
+                "weight": 2
+            })
+        }
         tempnewedgesarray.push({ // also add Concept to Mega edge (based on main mega trend from CSV)
             "subject": tempConceptID,
             "predicate": "broader",
             "object": data[r]["threat_categories"],
             "weight": 2
         })
+        concepthoverdefinitionsarray.push({ // also add Concept to Mega edge (based on main mega trend from CSV)
+            "id": tempConceptID,
+            "definition": data[r]["Descri��o"]
+        })
         counterCSV++;
     };
-    console.log(tempnewedgesarray)
+    // console.log(tempnewedgesarray)
     Array.prototype.push.apply(oldjson.edges,tempnewedgesarray)
 };
 
@@ -596,78 +598,11 @@ function createNewMicrosObjectArray(csv,microsarray) { // createNewMicrosObjectA
                     },
                     "description": data[r]["New Description"],
                     "list": "microtrends-list",
-                    "year": 2008,
+                    "year": data[r]["Main mega trend"],
                     "multinational": false,
                     // "link": "https://ich.unesco.org/img/photo/thumb/05391-BIG.jpg", //data[r]["Link #1"],
-                    // "images": [
-                    //     {
-                    //         "url": "https://ich.unesco.org/img/photo/thumb/05391-BIG.jpg",
-                    //         "copyright": "Gaura Mancacaritadipura",
-                    //         "title": "Refining the sands in order to get the best quality of the iron ore"
-                    //     },
-                    //     {
-                    //         "url": "https://ich.unesco.org/img/photo/thumb/05392-BIG.jpg",
-                    //         "copyright": "Gaura Mancacaritadipura",
-                    //         "title": "Refining the sands in order to get the best quality of the iron ore"
-                    //     },
-                    //     {
-                    //         "url": "https://ich.unesco.org/img/photo/thumb/05393-BIG.jpg",
-                    //         "copyright": "Gaura Mancacaritadipura",
-                    //         "title": "A plate of nickel between two plates of iron. The plates were resulted from the heatened ores."
-                    //     },
-                    //     {
-                    //         "url": "https://ich.unesco.org/img/photo/thumb/05395-BIG.jpg",
-                    //         "copyright": "Gaura Mancacaritadipura",
-                    //         "title": "Forging work (the shaping of the metal into a kris) done after the three plates unites into a single plate of metal through another forging work. The plate is called saton."
-                    //     },
-                    //     {
-                    //         "url": "https://ich.unesco.org/img/photo/thumb/05396-BIG.jpg",
-                    //         "copyright": "Gaura Mancacaritadipura",
-                    //         "title": "Forging work (the shaping of the metal into a kris)"
-                    //     },
-                    //     {
-                    //         "url": "https://ich.unesco.org/img/photo/thumb/05397-BIG.jpg",
-                    //         "copyright": "Gaura Mancacaritadipura",
-                    //         "title": "Forging work (the shaping of the metal into a kris)"
-                    //     },
-                    //     {
-                    //         "url": "https://ich.unesco.org/img/photo/thumb/05398-BIG.jpg",
-                    //         "copyright": "Gaura Mancacaritadipura",
-                    //         "title": "Forging work (the shaping of the metal into a kris)"
-                    //     },
-                    //     {
-                    //         "url": "https://ich.unesco.org/img/photo/thumb/05399-BIG.jpg",
-                    //         "copyright": "Gaura Mancacaritadipura",
-                    //         "title": "Forging work (the shaping of the metal into a kris)"
-                    //     },
-                    //     {
-                    //         "url": "https://ich.unesco.org/img/photo/thumb/05400-BIG.jpg",
-                    //         "copyright": "Gaura Mancacaritadipura",
-                    //         "title": "Forging work (the shaping of the metal into a kris)"
-                    //     },
-                    //     {
-                    //         "url": "https://ich.unesco.org/img/photo/thumb/05401-BIG.jpg",
-                    //         "copyright": "Gaura Mancacaritadipura",
-                    //         "title": "Forging work (the shaping of the metal into a kris)"
-                    //     }
-                    // ],
-                    // "video": [
-                    //     {
-                    //         "url": "https://www.youtube.com/watch?v=uUBIkjRgO9c",
-                    //         "copyright": "",
-                    //         "title": "Indonesian Kris"
-                    //     },
-                    //     {
-                    //         "url": "https://www.youtube.com/watch?v=ZL0_uX0hDqs",
-                    //         "copyright": "",
-                    //         "title": "Indonesian Kris"
-                    //     },
-                    //     {
-                    //         "url": "https://www.youtube.com/watch?v=xFCq8qMzy1s",
-                    //         "copyright": "",
-                    //         "title": "Indonesian Kris"
-                    //     }
-                    // ]
+                    // "images": [],
+                    // "video": []
                 }
             }
         })

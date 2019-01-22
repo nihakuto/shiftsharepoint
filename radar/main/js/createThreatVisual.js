@@ -55,20 +55,14 @@ function createThreatVisual() {
             color: "#EFB605",
             megatrend_relevance: 99,
             icon: {
-                "small": "https://trello-attachments.s3.amazonaws.com/5c3c5633d9bfc4792a65502c/5c3c5a03391e4d3ae3dbb21f/ff117a46e9ac96da51f82fae7dc9d18b/art-close-up-ecology-886521.jpg",
-                "large": "https://trello-attachments.s3.amazonaws.com/5c3c5633d9bfc4792a65502c/5c3c5a03391e4d3ae3dbb21f/ff117a46e9ac96da51f82fae7dc9d18b/art-close-up-ecology-886521.jpg"
+                "small": "https://trello-attachments.s3.amazonaws.com/5c3c5633d9bfc4792a65502c/5c3c59b44bf940147abd176f/bd23aebc60a9a4c2609da37a9e8accf8/background-balance-beach-289586.jpg",
+                "large": "https://trello-attachments.s3.amazonaws.com/5c3c5633d9bfc4792a65502c/5c3c59b44bf940147abd176f/bd23aebc60a9a4c2609da37a9e8accf8/background-balance-beach-289586.jpg"
             },
-            description: "",
+            description: "<p>On average, people are spending almost 2 hours every day on social media&nbsp;(5 years and 4 months over a lifetime&nbsp;-&nbsp;socialmediatoday.com).&nbsp;This number has been growing in the past few years, but it might have reached its peak already.</p><p> According to the website Statista,&nbsp;&ldquo;spending more time with family and friends&rdquo; is one of the top 10 new year&rsquo;s resolutions for 2019 (US).&nbsp;The quest for more authentic connections with others&nbsp;is gathering&nbsp;an increasing number of&nbsp;supporters&nbsp;as we&rsquo;re&nbsp;diving&nbsp;into&nbsp;a digital detox era.</p><h3> Opinion Piece&nbsp;</h3><p> People want to be continually connected as much as they want to be less connected.&nbsp;It seems paradoxical, but it&nbsp;probably isn&rsquo;t.</p><p> Silicon Valley is already addressing this&nbsp;particular need:&nbsp;iOS 12&nbsp;offers &ldquo;detailed information and tools to help users understand and control the time they spend with apps and websites, how often they pick up their iPhone or iPad during the day and how they receive notifications&rdquo;&nbsp;(Craig Federighi, Apple&rsquo;s Senior Vice President of Software Engineering);&nbsp;Instagram is also&nbsp;providing analytics to help people understand how much time they&rsquo;re spending on the app.&nbsp;</p><p> There are many more examples of tech solutions&nbsp;currently&nbsp;being developed&nbsp;to address the digital detox era.&nbsp;Companies are turning this threat into an opportunity&nbsp;and new solutions&nbsp;are popping up in all shapes and sizes:&nbsp;voice assistants&nbsp;are booming due to the generalized craving for authentic interactions; meditation apps such as Stop, Breath &amp; Think&nbsp;are helping people staying mindful;&nbsp;Platforms like Forest&nbsp;have real-world impact as they&nbsp;plant&nbsp;trees&nbsp;as rewards for the time users spend off their phones.</p>",
             list: "megatrend",
             year: "",
             multinational: true,
-            link: "#",
-            images: [
-                {}
-            ],
-            video: [
-                {}
-            ]
+            link: "#"
         }, //Adverse circumstances                     // RADAR 	Authenticity / Disconnection
         { id: "vocabulary_ich_1268",
             color: "#E58903",
@@ -81,13 +75,7 @@ function createThreatVisual() {
             list: "megatrend",
             year: "",
             multinational: true,
-            link: "#",
-            images: [
-                {}
-            ],
-            video: [
-                {}
-            ]
+            link: "#"
         }, //Demographic issues                     // RADAR	Continuous Connection
         { id: "vocabulary_ich_1287",
             color: "#E01A25",
@@ -100,13 +88,7 @@ function createThreatVisual() {
             list: "megatrend",
             year: "",
             multinational: true,
-            link: "#",
-            images: [
-                {}
-            ],
-            video: [
-                {}
-            ]
+            link: "#"
         }, //Derived practice                     // RADAR	Experiences
         { id: "vocabulary_ich_1264",
             color: "#C20049",
@@ -119,13 +101,7 @@ function createThreatVisual() {
             list: "megatrend",
             year: "",
             multinational: true,
-            link: "#",
-            images: [
-                {}
-            ],
-            video: [
-                {}
-            ]
+            link: "#"
             }, //Environmental degradation                     // RADAR	Health and Wellness
         { id: "vocabulary_ich_1286",
             color: "#991C71",
@@ -170,13 +146,7 @@ function createThreatVisual() {
             list: "megatrend",
             year: "",
             multinational: true,
-            link: "#",
-            images: [
-                {}
-            ],
-            video: [
-                {}
-            ]
+            link: "#"
         }, //Globalized information                     // RADAR	Informed Consumers
         { id: "vocabulary_ich_1284",
             color: "#2074A0",
@@ -189,13 +159,7 @@ function createThreatVisual() {
             list: "megatrend",
             year: "",
             multinational: true,
-            link: "#",
-            images: [
-                {}
-            ],
-            video: [
-                {}
-            ]
+            link: "#"
         }, //New products and techniques                     // RADAR	Corporate Responsibility
         { id: "vocabulary_ich_1269",
             color: "#10A66E",
@@ -208,18 +172,21 @@ function createThreatVisual() {
             list: "megatrend",
             year: "",
             multinational: true,
-            link: "#",
-            images: [
-                {}
-            ],
-            video: [
-                {}
-            ]
+            link: "#"
             }, //Missing objects, spaces or systems                     // RADAR	Seamlessness / Ease
         { id: "vocabulary_ich_1267",
             color: "#7EB852",
-            megatrend_relevance: 174
-        }, //Socioeconomical problems                     // RADAR	Hiper Personalization
+            megatrend_relevance: 174,
+            icon: {
+                "small": "https://trello-attachments.s3.amazonaws.com/5c3c5633d9bfc4792a65502c/5c3c59e3f14359604cb1e208/af4c42f0ec57bd09704cf53374246911/black-and-white-computer-device-163017.jpg",
+                "large": "https://trello-attachments.s3.amazonaws.com/5c3c5633d9bfc4792a65502c/5c3c59e3f14359604cb1e208/af4c42f0ec57bd09704cf53374246911/black-and-white-computer-device-163017.jpg"
+            },
+            description: "<p>Digitalization is the couples&rsquo; therapy that retailers and its customers always needed. Companies can now listen like they never could. They can pay more attention to people&rsquo;s needs and continually increase their value proposition by addressing every customer as a unique individual.</p><p> A good example of this new marital life is Netflix and the way it&rsquo;s customizing content creation according to its users&rsquo; preferences. (Spoiler Alert) In the first 30 seconds of House of Cards, the main character kills a dog. Through Big Data analytics, Netflix learned that a lot of users switched to another show after that scene. So, the company learned that some people don&rsquo;t like to watch dogs being killed and it probably won&rsquo;t suggest them a similar show anymore.</p><p> Social media is being used as a platform for people to promote themselves as their own personal brand, which is boosting the demand for unique and personalized products.</p><h3> Opinion Piece</h3><p> Globalization is opening new lifestyles opportunities for everyone. Thus, as customers keep exploring new habits and hobbies, companies need to be able to keep up with this granular streaming of expectations.</p><p> Data mining campaigns powered by effective loyalty programs can help families with different diet restrictions, undecided online buyers, and many more.</p>",
+            list: "megatrend",
+            year: "",
+            multinational: true,
+            link: "#"
+        }, //Socioeconomical problems                     // RADAR	Hyper Personalization
     ]
     window.categorythreatjson = threat_metadata;
     const threat_ids = threat_metadata.map(d => d.id)
@@ -1310,7 +1277,7 @@ function createThreatVisual() {
             ctx_nodes.translate(d.x, d.y-50)
             ctx_nodes.rotate(0 * Math.PI / 180 + d.x*0.004);
             ctx_nodes.fillStyle = "black";
-            ctx_nodes.fillText(d.id,0,0); // ids for editing
+            // ctx_nodes.fillText(d.id,0,0); // ids for editing
             ctx_nodes.restore();
             //svg.append("text").attr("x",d.x*0.85+550).attr("y", d.y*0.85+550).attr("text-anchor","left").attr("font-size", "14px").text(d.id)
             //console.log(ctx_nodes)
@@ -1334,7 +1301,7 @@ function createThreatVisual() {
             ctx_nodes.translate(d.x * 0.97, d.y * 0.97)
             ctx_nodes.rotate(90 * Math.PI / 180 + d.x*0.001);
             ctx_nodes.fillStyle = "black";
-            ctx_nodes.fillText(d.id.split("_").pop(),0,0); // ids for editing
+            // ctx_nodes.fillText(d.id.split("_").pop(),0,0); // ids for editing
             ctx_nodes.restore();
              })
         // DELETETHIS
@@ -1349,7 +1316,7 @@ function createThreatVisual() {
             ctx_nodes.translate(d.x * 0.97, d.y * 0.97)
             ctx_nodes.rotate(90 * Math.PI / 180 + d.x*0.001);
             ctx_nodes.fillStyle = "black";
-            ctx_nodes.fillText(d.id.split("_").pop(),0,0); // ids for editing
+            // ctx_nodes.fillText(d.id.split("_").pop(),0,0); // ids for editing
             ctx_nodes.restore();
              })
         // DELETETHIS

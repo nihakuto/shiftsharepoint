@@ -38,8 +38,31 @@ function createModal(obj) {
         }
     }
 
+    if(!obj.meta || (!obj.meta.howtoapproach && !obj.meta.prevwork)) {
+        d3.select("#chart-modal-aftervid").style("display","none")
+    } else {
+        d3.select("#chart-modal-aftervid").style("display","block")
+        d3.select("#modal-node-howtoapproach").html(null);
+        if (obj.meta && obj.meta.howtoapproach) {
+            d3.select("#modal-node-howtoapproach").html('<strong>' + 'Recommended action for 2019: ' + '</strong>' + obj.meta.howtoapproach);
+        }
+        d3.select("#modal-node-prevwork").html(null);
+        if (obj.meta && obj.meta.prevwork) {
+            d3.select("#modal-node-prevwork").html('<strong>' + 'Previous work in SONAE: ' + '</strong>' + obj.meta.prevwork);
+        }
+    };
+
     //Show the modal
     node_modal.open("#chart-modal");
+
+    //Hide video/images if there are none (along with the link to scroll to them)
+    if(!obj.meta || (!obj.meta.images && !obj.meta.video)) {
+        d3.select("#chart-modal-img-slider").style("display","none")
+        d3.select("#modal-node-watch").style("display","none")
+    } else {
+            d3.select("#chart-modal-img-slider").style("display","block")
+            d3.select("#modal-node-watch").style("display","block")
+    };
 
     //Carousel
     if(obj.meta && (obj.meta.images || obj.meta.video)) {
@@ -83,8 +106,8 @@ function createModal(obj) {
                 if (obj.meta.video[i].copyright !== "") glideVideoCr.append('© ' + obj.meta.video[i].copyright);
 
                 glideLi.appendChild(glideVideo);
-                glideLi.appendChild(glideVideoDesc);
-                glideLi.appendChild(glideVideoCr);
+                // glideLi.appendChild(glideVideoDesc);
+                // glideLi.appendChild(glideVideoCr);
                 glideUl.appendChild(glideLi);
 
                 let bulletButton = document.createElement('button');

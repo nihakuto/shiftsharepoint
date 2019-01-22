@@ -28,7 +28,11 @@ const common_translations = {
         "menu_language": "Language",
         "menu_share": "Share",
         "search_no_results": "No results found",
-        "search_results": "results"
+        "search_results": "results",
+        "trend enabling partner": "Trend Enabling Partner",
+        "trend evidence": "Trend Evidence",
+        "real trend implementation": "Real Trend Implementation",
+        "trend enabling technology": "Trend Enabling Technology"
     },
     "fr": {
         "ich": "Patrimoine culturel immatériel",
