@@ -35859,20 +35859,27 @@
         "vocabulary_ich_1114": {
             "type": "concept",
             "group": "threat",
-            "label": "Food Traceability",
+            "label": "Vlogging Retail",
             "meta": {
                 "icon": {
-                    "small": "https://images.pexels.com/photos/162637/watering-watering-can-man-vietnam-162637.jpeg",
-                    "large": "https://images.pexels.com/photos/162637/watering-watering-can-man-vietnam-162637.jpeg"
+                    "small": "https://images.pexels.com/photos/1615824/pexels-photo-1615824.jpeg",
+                    "large": "https://images.pexels.com/photos/1615824/pexels-photo-1615824.jpeg"
                 },
-                "description": "IBM's Food Trust Ledger allows consumers to discover the whole story of the products, from farm to shelf",
+                "description": "Food With Fleur & Mike\" is Sainsbury's Youtube channel starring beauty and fashion vlogger Fleur De Force and her husband, Mike, trying new recipes for the first time or attempting to cook some of their favorite dishes. Each video scores around 25,000-50,000 views.",
                 "list": "Real Trend Implementation",
-                "year": "Experiences",
+                "year": "Continuous Connection",
                 "multinational": false,
-                "link": "https://www.ibm.com/blockchain/solutions/food-trust",
-                "link2": "",
+                "link": "https://econsultancy.com/11-examples-of-marketing-campaigns-starring-youtubers/",
+                "link2": "https://www.youtube.com/channel/UCOYTXGVqi_SKtbO6X6-baJQ",
                 "prevwork": "",
-                "howtoapproach": ""
+                "howtoapproach": "",
+                "video": [
+                    {
+                        "url": "https://www.youtube.com/watch?v=nJJlE6qRBPI",
+                        "copyright": "",
+                        "title": ""
+                    }
+                ]
             }
         },
         "vocabulary_ich_70": {
@@ -36103,18 +36110,18 @@
         "vocabulary_ich_1235": {
             "type": "concept",
             "group": "threat",
-            "label": "Amazon's recruitment of Delivery Businesses",
+            "label": "Digital Detox Holidays",
             "meta": {
                 "icon": {
-                    "small": "https://static-24.sinclairstoryline.com/resources/media/d2be674d-cfab-4dc8-bf82-d4c7de5d5dda-large16x9_AP18180678036194.jpg",
-                    "large": "https://static-24.sinclairstoryline.com/resources/media/d2be674d-cfab-4dc8-bf82-d4c7de5d5dda-large16x9_AP18180678036194.jpg"
+                    "small": "https://images.pexels.com/photos/691919/pexels-photo-691919.jpeg",
+                    "large": "https://images.pexels.com/photos/691919/pexels-photo-691919.jpeg"
                 },
-                "description": "Amazon is recruiting entrepreneurs to expand its network of partners for last mile delivery. This reduces the risk associated with relying on big powerful currier operators such as DHL or UPS. Amazon provide services to launched companies such as training, insurance packs or privileged access to vehicles.",
+                "description": "DigitalDetox is a website that helps users selecting hotels that are offering detox holidays to help them de-stress. No Wi-Fi, zero cell reception, a tech-free attitude and lots of human interactions are the main attractions of these experiences.",
                 "list": "Real Trend Implementation",
-                "year": "Continuous Connection",
+                "year": "Authenticity/Disconnection",
                 "multinational": false,
-                "link": "https://www.inc.com/bill-murphy-jr/amazon-is-recruiting-entrepreneurs-to-local-start-delivery-companies-heres-why-i-think-some-people-could-get-rich.html",
-                "link2": "https://www.retailwire.com/discussion/amazon-calls-on-entrepreneurs-to-help-deliver-its-packages/",
+                "link": "http://digitaldetoxholidays.com/",
+                "link2": "",
                 "prevwork": "",
                 "howtoapproach": ""
             }
@@ -36142,27 +36149,20 @@
         "vocabulary_ich_1118": {
             "type": "concept",
             "group": "threat",
-            "label": "Collaborative Robots For Food Production",
+            "label": "Home Try-On of Goods",
             "meta": {
                 "icon": {
-                    "small": "http://blog.wikipme.fr/wp-content/uploads/2017/10/Bruno_2__1_.0.jpg",
-                    "large": "http://blog.wikipme.fr/wp-content/uploads/2017/10/Bruno_2__1_.0.jpg"
+                    "small": "https://www.growthmarketingpro.com/wp-content/uploads/2017/07/warby-parker-ecommerce.png",
+                    "large": "https://www.growthmarketingpro.com/wp-content/uploads/2017/07/warby-parker-ecommerce.png"
                 },
-                "description": "Robots can be applied to a variety of food production systems to improve performance. ",
-                "list": "Trend Enabling Technology",
+                "description": "Warby Parker, is an American online retailer of prescription glasses and sunglasses. The \"Home-Try-On program\" allows customers to choose five frames from the website, which they receive to try on at home for five days, free of charge. Customers can also upload a photo and try on frames virtually.",
+                "list": "Real Trend Implementation",
                 "year": "Informed People",
                 "multinational": false,
-                "link": "https://food.ndtv.com/food-drinks/robots-used-for-packaging-processing-fruits-and-veggies-1208177",
-                "link2": "https://www.iflscience.com/technology/robot-chef-home-could-arrive-2017/",
+                "link": "www.warbyparker.com",
+                "link2": "",
                 "prevwork": "",
-                "howtoapproach": "STUDY this technology to learn who can bring it to the market, what are the associated business models, which are the challenges it can address, and what is the viability and feasibility to address them.",
-                "video": [
-                    {
-                        "url": "https://www.youtube.com/watch?v=hXSeK5T2yII",
-                        "copyright": "",
-                        "title": ""
-                    }
-                ]
+                "howtoapproach": ""
             }
         },
         "vocabulary_ich_1210": {
@@ -36293,37 +36293,37 @@
         "vocabulary_ich_1303": {
             "type": "concept",
             "group": "threat",
-            "label": "Warby Parker",
+            "label": "Automatic Recommendations",
             "meta": {
                 "icon": {
-                    "small": "https://www.growthmarketingpro.com/wp-content/uploads/2017/07/warby-parker-ecommerce.png",
-                    "large": "https://www.growthmarketingpro.com/wp-content/uploads/2017/07/warby-parker-ecommerce.png"
+                    "small": "http://linktoleaders.com/wp-content/uploads/2018/01/shutterstock_683493121.jpg",
+                    "large": "http://linktoleaders.com/wp-content/uploads/2018/01/shutterstock_683493121.jpg"
                 },
-                "description": "Warby Parker, is an American online retailer of prescription glasses and sunglasses. The \"Home-Try-On program\" allows customers to choose five frames from the website, which they receive to try on at home for five days, free of charge. Customers can also upload a photo and try on frames virtually.",
-                "list": "Real Trend Implementation",
-                "year": "Informed People",
+                "description": "Artificial Intelligence algorithms can look for and exploit observed patterns, correlations, and relationships among data elements of customer�s purchases. \nIn this way, automatic suggestion of discounts based on previous and continuous purchases. ",
+                "list": "Trend Enabling Technology",
+                "year": "Seamlessness/Ease",
                 "multinational": false,
-                "link": "www.warbyparker.com",
+                "link": "https://shelf.ai/",
                 "link2": "",
-                "prevwork": "",
-                "howtoapproach": ""
+                "prevwork": "Smart continent APP has recommendation functionalities based in purchase history. Use other data to improve recommendation accuracy can be explored as next step.",
+                "howtoapproach": "STUDY this technology to learn who can bring it to the market, what are the associated business models, which are the challenges it can address, and what is the viability and feasibility to address them."
             }
         },
         "vocabulary_ich_1300": {
             "type": "concept",
             "group": "threat",
-            "label": "A2 Milk",
+            "label": "Last-Minute Discounts",
             "meta": {
                 "icon": {
-                    "small": "https://demedbook.com/images/1/a2-milk-what-you-need-to-know.jpg",
-                    "large": "https://demedbook.com/images/1/a2-milk-what-you-need-to-know.jpg"
+                    "small": "https://innovationmtl.files.wordpress.com/2017/01/eatizz-pub.png",
+                    "large": "https://innovationmtl.files.wordpress.com/2017/01/eatizz-pub.png"
                 },
-                "description": "A2 milk is cow's milk that mostly lacks a form of ?-casein proteins called A1 and instead has mostly the A2 form which many believe causes the same gut problems as lactose intolerance. The australian A2 Milk Company claims that this milk is a result of breeding, not GMOs, brough this product to the market and has 10% of milk market share in Australia.",
+                "description": "Eatizz is a Canadian startup that offers a simple and clever solution to users which are notified when shopkeeper offer discounted food (close to sales� expiry date, unsold products) in their neighborhood.",
                 "list": "Trend Enabling Partner",
-                "year": "Health And Wellness",
+                "year": "Continuous Connection",
                 "multinational": false,
-                "link": "https://thea2milkcompany.com/",
-                "link2": " ",
+                "link": "https://www.eatizz.com/en/",
+                "link2": "",
                 "prevwork": "",
                 "howtoapproach": ""
             }
@@ -36339,30 +36339,6 @@
             "label": "Desertification"
         },
         "vocabulary_ich_1109": {
-            "type": "concept",
-            "group": "threat",
-            "label": "Wortubers",
-            "meta": {
-                "icon": {
-                    "small": "https://images.pexels.com/photos/545334/pexels-photo-545334.jpeg",
-                    "large": "https://images.pexels.com/photos/545334/pexels-photo-545334.jpeg"
-                },
-                "description": "A video channel (similar to youtube) that is a new way of learning, in a more simple, faster and practical  way. The goal is to share knowledge among Worten employees, using videos produced by them. It is intended to provide new ways of learning and encourage a culture of knowledge sharing.",
-                "list": "Real Trend Implementation",
-                "year": "Informed People",
-                "multinational": false,
-                "link": "",
-                "link2": "",
-                "prevwork": "",
-                "howtoapproach": ""
-            }
-        },
-        "vocabulary_ich_1159": {
-            "type": "concept",
-            "group": "nature",
-            "label": "Deserts"
-        },
-        "vocabulary_ich_1236": {
             "type": "concept",
             "group": "threat",
             "label": "Reusable Container Program",
@@ -36381,23 +36357,47 @@
                 "howtoapproach": ""
             }
         },
-        "vocabulary_ich_1301": {
+        "vocabulary_ich_1159": {
+            "type": "concept",
+            "group": "nature",
+            "label": "Deserts"
+        },
+        "vocabulary_ich_1236": {
             "type": "concept",
             "group": "threat",
-            "label": "Genetic Metabolic Analysis",
+            "label": "A2 Milk",
             "meta": {
                 "icon": {
-                    "small": "https://cdn.vox-cdn.com/thumbor/_DgeJfMtFSnt-LSMrXMF15XEmXI=/0x0:2124x1593/920x613/filters:focal(0x0:2124x1593):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/51633001/dna-lettuce-3.0.0.jpg",
-                    "large": "https://cdn.vox-cdn.com/thumbor/_DgeJfMtFSnt-LSMrXMF15XEmXI=/0x0:2124x1593/920x613/filters:focal(0x0:2124x1593):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/51633001/dna-lettuce-3.0.0.jpg"
+                    "small": "https://demedbook.com/images/1/a2-milk-what-you-need-to-know.jpg",
+                    "large": "https://demedbook.com/images/1/a2-milk-what-you-need-to-know.jpg"
                 },
-                "description": "The genetic metabolic analysis determines how the client digests the macronutrients (carbohydrates, proteins and fats ) which are differently digested by people. This way it is possible to recommend the diet type which is likely to work best for the client.",
+                "description": "A2 milk is cow's milk that mostly lacks a form of ?-casein proteins called A1 and instead has mostly the A2 form which many believe causes the same gut problems as lactose intolerance. The australian A2 Milk Company claims that this milk is a result of breeding, not GMOs, brough this product to the market and has 10% of milk market share in Australia.",
                 "list": "Trend Enabling Technology",
                 "year": "Health And Wellness",
                 "multinational": false,
-                "link": "https://www.cogap.de/en",
-                "link2": "https://www.vox.com/2016/11/2/13453434/personalized-diet-nutrition-dna",
+                "link": "https://thea2milkcompany.com/",
+                "link2": " ",
                 "prevwork": "",
                 "howtoapproach": "Study this technology to learn who can bring it to the market, what are the associated business models, which are the challenges it can address, and what is the viability and feasibility to address them."
+            }
+        },
+        "vocabulary_ich_1301": {
+            "type": "concept",
+            "group": "threat",
+            "label": "Exosqueletons",
+            "meta": {
+                "icon": {
+                    "small": "http://en.laevo.nl/wp-content/uploads//2018/07/easy-to-wear.png",
+                    "large": "http://en.laevo.nl/wp-content/uploads//2018/07/easy-to-wear.png"
+                },
+                "description": "Robotic devices are used to improve the life and everyday activities of people with reduced mobility and with heavy tasks by using robotics and other devices that fit in our bodies. These devices helps with the movement.",
+                "list": "Trend Enabling Technology",
+                "year": "Corporate Responsibility",
+                "multinational": false,
+                "link": "https://exoskeletonreport.com/product-category/exoskeleton-catalog/industrial/",
+                "link2": "",
+                "prevwork": "A study about exoskeletons and other wearable for injury prevention is available. Currently an experiment in under discussion.",
+                "howtoapproach": "EXPERIMENT this technology building on the previous work exploring its viability and feasibility to tackle actual challenges, experimenting in the field and measuring the benefits to the business."
             }
         },
         "vocabulary_ich_90": {
@@ -36458,20 +36458,27 @@
         "vocabulary_ich_1213": {
             "type": "concept",
             "group": "threat",
-            "label": "Artificial Intelliigence for Instant Written Customer Service",
+            "label": "Hydrosoluble Packaging",
             "meta": {
                 "icon": {
-                    "small": "https://images.pexels.com/photos/731217/pexels-photo-731217.jpeg",
-                    "large": "https://images.pexels.com/photos/731217/pexels-photo-731217.jpeg"
+                    "small": "http://cdn-cv.r4you.co/wp-content/uploads/2018/07/imagenPrincipal-499-800x400.jpg",
+                    "large": "http://cdn-cv.r4you.co/wp-content/uploads/2018/07/imagenPrincipal-499-800x400.jpg"
                 },
-                "description": "Claire is an AI-powered assistant that \"oversees all the admin of corporate travel, booking flihgts, filing expenses and assisting employees in transit\".",
-                "list": "Real Trend Implementation",
-                "year": "Seamlessness/Ease",
+                "description": "PVOH (Polyvinyl alcohol) is a synthetic polymer that degrades when is in contact with water and do not contaminate. It can be used to do plastic bags or other packagings. This hydrosoluble material has no odor and is not toxic, and is resistant to grease, oils, and solvents. PVOH is ductile but strong, flexible, and functions as a high oxygen and aroma barrier. ",
+                "list": "Trend Enabling Technology",
+                "year": "Sustainability",
                 "multinational": false,
-                "link": "https://www.30secondstofly.com/",
-                "link2": "",
-                "prevwork": "",
-                "howtoapproach": ""
+                "link": "https://www.noticiasmagazine.pt/2018/sacos-plastico-amigos-do-planeta-sim-ja-existem/ ",
+                "link2": "http://solubag.cl/",
+                "prevwork": "A study is under development to explore the possibility of using this material in bags for groceries or dry products sold in bulk (e.g. fruits and vegetables).",
+                "howtoapproach": "STUDY this technology to learn who can bring it to the market, what are the associated business models, which are the challenges it can address, and what is the viability and feasibility to address them.",
+                "video": [
+                    {
+                        "url": "https://www.youtube.com/watch?v=y-fIAhAWWrY",
+                        "copyright": "",
+                        "title": ""
+                    }
+                ]
             }
         },
         "vocabulary_ich_97": {
@@ -36567,7 +36574,7 @@
         "vocabulary_ich_1295": {
             "type": "concept",
             "group": "threat",
-            "label": "Hema'S 1-Hour  Grocery Delivery",
+            "label": "1/2 Hour Deliveries",
             "meta": {
                 "icon": {
                     "small": "https://cdn-images-1.medium.com/max/1600/1*mQhlb0o4bPQY4FHgNya1rw.png",
@@ -36670,27 +36677,20 @@
         "vocabulary_ich_1314": {
             "type": "concept",
             "group": "threat",
-            "label": "Vlogging Retail",
+            "label": "Deliveries Ecosystem",
             "meta": {
                 "icon": {
-                    "small": "https://images.pexels.com/photos/1615824/pexels-photo-1615824.jpeg",
-                    "large": "https://images.pexels.com/photos/1615824/pexels-photo-1615824.jpeg"
+                    "small": "https://static-24.sinclairstoryline.com/resources/media/d2be674d-cfab-4dc8-bf82-d4c7de5d5dda-large16x9_AP18180678036194.jpg",
+                    "large": "https://static-24.sinclairstoryline.com/resources/media/d2be674d-cfab-4dc8-bf82-d4c7de5d5dda-large16x9_AP18180678036194.jpg"
                 },
-                "description": "Food With Fleur & Mike\" is Sainsbury's Youtube channel starring beauty and fashion vlogger Fleur De Force and her husband, Mike, trying new recipes for the first time or attempting to cook some of their favorite dishes. Each video scores around 25,000-50,000 views.",
+                "description": "Amazon is recruiting entrepreneurs to expand its network of partners for last mile delivery. This reduces the risk associated with relying on big powerful currier operators such as DHL or UPS. Amazon provide services to launched companies such as training, insurance packs or privileged access to vehicles.",
                 "list": "Real Trend Implementation",
                 "year": "Continuous Connection",
                 "multinational": false,
-                "link": "https://www.youtube.com/channel/UCOYTXGVqi_SKtbO6X6-baJQ",
-                "link2": "",
+                "link": "https://www.inc.com/bill-murphy-jr/amazon-is-recruiting-entrepreneurs-to-local-start-delivery-companies-heres-why-i-think-some-people-could-get-rich.html",
+                "link2": "https://www.retailwire.com/discussion/amazon-calls-on-entrepreneurs-to-help-deliver-its-packages/",
                 "prevwork": "",
-                "howtoapproach": "",
-                "video": [
-                    {
-                        "url": "https://www.youtube.com/watch?v=nJJlE6qRBPI",
-                        "copyright": "",
-                        "title": ""
-                    }
-                ]
+                "howtoapproach": ""
             }
         },
         "vocabulary_ich_179": {
@@ -36771,18 +36771,18 @@
         "vocabulary_ich_1299": {
             "type": "concept",
             "group": "threat",
-            "label": "Genius Bar Experience",
+            "label": "Wortubers",
             "meta": {
                 "icon": {
-                    "small": "https://amp.businessinsider.com/images/51fba92becad040b6f000013-750-499.jpg",
-                    "large": "https://amp.businessinsider.com/images/51fba92becad040b6f000013-750-499.jpg"
+                    "small": "https://images.pexels.com/photos/545334/pexels-photo-545334.jpeg",
+                    "large": "https://images.pexels.com/photos/545334/pexels-photo-545334.jpeg"
                 },
-                "description": "\"One of the specific ways that the Genius Bar works is by appointment. Apple customers are encouraged to make appointments before visiting the store in order to get quick and personalized service. In some cases, this practice has become controversial for customers who would prefer to get walk-in repair service. Nevertheless, the Genius Bar service is generally part of Apple�s reputation for superior customer service and its dominant position in the consumer hardware market.\" Customers compare their visit to the Genius bar to their visit to the doctor",
-                "list": "Trend Evidence",
+                "description": "Worten launced an internal video channel (similar to youtube) that is a new way of learning, in a more simple, faster and practical  way. The goal is to share knowledge among Worten employees, using videos produced by them. It is intended to provide new ways of learning and encourage a culture of knowledge sharing.",
+                "list": "Real Trend Implementation",
                 "year": "Informed People",
                 "multinational": false,
-                "link": "https://www.huffingtonpost.com/entry/what-healthcare-needs-is-a-genius-bar-approach_us_59ef47fde4b08bce72fe03ab",
-                "link2": "https://www.techopedia.com/definition/29516/genius-bar",
+                "link": "",
+                "link2": "",
                 "prevwork": "",
                 "howtoapproach": ""
             }
@@ -36790,20 +36790,20 @@
         "vocabulary_ich_1296": {
             "type": "concept",
             "group": "threat",
-            "label": "Digital Detox Holidays",
+            "label": "AI for Customer Profiling",
             "meta": {
                 "icon": {
-                    "small": "https://images.pexels.com/photos/691919/pexels-photo-691919.jpeg",
-                    "large": "https://images.pexels.com/photos/691919/pexels-photo-691919.jpeg"
+                    "small": "https://static01.nyt.com/images/2013/10/13/business/13-TECHNO-SUB/13-TECHNO-SUB-articleLarge.jpg",
+                    "large": "https://static01.nyt.com/images/2013/10/13/business/13-TECHNO-SUB/13-TECHNO-SUB-articleLarge.jpg"
                 },
-                "description": "DigitalDetox is a website that helps users selecting hotels that are offering detox holidays to help them de-stress. No Wi-Fi, zero cell reception, a tech-free attitude and lots of human interactions are the main attractions of these experiences.",
-                "list": "Real Trend Implementation",
+                "description": "Sensors (e.g. cameras or microphones) capture customer's images or voice to be processed using Artificial Intelligence (AI). The output are details about the profile of the customers such as mood, age or gender that can be delivered to sales associates or to call center operators to deliver an appropriate service.",
+                "list": "Trend Enabling Technology",
                 "year": "Authenticity/Disconnection",
                 "multinational": false,
-                "link": "http://digitaldetoxholidays.com/",
+                "link": "https://behavioralsignals.com/behavioral-patterns/",
                 "link2": "",
                 "prevwork": "",
-                "howtoapproach": ""
+                "howtoapproach": "STUDY this technology to learn who can bring it to the market, what are the associated business models, which are the challenges it can address, and what is the viability and feasibility to address them."
             }
         },
         "vocabulary_ich_187": {
@@ -37004,39 +37004,39 @@
         "vocabulary_ich_1058": {
             "type": "concept",
             "group": "threat",
-            "label": "�Tesla Solar And Powerpack Systems",
+            "label": "Out-of-Stock Detection",
             "meta": {
                 "icon": {
-                    "small": "https://www.tesla.com/sites/default/files/images/energy/solarroof-smooth-glass.jpg",
-                    "large": "https://www.tesla.com/sites/default/files/images/energy/solarroof-smooth-glass.jpg"
+                    "small": "http://ww1.prweb.com/prfiles/2018/05/29/15517832/image%20recognition%20technology.png",
+                    "large": "http://ww1.prweb.com/prfiles/2018/05/29/15517832/image%20recognition%20technology.png"
                 },
-                "description": "Commercial organizations and government entities can achieve greater control, reliability and security with our solar and Powerpack systems. Powerpack integrates seamlessly with solar to shave peak energy usage, lower demand charges and generate new revenue streams from grid services and demand response programs.",
-                "list": "Trend Enabling Partner",
-                "year": "Sustainability",
+                "description": "Artificial Intelligence (AI) promises real time analysis of video footage to monitor, control and report any visible situation with minimal-to-none human intervention. By analyzing images collected in the stores it would be possible to identify out-of-stock items, low stock items,�misplaced items, and pricing and planogram errors.  ",
+                "list": "Trend Enabling Technology",
+                "year": "Informed People",
                 "multinational": false,
-                "link": "https://www.tesla.com/en_EU/energy",
-                "link2": "https://news.energysage.com/tesla-solar-panel-roof-the-next-solar-shingles/",
-                "prevwork": "",
-                "howtoapproach": ""
+                "link": "https://www.rw3.com/image-recognition-at-the-shelf-the-solution-to-solve-on-shelf-availability/",
+                "link2": "https://www.traxretail.com/",
+                "prevwork": "A study of several technologies from multiple partners has been done during 2018. The economic viability is not proved with the current data. Technical alternative are being explored based on low-cost sensors.",
+                "howtoapproach": "EXPERIMENT this technology building on the previous work exploring its viability and feasibility to tackle actual challenges, experimenting in the field and measuring the benefits to the business."
             }
         },
         "vocabulary_ich_1307": {
             "type": "concept",
             "group": "threat",
-            "label": "Structured Emulsions And Edible Oleogels",
+            "label": "Manage Nano-Influencers",
             "meta": {
                 "icon": {
-                    "small": "https://i2.wp.com/learntolovefood.com/wp-content/uploads/2015/01/2015-01-26-08-54-05.jpg",
-                    "large": "https://i2.wp.com/learntolovefood.com/wp-content/uploads/2015/01/2015-01-26-08-54-05.jpg"
+                    "small": "https://images.pexels.com/photos/177707/pexels-photo-177707.jpeg",
+                    "large": "https://images.pexels.com/photos/177707/pexels-photo-177707.jpeg"
                 },
-                "description": "Structured emulsions and edible oleogels are solutions to substitute solid unhealth fats (e.g. butter) with liquid heathy fats (e.g. linen oil). This allows the production of crunchy meltable food containing fatty acids instead of saturated fats (e.g. chocolate, cookies).",
-                "list": "Trend Enabling Technology",
-                "year": "Experiences",
+                "description": "A shift from micro influencer to nano influencers is an occasion of getting closer to the customers. To seize this opportunity, content management tools such as those provided by Tubular are required to measure all video content cross-platform, all-device, globally.",
+                "list": "Trend Enabling Partner",
+                "year": "Continuous Connection",
                 "multinational": false,
-                "link": "http://www.emulsar.com/",
-                "link2": "",
-                "prevwork": "An internal study exploring the use of oleogels to replace animal fat with linen oil in sausages or hamburgers concluded that this application is to economically viable. Other applications in sauces, chocolate or cookies were not explored.",
-                "howtoapproach": "Study this technology to learn who can bring it to the market, what are the associated business models, which are the challenges it can address, and what is the viability and feasibility to address them."
+                "link": "https://tubularlabs.com/",
+                "link2": "https://www.forbes.com/sites/dbloom/2019/01/01/influencer-marketing-top-trends-2019/#3ff4e706b255",
+                "prevwork": "",
+                "howtoapproach": ""
             }
         },
         "vocabulary_ich_1279": {
@@ -37147,20 +37147,20 @@
         "vocabulary_ich_1246": {
             "type": "concept",
             "group": "threat",
-            "label": "Artificial Intelligence For Customer Profiling",
+            "label": "Digital Detox Holidays",
             "meta": {
                 "icon": {
-                    "small": "https://static01.nyt.com/images/2013/10/13/business/13-TECHNO-SUB/13-TECHNO-SUB-articleLarge.jpg",
-                    "large": "https://static01.nyt.com/images/2013/10/13/business/13-TECHNO-SUB/13-TECHNO-SUB-articleLarge.jpg"
+                    "small": "https://images.pexels.com/photos/691919/pexels-photo-691919.jpeg",
+                    "large": "https://images.pexels.com/photos/691919/pexels-photo-691919.jpeg"
                 },
-                "description": "Sensors (e.g. cameras or microphones) capture customer's images or voice to be processed using algorithms. The output are details about the profile of the customers such as mood, age or gender that can be delivered to sales associates or to call center operators to deliver an appropriate service.",
-                "list": "Trend Enabling Technology",
+                "description": "DigitalDetox is a website that helps users selecting hotels that are offering detox holidays to help them de-stress. No Wi-Fi, zero cell reception, a tech-free attitude and lots of human interactions are the main attractions of these experiences.",
+                "list": "Real Trend Implementation",
                 "year": "Authenticity/Disconnection",
                 "multinational": false,
-                "link": "https://behavioralsignals.com/behavioral-patterns/",
+                "link": "http://digitaldetoxholidays.com/",
                 "link2": "",
                 "prevwork": "",
-                "howtoapproach": "STUDY this technology to learn who can bring it to the market, what are the associated business models, which are the challenges it can address, and what is the viability and feasibility to address them."
+                "howtoapproach": ""
             }
         },
         "vocabulary_ich_219": {
@@ -37196,20 +37196,20 @@
         "vocabulary_ich_1102": {
             "type": "concept",
             "group": "threat",
-            "label": "Food Sharing With Neighbors",
+            "label": "Oleogels",
             "meta": {
                 "icon": {
-                    "small": "https://s-media-cache-ak0.pinimg.com/originals/73/2f/68/732f682e1afd4bf599d8f391b9481d2e.png",
-                    "large": "https://s-media-cache-ak0.pinimg.com/originals/73/2f/68/732f682e1afd4bf599d8f391b9481d2e.png"
+                    "small": "https://i2.wp.com/learntolovefood.com/wp-content/uploads/2015/01/2015-01-26-08-54-05.jpg",
+                    "large": "https://i2.wp.com/learntolovefood.com/wp-content/uploads/2015/01/2015-01-26-08-54-05.jpg"
                 },
-                "description": "OLIO connects neighbours with each other and with local shops so surplus food and other items can be shared, not thrown away.\nIf you love food, hate waste, care about the environment or want to connect with your community, OLIO is for you.",
-                "list": "Trend Enabling Partner",
-                "year": "Sustainability",
+                "description": "Structured emulsions and edible oleogels are solutions to substitute solid unhealth fats (e.g. butter) with liquid heathy fats (e.g. linen oil). This allows the production of crunchy meltable food containing fatty acids instead of saturated fats (e.g. chocolate, cookies).",
+                "list": "Trend Enabling Technology",
+                "year": "Experiences",
                 "multinational": false,
-                "link": "https://olioex.com/",
+                "link": "http://www.emulsar.com/",
                 "link2": "",
-                "prevwork": "",
-                "howtoapproach": ""
+                "prevwork": "An internal study exploring the use of oleogels to replace animal fat with linen oil in sausages or hamburgers concluded that this application is to economically viable. Other applications in sauces, chocolate or cookies were not explored.",
+                "howtoapproach": "Study this technology to learn who can bring it to the market, what are the associated business models, which are the challenges it can address, and what is the viability and feasibility to address them."
             }
         },
         "vocabulary_ich_1238": {
@@ -37250,20 +37250,20 @@
         "vocabulary_ich_1212": {
             "type": "concept",
             "group": "threat",
-            "label": "Agrivoltaics",
+            "label": "Food Traceability",
             "meta": {
                 "icon": {
-                    "small": "https://sunagri.fr/wp-content/uploads/2017/04/Arboriculture-vue-1-Modif-5-06-2017-e1496999309325-1120x340.jpg",
-                    "large": "https://sunagri.fr/wp-content/uploads/2017/04/Arboriculture-vue-1-Modif-5-06-2017-e1496999309325-1120x340.jpg"
+                    "small": "https://images.pexels.com/photos/162637/watering-watering-can-man-vietnam-162637.jpeg",
+                    "large": "https://images.pexels.com/photos/162637/watering-watering-can-man-vietnam-162637.jpeg"
                 },
-                "description": "A way of combining renewable energy with agriculture in a hot, arid landscape, positioning elevated solar panels over an understory of plants.",
-                "list": "Trend Enabling Technology",
-                "year": "Sustainability",
+                "description": "IBM's Food Trust Ledger allows consumers to discover the whole story of the products, from farm to shelf",
+                "list": "Trend Enabling Partner",
+                "year": "Experiences",
                 "multinational": false,
-                "link": "https://www.wired.co.uk/article/energy-agrivoltaic-farms",
-                "link2": "http://www.agrophotovoltaik.de/",
+                "link": "https://www.ibm.com/blockchain/solutions/food-trust",
+                "link2": "",
                 "prevwork": "",
-                "howtoapproach": "Keep VIGILANT WATCH over this technology checking up its maturity following the involved players."
+                "howtoapproach": ""
             }
         },
         "vocabulary_ich_1132": {
@@ -37389,27 +37389,20 @@
         "vocabulary_ich_1239": {
             "type": "concept",
             "group": "threat",
-            "label": "Smartflower",
+            "label": "Genius Bar Experience",
             "meta": {
                 "icon": {
-                    "small": "",
-                    "large": ""
+                    "small": "https://amp.businessinsider.com/images/51fba92becad040b6f000013-750-499.jpg",
+                    "large": "https://amp.businessinsider.com/images/51fba92becad040b6f000013-750-499.jpg"
                 },
-                "description": "All-in-one solar module that includes a sun tracker and storage capacity capable of enabling off the grid buildings.",
-                "list": "Trend Enabling Partner",
-                "year": "Sustainability",
+                "description": "\"One of the specific ways that the Genius Bar works is by appointment. Apple customers are encouraged to make appointments before visiting the store in order to get quick and personalized service. In some cases, this practice has become controversial for customers who would prefer to get walk-in repair service. Nevertheless, the Genius Bar service is generally part of Apple�s reputation for superior customer service and its dominant position in the consumer hardware market.\" Customers compare their visit to the Genius bar to their visit to the doctor",
+                "list": "Trend Evidence",
+                "year": "Informed People",
                 "multinational": false,
-                "link": "https://youtu.be/vZuQOUA9rLk",
-                "link2": "",
+                "link": "https://www.huffingtonpost.com/entry/what-healthcare-needs-is-a-genius-bar-approach_us_59ef47fde4b08bce72fe03ab",
+                "link2": "https://www.techopedia.com/definition/29516/genius-bar",
                 "prevwork": "",
-                "howtoapproach": "",
-                "video": [
-                    {
-                        "url": "https://www.youtube.com/watch?v=vZuQOUA9rLk",
-                        "copyright": "",
-                        "title": ""
-                    }
-                ]
+                "howtoapproach": ""
             }
         },
         "vocabulary_ich_132": {
@@ -37435,23 +37428,23 @@
         "vocabulary_ich_1265": {
             "type": "concept",
             "group": "threat",
-            "label": "Negative attitudes (categ)"
+            "label": "Authenticity/Disconnection"
         },
         "vocabulary_ich_1289": {
             "type": "concept",
             "group": "threat",
-            "label": "Virtual Try-On Tools",
+            "label": "Virtual Assistants",
             "meta": {
                 "icon": {
-                    "small": "https://mondrian.mashable.com/uploads%252Fcard%252Fimage%252F515633%252F0666c36e-fbc2-462f-966e-8a018f2068c4.jpg%252Ffit-in__1200x9600.jpg",
-                    "large": "https://mondrian.mashable.com/uploads%252Fcard%252Fimage%252F515633%252F0666c36e-fbc2-462f-966e-8a018f2068c4.jpg%252Ffit-in__1200x9600.jpg"
+                    "small": "https://images.pexels.com/photos/731217/pexels-photo-731217.jpeg",
+                    "large": "https://images.pexels.com/photos/731217/pexels-photo-731217.jpeg"
                 },
-                "description": "It is possible to virtually try-on beauty products that can go from makeup to glasses. Just select the wanted color and the reference, point the camera and choose which is perfect for you.",
-                "list": "Trend Enabling Partner",
-                "year": "Informed People",
+                "description": "Claire is an AI-powered assistant that \"oversees all the admin of corporate travel, booking flihgts, filing expenses and assisting employees in transit\".",
+                "list": "Real Trend Implementation",
+                "year": "Seamlessness/Ease",
                 "multinational": false,
-                "link": "https://www.eyeconic.com/help-me/virtual-try-on",
-                "link2": "https://mashable.com/2017/06/22/meitu-makeup-counter/?europe=true#DiO2DQUfVkqE",
+                "link": "https://www.30secondstofly.com/",
+                "link2": "",
                 "prevwork": "",
                 "howtoapproach": ""
             }
@@ -37499,20 +37492,20 @@
         "vocabulary_ich_1127": {
             "type": "concept",
             "group": "threat",
-            "label": "Artificial Vision For Stock Management",
+            "label": "Virtual Try-On Tools",
             "meta": {
                 "icon": {
-                    "small": "http://ww1.prweb.com/prfiles/2018/05/29/15517832/image%20recognition%20technology.png",
-                    "large": "http://ww1.prweb.com/prfiles/2018/05/29/15517832/image%20recognition%20technology.png"
+                    "small": "https://mondrian.mashable.com/uploads%252Fcard%252Fimage%252F515633%252F0666c36e-fbc2-462f-966e-8a018f2068c4.jpg%252Ffit-in__1200x9600.jpg",
+                    "large": "https://mondrian.mashable.com/uploads%252Fcard%252Fimage%252F515633%252F0666c36e-fbc2-462f-966e-8a018f2068c4.jpg%252Ffit-in__1200x9600.jpg"
                 },
-                "description": "Artificial vision promises real time analysis of video footage to monitor, control and report any visible situation with minimal-to-none human intervention. By analyzing images collected in the stores it would be possible to identify out-of-stock items, low stock items,�misplaced items, and pricing and planogram errors.  ",
-                "list": "Trend Enabling Technology",
+                "description": "It is possible to virtually try-on beauty products that can go from makeup to glasses. Just select the wanted color and the reference, point the camera and choose which is perfect for you.",
+                "list": "Trend Enabling Partner",
                 "year": "Informed People",
                 "multinational": false,
-                "link": "https://www.rw3.com/image-recognition-at-the-shelf-the-solution-to-solve-on-shelf-availability/",
-                "link2": "https://www.traxretail.com/",
-                "prevwork": "A study of several technologies from multiple partners has been done during 2018. The economic viability is not proved with the current data. Technical alternative are being explored based on low-cost sensors.",
-                "howtoapproach": "EXPERIMENT this technology building on the previous work exploring its viability and feasibility to tackle actual challenges, experimenting in the field and measuring the benefits to the business."
+                "link": "https://www.eyeconic.com/help-me/virtual-try-on",
+                "link2": "https://mashable.com/2017/06/22/meitu-makeup-counter/?europe=true#DiO2DQUfVkqE",
+                "prevwork": "",
+                "howtoapproach": ""
             }
         },
         "vocabulary_ich_1104": {
@@ -37568,20 +37561,27 @@
         "vocabulary_ich_1305": {
             "type": "concept",
             "group": "threat",
-            "label": "Artificial Intelligence For Recommendations",
+            "label": "Transparent Solar Panels",
             "meta": {
                 "icon": {
-                    "small": "http://linktoleaders.com/wp-content/uploads/2018/01/shutterstock_683493121.jpg",
-                    "large": "http://linktoleaders.com/wp-content/uploads/2018/01/shutterstock_683493121.jpg"
+                    "small": "https://images.pexels.com/photos/432185/pexels-photo-432185.jpeg",
+                    "large": "https://images.pexels.com/photos/432185/pexels-photo-432185.jpeg"
                 },
-                "description": "Machine learning and optimization algorithms can look for and exploit observed patterns, correlations, and relationships among data elements of customer�s purchases. \nIn this way, automatic suggestion of discounts based on previous and continuous purchases. ",
+                "description": "SmartWindow controls inside systems, such as ventilation and sun blinds, based on information about the outside conditions around the building. Simultaneously these systems are powered by patented integrated solar technology, making energy consumption go down, while the sustainable electricity production of the building goes up.",
                 "list": "Trend Enabling Technology",
-                "year": "Seamlessness/Ease",
+                "year": "Sustainability",
                 "multinational": false,
-                "link": "https://shelf.ai/",
-                "link2": "",
-                "prevwork": "Smart continent APP has recommendation functionalities based in purchase history. Use other data to improve recommendation accuracy can be explored as next step.",
-                "howtoapproach": "STUDY this technology to learn who can bring it to the market, what are the associated business models, which are the challenges it can address, and what is the viability and feasibility to address them."
+                "link": "https://news.energysage.com/solar-panel-windows-solar-blinds/",
+                "link2": "https://www.sustainability-times.com/green-consumerism/delivering-on-design-that-brings-solar-energy-home/",
+                "prevwork": "",
+                "howtoapproach": "Keep VIGILANT WATCH over this technology checking up its maturity following the involved players.",
+                "images": [
+                    {
+                        "url": "https://wp.physee.eu/wp-content/uploads/2018/08/Home-e1534845282140.jpg",
+                        "copyright": "",
+                        "title": ""
+                    }
+                ]
             }
         },
         "vocabulary_ich_2": {
@@ -37622,36 +37622,55 @@
         "vocabulary_ich_1080": {
             "type": "concept",
             "group": "threat",
-            "label": "Exosqueletons",
+            "label": "Solar Energy with storage",
             "meta": {
                 "icon": {
-                    "small": "http://en.laevo.nl/wp-content/uploads//2018/07/easy-to-wear.png",
-                    "large": "http://en.laevo.nl/wp-content/uploads//2018/07/easy-to-wear.png"
+                    "small": "https://www.elitereaders.com/wp-content/uploads/2017/02/Smartflower-main.jpg",
+                    "large": "https://www.elitereaders.com/wp-content/uploads/2017/02/Smartflower-main.jpg"
                 },
-                "description": "Robotic devices are used to improve the life and everyday activities of people with reduced mobility and with heavy tasks by using robotics and other devices that fit in our bodies. These devices helps with the movement.",
+                "description": "SmartFlower: All-in-one solar module that includes a sun tracker and storage capacity capable of enabling off the grid buildings\nTesla solar and Powerpack systems can be used by commercial organizations to achieve greater control, reliability and security. Powerpack integrates seamlessly with solar to shave peak energy usage, lower demand charges and generate new revenue streams from grid services and demand response programs.",
                 "list": "Trend Enabling Technology",
-                "year": "Corporate Responsibility",
+                "year": "Sustainability",
                 "multinational": false,
-                "link": "https://exoskeletonreport.com/product-category/exoskeleton-catalog/industrial/",
-                "link2": "",
-                "prevwork": "A study about exoskeletons and other wearable for injury prevention is available. Currently an experiment in under discussion.",
-                "howtoapproach": "EXPERIMENT this technology building on the previous work exploring its viability and feasibility to tackle actual challenges, experimenting in the field and measuring the benefits to the business."
+                "link": "https://news.energysage.com/tesla-solar-panel-roof-the-next-solar-shingles/",
+                "link2": "http://smartflowersolar.com/",
+                "prevwork": "",
+                "howtoapproach": "STUDY this technology to learn who can bring it to the market, what are the associated business models, which are the challenges it can address, and what is the viability and feasibility to address them.",
+                "images": [
+                    {
+                        "url": "https://www.tesla.com/sites/default/files/images/energy/solarroof-smooth-glass.jpg",
+                        "copyright": "",
+                        "title": ""
+                    },
+                    {
+                        "url": "http://www.fotovoltaicosulweb.it/immagini/upload/guida/girasole.jpg",
+                        "copyright": "",
+                        "title": ""
+                    }
+                ],
+                "video": [
+                    {
+                        "url": "https://youtu.be/vZuQOUA9rLk",
+                        "copyright": "",
+                        "title": ""
+                    }
+                ]
             }
         },
         "vocabulary_ich_1293": {
             "type": "concept",
             "group": "threat",
-            "label": "FoodPrint",
+            "label": "Food Sharing",
             "meta": {
                 "icon": {
-                    "small": "https://images.pexels.com/photos/139259/pexels-photo-139259.jpeg",
-                    "large": "https://images.pexels.com/photos/139259/pexels-photo-139259.jpeg"
+                    "small": "https://s-media-cache-ak0.pinimg.com/originals/73/2f/68/732f682e1afd4bf599d8f391b9481d2e.png",
+                    "large": "https://s-media-cache-ak0.pinimg.com/originals/73/2f/68/732f682e1afd4bf599d8f391b9481d2e.png"
                 },
-                "description": "\"Nutrino collects data on both food composition and individuals' health and, through its trademarked FoodPrint technology, combines the two to analyse how people's bodies react to different foods. It then makes personalised suggestions, recommending the foods that are the healthiest possible choices for the individual in question.\"",
-                "list": "Real Trend Implementation",
-                "year": "Hiper Personalization",
+                "description": "OLIO connects neighbours with each other and with local shops so surplus food and other items can be shared, not thrown away.\nIf you love food, hate waste, care about the environment or want to connect with your community, OLIO is for you.",
+                "list": "Trend Enabling Partner",
+                "year": "Sustainability",
                 "multinational": false,
-                "link": "https://www.nutrinohealth.com/",
+                "link": "https://olioex.com/",
                 "link2": "",
                 "prevwork": "",
                 "howtoapproach": ""
@@ -37665,20 +37684,20 @@
         "vocabulary_ich_1215": {
             "type": "concept",
             "group": "threat",
-            "label": "Nano Influencers",
+            "label": "Autonomous Stores",
             "meta": {
                 "icon": {
-                    "small": "",
-                    "large": ""
+                    "small": "https://www.sensei.tech/wp-content/uploads/tech-dragger2.jpg",
+                    "large": "https://www.sensei.tech/wp-content/uploads/tech-dragger2.jpg"
                 },
-                "description": "Tubular is the only company that measures all video content cross-platform, all-device, globally. Allowing the shift from micro influencer to nano influencers.",
-                "list": "Trend Enabling Partner",
-                "year": "Informed People",
+                "description": "Sensei and Trigon Vision are startups that aim to challenge the Amazon Go concept in other retainers. They use comouter vision to recognize what each product looks like when it goes into a customer�s hand or shopping basket, providing a scalable, seamless store-wide solution that empowers the stores of the future to be check-out and cash free.",
+                "list": "Trend Enabling Technology",
+                "year": "Seamlessness/Ease",
                 "multinational": false,
-                "link": "https://tubularlabs.com/",
-                "link2": "https://www.forbes.com/sites/dbloom/2019/01/01/influencer-marketing-top-trends-2019/#3ff4e706b255",
-                "prevwork": "",
-                "howtoapproach": ""
+                "link": "https://www.prnewswire.com/news-releases/israel-s-shufersal-the-first-supermarket-chain-to-offer-customers-amazon-go-experience-with-trigo-vision-872123282.html",
+                "link2": "https://www.sensei.tech/",
+                "prevwork": "SONAE is approaching both companies (Sensei and Trigo Vision) to explore the possibility of test the staff less store concept with our customers.",
+                "howtoapproach": "EXPERIMENT this technology building on the previous work exploring its viability and feasibility to tackle actual challenges, experimenting in the field and measuring the benefits to the business."
             }
         },
         "vocabulary_ich_908": {
@@ -37739,32 +37758,20 @@
         "vocabulary_ich_1035": {
             "type": "concept",
             "group": "threat",
-            "label": "Pha - Waste Based Bioplastic",
+            "label": "FoodPrint",
             "meta": {
                 "icon": {
-                    "small": "https://www.kunststoffe.de/en/_storage/asset/4825988/storage/chv-zoom/file/34841439/16731297.jpg",
-                    "large": "https://www.kunststoffe.de/en/_storage/asset/4825988/storage/chv-zoom/file/34841439/16731297.jpg"
+                    "small": "https://thespoon.tech/wp-content/uploads/2018/04/Screen-Shot-2018-04-11-at-9.24.20-AM.png",
+                    "large": "https://thespoon.tech/wp-content/uploads/2018/04/Screen-Shot-2018-04-11-at-9.24.20-AM.png"
                 },
-                "description": "polyhydroxyalkanoates (PHA) are polyesters produced in nature by numerous microorganisms, including through bacterial fermentation of sugar or lipids. PHA have active properties and act as a passive barrier to reduce food waste by prolonging food shelf life. PHA can be produced using food industry by-products, such as cheese whey and almond shells, which assure the biodegradability and recyclability, and reduce food waste.",
-                "list": "Trend Enabling Technology",
-                "year": "Sustainability",
+                "description": "\"Nutrino collects data on both food composition and individuals' health and, through its trademarked FoodPrint technology, combines the two to analyse how people's bodies react to different foods. It then makes personalised suggestions, recommending the foods that are the healthiest possible choices for the individual in question.\"",
+                "list": "Real Trend Implementation",
+                "year": "Health and Wellness",
                 "multinational": false,
-                "link": "https://www.ypack.eu/",
+                "link": "https://www.nutrinohealth.com/",
                 "link2": "",
-                "prevwork": "The Y-pack funded project is under development to experiment 2 PHA based packages for fresh fuit: a fully renewable flow pack film and fully compostable tray.",
-                "howtoapproach": "EXPERIMENT this technology building on the previous work exploring its viability and feasibility to tackle actual challenges, experimenting in the field and measuring the benefits to the business.",
-                "images": [
-                    {
-                        "url": "https://www.organicgardener.com.au/sites/default/files/styles/620x/public/images/blogs/Unknown-1_0.png",
-                        "copyright": "",
-                        "title": ""
-                    },
-                    {
-                        "url": "https://www.eufic.org/images/uploads/food-safety/_euthumb/YPACK-green.png",
-                        "copyright": "",
-                        "title": ""
-                    }
-                ]
+                "prevwork": "",
+                "howtoapproach": ""
             }
         },
         "vocabulary_ich_136": {
@@ -38015,7 +38022,7 @@
         "vocabulary_ich_1297": {
             "type": "concept",
             "group": "threat",
-            "label": "Artificial Intelligence For Employee Assistence",
+            "label": "Chatbots for Employees",
             "meta": {
                 "icon": {
                     "small": "https://www.petfoodindustry.com/ext/resources/Images-by-month-year/16_06/woman-salesman-using-tablet-in-pet-store.jpg",
@@ -38049,20 +38056,32 @@
         "vocabulary_ich_1122": {
             "type": "concept",
             "group": "threat",
-            "label": "Artificial Vision for Autonomous Stores",
+            "label": "Waste Based Bioplastic",
             "meta": {
                 "icon": {
-                    "small": "https://www.sensei.tech/wp-content/uploads/tech-dragger2.jpg",
-                    "large": "https://www.sensei.tech/wp-content/uploads/tech-dragger2.jpg"
+                    "small": "https://www.kunststoffe.de/en/_storage/asset/4825988/storage/chv-zoom/file/34841439/16731297.jpg",
+                    "large": "https://www.kunststoffe.de/en/_storage/asset/4825988/storage/chv-zoom/file/34841439/16731297.jpg"
                 },
-                "description": "Sensei and Trigon Vision are startups that aim to challenge the Amazon Go concept in other retainers. They use comouter vision to recognize what each product looks like when it goes into a customer�s hand or shopping basket, providing a scalable, seamless store-wide solution that empowers the stores of the future to be check-out and cash free.",
+                "description": "PolyHydroxyAlkanoates (PHA) are polyesters produced in nature by numerous microorganisms, including through bacterial fermentation of sugar or lipids. PHA have active properties and act as a passive barrier to reduce food waste by prolonging food shelf life. PHA can be produced using food industry by-products, such as cheese whey and almond shells, which assure the biodegradability and recyclability, and reduce food waste.",
                 "list": "Trend Enabling Technology",
-                "year": "Seamlessness/Ease",
+                "year": "Sustainability",
                 "multinational": false,
-                "link": "https://www.prnewswire.com/news-releases/israel-s-shufersal-the-first-supermarket-chain-to-offer-customers-amazon-go-experience-with-trigo-vision-872123282.html",
-                "link2": "https://www.sensei.tech/",
-                "prevwork": "SONAE is approaching both companies (Sensei and Trigo Vision) to explore the possibility of test the staff less store concept with our customers.",
-                "howtoapproach": "EXPERIMENT this technology building on the previous work exploring its viability and feasibility to tackle actual challenges, experimenting in the field and measuring the benefits to the business."
+                "link": "https://www.ypack.eu/",
+                "link2": "",
+                "prevwork": "The Y-pack funded project is under development to experiment 2 PHA based packages for fresh fuit: a fully renewable flow pack film and fully compostable tray.",
+                "howtoapproach": "EXPERIMENT this technology building on the previous work exploring its viability and feasibility to tackle actual challenges, experimenting in the field and measuring the benefits to the business.",
+                "images": [
+                    {
+                        "url": "https://www.organicgardener.com.au/sites/default/files/styles/620x/public/images/blogs/Unknown-1_0.png",
+                        "copyright": "",
+                        "title": ""
+                    },
+                    {
+                        "url": "https://www.eufic.org/images/uploads/food-safety/_euthumb/YPACK-green.png",
+                        "copyright": "",
+                        "title": ""
+                    }
+                ]
             }
         },
         "vocabulary_ich_157": {
@@ -38113,27 +38132,20 @@
         "vocabulary_ich_1041": {
             "type": "concept",
             "group": "threat",
-            "label": "Hidro Soluble - Pvoh Packaging",
+            "label": "DNA Metabolic Analysis",
             "meta": {
                 "icon": {
-                    "small": "http://cdn-cv.r4you.co/wp-content/uploads/2018/07/imagenPrincipal-499-800x400.jpg",
-                    "large": "http://cdn-cv.r4you.co/wp-content/uploads/2018/07/imagenPrincipal-499-800x400.jpg"
+                    "small": "https://cdn.vox-cdn.com/thumbor/_DgeJfMtFSnt-LSMrXMF15XEmXI=/0x0:2124x1593/920x613/filters:focal(0x0:2124x1593):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/51633001/dna-lettuce-3.0.0.jpg",
+                    "large": "https://cdn.vox-cdn.com/thumbor/_DgeJfMtFSnt-LSMrXMF15XEmXI=/0x0:2124x1593/920x613/filters:focal(0x0:2124x1593):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/51633001/dna-lettuce-3.0.0.jpg"
                 },
-                "description": "PVOH (Polyvinyl alcohol) is a synthetic polymer that degrades when is in contact with water and do not contaminate. It has no odor and is not toxic, and is resistant to grease, oils, and solvents. It is ductile but strong, flexible, and functions as a high oxygen and aroma barrier. It can be used to do plastic bags or other packagings.",
+                "description": "The genetic metabolic analysis determines how the client digests the macronutrients (carbohydrates, proteins and fats ) which are differently digested by people. This way it is possible to recommend the diet type which is likely to work best for the client.",
                 "list": "Trend Enabling Technology",
-                "year": "Sustainability",
+                "year": "Health And Wellness",
                 "multinational": false,
-                "link": "https://www.noticiasmagazine.pt/2018/sacos-plastico-amigos-do-planeta-sim-ja-existem/ ",
-                "link2": "http://solubag.cl/",
-                "prevwork": "A study is under development to explore the possibility of using this material in bags for groceries or dry products sold in bulk (e.g. fruits and vegetables).",
-                "howtoapproach": "STUDY this technology to learn who can bring it to the market, what are the associated business models, which are the challenges it can address, and what is the viability and feasibility to address them.",
-                "video": [
-                    {
-                        "url": "https://www.youtube.com/watch?v=y-fIAhAWWrY",
-                        "copyright": "",
-                        "title": ""
-                    }
-                ]
+                "link": "https://www.cogap.de/en",
+                "link2": "https://www.vox.com/2016/11/2/13453434/personalized-diet-nutrition-dna",
+                "prevwork": "",
+                "howtoapproach": "Study this technology to learn who can bring it to the market, what are the associated business models, which are the challenges it can address, and what is the viability and feasibility to address them."
             }
         },
         "vocabulary_ich_1312": {
@@ -38169,23 +38181,23 @@
         "vocabulary_ich_1207": {
             "type": "concept",
             "group": "threat",
-            "label": "Solar Panel Windows",
+            "label": "Food Production Robots",
             "meta": {
                 "icon": {
-                    "small": "https://images.pexels.com/photos/432185/pexels-photo-432185.jpeg",
-                    "large": "https://images.pexels.com/photos/432185/pexels-photo-432185.jpeg"
+                    "small": "http://blog.wikipme.fr/wp-content/uploads/2017/10/Bruno_2__1_.0.jpg",
+                    "large": "http://blog.wikipme.fr/wp-content/uploads/2017/10/Bruno_2__1_.0.jpg"
                 },
-                "description": "SmartWindow controls inside systems, such as ventilation and sun blinds, based on information about the outside conditions around the building. Simultaneously these systems are powered by patented integrated solar technology, making energy consumption go down, while the sustainable electricity production of the building goes up.",
+                "description": "Robots can be applied to a variety of food production systems to improve performance. ",
                 "list": "Trend Enabling Technology",
-                "year": "Sustainability",
+                "year": "Informed People",
                 "multinational": false,
-                "link": "https://news.energysage.com/solar-panel-windows-solar-blinds/",
-                "link2": "https://www.sustainability-times.com/green-consumerism/delivering-on-design-that-brings-solar-energy-home/",
+                "link": "https://food.ndtv.com/food-drinks/robots-used-for-packaging-processing-fruits-and-veggies-1208177",
+                "link2": "https://www.iflscience.com/technology/robot-chef-home-could-arrive-2017/",
                 "prevwork": "",
-                "howtoapproach": "Keep VIGILANT WATCH over this technology checking up its maturity following the involved players.",
-                "images": [
+                "howtoapproach": "STUDY this technology to learn who can bring it to the market, what are the associated business models, which are the challenges it can address, and what is the viability and feasibility to address them.",
+                "video": [
                     {
-                        "url": "https://wp.physee.eu/wp-content/uploads/2018/08/Home-e1534845282140.jpg",
+                        "url": "https://youtu.be/hXSeK5T2yII",
                         "copyright": "",
                         "title": ""
                     }
@@ -41482,6 +41494,12 @@
             "weight": 2
         },
         {
+            "subject": "vocabulary_ich_1235",
+            "predicate": "broader",
+            "object": "vocabulary_ich_1268",
+            "weight": 2
+        },
+        {
             "subject": "element_294",
             "predicate": "related",
             "object": "vocabulary_ich_1269",
@@ -41598,7 +41616,7 @@
         {
             "subject": "element_1",
             "predicate": "related",
-            "object": "vocabulary_ich_1269",
+            "object": "vocabulary_ich_1265",
             "weight": 2
         },
         {
@@ -41740,129 +41758,15 @@
             "weight": 2
         },
         {
-            "subject": "element_43",
-            "predicate": "related",
-            "object": "vocabulary_ich_1299",
-            "weight": 2
-        },
-        {
             "subject": "element_295",
             "predicate": "related",
-            "object": "vocabulary_ich_1299",
+            "object": "vocabulary_ich_1246",
             "weight": 2
         },
         {
-            "subject": "vocabulary_ich_1299",
+            "subject": "vocabulary_ich_1246",
             "predicate": "broader",
-            "object": "vocabulary_ich_1263",
-            "weight": 2
-        },
-        {
-            "subject": "element_6",
-            "predicate": "related",
-            "object": "vocabulary_ich_1289",
-            "weight": 2
-        },
-        {
-            "subject": "vocabulary_ich_1289",
-            "predicate": "broader",
-            "object": "vocabulary_ich_1263",
-            "weight": 2
-        },
-        {
-            "subject": "element_6",
-            "predicate": "related",
-            "object": "vocabulary_ich_1303",
-            "weight": 2
-        },
-        {
-            "subject": "vocabulary_ich_1303",
-            "predicate": "broader",
-            "object": "vocabulary_ich_1263",
-            "weight": 2
-        },
-        {
-            "subject": "element_302",
-            "predicate": "related",
-            "object": "vocabulary_ich_1295",
-            "weight": 2
-        },
-        {
-            "subject": "element_552",
-            "predicate": "related",
-            "object": "vocabulary_ich_1295",
-            "weight": 2
-        },
-        {
-            "subject": "vocabulary_ich_1295",
-            "predicate": "broader",
-            "object": "vocabulary_ich_1268",
-            "weight": 2
-        },
-        {
-            "subject": "element_302",
-            "predicate": "related",
-            "object": "vocabulary_ich_1235",
-            "weight": 2
-        },
-        {
-            "subject": "element_552",
-            "predicate": "related",
-            "object": "vocabulary_ich_1235",
-            "weight": 2
-        },
-        {
-            "subject": "vocabulary_ich_1235",
-            "predicate": "broader",
-            "object": "vocabulary_ich_1268",
-            "weight": 2
-        },
-        {
-            "subject": "element_9",
-            "predicate": "related",
-            "object": "vocabulary_ich_1102",
-            "weight": 2
-        },
-        {
-            "subject": "vocabulary_ich_1102",
-            "predicate": "broader",
-            "object": "vocabulary_ich_1286",
-            "weight": 2
-        },
-        {
-            "subject": "element_325",
-            "predicate": "related",
-            "object": "vocabulary_ich_1041",
-            "weight": 2
-        },
-        {
-            "subject": "vocabulary_ich_1041",
-            "predicate": "broader",
-            "object": "vocabulary_ich_1286",
-            "weight": 2
-        },
-        {
-            "subject": "element_43",
-            "predicate": "related",
-            "object": "vocabulary_ich_1118",
-            "weight": 2
-        },
-        {
-            "subject": "vocabulary_ich_1118",
-            "predicate": "broader",
-            "object": "vocabulary_ich_1263",
-            "weight": 2
-        },
-        {
-            "subject": "element_43",
-            "predicate": "related",
-            "object": "vocabulary_ich_1127",
-            "weight": 2
-        },
-        {
-            "subject": "vocabulary_ich_1127",
-            "predicate": "broader",
-            "object": "vocabulary_ich_1263",
+            "object": "vocabulary_ich_1265",
             "weight": 2
         },
         {
@@ -41886,6 +41790,18 @@
         {
             "subject": "element_295",
             "predicate": "related",
+            "object": "vocabulary_ich_1296",
+            "weight": 2
+        },
+        {
+            "subject": "vocabulary_ich_1296",
+            "predicate": "broader",
+            "object": "vocabulary_ich_1265",
+            "weight": 2
+        },
+        {
+            "subject": "element_295",
+            "predicate": "related",
             "object": "vocabulary_ich_1246",
             "weight": 2
         },
@@ -41896,175 +41812,31 @@
             "weight": 2
         },
         {
-            "subject": "element_14",
+            "subject": "element_302",
             "predicate": "related",
-            "object": "vocabulary_ich_1305",
-            "weight": 2
-        },
-        {
-            "subject": "vocabulary_ich_1305",
-            "predicate": "broader",
-            "object": "vocabulary_ich_1269",
-            "weight": 2
-        },
-        {
-            "subject": "element_537",
-            "predicate": "related",
-            "object": "vocabulary_ich_1212",
-            "weight": 2
-        },
-        {
-            "subject": "vocabulary_ich_1212",
-            "predicate": "broader",
-            "object": "vocabulary_ich_1286",
-            "weight": 2
-        },
-        {
-            "subject": "element_562",
-            "predicate": "related",
-            "object": "vocabulary_ich_1236",
-            "weight": 2
-        },
-        {
-            "subject": "vocabulary_ich_1236",
-            "predicate": "broader",
-            "object": "vocabulary_ich_1286",
-            "weight": 2
-        },
-        {
-            "subject": "element_537",
-            "predicate": "related",
-            "object": "vocabulary_ich_1239",
-            "weight": 2
-        },
-        {
-            "subject": "vocabulary_ich_1239",
-            "predicate": "broader",
-            "object": "vocabulary_ich_1286",
-            "weight": 2
-        },
-        {
-            "subject": "element_537",
-            "predicate": "related",
-            "object": "vocabulary_ich_1207",
-            "weight": 2
-        },
-        {
-            "subject": "vocabulary_ich_1207",
-            "predicate": "broader",
-            "object": "vocabulary_ich_1286",
-            "weight": 2
-        },
-        {
-            "subject": "element_537",
-            "predicate": "related",
-            "object": "vocabulary_ich_1058",
-            "weight": 2
-        },
-        {
-            "subject": "vocabulary_ich_1058",
-            "predicate": "broader",
-            "object": "vocabulary_ich_1286",
-            "weight": 2
-        },
-        {
-            "subject": "element_294",
-            "predicate": "related",
-            "object": "vocabulary_ich_1122",
+            "object": "vocabulary_ich_1295",
             "weight": 2
         },
         {
             "subject": "element_552",
             "predicate": "related",
-            "object": "vocabulary_ich_1122",
+            "object": "vocabulary_ich_1295",
             "weight": 2
         },
         {
-            "subject": "vocabulary_ich_1122",
+            "subject": "vocabulary_ich_1295",
             "predicate": "broader",
-            "object": "vocabulary_ich_1269",
+            "object": "vocabulary_ich_1268",
             "weight": 2
         },
         {
-            "subject": "element_8",
+            "subject": "element_302",
             "predicate": "related",
-            "object": "vocabulary_ich_1080",
+            "object": "vocabulary_ich_1314",
             "weight": 2
         },
         {
-            "subject": "vocabulary_ich_1080",
-            "predicate": "broader",
-            "object": "vocabulary_ich_1284",
-            "weight": 2
-        },
-        {
-            "subject": "element_9",
-            "predicate": "related",
-            "object": "vocabulary_ich_1035",
-            "weight": 2
-        },
-        {
-            "subject": "element_325",
-            "predicate": "related",
-            "object": "vocabulary_ich_1035",
-            "weight": 2
-        },
-        {
-            "subject": "vocabulary_ich_1035",
-            "predicate": "broader",
-            "object": "vocabulary_ich_1286",
-            "weight": 2
-        },
-        {
-            "subject": "element_549",
-            "predicate": "related",
-            "object": "vocabulary_ich_1307",
-            "weight": 2
-        },
-        {
-            "subject": "vocabulary_ich_1307",
-            "predicate": "broader",
-            "object": "vocabulary_ich_1287",
-            "weight": 2
-        },
-        {
-            "subject": "element_293",
-            "predicate": "related",
-            "object": "vocabulary_ich_1301",
-            "weight": 2
-        },
-        {
-            "subject": "vocabulary_ich_1301",
-            "predicate": "broader",
-            "object": "vocabulary_ich_1264",
-            "weight": 2
-        },
-        {
-            "subject": "element_293",
-            "predicate": "related",
-            "object": "vocabulary_ich_1300",
-            "weight": 2
-        },
-        {
-            "subject": "vocabulary_ich_1300",
-            "predicate": "broader",
-            "object": "vocabulary_ich_1264",
-            "weight": 2
-        },
-        {
-            "subject": "element_298",
-            "predicate": "related",
-            "object": "vocabulary_ich_1215",
-            "weight": 2
-        },
-        {
-            "subject": "vocabulary_ich_1215",
-            "predicate": "broader",
-            "object": "vocabulary_ich_1263",
-            "weight": 2
-        },
-        {
-            "subject": "element_13",
+            "subject": "element_552",
             "predicate": "related",
             "object": "vocabulary_ich_1314",
             "weight": 2
@@ -42078,53 +41850,245 @@
         {
             "subject": "element_13",
             "predicate": "related",
-            "object": "vocabulary_ich_1296",
-            "weight": 2
-        },
-        {
-            "subject": "vocabulary_ich_1296",
-            "predicate": "broader",
-            "object": "vocabulary_ich_1265",
-            "weight": 2
-        },
-        {
-            "subject": "element_1",
-            "predicate": "related",
-            "object": "vocabulary_ich_1213",
-            "weight": 2
-        },
-        {
-            "subject": "vocabulary_ich_1213",
-            "predicate": "broader",
-            "object": "vocabulary_ich_1269",
-            "weight": 2
-        },
-        {
-            "subject": "element_563",
-            "predicate": "related",
             "object": "vocabulary_ich_1114",
             "weight": 2
         },
         {
             "subject": "vocabulary_ich_1114",
             "predicate": "broader",
+            "object": "vocabulary_ich_1268",
+            "weight": 2
+        },
+        {
+            "subject": "element_13",
+            "predicate": "related",
+            "object": "vocabulary_ich_1307",
+            "weight": 2
+        },
+        {
+            "subject": "vocabulary_ich_1307",
+            "predicate": "broader",
+            "object": "vocabulary_ich_1268",
+            "weight": 2
+        },
+        {
+            "subject": "element_19",
+            "predicate": "related",
+            "object": "vocabulary_ich_1300",
+            "weight": 2
+        },
+        {
+            "subject": "vocabulary_ich_1300",
+            "predicate": "broader",
+            "object": "vocabulary_ich_1268",
+            "weight": 2
+        },
+        {
+            "subject": "element_8",
+            "predicate": "related",
+            "object": "vocabulary_ich_1301",
+            "weight": 2
+        },
+        {
+            "subject": "vocabulary_ich_1301",
+            "predicate": "broader",
+            "object": "vocabulary_ich_1284",
+            "weight": 2
+        },
+        {
+            "subject": "element_563",
+            "predicate": "related",
+            "object": "vocabulary_ich_1212",
+            "weight": 2
+        },
+        {
+            "subject": "vocabulary_ich_1212",
+            "predicate": "broader",
             "object": "vocabulary_ich_1287",
             "weight": 2
         },
         {
-            "subject": "element_17",
+            "subject": "element_549",
             "predicate": "related",
-            "object": "vocabulary_ich_1293",
+            "object": "vocabulary_ich_1102",
             "weight": 2
         },
         {
-            "subject": "vocabulary_ich_1293",
+            "subject": "vocabulary_ich_1102",
             "predicate": "broader",
-            "object": "vocabulary_ich_1267",
+            "object": "vocabulary_ich_1287",
+            "weight": 2
+        },
+        {
+            "subject": "element_293",
+            "predicate": "related",
+            "object": "vocabulary_ich_1041",
+            "weight": 2
+        },
+        {
+            "subject": "vocabulary_ich_1041",
+            "predicate": "broader",
+            "object": "vocabulary_ich_1264",
+            "weight": 2
+        },
+        {
+            "subject": "element_293",
+            "predicate": "related",
+            "object": "vocabulary_ich_1035",
+            "weight": 2
+        },
+        {
+            "subject": "vocabulary_ich_1035",
+            "predicate": "broader",
+            "object": "vocabulary_ich_1264",
+            "weight": 2
+        },
+        {
+            "subject": "element_293",
+            "predicate": "related",
+            "object": "vocabulary_ich_1236",
+            "weight": 2
+        },
+        {
+            "subject": "vocabulary_ich_1236",
+            "predicate": "broader",
+            "object": "vocabulary_ich_1264",
+            "weight": 2
+        },
+        {
+            "subject": "element_43",
+            "predicate": "related",
+            "object": "vocabulary_ich_1239",
+            "weight": 2
+        },
+        {
+            "subject": "element_295",
+            "predicate": "related",
+            "object": "vocabulary_ich_1239",
+            "weight": 2
+        },
+        {
+            "subject": "vocabulary_ich_1239",
+            "predicate": "broader",
+            "object": "vocabulary_ich_1263",
+            "weight": 2
+        },
+        {
+            "subject": "element_43",
+            "predicate": "related",
+            "object": "vocabulary_ich_1207",
+            "weight": 2
+        },
+        {
+            "subject": "vocabulary_ich_1207",
+            "predicate": "broader",
+            "object": "vocabulary_ich_1263",
+            "weight": 2
+        },
+        {
+            "subject": "element_43",
+            "predicate": "related",
+            "object": "vocabulary_ich_1058",
+            "weight": 2
+        },
+        {
+            "subject": "vocabulary_ich_1058",
+            "predicate": "broader",
+            "object": "vocabulary_ich_1263",
+            "weight": 2
+        },
+        {
+            "subject": "element_6",
+            "predicate": "related",
+            "object": "vocabulary_ich_1127",
+            "weight": 2
+        },
+        {
+            "subject": "vocabulary_ich_1127",
+            "predicate": "broader",
+            "object": "vocabulary_ich_1263",
+            "weight": 2
+        },
+        {
+            "subject": "element_6",
+            "predicate": "related",
+            "object": "vocabulary_ich_1118",
+            "weight": 2
+        },
+        {
+            "subject": "vocabulary_ich_1118",
+            "predicate": "broader",
+            "object": "vocabulary_ich_1263",
             "weight": 2
         },
         {
             "subject": "element_298",
+            "predicate": "related",
+            "object": "vocabulary_ich_1299",
+            "weight": 2
+        },
+        {
+            "subject": "vocabulary_ich_1299",
+            "predicate": "broader",
+            "object": "vocabulary_ich_1263",
+            "weight": 2
+        },
+        {
+            "subject": "element_294",
+            "predicate": "related",
+            "object": "vocabulary_ich_1215",
+            "weight": 2
+        },
+        {
+            "subject": "element_552",
+            "predicate": "related",
+            "object": "vocabulary_ich_1215",
+            "weight": 2
+        },
+        {
+            "subject": "vocabulary_ich_1215",
+            "predicate": "broader",
+            "object": "vocabulary_ich_1269",
+            "weight": 2
+        },
+        {
+            "subject": "element_1",
+            "predicate": "related",
+            "object": "vocabulary_ich_1289",
+            "weight": 2
+        },
+        {
+            "subject": "element_294",
+            "predicate": "related",
+            "object": "vocabulary_ich_1289",
+            "weight": 2
+        },
+        {
+            "subject": "vocabulary_ich_1289",
+            "predicate": "broader",
+            "object": "vocabulary_ich_1269",
+            "weight": 2
+        },
+        {
+            "subject": "element_14",
+            "predicate": "related",
+            "object": "vocabulary_ich_1303",
+            "weight": 2
+        },
+        {
+            "subject": "element_294",
+            "predicate": "related",
+            "object": "vocabulary_ich_1303",
+            "weight": 2
+        },
+        {
+            "subject": "vocabulary_ich_1303",
+            "predicate": "broader",
+            "object": "vocabulary_ich_1269",
+            "weight": 2
+        },
+        {
+            "subject": "element_562",
             "predicate": "related",
             "object": "vocabulary_ich_1109",
             "weight": 2
@@ -42132,7 +42096,73 @@
         {
             "subject": "vocabulary_ich_1109",
             "predicate": "broader",
-            "object": "vocabulary_ich_1263",
+            "object": "vocabulary_ich_1286",
+            "weight": 2
+        },
+        {
+            "subject": "element_537",
+            "predicate": "related",
+            "object": "vocabulary_ich_1080",
+            "weight": 2
+        },
+        {
+            "subject": "vocabulary_ich_1080",
+            "predicate": "broader",
+            "object": "vocabulary_ich_1286",
+            "weight": 2
+        },
+        {
+            "subject": "element_537",
+            "predicate": "related",
+            "object": "vocabulary_ich_1305",
+            "weight": 2
+        },
+        {
+            "subject": "vocabulary_ich_1305",
+            "predicate": "broader",
+            "object": "vocabulary_ich_1286",
+            "weight": 2
+        },
+        {
+            "subject": "element_325",
+            "predicate": "related",
+            "object": "vocabulary_ich_1213",
+            "weight": 2
+        },
+        {
+            "subject": "vocabulary_ich_1213",
+            "predicate": "broader",
+            "object": "vocabulary_ich_1286",
+            "weight": 2
+        },
+        {
+            "subject": "element_9",
+            "predicate": "related",
+            "object": "vocabulary_ich_1122",
+            "weight": 2
+        },
+        {
+            "subject": "element_325",
+            "predicate": "related",
+            "object": "vocabulary_ich_1122",
+            "weight": 2
+        },
+        {
+            "subject": "vocabulary_ich_1122",
+            "predicate": "broader",
+            "object": "vocabulary_ich_1286",
+            "weight": 2
+        },
+        {
+            "subject": "element_9",
+            "predicate": "related",
+            "object": "vocabulary_ich_1293",
+            "weight": 2
+        },
+        {
+            "subject": "vocabulary_ich_1293",
+            "predicate": "broader",
+            "object": "vocabulary_ich_1286",
             "weight": 2
         }
     ]
