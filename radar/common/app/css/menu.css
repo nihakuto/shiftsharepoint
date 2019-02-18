@@ -24,10 +24,14 @@
 
 #menu-button:after {
     content: '?';
+    position: relative;
+    top: -7px  ;
 }
 
 #menu:hover #menu-button:after {
     content: '-';
+    position: relative;
+    top: 0px  ;
 }
 
 #menu:hover #menu-button {

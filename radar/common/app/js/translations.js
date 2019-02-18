@@ -32,7 +32,8 @@ const common_translations = {
         "trend enabling partner": "Trend Enabling Partner",
         "trend evidence": "Trend Evidence",
         "real trend implementation": "Real Trend Implementation",
-        "trend enabling technology": "Trend Enabling Technology"
+        "trend enabling technology": "Trend Enabling Technology",
+        "trend application": "Trend Application"
     },
     "fr": {
         "ich": "Patrimoine culturel immatériel",

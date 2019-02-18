@@ -27,6 +27,20 @@ function createModal(obj) {
     if(obj.meta && obj.meta.description) d3.select("#modal-node-description").html(obj.meta.description)
     else d3.select("#modal-node-description").html(null)
 
+    if(!obj.meta || (!obj.meta.highlighttype)) { //List of trends in the highlighttype field
+        d3.select("#modal-node-highlighttype").style("display","none")
+    } else {
+        d3.select("#modal-node-highlighttype").style("display","block")
+        d3.select("#modal-node-highlighttype").html(null);
+        if (obj.meta && obj.meta.highlighttype[0]) {
+            if (obj.meta && obj.meta.highlighttype[1]) {
+                d3.select("#modal-node-highlighttype").html(obj.meta.highlighttype[0] + ', ' + obj.meta.highlighttype[1]);
+            } else {
+                d3.select("#modal-node-highlighttype").html(obj.meta.highlighttype[0]);
+            }
+        }
+    };
+
     d3.select("#modal-node-link").html(null);
     if (obj.meta && obj.meta.link) {
         if (obj.meta && obj.meta.link2) {
@@ -163,6 +177,213 @@ function createModal(obj) {
         let url = window.location.protocol + '//' + window.location.host + window.location.pathname + '?focus=' + obj.id.substring(8);
         permalink.setAttribute('style', 'display: block;');
         permalink.innerHTML = 'Permalink: <a href="' + url + '">' + url + '</a>';
+    }
+
+    // RADAR BUILDING HIGHLIGHTS
+
+    // Highlights
+    if(obj.meta && obj.meta.highlights && (obj.meta.highlights.implementation || obj.meta.highlights.partner || obj.meta.highlights.technology)) {
+
+        let highlightDiv = document.createElement('div');
+
+        if (obj.meta.highlights.implementation) {
+            let impH5 = document.createElement('h5');
+            impH5.setAttribute('class', 'mt-3');
+            impH5.innerHTML('Real Implementations');
+            let impRowDiv = document.createElement('div');
+            impRowDiv.setAttribute('class', 'row mt-3');
+            for(i = 0; i < obj.meta.highlights.implementation.length; i++) {
+                let colDiv = document.createElement('div');
+                colDiv.setAttribute('class', 'col-md-12');
+
+                let cardDiv = document.createElement('div');
+                cardDiv.setAttribute('class', 'card flex-md-row mb-3 box-shadow h-md-250');
+                cardDiv.setAttribute('card-id', "imp_"+i);
+
+                let thumbDiv = document.createElement('div');
+                thumbDiv.setAttribute('class', 'full-thumbnail');
+                if (obj.meta.highlights.implementation[i].image) {
+                    thumbDiv.setAttribute('style', "background-image: url('" + obj.meta.highlights.implementation[i].image + "');");
+                } else {
+                    thumbDiv.setAttribute('style', "background-image: url('https://via.placeholder.com/150?text=Placeholder')");
+                }
+                let cardBodyDiv = document.createElement('div');
+                cardBodyDiv.setAttribute('class', 'card-body d-flex flex-column align-items-start p-2');
+                
+                let impTitleH6 = document.createElement('h6');
+                impTitleH6.setAttribute('class', 'mb-1');
+                let impTitleAnchor = document.createElement('a');
+                impTitleAnchor.setAttribute('class', 'text-dark');
+                impTitleAnchor.innerHTML(obj.meta.highlights.implementation[i].name);
+                if (obj.meta.highlights.implementation[i].main_link) {
+                    impTitleAnchor.setAttribute('href', obj.meta.highlights.implementation[i].main_link);
+                }
+                let impDescParagraph = document.createElement('p');
+                impDescParagraph.setAttribute('class', 'card-text mb-auto');
+                if (obj.meta.highlights.implementation[i].description) {
+                    impDescParagraph.setAttribute('href', obj.meta.highlights.implementation[i].description);
+                }
+                let impLinksParagraph = document.createElement('p');
+                impLinksParagraph.setAttribute('class', 'card-text mb-auto');
+                for(j = 0; j < obj.meta.highlights.implementation[i].article_links.length; j++) {
+                    let impArticleAnchor = document.createElement('a');
+                    impArticleAnchor.setAttribute('href', obj.meta.highlights.implementation[i].article_links[j]);
+                    impArticleAnchor.innerHTML('Article #'+(j+1));
+                    impLinksParagraph.append(impArticleAnchor);
+                    if (j+1!==obj.meta.highlights.implementation[i].article_links.length) {impLinksParagraph.append(" | ")}
+                }
+                // Append all childs to all parents.
+                impTitleH6.append(impTitleAnchor);
+                cardBodyDiv.append(impTitleH6,impDescParagraph,impLinksParagraph);
+                cardDiv.append(thumbDiv,cardBodyDiv);
+                colDiv.append(cardDiv);
+                impRowDiv.append(colDiv);
+            }
+            highlightDiv.appendChild(impH5,impRowDiv);
+        }
+        if (obj.meta.highlights.technology) {
+            let techH5 = document.createElement('h5');
+            techH5.setAttribute('class', 'mt-3');
+            techH5.innerHTML('Enabling Emerging Technologies');
+            let techRowDiv = document.createElement('div');
+            techRowDiv.setAttribute('class', 'row mt-3');
+            for(i = 0; i < obj.meta.highlights.technology.length; i++) {
+                let colDiv = document.createElement('div');
+                colDiv.setAttribute('class', 'col-md-12');
+
+                let cardDiv = document.createElement('div');
+                cardDiv.setAttribute('class', 'card flex-md-row mb-3 box-shadow h-md-250');
+                cardDiv.setAttribute('card-id', "tech_"+i);
+
+                let thumbDiv = document.createElement('div');
+                thumbDiv.setAttribute('class', 'full-thumbnail');
+                if (obj.meta.highlights.technology[i].image) {
+                    thumbDiv.setAttribute('style', "background-image: url('" + obj.meta.highlights.technology[i].image + "');");
+                } else {
+                    thumbDiv.setAttribute('style', "background-image: url('https://via.placeholder.com/150?text=Placeholder')");
+                }
+                let cardBodyDiv = document.createElement('div');
+                cardBodyDiv.setAttribute('class', 'card-body d-flex flex-column align-items-start p-2');
+                
+                let techTitleH6 = document.createElement('h6');
+                techTitleH6.setAttribute('class', 'mb-1');
+                techTitleH6.innerHTML(obj.meta.highlights.technology[i].name);
+                cardBodyDiv.append(techTitleH6) // Append Title
+                // let techTitleAnchor = document.createElement('a');   // techTitleAnchor not needed - tech has no mainlink
+                // techTitleAnchor.setAttribute('class', 'text-dark');
+                // techTitleAnchor.innerHTML(obj.meta.highlights.technology[i].name);
+                // if (obj.meta.highlights.technology[i].main_link) {
+                //     techTitleAnchor.setAttribute('href', obj.meta.highlights.technology[i].main_link);
+                // }
+                if (obj.meta.highlights.technology[i].description) {
+                    let techDescParagraph = document.createElement('p');
+                    techDescParagraph.setAttribute('class', 'card-text mb-2');
+                    techDescParagraph.setAttribute('href', obj.meta.highlights.technology[i].description);
+                    cardBodyDiv.append(techDescParagraph) // Append Description Paragraph
+                }
+                if (obj.meta.highlights.technology[i].prevwork) {
+                    let techPrevWorkParagraph = document.createElement('p');
+                    techPrevWorkParagraph.setAttribute('class', 'card-text mb-auto');
+                    techPrevWorkParagraph.innerHTML('<strong>Previous work in SONAE:</strong> '+obj.meta.highlights.technology[i].prevwork);
+                    cardBodyDiv.append(techPrevWorkParagraph) // Append PrevWork Paragraph
+                }
+                if (obj.meta.highlights.technology[i].recommendation) {
+                    let techRecParagraph = document.createElement('p');
+                    techRecParagraph.setAttribute('class', 'card-text mb-auto');
+                    techRecParagraph.innerHTML('<strong>Recommended action for '+ (new Date()).getFullYear() +':</strong> '+obj.meta.highlights.technology[i].recommendation);
+                    cardBodyDiv.append(techRecParagraph) // Append Recommendation Paragraph
+                }
+                let techLinksParagraph = document.createElement('p');
+                techLinksParagraph.setAttribute('class', 'card-text mb-auto');
+                if (obj.meta.highlights.technology[i].prevworkurl) {
+                    let techIntUrlAnchor = document.createElement('a');
+                    techIntUrlAnchor.setAttribute('href', obj.meta.highlights.technology[i].prevworkurl);
+                    techIntUrlAnchor.innerHTML('Internal Report');
+                    techLinksParagraph.append(techIntUrlAnchor);
+                    if (obj.meta.highlights.technology[i].externalurls.length) {techLinksParagraph.append(" | ")}
+                }
+                for(j = 0; j < obj.meta.highlights.technology[i].externalurls.length; j++) {
+                    let techExtUrlAnchor = document.createElement('a');
+                    techExtUrlAnchor.setAttribute('href', obj.meta.highlights.technology[i].externalurls[j]);
+                    techExtUrlAnchor.innerHTML('External Report #'+(j+1));
+                    techLinksParagraph.append(techExtUrlAnchor);
+                    if (j+1!==obj.meta.highlights.technology[i].externalurls.length) {techLinksParagraph.append(" | ")}
+                }
+                if (obj.meta.highlights.technology[i].externalurls.length || obj.meta.highlights.technology[i].prevworkurl) {
+                    cardBodyDiv.append(techLinksParagraph)// Append Tech Links Paragraph
+                }
+                cardDiv.append(thumbDiv,cardBodyDiv);
+                colDiv.append(cardDiv);
+                techRowDiv.append(colDiv);
+            }
+            highlightDiv.appendChild(techH5,techRowDiv);
+        }
+        if (obj.meta.highlights.partner) {
+            let partH5 = document.createElement('h5');
+            partH5.setAttribute('class', 'mt-3');
+            partH5.innerHTML('Enabling Partners');
+            let partRowDiv = document.createElement('div');
+            partRowDiv.setAttribute('class', 'row mt-3');
+            for(i = 0; i < obj.meta.highlights.partner.length; i++) {
+                let colDiv = document.createElement('div');
+                colDiv.setAttribute('class', 'col-md-12');
+
+                let cardDiv = document.createElement('div');
+                cardDiv.setAttribute('class', 'card flex-md-row mb-3 box-shadow h-md-250');
+                cardDiv.setAttribute('card-id', "part_"+i);
+
+                let thumbDiv = document.createElement('div');
+                thumbDiv.setAttribute('class', 'full-thumbnail');
+                if (obj.meta.highlights.partner[i].image) {
+                    thumbDiv.setAttribute('style', "background-image: url('" + obj.meta.highlights.partner[i].image + "');");
+                } else {
+                    thumbDiv.setAttribute('style', "background-image: url('https://via.placeholder.com/150?text=Placeholder')");
+                }
+                let cardBodyDiv = document.createElement('div');
+                cardBodyDiv.setAttribute('class', 'card-body d-flex flex-column align-items-start p-2');
+                
+                let partTitleH6 = document.createElement('h6');
+                partTitleH6.setAttribute('class', 'mb-1');
+                partTitleH6.innerHTML(obj.meta.highlights.partner[i].name);
+                cardBodyDiv.append(partTitleH6) // Append Title
+                // let partTitleAnchor = document.createElement('a');   // partTitleAnchor not needed - part has no mainlink
+                // partTitleAnchor.setAttribute('class', 'text-dark');
+                // partTitleAnchor.innerHTML(obj.meta.highlights.partner[i].name);
+                // if (obj.meta.highlights.partner[i].main_link) {
+                //     partTitleAnchor.setAttribute('href', obj.meta.highlights.partner[i].main_link);
+                // }
+                if (obj.meta.highlights.partner[i].description) {
+                    let partDescParagraph = document.createElement('p');
+                    partDescParagraph.setAttribute('class', 'card-text mb-2');
+                    partDescParagraph.setAttribute('href', obj.meta.highlights.partner[i].description);
+                    cardBodyDiv.append(partDescParagraph) // Append Description Paragraph
+                }
+                let partLinksParagraph = document.createElement('p');
+                partLinksParagraph.setAttribute('class', 'card-text mb-auto');
+                if (obj.meta.highlights.partner[i].sonae_link.length) {
+                    let partIntUrlAnchor = document.createElement('a');
+                    partIntUrlAnchor.setAttribute('href', obj.meta.highlights.partner[i].sonae_link);
+                    partIntUrlAnchor.innerHTML('SONAR Contact');
+                    partLinksParagraph.append(partIntUrlAnchor);
+                    if (obj.meta.highlights.partner[i].article_links.length) {partLinksParagraph.append(" | ")}
+                }
+                for(j = 0; j < obj.meta.highlights.partner[i].article_links.length; j++) {
+                    let partExtUrlAnchor = document.createElement('a');
+                    partExtUrlAnchor.setAttribute('href', obj.meta.highlights.partner[i].article_links[j]);
+                    partExtUrlAnchor.innerHTML('Article #'+(j+1));
+                    partLinksParagraph.append(partExtUrlAnchor);
+                    if (j+1!==obj.meta.highlights.partner[i].article_links.length) {partLinksParagraph.append(" | ")}
+                }
+                if (obj.meta.highlights.partner[i].article_links.length || obj.meta.highlights.partner[i].sonae_link.length) {
+                    cardBodyDiv.append(partLinksParagraph)// Append part Links Paragraph
+                }
+                cardDiv.append(thumbDiv,cardBodyDiv);
+                colDiv.append(cardDiv);
+                partRowDiv.append(colDiv);
+            }
+            highlightDiv.appendChild(partH5,partRowDiv);
+        }
+        document.getElementById('modal-node-snippets').appendChild(highlightDiv);
     }
 
 

@@ -1,0 +1,211 @@
+
+.full-thumbnail {
+    min-width: 20%;
+    /*padding-bottom: 40%;*/
+    min-height: 100px;
+    /*height: 100px;*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: white;
+}
+.card h6 {
+    font-weight: 600;
+}
+
+.card-text {
+    font-size: .8rem;
+}
+.card-1 .full-thumbnail {
+    background-image: url("https://www.growthmarketingpro.com/wp-content/uploads/2017/07/warby-parker-ecommerce.png");
+}
+.card-2 .full-thumbnail {
+    background-image: url("https://www.scarymommy.com/wp-content/uploads/2018/03/amazon-samples-featured.jpg");
+}
+.card-3 .full-thumbnail {
+    background-image: url("https://d3ss0gp3e5d7m3.cloudfront.net/assets/images/referral_link_sharing.33cwk.jpg");
+}
+.card-4 .full-thumbnail {
+    background-image: url("https://thumbor.forbes.com/thumbor/600x315/https%3A%2F%2Fspecials-images.forbesimg.com%2Fdam%2Fimageserve%2F1091566090%2F960x0.jpg%3Ffit%3Dscale");
+}
+
+.case-card-1 .full-thumbnail {
+    background-image: url("https://via.placeholder.com/150?text=Placeholder");
+}
+.case-card-2 .full-thumbnail {
+    background-image: url("https://via.placeholder.com/150?text=Placeholder");
+}
+.case-card-3 .full-thumbnail {
+    background-image: url("https://img.reality.news/img/97/77/63646258249156/0/mac-cosmetics-stores-get-ar-makeover-with-virtual-try-mirrors.1280x600.jpg");
+}
+.case-card-4 .full-thumbnail {
+    background-image: url("https://via.placeholder.com/150?text=Placeholder");
+}
+
+.tech-card-1 .full-thumbnail {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/d/d4/Virtual-Fixtures-USAF-AR.jpg");
+}
+.tech-card-2 .full-thumbnail {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/7/70/Data_Networks_classification_by_spatial_scope.png");
+}
+.tech-card-3 .full-thumbnail {
+    background-image: url("http://intelligent-future.com/wp-dev/wp-content/uploads/2017/08/Emotion-AI-Summit-HeaderV8.jpg");
+}
+.tech-card-4 .full-thumbnail {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/8/82/Green_screens_compare_with_Iman_Crosson_20110524.png");
+}
+
+
+.partner-card-1 .full-thumbnail {
+    background-size: contain!important;
+    background-image: url("https://is3-ssl.mzstatic.com/image/thumb/Purple128/v4/62/c1/58/62c158c4-72eb-b38b-209f-f860ba08f196/source/512x512bb.jpg");
+}
+.partner-card-2 .full-thumbnail {
+    background-size: contain!important;
+    background-image: url("https://i.imgur.com/jrc9Rlq.png");
+}
+.partner-card-3 .full-thumbnail {
+    background-size: contain!important;
+    background-image: url("http://www.getlisteduae.com/wp-content/uploads/2018/05/sensemi-logo.png");
+}
+/*
+.card{
+  font-family: 'Nunito', sans-serif;
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+      transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+  padding: 14px 80px 14px 14px;
+  cursor: pointer;
+  margin-top: 1.5em;
+}
+
+.card:hover{
+     transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+.card h5{
+  font-weight: 600;
+}
+
+.card img{
+  position: absolute;
+  top: 20px;
+  right: 15px;
+  max-height: 120px;
+}
+
+.card-1{
+  background-image: url(https://ionicframework.com/img/getting-started/ionic-native-card.png);
+      background-repeat: no-repeat;
+    background-position: right;
+    background-size: 80px;
+}
+
+.card-2{
+   background-image: url(https://ionicframework.com/img/getting-started/components-card.png);
+      background-repeat: no-repeat;
+    background-position: right;
+    background-size: 80px;
+}
+
+.card-3{
+   background-image: url(https://ionicframework.com/img/getting-started/theming-card.png);
+      background-repeat: no-repeat;
+    background-position: right;
+    background-size: 80px;
+}
+
+@media(max-width: 990px){
+  .card{
+    margin: 20px;
+  }
+} 
+*/
+
+/*#menu {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    display: inline-block;
+    z-index: 50;
+}
+
+#menu-button {
+    background-color: rgba(0,0,0,.5);
+    color: white;
+    padding: 16px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    font-weight: 600;
+    height: 50px;
+    width: 50px;
+    font-size: 40px;
+    padding: 0;
+    padding-bottom: 8px;
+    border-radius: 50%;
+}
+
+#menu-button:after {
+    content: '?';
+}
+
+#menu:hover #menu-button:after {
+    content: '-';
+}
+
+#menu:hover #menu-button {
+    background-color: rgba(0,0,0,.75);
+    line-height: 0px;
+}
+
+#menu ul {
+    display: none;
+    position: absolute;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    font-size: 16px;
+}
+
+#menu ul li {
+    color: white;
+    padding: 6px 16px;
+    text-decoration: none;
+    display: block;
+    cursor: pointer;
+    margin-top: 6px;
+    background-color: rgba(0,0,0,.5);
+    border-radius: 25px;
+    white-space: nowrap;
+}
+
+#menu ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+#menu ul li:hover {
+    background-color: rgba(0,0,0,.75);
+}
+
+#menu:hover > ul {
+    display: block;
+}
+
+#menu li > ul {
+    display: none;
+    position: absolute;
+    left: 100%;
+    top: -6px;
+    padding-left: 6px;
+}
+
+#menu li:hover > ul {
+    display: inline-block;
+
+}
+*/

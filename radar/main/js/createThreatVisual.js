@@ -114,26 +114,7 @@ function createThreatVisual() {
             list: "megatrend",
             year: "",
             multinational: true,
-            link: "#",
-            images: [
-                {
-                    "url": "https://ich.unesco.org/img/photo/thumb/00015-BIG.jpg",
-                    "copyright": " UNESCO/Yoshihiro Higuchi",
-                    "title": "The Gelede ceremony, held in honour of the primordial mother Iyà Nlà, is directed by women, reflecting their important role in Yoruba life. After weeks of preparations, singers and drummers open the night-time ceremony, followed by an orchestra and masked dancers wearing\nsplendid costumes."
-                },
-                {
-                    "url": "https://ich.unesco.org/img/photo/thumb/00151-BIG.jpg",
-                    "copyright": "UNESCO/Yves Parfait Koffi",
-                    "title": "The Gelede ceremony, held in honour of the primordial mother Iyà Nlà, is directed by women, reflecting their important role in Yoruba life. After weeks of preparations, singers and drummers open the night-time ceremony, followed by an orchestra and masked dancers wearing\nsplendid costumes."
-                }
-            ],
-            video: [
-                {
-                    url: "https://www.youtube.com/watch?v=o86Ut6kAEMQ",
-                    copyright: "",
-                    title: "Test RADAR"
-                },
-            ]
+            link: "#"
             }, //Weakened practice and transmission                     // RADAR	Sustainability
         { id: "vocabulary_ich_1263",
             color: "#66489F",
@@ -973,7 +954,11 @@ function createThreatVisual() {
                 mouseClick(d,"element")
                 window.test = d //RADAR
                 console.log(window.test) //RADAR
+                // showModal(d)
+            })
+            .on("dblclick", d => {
                 showModal(d)
+                clearSelection()
             })
 
         hover_category
@@ -981,8 +966,13 @@ function createThreatVisual() {
                 mouseClick(d,"category")
                 window.test = d //RADAR
                 console.log(window.test) //RADAR
-                showModal(d) //RADAR
+                // showModal(d) //RADAR
             })
+            .on("dblclick", d => {
+                showModal(d)
+                clearSelection()
+            })
+
             .on("mouseover", d => {
                 if(!click_active) mouseOverCategory(d)
                 else {
@@ -1001,7 +991,11 @@ function createThreatVisual() {
         hover_concept
             .on("click", d => {
                 mouseClick(d,"concept")
-                showModal(d) //RADAR
+                // showModal(d) //RADAR
+            })
+            .on("dblclick", d => {
+                showModal(d)
+                clearSelection()
             })
             .on("mouseover", d => {
                 if(!click_active) mouseOverConcept(d)
@@ -1277,7 +1271,7 @@ function createThreatVisual() {
             ctx_nodes.translate(d.x, d.y-50)
             ctx_nodes.rotate(0 * Math.PI / 180 + d.x*0.004);
             ctx_nodes.fillStyle = "black";
-            // ctx_nodes.fillText(d.id,0,0); // ids for editing
+            ctx_nodes.fillText(d.id,0,0); // ids for editing RADAR
             ctx_nodes.restore();
             //svg.append("text").attr("x",d.x*0.85+550).attr("y", d.y*0.85+550).attr("text-anchor","left").attr("font-size", "14px").text(d.id)
             //console.log(ctx_nodes)
@@ -1301,7 +1295,8 @@ function createThreatVisual() {
             ctx_nodes.translate(d.x * 0.97, d.y * 0.97)
             ctx_nodes.rotate(90 * Math.PI / 180 + d.x*0.001);
             ctx_nodes.fillStyle = "black";
-            // ctx_nodes.fillText(d.id.split("_").pop(),0,0); // ids for editing
+            ctx_nodes.fillText(d.id.split("_").pop(),0,0); // ids for editing RADAR
+            // ctx_nodes.fillText(d.id,0,0); // ids for editing RADAR
             ctx_nodes.restore();
              })
         // DELETETHIS
@@ -1316,7 +1311,8 @@ function createThreatVisual() {
             ctx_nodes.translate(d.x * 0.97, d.y * 0.97)
             ctx_nodes.rotate(90 * Math.PI / 180 + d.x*0.001);
             ctx_nodes.fillStyle = "black";
-            // ctx_nodes.fillText(d.id.split("_").pop(),0,0); // ids for editing
+            ctx_nodes.fillText(d.id.split("_").pop(),0,0); // ids for editing RADAR
+            // ctx_nodes.fillText(d.id,0,0); // ids for editing RADAR
             ctx_nodes.restore();
              })
         // DELETETHIS
@@ -1633,6 +1629,18 @@ function createThreatVisual() {
         ctx.scale(sf*scale_factor, sf*scale_factor)
         ctx.translate((margin.left + width/2)/scale_factor, (margin.top + height/2)/scale_factor)
     }//function crispyCanvas
+
+
+    /////////////////////// Clear selection ////////////////////// RADAR
+
+    function clearSelection() {
+        if(document.selection && document.selection.empty) {
+            document.selection.empty();
+        } else if(window.getSelection) {
+            var sel = window.getSelection();
+            sel.removeAllRanges();
+        }
+    }
 
     //////////////////////////////////////////////////////////////
     //////////////////// Accessor functions //////////////////////

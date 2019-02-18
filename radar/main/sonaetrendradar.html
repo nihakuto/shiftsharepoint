@@ -9,7 +9,7 @@
 
         <title>Sonae Trend Radar</title>
 
-        <meta property="og:title" content="Sonae 2019 Societal Trend Radar" />
+        <meta property="og:title" content="Sonae 2019 Trend Radar" />
         <!-- <meta property="og:url" content="" /> -->
         <!-- <meta property="og:image" content="" /> -->
         <meta property="og:description" content="This interactive experience will allow you to explore 9 Megatrends that are shaping the future of retail. Each of those, derives into a total of 43 Microtrends that were selected according to a relevance criterion, specifically tailored to address Sonae MC’s upcoming main challenges and opportunities. Additionally, with the next 3 years in sight, 4 different kinds of highlights were crafted as call to actions: Enabling Technologies (fed from 2018’s Tech Radar), Enabling Partners, Trend Evidences, and Trend Implementations." />
@@ -32,11 +32,13 @@
         <!-- <link href="../common/app/css/unesco-modal-node.css" rel="stylesheet"> -->
         <link href="../common/app/css/unesco-modal-legend.css" rel="stylesheet">
         <link href="../common/app/css/unesco-modal-mega.css" rel="stylesheet"> <!-- RADAR -->
+        <link href="../common/app/css/snippets.css" rel="stylesheet">
         <link href="../common/app/css/menu.css" rel="stylesheet">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
         <!-- Google fonts -->
         <link href="https://fonts.googleapis.com/css?family=Oswald:300,400,500|IBM+Plex+Serif" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,600,700,900" rel="stylesheet">
         <!--Import Google Icon Font-->
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
@@ -54,6 +56,8 @@
         <!-- The visual function -->
         <script src="js/createThreatVisual.js"></script>
         <script src="js/translationsThreat.js"></script>
+
+        <script src="../csv2radarjson.js"></script>
 	</head>
 
 	<body>
@@ -110,13 +114,355 @@
             <div id="chart-modal-full-img"></div>
             <div id="chart-modal-inner">
                 <p id="modal-node-year"></p>
-                <p id="modal-node-type"></p>
+                <!-- <p id="modal-node-type"></p> -->
                 <p id="modal-node-highlighttype"></p>
                 <!-- <p id="modal-node-countries"></p> -->
                 <p id="modal-node-title"></p>
                 <div id="modal-node-watch"></div>
                 <div id="modal-node-description"></div>
-                <div id="modal-node-link"></div>
+                <!-- <div id="modal-node-link"></div> -->
+                <div id="modal-node-snippets">
+                    <div style="display: none;">
+                          <h5 class="mt-3">Real implementations</h5>
+                          <div class="row mt-3">
+                            <div class="col-md-12">
+                              <div class="card flex-md-row mb-3 box-shadow h-md-250 card-1">
+                                <div class="full-thumbnail"></div>
+                                <!-- <img class="card-img-right flex-auto d-none d-md-block" data-src="holder.js/200x250?theme=thumb" alt="Thumbnail [200x250]" src="https://i.warbycdn.com/v/c/assets/social/image/fbopengraph/0/1517ab2f62/1200x627/0ca6.jpg" data-holder-rendered="true" style="width: 200px; height: 250px;"> -->
+                                <div class="card-body d-flex flex-column align-items-start p-2">
+                                  <!-- <strong class="d-inline-block mb-2 text-primary">World</strong> -->
+                                  <h6 class="mb-1">
+                                    <a class="text-dark" href="#">Glasses & Prescription Eyeglasses | Warby Parker</a>
+                                  </h6>
+                                  <!-- <div class="mb-1 text-muted">Nov 12</div> -->
+                                  <p class="card-text mb-1">Prescription eyeglasses starting at $95. Find a new pair today with our free Home Try-On program. Fast, free shipping both ways. For every pair sold, a pair is distributed to someone in need.</p>
+                                  <p class="card-text mb-auto">
+                                    <a href="#">Article #1</a> | 
+                                    <a href="#">Article #2</a><!--  | 
+                                    <a href="#">Article #3</a> | 
+                                    <a href="#">Article #4</a> -->
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-md-12">
+                              <div class="card flex-md-row mb-3 box-shadow h-md-250 card-2">
+                                <div class="full-thumbnail"></div>
+                                <!-- <img class="card-img-right flex-auto d-none d-md-block" data-src="holder.js/200x250?theme=thumb" alt="Thumbnail [200x250]" src="https://i.warbycdn.com/v/c/assets/social/image/fbopengraph/0/1517ab2f62/1200x627/0ca6.jpg" data-holder-rendered="true" style="width: 200px; height: 250px;"> -->
+                                <div class="card-body d-flex flex-column align-items-start p-2">
+                                  <!-- <strong class="d-inline-block mb-2 text-primary">World</strong> -->
+                                  <h6 class="mb-1">
+                                    <a class="text-dark" href="#">Amazon Has A "Free" Sample Section Now, And We're Loving It</a>
+                                  </h6>
+                                  <!-- <div class="mb-1 text-muted">Nov 12</div> -->
+                                  <p class="card-text mb-auto">The items available on Prime Samples aren’t free, but that money goes towards the purchase of an item of the same kind.</p>
+                                  <p class="card-text mb-auto">
+                                    <a href="#">Article #1</a><!--  | 
+                                    <a href="#">Article #2</a> | 
+                                    <a href="#">Article #3</a> | 
+                                    <a href="#">Article #4</a> -->
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-md-12">
+                              <div class="card flex-md-row mb-3 box-shadow h-md-250 card-3">
+                                <div class="full-thumbnail"></div>
+                                <!-- <img class="card-img-right flex-auto d-none d-md-block" data-src="holder.js/200x250?theme=thumb" alt="Thumbnail [200x250]" src="https://i.warbycdn.com/v/c/assets/social/image/fbopengraph/0/1517ab2f62/1200x627/0ca6.jpg" data-holder-rendered="true" style="width: 200px; height: 250px;"> -->
+                                <div class="card-body d-flex flex-column align-items-start p-2">
+                                  <!-- <strong class="d-inline-block mb-2 text-primary">World</strong> -->
+                                  <h6 class="mb-1">
+                                    <a class="text-dark" href="#">Stitch Fix | Your Personal Stylist</a>
+                                  </h6>
+                                  <!-- <div class="mb-1 text-muted">Nov 12</div> -->
+                                  <p class="card-text mb-auto">Looking for a new way to shop for women's clothes? Try a Stitch Fix personal stylist and get a box of handpicked clothing sent right to your door. Get started!</p>
+                                  <p class="card-text mb-auto">
+                                    <a href="#">Article #1</a> | 
+                                    <a href="#">Article #2</a> | 
+                                    <a href="#">Article #3</a><!--  | 
+                                    <a href="#">Article #4</a> -->
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-md-12">
+                              <div class="card flex-md-row mb-3 box-shadow h-md-250 card-4">
+                                <div class="full-thumbnail"></div>
+                                <!-- <img class="card-img-right flex-auto d-none d-md-block" data-src="holder.js/200x250?theme=thumb" alt="Thumbnail [200x250]" src="https://i.warbycdn.com/v/c/assets/social/image/fbopengraph/0/1517ab2f62/1200x627/0ca6.jpg" data-holder-rendered="true" style="width: 200px; height: 250px;"> -->
+                                <div class="card-body d-flex flex-column align-items-start p-2">
+                                  <!-- <strong class="d-inline-block mb-2 text-primary">World</strong> -->
+                                  <h6 class="mb-1">
+                                    <a class="text-dark" href="#">Will 2019 Be The Year Clothing Subscription Takes Over?</a>
+                                  </h6>
+                                  <!-- <div class="mb-1 text-muted">Nov 12</div> -->
+                                  <p class="card-text mb-auto">2019 might just be the year we see an explosion in the clothing rental market in the UK to rival the success of seen by Rent the Runway in the US. Who are the main players and why might 2019 be the breakout year?</p><!-- 
+                                  <p class="card-text mb-auto">
+                                    <a href="#">Article #1</a> | 
+                                    <a href="#">Article #2</a> | 
+                                    <a href="#">Article #3</a> | 
+                                    <a href="#">Article #4</a>
+                                  </p> -->
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+
+                          <h5 class="mt-3">Enabling Emerging Technologies</h5>
+                          <div class="row mt-3">
+                            <div class="col-md-12">
+                                We haven't found emerging technologies for this implementation yet.
+                            </div>
+                          </div>
+
+                          <h5 class="mt-3">Enabling Partners</h5>
+                          <div class="row mt-3">
+                            <div class="col-md-12">
+                                We haven't found partners yet.
+                            </div>
+                          </div>
+                    </div> <!-- display none -->
+
+
+
+
+
+
+
+
+                          <h5 class="mt-3">(EXEMPLO PARA VIRTUAL TRY-ON)</h5>
+                          <h5 class="mt-3">Real implementations</h5>
+                          <div class="row mt-3">
+                            <div class="col-md-12">
+                              <div class="card flex-md-row mb-3 box-shadow h-md-250 case-card-1">
+                                <div class="full-thumbnail"></div>
+                                <!-- <img class="card-img-right flex-auto d-none d-md-block" data-src="holder.js/200x250?theme=thumb" alt="Thumbnail [200x250]" src="https://i.warbycdn.com/v/c/assets/social/image/fbopengraph/0/1517ab2f62/1200x627/0ca6.jpg" data-holder-rendered="true" style="width: 200px; height: 250px;"> -->
+                                <div class="card-body d-flex flex-column align-items-start p-2">
+                                  <!-- <strong class="d-inline-block mb-2 text-primary">World</strong> -->
+                                  <h6 class="mb-1">
+                                    <a class="text-dark" href="#">Our Virtual Try-On Is Better Than Any Makeup App You&apos;ve Seen - L&apos;Or&#xE9;al Paris </a>
+                                  </h6>
+                                  <!-- <div class="mb-1 text-muted">Nov 12</div> -->
+                                  <p class="card-text mb-auto">Hair color changer and makeup apps are fun, but there's a new way to get a virtual makeover. We're introducing you to our virtual try on feature, so you can realistically try on hair colors and makeup products before purchasing.</p>
+                                  <p class="card-text mb-auto">
+                                    <a href="#">Article #1</a> | 
+                                    <a href="#">Article #2</a><!--  | 
+                                    <a href="#">Article #3</a> | 
+                                    <a href="#">Article #4</a> -->
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-md-12">
+                              <div class="card flex-md-row mb-3 box-shadow h-md-250 case-card-2">
+                                <div class="full-thumbnail"></div>
+                                <!-- <img class="card-img-right flex-auto d-none d-md-block" data-src="holder.js/200x250?theme=thumb" alt="Thumbnail [200x250]" src="https://i.warbycdn.com/v/c/assets/social/image/fbopengraph/0/1517ab2f62/1200x627/0ca6.jpg" data-holder-rendered="true" style="width: 200px; height: 250px;"> -->
+                                <div class="card-body d-flex flex-column align-items-start p-2">
+                                  <!-- <strong class="d-inline-block mb-2 text-primary">World</strong> -->
+                                  <h6 class="mb-1">
+                                    <a class="text-dark" href="#">Sephora Virtual Artist | Try On Makeup Virtually | Sephora</a>
+                                  </h6>
+                                  <!-- <div class="mb-1 text-muted">Nov 12</div> -->
+                                  <p class="card-text mb-auto">Instantly try thousands of lipstick shades, eyeshadows and false lashes with Sephora Virtual Artist! Try, shop and share unique looks created by Sephora experts.</p>
+                                  <p class="card-text mb-auto">
+                                    <a href="#">Article #1</a><!--  | 
+                                    <a href="#">Article #2</a> | 
+                                    <a href="#">Article #3</a> | 
+                                    <a href="#">Article #4</a> -->
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-md-12">
+                              <div class="card flex-md-row mb-3 box-shadow h-md-250 case-card-3">
+                                <div class="full-thumbnail"></div>
+                                <!-- <img class="card-img-right flex-auto d-none d-md-block" data-src="holder.js/200x250?theme=thumb" alt="Thumbnail [200x250]" src="https://i.warbycdn.com/v/c/assets/social/image/fbopengraph/0/1517ab2f62/1200x627/0ca6.jpg" data-holder-rendered="true" style="width: 200px; height: 250px;"> -->
+                                <div class="card-body d-flex flex-column align-items-start p-2">
+                                  <!-- <strong class="d-inline-block mb-2 text-primary">World</strong> -->
+                                  <h6 class="mb-1">
+                                    <a class="text-dark" href="#">MAC Cosmetics Stores Get AR Makeover with Virtual Try-on Mirrors</a>
+                                  </h6>
+                                  <!-- <div class="mb-1 text-muted">Nov 12</div> -->
+                                  <p class="card-text mb-auto">While AR apps by Modiface and Perfect Corp. have made it easier for people to shop for makeup without setting foot in a store, MAC Cosmetics wants to give its brick-and-mortar customers the same experience. The makeup giant just made its virtual try-on mirror, featuring 29 custom eye looks, available at MAC stores in the US. A global rollout is scheduled for early 2018.</p><!-- 
+                                  <p class="card-text mb-auto">
+                                    <a href="#">Article #1</a> | 
+                                    <a href="#">Article #2</a> | 
+                                    <a href="#">Article #3</a> | 
+                                    <a href="#">Article #4</a>
+                                  </p> -->
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-md-12">
+                              <div class="card flex-md-row mb-3 box-shadow h-md-250 case-card-4">
+                                <div class="full-thumbnail"></div>
+                                <!-- <img class="card-img-right flex-auto d-none d-md-block" data-src="holder.js/200x250?theme=thumb" alt="Thumbnail [200x250]" src="https://i.warbycdn.com/v/c/assets/social/image/fbopengraph/0/1517ab2f62/1200x627/0ca6.jpg" data-holder-rendered="true" style="width: 200px; height: 250px;"> -->
+                                <div class="card-body d-flex flex-column align-items-start p-2">
+                                  <!-- <strong class="d-inline-block mb-2 text-primary">World</strong> -->
+                                  <h6 class="mb-1">
+                                    <a class="text-dark" href="#">Virtual Try-On Tool for Glasses &amp; Sunglasses &#x2013; Eyeconic</a>
+                                  </h6>
+                                  <!-- <div class="mb-1 text-muted">Nov 12</div> -->
+                                  <p class="card-text mb-auto">Use a webcam to see what you\'d look like in any pair of glasses, then share with friends. Shopping for glasses online is easy with our Virtual Try-On tool.</p>
+                                  <p class="card-text mb-auto">
+                                    <a href="#">Article #1</a><!--  | 
+                                    <a href="#">Article #2</a> | 
+                                    <a href="#">Article #3</a> | 
+                                    <a href="#">Article #4</a> -->
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+
+                          <h5 class="mt-3">Enabling Emerging Technologies</h5>
+                          <div class="row mt-3">
+                            <div class="col-md-12">
+                              <div class="card flex-md-row mb-3 box-shadow h-md-250 tech-card-1">
+                                <div class="full-thumbnail"></div>
+                                <!-- <img class="card-img-right flex-auto d-none d-md-block" data-src="holder.js/200x250?theme=thumb" alt="Thumbnail [200x250]" src="https://i.warbycdn.com/v/c/assets/social/image/fbopengraph/0/1517ab2f62/1200x627/0ca6.jpg" data-holder-rendered="true" style="width: 200px; height: 250px;"> -->
+                                <div class="card-body d-flex flex-column align-items-start p-2">
+                                  <!-- <strong class="d-inline-block mb-2 text-primary">World</strong> -->
+                                  <h6 class="mb-1">
+                                    Augmented Reality
+                                  </h6>
+                                  <!-- <div class="mb-1 text-muted">Nov 12</div> -->
+                                  <p class="card-text mb-2">Augmented reality is an interactive experience of a real-world environment where the objects that reside in the real-world are "augmented" by computer-generated perceptual information, sometimes across multiple sensory modalities, including visual, auditory, haptic, somatosensory, and olfactory.</p>
+                                  <p class="card-text mb-auto">
+                                        <strong>Previous work in SONAE: </strong>Smart continent APP has recommendation functionalities based in purchase history. Use other data to improve recommendation accuracy can be explored as next step.
+                                  </p>
+                                  <p class="card-text mb-auto">
+                                        <strong>Recommended action for 2019: </strong>STUDY this technology to learn who can bring it to the market, what are the associated business models, which are the challenges it can address, and what is the viability and feasibility to address them.
+                                  </p>
+                                  <p class="card-text mb-auto">
+                                    <a href="https://sonaecircle-corp/forum/inovacao/futuretech/Documents/XRAY/Augmented%20Reality%20For%20Visual%20Picking.pdf?Web=1">Internal Report #1</a> | 
+                                    <a href="https://www.perkinscoie.com/images/content/1/8/v2/187785/2018-VR-AR-Survey-Digital.pdf">External Report #1</a><!--  | 
+                                    <a href="#">Report #3</a> | 
+                                    <a href="#">Report #4</a> -->
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-md-12">
+                              <div class="card flex-md-row mb-3 box-shadow h-md-250 tech-card-2">
+                                <div class="full-thumbnail"></div>
+                                <!-- <img class="card-img-right flex-auto d-none d-md-block" data-src="holder.js/200x250?theme=thumb" alt="Thumbnail [200x250]" src="https://i.warbycdn.com/v/c/assets/social/image/fbopengraph/0/1517ab2f62/1200x627/0ca6.jpg" data-holder-rendered="true" style="width: 200px; height: 250px;"> -->
+                                <div class="card-body d-flex flex-column align-items-start p-2">
+                                  <!-- <strong class="d-inline-block mb-2 text-primary">World</strong> -->
+                                  <h6 class="mb-1">
+                                    <a class="text-dark" href="#">Near-field communication</a>
+                                  </h6>
+                                  <!-- <div class="mb-1 text-muted">Nov 12</div> -->
+                                  <p class="card-text mb-auto">Near-field communication is a set of communication protocols that enable two electronic devices, one of which is usually a portable device such as a smartphone, to establish communication by bringing them within 4 cm of each other.</p>
+                                  <p class="card-text mb-auto">
+                                    <a href="#">External Report #1</a><!--  | 
+                                    <a href="#">Report #2</a> | 
+                                    <a href="#">Report #3</a> | 
+                                    <a href="#">Report #4</a>
+                                  </p> -->
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-md-12">
+                              <div class="card flex-md-row mb-3 box-shadow h-md-250 tech-card-3">
+                                <div class="full-thumbnail"></div>
+                                <!-- <img class="card-img-right flex-auto d-none d-md-block" data-src="holder.js/200x250?theme=thumb" alt="Thumbnail [200x250]" src="https://i.warbycdn.com/v/c/assets/social/image/fbopengraph/0/1517ab2f62/1200x627/0ca6.jpg" data-holder-rendered="true" style="width: 200px; height: 250px;"> -->
+                                <div class="card-body d-flex flex-column align-items-start p-2">
+                                  <!-- <strong class="d-inline-block mb-2 text-primary">World</strong> -->
+                                  <h6 class="mb-1">
+                                    Sentiment analysis
+                                  </h6>
+                                  <!-- <div class="mb-1 text-muted">Nov 12</div> -->
+                                  <p class="card-text mb-auto">Opinion mining refers to the use of natural language processing, text analysis, computational linguistics, and biometrics to systematically identify, extract, quantify, and study affective states and subjective information.</p><!-- 
+                                  <p class="card-text mb-auto">
+                                    <a href="#">Report #1</a> | 
+                                    <a href="#">Report #2</a> | 
+                                    <a href="#">Report #3</a> | 
+                                    <a href="#">Report #4</a>
+                                  </p> -->
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-md-12">
+                              <div class="card flex-md-row mb-3 box-shadow h-md-250 tech-card-4">
+                                <div class="full-thumbnail"></div>
+                                <!-- <img class="card-img-right flex-auto d-none d-md-block" data-src="holder.js/200x250?theme=thumb" alt="Thumbnail [200x250]" src="https://i.warbycdn.com/v/c/assets/social/image/fbopengraph/0/1517ab2f62/1200x627/0ca6.jpg" data-holder-rendered="true" style="width: 200px; height: 250px;"> -->
+                                <div class="card-body d-flex flex-column align-items-start p-2">
+                                  <!-- <strong class="d-inline-block mb-2 text-primary">World</strong> -->
+                                  <h6 class="mb-1">
+                                    Chroma key
+                                  </h6>
+                                  <!-- <div class="mb-1 text-muted">Nov 12</div> -->
+                                  <p class="card-text mb-auto">Chroma key compositing, or chroma keying, is a visual effects/post-production technique for compositing two images or video streams together based on color hues.
+                                  </p>
+                                  <!-- 
+                                  <p class="card-text mb-auto">
+                                    <a href="#">Report #1</a> | 
+                                    <a href="#">Report #2</a> | 
+                                    <a href="#">Report #3</a> | 
+                                    <a href="#">Report #4</a>
+                                  </p> -->
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <h5 class="mt-3">Enabling Partners</h5>
+                          <div class="row mt-3">
+                            <div class="col-md-12">
+                              <div class="card flex-md-row mb-3 box-shadow h-md-250 partner-card-1">
+                                <div class="full-thumbnail"></div>
+                                <!-- <img class="card-img-right flex-auto d-none d-md-block" data-src="holder.js/200x250?theme=thumb" alt="Thumbnail [200x250]" src="https://i.warbycdn.com/v/c/assets/social/image/fbopengraph/0/1517ab2f62/1200x627/0ca6.jpg" data-holder-rendered="true" style="width: 200px; height: 250px;"> -->
+                                <div class="card-body d-flex flex-column align-items-start p-2">
+                                  <!-- <strong class="d-inline-block mb-2 text-primary">World</strong> -->
+                                  <h6 class="mb-1">
+                                    <a class="text-dark" href="#">ISizeYou - Your perfect size for each brand or shop</a>
+                                  </h6>
+                                  <!-- <div class="mb-1 text-muted">Nov 12</div> -->
+                                  <p class="card-text mb-auto">Let\'s buy without doubt in any e-commerce with the SizeYou logo.</p>
+                                  <p class="card-text mb-auto">
+                                    <!-- <a href="#">Suricate (getintouch)</a> -->
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-md-12">
+                              <div class="card flex-md-row mb-3 box-shadow h-md-250 partner-card-2">
+                                <div class="full-thumbnail"></div>
+                                <!-- <img class="card-img-right flex-auto d-none d-md-block" data-src="holder.js/200x250?theme=thumb" alt="Thumbnail [200x250]" src="https://i.warbycdn.com/v/c/assets/social/image/fbopengraph/0/1517ab2f62/1200x627/0ca6.jpg" data-holder-rendered="true" style="width: 200px; height: 250px;"> -->
+                                <div class="card-body d-flex flex-column align-items-start p-2">
+                                  <!-- <strong class="d-inline-block mb-2 text-primary">World</strong> -->
+                                  <h6 class="mb-1">
+                                    <a class="text-dark" href="#">ModiFace Mirror Platform</a>
+                                  </h6>
+                                  <!-- <div class="mb-1 text-muted">Nov 12</div> -->
+                                  <p class="card-text mb-auto">We create photo-realistic augmented reality tech for the beauty industry.</p>
+                                  <p class="card-text mb-auto">
+                                    <a href="#">Suricate (getintouch)</a>
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-md-12">
+                              <div class="card flex-md-row mb-3 box-shadow h-md-250 partner-card-3">
+                                <div class="full-thumbnail"></div>
+                                <!-- <img class="card-img-right flex-auto d-none d-md-block" data-src="holder.js/200x250?theme=thumb" alt="Thumbnail [200x250]" src="https://i.warbycdn.com/v/c/assets/social/image/fbopengraph/0/1517ab2f62/1200x627/0ca6.jpg" data-holder-rendered="true" style="width: 200px; height: 250px;"> -->
+                                <div class="card-body d-flex flex-column align-items-start p-2">
+                                  <!-- <strong class="d-inline-block mb-2 text-primary">World</strong> -->
+                                  <h6 class="mb-1">
+                                    <a class="text-dark" href="#">Virtual Dressing Room Mirror, Smart Mirror, Retail Mirror | SenseMi</a>
+                                  </h6>
+                                  <!-- <div class="mb-1 text-muted">Nov 12</div> -->
+                                  <p class="card-text mb-auto">SenseMi uses the most sophisticated technology to find solutions and to optimize living, shopping, and interacting with the surroundings. Science fiction is now a reality, the future of living starts here!</p>
+                                  <p class="card-text mb-auto">
+                                    <!-- <a href="#">Suricate (getintouch)</a> -->
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                </div>
                 <!-- <div id="modal-node-tech-accordion">
                     <h4 class="pt-3"><span class="glyphicon glyphicon-wrench"></span> Enabler emergent technologies&nbsp;</h4>
             <div class="row">
@@ -236,8 +582,8 @@
                 </div>
             <div class="slider glide" id="chart-modal-img-slider"></div>
             <div id="chart-modal-aftervid">
-                <div id="modal-node-howtoapproach"></div>
                 <div id="modal-node-prevwork"></div>
+                <div id="modal-node-howtoapproach"></div>
             </div>
         </div>
 

@@ -1,0 +1,71 @@
+<?php
+   $json = file_get_contents("https://dexonline.ro/definitie/skate?format=json");
+?>
+<!DOCTYPE html>
+<html>
+<head>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <!-- <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script> -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/4.6.3/papaparse.js"></script>
+        <!-- <script src="./url-metadata/urlmeta.js"></script> -->
+        <!-- <script src="./urlmetastandalone.js"></script> -->
+    <title>test</title>
+</head>
+<body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+<input type="text" placeholder="Type URL here" value="http://www.sonae.pt" />
+<button>Get Meta Data</button>
+
+<pre>
+  <div>Title: <div id="metatitle"></div></div>
+  <div>Meta Keyword: <div id="kw"></div></div>
+  <div>Description: <div id="des"></div></div>
+  <div>Image: <div id="img"></div></div>
+  <div>OGImage: <div id="ogimage"></div></div>
+</pre>
+
+
+
+
+<script>
+
+$('button').click(function() {
+  $.ajax({
+    url: 'https://cors-anywhere.herokuapp.com/' + $('input').val()
+  }).then(function(data) {
+    var html = $(data);
+    window.test = html;
+
+    $('#metatitle').html(getMetaContent(html, 'title') || 'no keywords found');
+    $('#kw').html(getMetaContent(html, 'description') || 'no keywords found');
+    $('#des').html(getMetaContent(html, 'keywords') || 'no description found');
+    $('#img').html(html.find('img').attr('src') || 'no image found');
+    $('#ogimage').html(getMetaPropertyContent(html, 'og:image') || 'no ogimage found');
+  });
+});
+
+function getMetaContent(html, name) {
+  return html.filter(
+  (index, tag) => tag && tag.name && tag.name == name).attr('content');
+}
+function getMetaPropertyContent(html, name) {
+  return html.filter(
+  (index, tag) => tag && tag.property && tag.property == name).attr('content');
+}
+
+
+// // const urlMetadata = require('url-metadata')
+// urlMetadata('http://sonae.pt').then(
+//   function (metadata) { // success handler
+//     console.log(metadata)
+//   },
+//   function (error) { // failure handler
+//     console.log(error)
+//   })
+
+</script>
+
+</body>
+</html>

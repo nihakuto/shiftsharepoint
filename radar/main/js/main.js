@@ -381,7 +381,7 @@ function replaceOldConcepts(csv,conceptarray,oldjson) { //replaceOldConcepts(tem
         // tempvidlist=new Array([data[r]["Videos"]][0]);
         // tempvidlist=String(tempvidlist).split(",");
         tempvidvar=data[r]["Videos"];
-
+        console.log(conceptarray[iOld])
         window.newconceptarray.push({
             [conceptarray[iOld].id]: {
                 "type": conceptarray[iOld].type,
@@ -427,6 +427,18 @@ function replaceOldConcepts(csv,conceptarray,oldjson) { //replaceOldConcepts(tem
         if (tempvidvar.length) {
             newconceptarray[iOld][conceptarray[iOld].id].meta.video = tempvidobjarray;
         }
+
+        temprelmicrosarray = [];
+        tempmicro1=data[r]["micro trend associada #1"];
+        tempmicro2=data[r]["micro trend associada #2"];
+        if (tempmicro1.length) {
+            if (tempmicro2.length) {
+                temprelmicrosarray.push(tempmicro2)
+            }
+            temprelmicrosarray.push(tempmicro1)
+            newconceptarray[iOld][conceptarray[iOld].id].meta.highlighttype = temprelmicrosarray;
+        }
+
         iOld++;
 
     };
