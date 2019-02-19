@@ -23,30 +23,29 @@ function mkmicrotrendNodes(csv) {
         artnamelist=new Array([data[row]["article_name_list"]][0]);        artnamelist=String(artnamelist).split(",");
         arturllist=new Array([data[row]["article_name_list"]][0]);        arturllist=String(arturllist).split(",");
         microtrendcode = ("micro_"+data[row]["trend_id"]);
-        microNodes.push({
-            [microtrendcode]: {
-                "type": "element",
-                "label": data[row]["trend_title"],
-                "threat_categories": tempcatlist,
-                "meta": {
-                    "icon": {
-                        "small": data[row]["micro_image"], //data[row]["Video or image #1"],
-                        "large": data[row]["micro_image"], //data[row]["Video or image #1"],
-                    },
-                    "description": data[row]["new_description"],
-                    "list": "microtrends-list",
-                    "year": data[row]["main_mega_trend"],
-                    "multinational": false,
-                    // "link": "https://ich.unesco.org/img/photo/thumb/05391-BIG.jpg", //data[row]["Link #1"],
-                    // "images": [],
-                    // "video": []
-                    "evidence_articles": {
-                        "names": artnamelist, //data[row]["Video or image #1"],
-                        "urls": arturllist, //data[row]["Video or image #1"],
-                    },
-                }
+        microObj = {
+            "type": "element",
+            "label": data[row]["trend_title"],
+            "threat_categories": tempcatlist,
+            "meta": {
+                "icon": {
+                    "small": data[row]["micro_image"], //data[row]["Video or image #1"],
+                    "large": data[row]["micro_image"], //data[row]["Video or image #1"],
+                },
+                "description": data[row]["new_description"],
+                "list": "microtrends-list",
+                "year": data[row]["main_mega_trend"],
+                "multinational": false,
+                // "link": "https://ich.unesco.org/img/photo/thumb/05391-BIG.jpg", //data[row]["Link #1"],
+                // "images": [],
+                // "video": []
+                "evidence_articles": {
+                    "names": artnamelist, //data[row]["Video or image #1"],
+                    "urls": arturllist, //data[row]["Video or image #1"],
+                },
             }
-        })
+        }
+        microNodes[microtrendcode]=microObj;
     }
     return microNodes
 };
@@ -217,7 +216,7 @@ function appendHighlights(hl_csv,oldAppNodesObj) {
                     };
                     break;
                 case "technology":
-                    articlearray = new Array([data[row]["article_links"]][0]);        articlearray=String(articlearray).split(",");
+                    articlearray = new Array([data[row]["tech_external_url"]][0]);        articlearray=String(articlearray).split(",");
                     newHLobj={
                         "uid" : data[row]["highlight_uid"],
                         "name" : data[row]["highlight_name"],
@@ -227,7 +226,7 @@ function appendHighlights(hl_csv,oldAppNodesObj) {
                         "video" : data[row]["video_url"],
                         "prevwork" : data[row]["tech_previous_work_description"],
                         "prevworkurl" : data[row]["tech_previous_work_url"],
-                        "externalurls" : data[row]["tech_external_url"],
+                        "externalurls" : articlearray,
                         "recommendation" : data[row]["tech_recommendation"]
                     };
                     break;
@@ -239,6 +238,100 @@ function appendHighlights(hl_csv,oldAppNodesObj) {
     }
     return newAppNodesObj
 };
+
+Papa.parse("../data/megatrendData.csv", {
+    download: true,
+    header: true,
+    complete: function(results) {
+        window.megatrendData = results;
+        console.log(results);
+    }
+});
+function mkMegatrendArray(csv) { // THE OUTPUT OF THIS FUNCTION HAS TO BE COPIED TO createThreatVisual.js
+    // create array with object for every concept in csv
+    data = csv.data;
+    megatrendsArray = [];
+    var colors = palette('tol', 9).map(function(el) {return '#' + el});//console.log(colors);
+    for (row in data) {
+        if (row==data.length-1) {break};
+        console.log(data[row].mega_name);
+        // if (data[row]["radar_include"] != 1) continue;
+
+        megacode = (data[row]["mega_code"]);
+        megarel = (data[row]["mega_relevance"]);
+        megaimg = (data[row]["mega_image"]);
+        megadesc = (data[row]["description"]+"</br>"+(data[row]["opinion_piece"]));
+
+        megaObj = {
+            "id": megacode,
+            "color": colors[row],
+            "megatrend_relevance": megarel,
+            "icon": {
+                "small": megaimg,
+                "large": megaimg
+            },
+            "description": megadesc,
+            "list": "megatrend",
+            "year": "",
+            "multinational": true,
+            "link": "#"
+        }
+        megatrendsArray.push(megaObj);
+    }
+    return megatrendsArray
+};
+
+function mkmegaNodes(csv) { // THE OUTPUT OF THIS FUNCTION HAS TO BE COPIED TO createThreatVisual.js
+    // create array with object for every concept in csv
+    data = csv.data;
+    megaNodeArray = [];
+    for (row in data) {
+        if (row==data.length-1) {break};
+        // console.log(data[row].mega_name);
+        // if (data[row]["radar_include"] != 1) continue;
+
+        megacode = (data[row]["mega_code"]);
+        meganame = (data[row]["mega_name"]);
+
+        megaObj = {
+            "type": "concept",
+            "group": "threat",
+            "label": meganame
+        };//megaObj
+        megaNodeArray[megacode]=megaObj;
+    }
+    return megaNodeArray
+};
+
+
+function mkFinalDataJson() { // THE OUTPUT OF THIS FUNCTION HAS TO BE COPIED TO createThreatVisual.js
+    currentdate = new Date();
+    metaobj = {
+        "meta": {
+            "language": "en",
+            "generated": currentdate
+        }
+    };
+    microappedgesobj = mkmicroappEdges(microTrendData);
+    appmegaedgesobj = mkappmegaEdges(appData);
+    edges = microappedgesobj.concat(appmegaedgesobj);
+    // console.log(edges);
+
+    meganodesobj = mkmegaNodes(megatrendData);
+    micronodesobj = mkmicrotrendNodes(microTrendData);
+    pre_appnodesobj = mkappNodes(appData);
+    appnodesobj = appendHighlights(highlightData,pre_appnodesobj);
+    nodesobj = {...meganodesobj,...micronodesobj, ...appnodesobj};
+
+    mergedJson = {
+        "meta": metaobj.meta,
+        "nodes": nodesobj,
+        "edges": edges
+    };
+    return mergedJson
+};
+
+
 
 // example:  // missing columns: app_image 
 
