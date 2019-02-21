@@ -184,6 +184,47 @@ function createModal(obj) {
 
     console.log(obj)
 
+    // Microtrends    
+    if(obj.meta && obj.meta.evidence_articles && (obj.meta.evidence_articles.names[0] && obj.meta.evidence_articles.urls[0])) {
+
+        let microDiv = document.createElement('div');
+
+        let microArtTitleH5 = document.createElement('h5');
+        microArtTitleH5.setAttribute('class', 'mt-3');
+        microArtTitleH5.append('Articles on this Microtrend');
+
+        let microRowDiv = document.createElement('div');
+        microRowDiv.setAttribute('class', 'row mt-3');
+        for(i = 0; i < obj.meta.evidence_articles.urls.length; i++) {
+            let colDiv = document.createElement('div');
+            colDiv.setAttribute('class', 'col-md-12');
+
+            let cardDiv = document.createElement('div');
+            cardDiv.setAttribute('class', 'card flex-md-row mb-3 box-shadow h-md-250');
+            cardDiv.setAttribute('card-id', "micro_"+i);
+
+            let cardBodyDiv = document.createElement('div');
+            cardBodyDiv.setAttribute('class', 'card-body d-flex flex-column align-items-start p-2');
+            
+            let artTitleH6 = document.createElement('h6');
+            artTitleH6.setAttribute('class', 'mb-1');
+            let artTitleAnchor = document.createElement('a');
+            artTitleAnchor.setAttribute('class', 'text-dark');
+            artTitleAnchor.append(obj.meta.evidence_articles.names[i]);
+            if (obj.meta.evidence_articles.urls[i]) {
+                artTitleAnchor.setAttribute('href', obj.meta.evidence_articles.urls[i]);
+            }
+            artTitleH6.append(artTitleAnchor);
+            cardBodyDiv.append(artTitleH6);
+            cardDiv.append(cardBodyDiv);
+            colDiv.append(cardDiv);
+            microRowDiv.append(colDiv);
+        }
+        microDiv.append(microArtTitleH5,microRowDiv);
+        document.getElementById('modal-node-snippets').appendChild(microDiv);
+    }
+
+
     // Highlights
     if(obj.meta && obj.meta.highlights && (obj.meta.highlights.implementation || obj.meta.highlights.partner || obj.meta.highlights.technology)) {
 
@@ -290,13 +331,17 @@ function createModal(obj) {
                 if (obj.meta.highlights.technology[i].prevwork) {
                     let techPrevWorkParagraph = document.createElement('p');
                     techPrevWorkParagraph.setAttribute('class', 'card-text mb-auto');
-                    techPrevWorkParagraph.append('<strong>Previous work in SONAE:</strong> '+obj.meta.highlights.technology[i].prevwork);
+                    let techPrevWorkStrongTag = document.createElement('strong');techPrevWorkStrongTag.append('Previous work in SONAE: ');
+                    techPrevWorkParagraph.append(techPrevWorkStrongTag);
+                    techPrevWorkParagraph.append(obj.meta.highlights.technology[i].prevwork);
                     cardBodyDiv.append(techPrevWorkParagraph) // Append PrevWork Paragraph
                 }
                 if (obj.meta.highlights.technology[i].recommendation) {
                     let techRecParagraph = document.createElement('p');
                     techRecParagraph.setAttribute('class', 'card-text mb-auto');
-                    techRecParagraph.append('<strong>Recommended action for '+ (new Date()).getFullYear() +':</strong> '+obj.meta.highlights.technology[i].recommendation);
+                    let techRecStrongTag = document.createElement('strong');techRecStrongTag.append('Recommended action for '+ (new Date()).getFullYear()+': ');
+                    techRecParagraph.append(techRecStrongTag);
+                    techRecParagraph.append(obj.meta.highlights.technology[i].recommendation);
                     cardBodyDiv.append(techRecParagraph) // Append Recommendation Paragraph
                 }
                 let techLinksParagraph = document.createElement('p');
@@ -309,27 +354,18 @@ function createModal(obj) {
                     if (obj.meta.highlights.technology[i].externalurls.length) {techLinksParagraph.append(" | ")}
                 }
 
-
-        // if (obj.meta.highlights.implementation[i].article_links[0].length) {
-        //     for(j = 0; j < obj.meta.highlights.implementation[i].article_links.length; j++) {
-        //         let impArticleAnchor = document.createElement('a');
-        //         impArticleAnchor.setAttribute('href', obj.meta.highlights.implementation[i].article_links[j]);
-        //         impArticleAnchor.append('Article #'+(j+1));
-        //         impLinksParagraph.append(impArticleAnchor);
-        //         if (j+1!==obj.meta.highlights.implementation[i].article_links.length) {impLinksParagraph.append(" | ")}
-        //     }
-        // }
-            
                 // need to parse string of URLs
                 externalurlArray = new Array(obj.meta.highlights.technology[i].externalurls[0]);        externalurlArray=String(externalurlArray).split(",");
                 console.log(obj.meta.highlights.technology[i])
-                for(j = 0; j < externalurlArray.length; j++) {
+                if (externalurlArray[0].length) {
+                    for(j = 0; j < externalurlArray.length; j++) {
 
-                    let techExtUrlAnchor = document.createElement('a');
-                    techExtUrlAnchor.setAttribute('href', externalurlArray[j]);
-                    techExtUrlAnchor.append('External Report #'+(j+1));
-                    techLinksParagraph.append(techExtUrlAnchor);
-                    if (j+1!==externalurlArray.length) {techLinksParagraph.append(" | ")}
+                        let techExtUrlAnchor = document.createElement('a');
+                        techExtUrlAnchor.setAttribute('href', externalurlArray[j]);
+                        techExtUrlAnchor.append('External Report #'+(j+1));
+                        techLinksParagraph.append(techExtUrlAnchor);
+                        if (j+1!==externalurlArray.length) {techLinksParagraph.append(" | ")}
+                    }
                 }
                 if (obj.meta.highlights.technology[i].externalurls.length || obj.meta.highlights.technology[i].prevworkurl) {
                     cardBodyDiv.append(techLinksParagraph)// Append Tech Links Paragraph

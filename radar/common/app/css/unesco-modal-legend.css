@@ -14,7 +14,10 @@
 }
 
 #modal-legend-inner img {
-    width: 100%;
+    /*width: 100%;*/
+    height: auto;
+    max-height: 800px;
+    max-width: 100%;
 }
 
 #modal-legend-inner img.boxed {
@@ -36,7 +39,10 @@
 }
 
 #modal-method-inner img {
-    width: 100%;
+    /*width: 100%;*/
+    height: auto;
+    max-height: 800px;
+    max-width: 100%;
 }
 
 #modal-method-inner img.boxed {

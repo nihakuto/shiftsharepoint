@@ -1,7 +1,7 @@
 {
     "meta": {
         "language": "en",
-        "generated": "2019-02-21T11:18:57.634Z"
+        "generated": "2019-02-21T02:37:20.215Z"
     },
     "nodes": {
         "vocabulary_ich_1265": {
@@ -531,7 +531,7 @@
                         "Fluid Expectations in Placemaking: Four Trends and Strategies"
                     ],
                     "urls": [
-                        "https://medium.com/vamonde/fluid-expectations-in-placemaking-four-trends-and-strategies-1f2a5b31f247"
+                        "Fluid Expectations in Placemaking: Four Trends and Strategies"
                     ]
                 }
             }
@@ -633,14 +633,10 @@
                 "multinational": false,
                 "evidence_articles": {
                     "names": [
-                        "What Is Zero UI?",
-                        "Intelligent interfaces -\nReimagining the way humans",
-                        " machines",
-                        " and data interact"
+                        ""
                     ],
                     "urls": [
-                        "https://www.fastcompany.com/3048139/what-is-zero-ui-and-why-is-it-crucial-to-the-future-of-design",
-                        "https://www2.deloitte.com/insights/us/en/focus/tech-trends/2019/human-interaction-technology-intelligent-interface.html"
+                        ""
                     ]
                 }
             }
@@ -1208,8 +1204,8 @@
             "label": "Virtual Assistants",
             "meta": {
                 "icon": {
-                    "small": "https://imagesvc.timeincapp.com/v3/mm/image?url=https%3A%2F%2Ffortunedotcom.files.wordpress.com%2F2016%2F12%2Fgatebox-hikari-youtube.jpg&w=800&q=85",
-                    "large": "https://imagesvc.timeincapp.com/v3/mm/image?url=https%3A%2F%2Ffortunedotcom.files.wordpress.com%2F2016%2F12%2Fgatebox-hikari-youtube.jpg&w=800&q=85"
+                    "small": "https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png",
+                    "large": "https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png"
                 },
                 "description": "Virtual assistants can provide quick information to customers, employees or partners on the go. These assistants can be available to remote users through smartphones, smart speakers, or smart appliances. Presential users can access these assistants through kiosks. Chatbots can provide quick information to customers, employees or partners on the go. Can be made available through dedicated messaging APPs like WhatsAPP or embedded in existing channels like the on-line stores or APPs.",
                 "list": "Trend Application",
@@ -1259,22 +1255,10 @@
                             ]
                         },
                         {
-                            "uid": "IMP117",
-                            "name": "Saint Louis University Echo Dots",
-                            "author": "aec",
-                            "description": "Leading-edge technology will better connect students with campus life at SLU",
-                            "image": "https://www.slu.edu/img/social/slu-social.png",
-                            "video": "",
-                            "main_link": "https://www.slu.edu/news/2018/august/slu-alexa-project.php",
-                            "article_links": [
-                                "http://fortune.com/2018/08/15/amazon-alexa-echo-back-to-school-dorm-room/"
-                            ]
-                        },
-                        {
                             "uid": "IMP127",
                             "name": "Lidl's Margot",
                             "author": "jgp",
-                            "description": "The artificially intelligent chatbot – named Margot – can converse with customers who want to \"make more confident wine choices and have some fun along the way\", Lidl says.",
+                            "description": "",
                             "image": "",
                             "video": "",
                             "main_link": "https://www.telegraph.co.uk/business/2018/01/31/lidl-launches-online-chatbot-recommends-wine-based-budget-food/",
@@ -1288,7 +1272,7 @@
                             "uid": "PRT102",
                             "name": "SmartAisle",
                             "author": "nlg",
-                            "description": "Provide shoppers with intuitive voice-powered product selection, education and customer support tools at shelf.",
+                            "description": "",
                             "image": "",
                             "video": "",
                             "main_link": "https://www.smartaisle.io/",
@@ -1301,8 +1285,8 @@
                             "uid": "PRT103",
                             "name": "bitext",
                             "author": "jgp",
-                            "description": "Our framework offers a variety of service to solve all your NLP requests: chatbots, parsing, lemmatization, sentiment analysis. > Over 90% accuracy.",
-                            "image": "https://www.bitext.com/wp-content/uploads/2015/05/Bitext-openGraph-facebook.jpg",
+                            "description": "",
+                            "image": "",
                             "video": "",
                             "main_link": "https://www.bitext.com/",
                             "article_links": [
@@ -1314,8 +1298,8 @@
                             "uid": "PRT104",
                             "name": "3d-berlin",
                             "author": "jgp",
-                            "description": "3d-berlin vr solutions GmbH is an IT-hightech company from Berlin specialized in building information and guidance systems.",
-                            "image": "https://www.3d-berlin.com/website/wp-content/uploads/2018/03/3d-berlin_Logo.png",
+                            "description": "",
+                            "image": "",
                             "video": "",
                             "main_link": "https://www.3d-berlin.com/en/",
                             "article_links": [
@@ -1327,8 +1311,8 @@
                             "uid": "PRT127",
                             "name": "flow.ai",
                             "author": "jgp",
-                            "description": "Flow.ai is a professional software platform for creating conversational UIs, AI assistants and chatbots.",
-                            "image": "https://flow.ai/assets/images/social/facebook.png",
+                            "description": "",
+                            "image": "",
                             "video": "",
                             "main_link": "https://www.flow.ai/",
                             "article_links": [
@@ -1340,8 +1324,8 @@
                             "uid": "PRT128",
                             "name": "Kami AI",
                             "author": "jgp",
-                            "description": "KAMI's Conversational AI architecture is designed to empower machines with the abilities of understanding and generating natural dialogue.",
-                            "image": "https://kami.ai/wp-content/themes/Kami/img/logo-dark.png",
+                            "description": "",
+                            "image": "",
                             "video": "",
                             "main_link": "https://kami.ai/",
                             "article_links": [
@@ -1439,8 +1423,8 @@
                             "uid": "PRT021",
                             "name": "Caper",
                             "author": "aec",
-                            "description": "AI Powered Retail -Checkout made easy. Just toss it in, and leave.\n\nWith our next generation smart self-checkout cart, powered by deep learning &amp; computer vision, items are instantly detected as",
-                            "image": "https://www.advancingretail.org/sites/default/files/styles/thumbnail/public/logos/0_16.png?itok=Czf5aYah",
+                            "description": "Everything necessary, delivered intelligently",
+                            "image": "https://betalist.imgix.net/attachments/d2cadd09-358e-4209-9a6e-acaddc1e0ed3/image.jpg?ixlib=rb-1.1.0",
                             "video": "",
                             "main_link": "https://www.advancingretail.org/solutions/caper",
                             "article_links": [
@@ -1465,7 +1449,7 @@
                             "uid": "PRT023",
                             "name": "Aipoly",
                             "author": "jgp",
-                            "description": "AI Powered autonomous stores. Retrofit convenience stores, distribution centers, and filling stations for full autonomy.",
+                            "description": "",
                             "image": "",
                             "video": "",
                             "main_link": "https://www.aipoly.com/",
@@ -1478,7 +1462,7 @@
                             "uid": "PRT024",
                             "name": "ITAB",
                             "author": "jgp",
-                            "description": "As Europe's leading supplier, ITAB has the experience and expertise to help retail chains choose the right equipment for the checkout aisle based on the shop's size, flow of goods and number of visitors.\n\nAs an alternative to manned checkouts, ITAB has developed efficient self checkout solutions which mean that consumers can quickly, conveniently and reliably check and scan their items themselves at the checkout. We also have a new solution for the \"just walkout technology\", AirFLOW. ",
+                            "description": "",
                             "image": "",
                             "video": "",
                             "main_link": "https://itab.com/en/our-offer/checkout-arena/",
@@ -1491,7 +1475,7 @@
                             "uid": "PRT025",
                             "name": "eKiosk",
                             "author": "jgp",
-                            "description": "Manufacturer of digital kiosk systems âœ” kiosk solutions âœ” kiosk terminals âœ” digital signage hard- and software solutions âœ” Learn about eKiosk now! ",
+                            "description": "Capsules compatibles Nespresso enrichies en actifs d'origine naturelle, complÃ©ment alimentaire minceur efficace, dÃ©cafÃ©inÃ© anti stress, cafÃ© boostant",
                             "image": "",
                             "video": "",
                             "main_link": "https://ekiosk.com/en/",
@@ -1504,8 +1488,8 @@
                             "uid": "PRT026",
                             "name": "Mucho",
                             "author": "jgp",
-                            "description": "",
-                            "image": "",
+                            "description": "The a2 Milk Companyâ„¢ is in the business of pioneering a2 Milkâ„¢ and making its unique health benefits understood and available to everybody around the world",
+                            "image": "https://thea2milkcompany.com/wp-content/uploads/a2_Rel1_Aus_TM_FullCol_small.png",
                             "video": "",
                             "main_link": "https://www.getmucho.com/",
                             "article_links": [
@@ -1602,7 +1586,7 @@
                             "uid": "PRT029",
                             "name": "VueStyle",
                             "author": "aec",
-                            "description": "VueStyle is an AI Stylist for Fashion Retailers | Styling and Outfitting Solution for Fashion Ecommerce Websites | Online Personal Stylist",
+                            "description": "",
                             "image": "",
                             "video": "",
                             "main_link": "https://vue.ai/ai-stylist/",
@@ -2042,8 +2026,7 @@
                             "prevwork": "",
                             "prevworkurl": "",
                             "externalurls": [
-                                "https://behavioralsignals.com/behavioral-patterns/",
-                                "https://medium.com/@LiamHanel/a-list-of-artificial-intelligence-tools-you-can-use-today-for-businesses-2-3-eea3ac374835"
+                                "https://behavioralsignals.com/behavioral-patterns/"
                             ],
                             "recommendation": "study"
                         }
@@ -2133,8 +2116,8 @@
             "label": "Voice Control",
             "meta": {
                 "icon": {
-                    "small": "https://cdn.pixabay.com/photo/2018/02/14/21/18/audio-3153963_960_720.jpg",
-                    "large": "https://cdn.pixabay.com/photo/2018/02/14/21/18/audio-3153963_960_720.jpg"
+                    "small": "https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png",
+                    "large": "https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png"
                 },
                 "description": "Interfacing is a hot topic nowadays. Depending on the industry, a platform's ease of use (or lack thereof) can overturn entire business ventures. It is unquestionable that we veer towards a future where human-machine interfaces are more organic, aiming to eradicate learning curves.\nCurrently, voice control is, with little doubt, the closest we have to achieving the fluidity necessary for this - we certainly must teach someone what \"Ctrl+A\" is, and does anything interesting, but shouting \"Hey Siri, play me the Beatles\" comes second to language (and some good taste...).",
                 "list": "Trend Application",
@@ -2149,10 +2132,10 @@
                             "uid": "IMP115",
                             "name": "Nestle goodNes",
                             "author": "aec",
-                            "description": "Now you have an extra set of hands in the kitchen! Get recipe recommendations, cooking tips, and step-by-step instructions all by voice with the goodNes Skill for Amazon Alexa.",
+                            "description": "",
                             "image": "https://www.goodnes.com/sites/site.prod1.goodnes.com/files/holiday-bites-marquee-slide-1024x550_0.jpg",
                             "video": "",
-                            "main_link": "https://www.goodnes.com/alexa-skill",
+                            "main_link": "https://www.goodnes.com/",
                             "article_links": [
                                 "https://www.prnewswire.com/news-releases/nestles-new-goodnes-skill-for-amazon-alexa-turns-any-device-with-amazon-alexa-into-a-true-cooking-companion-with-visual-guide-300458900.html"
                             ]
@@ -2185,8 +2168,8 @@
                             "uid": "IMP133",
                             "name": "AlterEgo",
                             "author": "jgp",
-                            "description": "AlterEgo is a wearable system that allows a user to silently converse with a computing device without any voice or discernible movements — thereby enabling the user to communicate with devices, AI assistants, applications, or other people in a silent, concealed, and seamless manner.",
-                            "image": "https://img.youtube.com/vi/RuUSc53Xpeg/mqdefault.jpg",
+                            "description": "",
+                            "image": "",
                             "video": "",
                             "main_link": "https://www.youtube.com/watch?v=RuUSc53Xpeg&feature=share",
                             "article_links": [
@@ -2199,8 +2182,8 @@
                             "uid": "PRT107",
                             "name": "shelfai",
                             "author": "jgp",
-                            "description": "We bring artificial intelligence to e-commerce, empowering grocery retailers to engage directly with customers, in truly personalised shopping experiences.",
-                            "image": "https://shelf.ai/website/wp-content/uploads/2016/10/shelfai_logo_sm.png",
+                            "description": "KAMI's Conversational AI architecture is designed to empower machines with the abilities of understanding and generating natural dialogue.",
+                            "image": "",
                             "video": "",
                             "main_link": "https://shelf.ai/",
                             "article_links": [
@@ -2224,7 +2207,7 @@
                     "small": "http://www.flamanko.com/wp-content/uploads/nathan-fertig-334383-1920x1080-c-default.jpg",
                     "large": "http://www.flamanko.com/wp-content/uploads/nathan-fertig-334383-1920x1080-c-default.jpg"
                 },
-                "description": "Another iteration in the new interface world, motion control is one that ambitions (arguably) the easiest learning processes. Motion for control is an obvious extension of our sensorial world. A trivial example is the simple but revolutionary \"pinch-to-zoom\" gesture popularised to omnipresence (and usually attributed to Apple's first iPhone).",
+                "description": "Another iteration in the new interface world, motion control is one that ambitions (arguably) the easiest learning processes. Motion for control is an obvious extension of our sensorial world. A trivial example is the simple but revolutionary \"pinch-to-zoom\" gesture popularised to omnipresence (and usually attributed to Apple first iPhone).",
                 "list": "Trend Application",
                 "year": "Seamlessness/Ease",
                 "multinational": false,
@@ -2263,7 +2246,7 @@
                             "uid": "PRT057",
                             "name": "iNUI Studio",
                             "author": "aec",
-                            "description": "Banking Solutions Â· Digital Signage Â·Â Innovation Â· Custom Development Â· Based in Luxembourg.",
+                            "description": "Find more about twoosk! Why we exist and our Story. What values we believe and that are the basis for matching opportunities within a trustful curated community",
                             "image": "https://pbs.twimg.com/profile_images/433567957419962368/eL2Y7l4J.png",
                             "video": "",
                             "main_link": "http://www.inui-studio.com",
@@ -2290,7 +2273,7 @@
                             "name": "Lab4Motion",
                             "author": "tpc",
                             "description": "Lab4Motion provide video processing technology for real-time analytics of business processes reinforced with an alert mechanism which supports the customer in day-to-day operations. People counters, presence detection, objects recognition, etc.  ",
-                            "image": "https://pbs.twimg.com/profile_images/631551339709861888/CFjUY_Vp_400x400.png",
+                            "image": "https://static.wixstatic.com/media/9bb980_c9ab3434b0da41869df64ec1dbcb99f9~mv2.png/v1/fill/w_108,h_96,al_c,q_80,usm_0.66_1.00_0.01/9bb980_c9ab3434b0da41869df64ec1dbcb99f9~mv2.webp",
                             "video": "",
                             "main_link": "http://lab4motion.com/",
                             "article_links": [
@@ -2305,7 +2288,7 @@
                             "name": "Artificial vision for Behaviour analytics",
                             "author": "radar18",
                             "description": "Analyze in store customer's behavior to get traffic heatmaps and costumer's flow inside the store. Through artificial vision it is possible to automatically analyze information from cameras. Specific software can detect the presence of people, count them, analyze how frequently a space is visited, recognize patterns and also analyze people's behavior. ",
-                            "image": "https://black.ai/assets/images/image01.jpg?v80695257869451",
+                            "image": "",
                             "video": "",
                             "prevwork": "",
                             "prevworkurl": "",
@@ -2368,11 +2351,11 @@
         "app_BIOMVALI": {
             "type": "concept",
             "group": "threat",
-            "label": "Biometric Validation and Analytics",
+            "label": "Biometric Validation",
             "meta": {
                 "icon": {
-                    "small": "https://d1sr9z1pdl3mb7.cloudfront.net/wp-content/uploads/2018/05/25115416/universal-biometric-identity-1024x576.jpg",
-                    "large": "https://d1sr9z1pdl3mb7.cloudfront.net/wp-content/uploads/2018/05/25115416/universal-biometric-identity-1024x576.jpg"
+                    "small": "https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png",
+                    "large": "https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png"
                 },
                 "description": "People use their unique biological traits to be identified, manage access to resources or authorize payments through voice, fingerprint or iris recognition. After the biometric identification employees, partners and customers access admission-controlled assets (e.g. offices, technical areas, or lockers) or classified information (e.g. interaction with customer care, or APPs) without using codes or cards.",
                 "list": "Trend Application",
@@ -2387,8 +2370,8 @@
                             "uid": "PRT034",
                             "name": "RetailQuant",
                             "author": "jgp",
-                            "description": "Know your customers. Serve your customers. Award-winning solution giving you insight about your customer demographics, when they shop and what they buy.",
-                            "image": "https://www.retailquant.com/wp-content/uploads/2018/12/retailquant_logo_web.png",
+                            "description": "",
+                            "image": "",
                             "video": "",
                             "main_link": "https://www.retailquant.com/",
                             "article_links": [
@@ -2413,8 +2396,8 @@
                             "uid": "PRT132",
                             "name": "adpack",
                             "author": "jgp",
-                            "description": "We provide real-time audience targeting through face detection with our screen-based out-of-home solution. adpack identifies persons in front of a screen by age and gender and plays targeted content. ",
-                            "image": "https://websitewp.adpack.tv/wp-content/uploads/2018/05/Adpack_Logo_rgb_300.png",
+                            "description": "",
+                            "image": "",
                             "video": "",
                             "main_link": "https://www.adpack.tv/",
                             "article_links": [
@@ -2427,7 +2410,7 @@
                             "name": "Lab4Motion",
                             "author": "tpc",
                             "description": "Lab4Motion provide video processing technology for real-time analytics of business processes reinforced with an alert mechanism which supports the customer in day-to-day operations. People counters, presence detection, objects recognition, etc.  ",
-                            "image": "https://pbs.twimg.com/profile_images/631551339709861888/CFjUY_Vp_400x400.png",
+                            "image": "https://static.wixstatic.com/media/9bb980_c9ab3434b0da41869df64ec1dbcb99f9~mv2.png/v1/fill/w_108,h_96,al_c,q_80,usm_0.66_1.00_0.01/9bb980_c9ab3434b0da41869df64ec1dbcb99f9~mv2.webp",
                             "video": "",
                             "main_link": "http://lab4motion.com/",
                             "article_links": [
@@ -2442,7 +2425,7 @@
                             "name": "Artificial vision for Behaviour analytics",
                             "author": "radar18",
                             "description": "Analyze in store customer's behavior to get traffic heatmaps and costumer's flow inside the store. Through artificial vision it is possible to automatically analyze information from cameras. Specific software can detect the presence of people, count them, analyze how frequently a space is visited, recognize patterns and also analyze people's behavior. ",
-                            "image": "https://black.ai/assets/images/image01.jpg?v80695257869451",
+                            "image": "",
                             "video": "",
                             "prevwork": "",
                             "prevworkurl": "",
@@ -2450,32 +2433,6 @@
                                 ""
                             ],
                             "recommendation": "study"
-                        }
-                    ],
-                    "implementation": [
-                        {
-                            "uid": "IMP145",
-                            "name": "CaixaBank Face Recognition",
-                            "author": "jgp",
-                            "description": "CaixaBank has become the world's first financial institution to offer its customers the ability to use facial recognition to withdraw cash from ATMs, without having to enter their PIN.",
-                            "image": "http://www.planetbiometrics.com/creo_files/upload/article-images/64922.JPG",
-                            "video": "",
-                            "main_link": "http://www.planetbiometrics.com/article-details/i/9977/desc/caixabank-reveals-face-recognition-atms/",
-                            "article_links": [
-                                ""
-                            ]
-                        },
-                        {
-                            "uid": "IMP146",
-                            "name": "Biometric Aerospace Defense",
-                            "author": "jgp",
-                            "description": "A recent regulatory framework has helped to land BIO-key another big customer, with the company announcing that a ‘global aerospace defense contractor’ has opted to implement its biometric security solutions.",
-                            "image": "https://16sp2o45qs973i2kpolavg37-wpengine.netdna-ssl.com/assets/Bio-key-Logo.jpg",
-                            "video": "",
-                            "main_link": "https://findbiometrics.com/aerospace-defense-contractor-bio-key-security-601303/",
-                            "article_links": [
-                                ""
-                            ]
                         }
                     ]
                 }
@@ -2517,8 +2474,8 @@
                             "uid": "PRT072",
                             "name": "Splosh Refilling is\r\neasier than Recycling",
                             "author": "man",
-                            "description": "",
-                            "image": "",
+                            "description": "Ambrosus enables secure and frictionless dialogue between sensors, distributed ledgers and databases to assure quality, safety and origins of products.",
+                            "image": "https://ambrosus.com/wp-content/themes/Abrosus/assets/img/ambrosus-website-image.png",
                             "video": "",
                             "main_link": "https://www.splosh.com/",
                             "article_links": [
@@ -2530,8 +2487,8 @@
                             "uid": "PRT073",
                             "name": "Loops Reusable Packaging",
                             "author": "man",
-                            "description": "Why a quirky startup has attracted P&G, Unilever, Coke, Pepsi, Nestle, Mars, Clorox, Danone and 20 other brands to a platform for disruptive packaging.",
-                            "image": "https://www.greenbiz.com/sites/default/files/styles/panopoly_image_full/public/images/articles/featured/loop-group-shot.jpg?itok=lSfHwEiU",
+                            "description": "",
+                            "image": "",
                             "video": "",
                             "main_link": "https://www.greenbiz.com/article/loops-launch-brings-reusable-packaging-worlds-biggest-brands",
                             "article_links": [
@@ -2591,8 +2548,8 @@
                             "uid": "PRT060",
                             "name": "Bulkbox Foods",
                             "author": "jgp",
-                            "description": "Fill your kitchen with beautiful food and laughter, while knowing you are getting the quality and value of farm to market food that your family deserves.",
-                            "image": "",
+                            "description": "Tubular is the world-leader in social video analytics and sponsored video intelligence to help you grow and monetize your business.",
+                            "image": "http://tubularlabs.com/wp-content/uploads/2017/12/Tubular-Social-Sharing-Image-Facebook@1x.jpg",
                             "video": "",
                             "main_link": "https://bulkboxfoods.com",
                             "article_links": [
@@ -2700,7 +2657,7 @@
                             "uid": "PRT039",
                             "name": "Workwell",
                             "author": "aec",
-                            "description": "",
+                            "description": "Fill your kitchen with beautiful food and laughter, while knowing you are getting the quality and value of farm to market food that your family deserves.",
                             "image": "",
                             "video": "",
                             "main_link": "https://www.workwell.io/",
@@ -2737,7 +2694,7 @@
                             "uid": "PRT114",
                             "name": "Kubo",
                             "author": "jgp",
-                            "description": "KUBO is a simple, intuitive solution, that makes it easy for teachers to introduce computer science and coding to students as young as four.",
+                            "description": "",
                             "image": "",
                             "video": "",
                             "main_link": "https://kubo.education/",
@@ -3082,8 +3039,8 @@
                             "uid": "PRT091",
                             "name": "Volunteer Sabbatical",
                             "author": "jgp",
-                            "description": "MovingWorlds helps leading corporations build scalable programs that deliver triple-bottom line benefits.",
-                            "image": "//images.ctfassets.net/e6h4r2c2hknq/4Se8FehupGeoc4uWQ2S46W/446f25aaa8d256ce0d268e489633310c/Lynn-Thurston-Blog-Post-Photos-2-e1517436437572.jpg?fit=fill&w=1200&h=630",
+                            "description": "Nanotech for Life",
+                            "image": "https://s0.wp.com/i/blank.jpg",
                             "video": "",
                             "main_link": "https://movingworlds.org/international-corporate-volunteering",
                             "article_links": [
@@ -3095,8 +3052,8 @@
                             "uid": "PRT092",
                             "name": "Werk",
                             "author": "jgp",
-                            "description": "Werk's technology puts flexibility insights and data into the hands of companies to help them work smarter. Request a demo to learn more.",
-                            "image": "https://werk.co/images/meta-general.jpg",
+                            "description": "MyDx is a simple and affordable portable analyzer that will detect the chemicals we cannot see. The MyDx hopes to empower you to live a healthier life by revealing the purity of what you eat, drink and enhale.",
+                            "image": "",
                             "video": "",
                             "main_link": "https://werk.co/",
                             "article_links": [
@@ -3109,7 +3066,7 @@
                             "name": "CloqWerk",
                             "author": "jgp",
                             "description": "",
-                            "image": "//nebula.wsimg.com/95d084e810e28480825274d30e885bd9?AccessKeyId=159E94A845D5D9049890&disposition=0&alloworigin=1",
+                            "image": "",
                             "video": "",
                             "main_link": "http://www.cloqwerk.com/home.html",
                             "article_links": [
@@ -3193,8 +3150,8 @@
                             "uid": "PRT100",
                             "name": "Toptal's Work from Anywhere Policy",
                             "author": "nlg",
-                            "description": "Toptal is a rapidly growing tech start-up connecting the top 3% of talent in business, design, and technology to top professional clients.",
-                            "image": "https://bs-assets.toptal.io/blackfish-assets/public/base/images/logo/og_image_default_f7e298.png",
+                            "description": "Build human connections across the universe by using voice, sms, and live chat for sales, marketing, and customer support in your websites and beyond.",
+                            "image": "https://live-pingpilot.pantheonsite.io/wp-content/uploads/2017/08/facebook-og-image.png",
                             "video": "",
                             "main_link": "https://www.toptal.com/careers",
                             "article_links": [
@@ -3206,8 +3163,8 @@
                             "uid": "PRT101",
                             "name": "Knotel",
                             "author": "jgp",
-                            "description": "Knotel is changing the way companies find, design, and build office space, while offering operational flexibility which lowers risk as your company changes. ",
-                            "image": "http://www.knotel.com/static/assets/knotel-4095f2fdcefbb2d3ee2eb6cb366b2986.jpg",
+                            "description": "",
+                            "image": "",
                             "video": "",
                             "main_link": "https://www.knotel.com",
                             "article_links": [
@@ -3360,8 +3317,8 @@
                             "uid": "IMP119",
                             "name": "Unilever & The Vegetarian Butcher",
                             "author": "jgp",
-                            "description": "Food and personal care multinational Unilever is acquiring Netherlands-based The Vegetarian Butcher.",
-                            "image": "https://www.naturalproductsglobal.com/wp-content/uploads/2018/12/Jaap_Slagersmes.jpg",
+                            "description": "",
+                            "image": "",
                             "video": "",
                             "main_link": "https://www.naturalproductsglobal.com/europe/unilver-adds-vegetarian-butcher-to-growing-plant-based-portfolio/",
                             "article_links": [
@@ -3386,8 +3343,8 @@
                             "uid": "PRT071",
                             "name": "Syngja",
                             "author": "jgp",
-                            "description": "",
-                            "image": "",
+                            "description": "Werk's technology puts flexibility insights and data into the hands of companies to help them work smarter. Request a demo to learn more.",
+                            "image": "https://werk.co/images/meta-general.jpg",
                             "video": "",
                             "main_link": "https://syngja.dk/",
                             "article_links": [
@@ -3399,8 +3356,8 @@
                             "uid": "PRT082",
                             "name": "Beyond Meat",
                             "author": "nlg",
-                            "description": "",
-                            "image": "",
+                            "description": "Our framework offers a variety of service to solve all your NLP requests: chatbots, parsing, lemmatization, sentiment analysis. > Over 90% accuracy.",
+                            "image": "https://www.bitext.com/wp-content/uploads/2015/05/Bitext-openGraph-facebook.jpg",
                             "video": "",
                             "main_link": "https://www.beyondmeat.com/",
                             "article_links": [
@@ -3412,8 +3369,8 @@
                             "uid": "PRT083",
                             "name": "Quorn Foods",
                             "author": "aec",
-                            "description": "Enjoy healthy, low fat vegetarian versions of your favourite recipes. Browse products & learn about our mission to produce healthy protein for a healthy planet.",
-                            "image": "https://www.quorn.co.uk/img/content/share-home.jpg",
+                            "description": "",
+                            "image": "",
                             "video": "",
                             "main_link": "https://www.quorn.co.uk",
                             "article_links": [
@@ -3425,7 +3382,7 @@
                             "uid": "PRT084",
                             "name": "Wholi",
                             "author": "jgp",
-                            "description": "",
+                            "description": "Use a webcam to see what you'd look like in any pair of glasses, then share with friends. Shopping for glasses online is easy with our Virtual Try-On tool.",
                             "image": "",
                             "video": "",
                             "main_link": "https://wholifoods.com/",
@@ -3438,8 +3395,8 @@
                             "uid": "PRT085",
                             "name": "Cuisine Soleil",
                             "author": "jgp",
-                            "description": "Healty and made with our productsOver 2000 retailers across CanadaDiscover products and recipes",
-                            "image": "https://cuisinesoleil.com/wp-content/uploads/2018/04/logo-1x.jpg",
+                            "description": "We bring the worldâ€™s digital experiences to life through our immersive live video technology and expertise - Find out how we increase sales and improve customer experience for global brands like Farfetch, Porsche, Marriott International, Redrow, Sofa.com and how we can help you",
+                            "image": "",
                             "video": "",
                             "main_link": "https://cuisinesoleil.com/en/",
                             "article_links": [
@@ -3451,7 +3408,7 @@
                             "uid": "PRT086",
                             "name": "Algama",
                             "author": "jgp",
-                            "description": "Algama creates the next-generation daily food product that harnesses the unique potential of microalgae with a tasty spoonful of joy: good for people and sustainable.",
+                            "description": "We bring artificial intelligence to e-commerce, empowering grocery retailers to engage directly with customers, in truly personalised shopping experiences.",
                             "image": "",
                             "video": "",
                             "main_link": "http://algamafoods.com/",
@@ -3464,8 +3421,8 @@
                             "uid": "PRT087",
                             "name": "kriket",
                             "author": "jgp",
-                            "description": "KRIKET is a delicious snack. An irresistible mix of nuts, grains, seeds and crickets, and 100% sourced in Brussels.",
-                            "image": "https://kriket.be/images/share.jpg",
+                            "description": "Ecodyger traite les dÃ©chets organiques sur place et permet d'en rÃ©suire le volume de 70% Ã  90% qu'il ne devienne des ordures. Le substrat obtenu est utilisable comme compost de haute qualitÃ©",
+                            "image": "http://ecodyger.com/wp-content/uploads/2014/07/socialicon.jpg",
                             "video": "",
                             "main_link": "https://kriket.be/",
                             "article_links": [
@@ -3477,7 +3434,7 @@
                             "uid": "PRT088",
                             "name": "Seamore",
                             "author": "jgp",
-                            "description": "We believe we have found something that will change the way we think of food. Upgrade your food with I sea bacon and I sea pasta.",
+                            "description": "",
                             "image": "",
                             "video": "",
                             "main_link": "https://seamorefood.com/",
@@ -3490,8 +3447,8 @@
                             "uid": "PRT089",
                             "name": "Sens",
                             "author": "jgp",
-                            "description": "The most innovative bars with crickets, the new superfood. Pure ingredients only, no added sugar, gluten free and delicious.",
-                            "image": "https://assets.sensbar.com/webpage/images/SENS_landing_intro-L-1c.jpg",
+                            "description": "",
+                            "image": "",
                             "video": "",
                             "main_link": "https://www.sensbar.com/en",
                             "article_links": [
@@ -3614,8 +3571,8 @@
                             "uid": "PRT044",
                             "name": "Carrots",
                             "author": "jgp",
-                            "description": "",
-                            "image": "",
+                            "description": "Azienda IT, unica in Italia a possedere un software di RealtÃ  Aumentata proprietario. Professionisti di Computer Vision, Deep Learning, Machine Learning ed Intelligenza Artificiale",
+                            "image": "/immagini/logo/thumb.jpg",
                             "video": "",
                             "main_link": "http://www.morethancarrots.co.uk/",
                             "article_links": [
@@ -3650,7 +3607,7 @@
                             "uid": "PRT048",
                             "name": "Sourcemap",
                             "author": "aec",
-                            "description": "",
+                            "description": "Enjoy Fresh Now",
                             "image": "",
                             "video": "",
                             "main_link": "https://www.sourcemap.com/",
@@ -3676,8 +3633,8 @@
                             "uid": "PRT126",
                             "name": "CellWine",
                             "author": "jgp",
-                            "description": "CellWine â€“ An advanced cellar management system to manage your wine collections and let you trade your wine with other wine lovers. Powered by Good Courage",
-                            "image": "http://gcourage.com/wp-content/uploads/2017/03/logo_desk_2x-1.png",
+                            "description": "",
+                            "image": "",
                             "video": "",
                             "main_link": "http://gcourage.com/",
                             "article_links": [
@@ -3749,8 +3706,8 @@
                             "uid": "PRT060",
                             "name": "Bulkbox Foods",
                             "author": "jgp",
-                            "description": "Fill your kitchen with beautiful food and laughter, while knowing you are getting the quality and value of farm to market food that your family deserves.",
-                            "image": "",
+                            "description": "Tubular is the world-leader in social video analytics and sponsored video intelligence to help you grow and monetize your business.",
+                            "image": "http://tubularlabs.com/wp-content/uploads/2017/12/Tubular-Social-Sharing-Image-Facebook@1x.jpg",
                             "video": "",
                             "main_link": "https://bulkboxfoods.com",
                             "article_links": [
@@ -3762,8 +3719,8 @@
                             "uid": "PRT093",
                             "name": "Ambrosus",
                             "author": "aec",
-                            "description": "Ambrosus enables secure and frictionless dialogue between sensors, distributed ledgers and databases to assure quality, safety and origins of products.",
-                            "image": "https://ambrosus.com/wp-content/themes/Abrosus/assets/img/ambrosus-website-image.png",
+                            "description": "KUBO is a simple, intuitive solution, that makes it easy for teachers to introduce computer science and coding to students as young as four.",
+                            "image": "",
                             "video": "",
                             "main_link": "https://ambrosus.com/",
                             "article_links": [
@@ -3775,8 +3732,8 @@
                             "uid": "PRT094",
                             "name": "Nutrasign",
                             "author": "aec",
-                            "description": "",
-                            "image": "",
+                            "description": "Create a beautifully designed, personalised gift book celebrating someone's life, based on their birth date. Make a book in only 40 seconds!",
+                            "image": "https://dmwtc4afbu6an.cloudfront.net/images/og_card-41e44799368bdf181ce01cef8444edb7.jpg?vsn=d",
                             "video": "",
                             "main_link": "https://www.nutrasign.io/en/",
                             "article_links": [
@@ -3872,8 +3829,8 @@
                             "uid": "PRT035",
                             "name": "eaternity",
                             "author": "jgp",
-                            "description": "App'etite for Change.",
-                            "image": "",
+                            "description": "Intelligent Newsroom Assistant",
+                            "image": "images/oko_logo.png",
                             "video": "",
                             "main_link": "https://eaternity.org/",
                             "article_links": [
@@ -3885,8 +3842,8 @@
                             "uid": "PRT036",
                             "name": "LinkSquare",
                             "author": "jgp",
-                            "description": "LinksSquare is a handheld spectrometer to check food quality, verify products, and explore so many things around you. A smart scanner device to take anywhere.",
-                            "image": "",
+                            "description": "Banking Solutions Â· Digital Signage Â·Â Innovation Â· Custom Development Â· Based in Luxembourg.",
+                            "image": "http://www.inui-studio.com/assets/img/og/inui-studio.jpg",
                             "video": "",
                             "main_link": "https://linksquare.io/",
                             "article_links": [
@@ -3898,8 +3855,8 @@
                             "uid": "PRT112",
                             "name": "Magnomics",
                             "author": "jgp",
-                            "description": "Nanotech for Life",
-                            "image": "https://s0.wp.com/i/blank.jpg",
+                            "description": "",
+                            "image": "",
                             "video": "",
                             "main_link": "https://www.magnomics.pt/",
                             "article_links": [
@@ -3911,7 +3868,7 @@
                             "uid": "PRT113",
                             "name": "MyDX",
                             "author": "jgp",
-                            "description": "MyDx is a simple and affordable portable analyzer that will detect the chemicals we cannot see. The MyDx hopes to empower you to live a healthier life by revealing the purity of what you eat, drink and enhale.",
+                            "description": "",
                             "image": "",
                             "video": "",
                             "main_link": "https://www.mydxlife.com/",
@@ -4084,7 +4041,7 @@
                             "uid": "PRT067",
                             "name": "Lucky Iron Fish",
                             "author": "jgp",
-                            "description": "",
+                            "description": "We believe we have found something that will change the way we think of food. Upgrade your food with I sea bacon and I sea pasta.",
                             "image": "",
                             "video": "https://www.youtube.com/watch?v=iY0D-PIcgB4",
                             "main_link": "https://luckyironfish.com",
@@ -4097,8 +4054,8 @@
                             "uid": "PRT068",
                             "name": "YUSA",
                             "author": "jgp",
-                            "description": "Yusa is the first drink in the UK to use the guayusa tea leaf to create a healthy refreshing plant-based energy drink thatâ€™s high in natural caffeine, antioxidants and low in sugar. We have added only water, plants and fruit juices to create an all-natural alternative energy drink, containing nothing artificial",
-                            "image": "https://static.wixstatic.com/media/96e271_09bca50da672485fa6c638bd5ae7ac53%7Emv2.jpg/v1/fit/w_2500,h_1330,al_c/96e271_09bca50da672485fa6c638bd5ae7ac53%7Emv2.jpg",
+                            "description": "The most innovative bars with crickets, the new superfood. Pure ingredients only, no added sugar, gluten free and delicious.",
+                            "image": "https://assets.sensbar.com/webpage/images/SENS_landing_intro-L-1c.jpg",
                             "video": "",
                             "main_link": "https://www.yusadrinks.com/",
                             "article_links": [
@@ -4110,7 +4067,7 @@
                             "uid": "PRT069",
                             "name": "pirugrow",
                             "author": "jgp",
-                            "description": "Enjoy Fresh Now",
+                            "description": "Eatizz: Stop food waste, last-minute discounts",
                             "image": "",
                             "video": "",
                             "main_link": "https://spirugrow.com/",
@@ -4136,8 +4093,8 @@
                             "uid": "PRT071",
                             "name": "Syngja",
                             "author": "jgp",
-                            "description": "",
-                            "image": "",
+                            "description": "Werk's technology puts flexibility insights and data into the hands of companies to help them work smarter. Request a demo to learn more.",
+                            "image": "https://werk.co/images/meta-general.jpg",
                             "video": "",
                             "main_link": "https://syngja.dk/",
                             "article_links": [
@@ -4259,7 +4216,7 @@
                             "uid": "PRT046",
                             "name": "Fitalety",
                             "author": "jgp",
-                            "description": "Capsules compatibles Nespresso enrichies en actifs d'origine naturelle, complÃ©ment alimentaire minceur efficace, dÃ©cafÃ©inÃ© anti stress, cafÃ© boostant",
+                            "description": "",
                             "image": "",
                             "video": "",
                             "main_link": "https://www.fitalety.com/",
@@ -4315,7 +4272,7 @@
                             "uid": "PRT114",
                             "name": "Kubo",
                             "author": "jgp",
-                            "description": "KUBO is a simple, intuitive solution, that makes it easy for teachers to introduce computer science and coding to students as young as four.",
+                            "description": "",
                             "image": "",
                             "video": "",
                             "main_link": "https://kubo.education/",
@@ -4366,7 +4323,7 @@
                             "uid": "PRT059",
                             "name": "NOURISH3D",
                             "author": "jgp",
-                            "description": "At nourish3D we invented a radical new way for your daily vitamins & minerals. We print chewable, delicious stacks containing 7 personalised inclusions from a selection of 27 active ingredients. 1 of over 100 billion combinations will be just right for you. To be one of the very first to get your stack: Pre-Order now!",
+                            "description": "",
                             "image": "",
                             "video": "",
                             "main_link": "https://get-nourished.com/",
@@ -4513,8 +4470,8 @@
                             "uid": "PRT049",
                             "name": "Spike",
                             "author": "jgp",
-                            "description": "We create solutions that help diabetics monitor their health and live a healthier lifestyle.",
-                            "image": "https://res.cloudinary.com/hrscywv4p/image/upload/c_limit,fl_lossy,h_630,w_1200,f_auto,q_auto/v1/1289343/Spike_Logo_Square-01_bfphaw.png",
+                            "description": "",
+                            "image": "https://inl.int/life-science/wp-content/uploads/2015/07/416-e1538434099662.jpeg",
                             "video": "",
                             "main_link": "https://www.thespikeapp.com/",
                             "article_links": [
@@ -4664,8 +4621,8 @@
                             "uid": "PRT052",
                             "name": "No Dough Pizza Co",
                             "author": "jgp",
-                            "description": "",
-                            "image": "",
+                            "description": "Why a quirky startup has attracted P&G, Unilever, Coke, Pepsi, Nestle, Mars, Clorox, Danone and 20 other brands to a platform for disruptive packaging.",
+                            "image": "https://www.greenbiz.com/sites/default/files/styles/panopoly_image_full/public/images/articles/featured/loop-group-shot.jpg?itok=lSfHwEiU",
                             "video": "",
                             "main_link": "https://www.nodoughpizza.com/",
                             "article_links": [
@@ -4677,8 +4634,8 @@
                             "uid": "PRT053",
                             "name": "BOL",
                             "author": "jgp",
-                            "description": "Welcome to the BOL foods website. Browse our product range, learn about our story, dive into our values and read the #plantlife blog to join our plant-based journey.",
-                            "image": "http://www.bolfoods.com//uploads/promos/Carousel-01_180119_100436.jpg",
+                            "description": "Drop Water is reinventing how bottled water is made and distributed. Our kiosks bottle drinks at the point of purchase in 100% compostable bottles.",
+                            "image": "https://static.wixstatic.com/media/7dcc42_9c3c7dbcbe9445c5965c43e847f852b3%7Emv2.png",
                             "video": "",
                             "main_link": "http://www.bolfoods.com",
                             "article_links": [
@@ -4690,7 +4647,7 @@
                             "uid": "PRT054",
                             "name": "Zveetz",
                             "author": "jgp",
-                            "description": "",
+                            "description": "Framie is a mobile app that empowers any brand to create digital collections, composed of placeholder pictures, for their users to complete with their own pictures. Step up your user engagement game!",
                             "image": "",
                             "video": "",
                             "main_link": "https://zveetz.com/",
@@ -4846,8 +4803,8 @@
                             "uid": "IMP120",
                             "name": "Kroger Driverless Cars to Deliver Groceries",
                             "author": "jgp",
-                            "description": "The nationâ€™s largest grocery chain stepped into the driverless delivery market Tuesday, bringing milk, eggs and other items to a customerâ€™s home in a vehicle with nobody at the wheel.",
-                            "image": "http://s.marketwatch.com/public/resources/MWimages/MW-HA605_driver_ZG_20181218221453.jpg",
+                            "description": "",
+                            "image": "",
                             "video": "",
                             "main_link": "https://www.marketwatch.com/story/kroger-rolls-out-driverless-cars-to-deliver-groceries-2018-12-18?fbclid=IwAR3_YflqEDM1O38t98aCk6ro1OT_KJ_kbVVGwPw-BXHV8iTlfbMssDSZ09A",
                             "article_links": [
@@ -4894,7 +4851,7 @@
                             "uid": "PRT075",
                             "name": "framie",
                             "author": "jgp",
-                            "description": "Framie is a mobile app that empowers any brand to create digital collections, composed of placeholder pictures, for their users to complete with their own pictures. Step up your user engagement game!",
+                            "description": "",
                             "image": "",
                             "video": "",
                             "main_link": "http://www.framieapp.com/",
@@ -4907,7 +4864,7 @@
                             "uid": "PRT076",
                             "name": "YouClap",
                             "author": "jgp",
-                            "description": "",
+                            "description": "smartLOGO, la vera alternativa al qr-code ti permette di ingaggiare il tuo consumatore con contenuti rilevanti\n",
                             "image": "",
                             "video": "",
                             "main_link": "https://youclap.tech/",
@@ -5009,7 +4966,7 @@
                             "name": "Instagram Stickers",
                             "author": "aec",
                             "description": "arranjar implementacoes para isto",
-                            "image": "",
+                            "image": "http://www.knotel.com/static/assets/knotel-4095f2fdcefbb2d3ee2eb6cb366b2986.jpg",
                             "video": "",
                             "main_link": "",
                             "article_links": [
@@ -5100,7 +5057,7 @@
                             "uid": "PRT008",
                             "name": "Qopius",
                             "author": "jgp",
-                            "description": "",
+                            "description": "VueStyle is an AI Stylist for Fashion Retailers | Styling and Outfitting Solution for Fashion Ecommerce Websites | Online Personal Stylist",
                             "image": "",
                             "video": "",
                             "main_link": "http://www.qopius.ai/",
@@ -5113,7 +5070,7 @@
                             "uid": "PRT009",
                             "name": "trax",
                             "author": "jgp",
-                            "description": "Improve your in-store retail execution and audits with image recognition technology that turns everyday shelf images into real-time actionable insights.",
+                            "description": "",
                             "image": "",
                             "video": "",
                             "main_link": "https://www.traxretail.com/",
@@ -5126,7 +5083,7 @@
                             "uid": "PRT010",
                             "name": "Wise Shelf",
                             "author": "jgp",
-                            "description": "WiseShelf transforms retail shelf to an IoT smart shelf. WiseShelf optimizes the store operation by minimizing shelf Out of Stock incidents.",
+                            "description": "Consultoria, Projetos e FormaÃ§Ã£o em AQUAPONIA e Aquacultura sustentÃ¡vel",
                             "image": "",
                             "video": "",
                             "main_link": "https://www.wiseshelf.com/",
@@ -5139,8 +5096,8 @@
                             "uid": "PRT011",
                             "name": "ses imagotag",
                             "author": "jgp",
-                            "description": "SES-imagotag is the worldwide leader in smart Electronic Shelf Labels and building the leading retail loT platform to ensure higher ROI.",
-                            "image": "https://www.ses-imagotag.com/wp-content/uploads/2019/01/SES-imagotag_FB.png",
+                            "description": "We power the Industrial IoT by transforming vibrations into electricity. Power your IoT units without the need for standard batteries or expensive cables.",
+                            "image": "https://revibeenergy.com/wp-content/uploads/2017/12/Revibe-logotyp-copy1-e1512760099761.png",
                             "video": "",
                             "main_link": "https://www.ses-imagotag.com/en/",
                             "article_links": [
@@ -5152,7 +5109,7 @@
                             "uid": "PRT012",
                             "name": "Displaydata",
                             "author": "jgp",
-                            "description": "Displaydata&#39;s Electronic Shelf Labels (ESLs) bring the shelf-edge into the Internet of Things era, helping to create shopping experiences that are more engaging, rewarding and personalised. We help retailers optimise sales and margin at the shelf-edge, where 90% of purchases are still made.",
+                            "description": "",
                             "image": "",
                             "video": "",
                             "main_link": "https://www.displaydata.com/#Keyfacts-section",
@@ -5178,7 +5135,7 @@
                             "uid": "PRT014",
                             "name": "Hanshow",
                             "author": "jgp",
-                            "description": "Smart Your Business With Our Electronic Shelf Label. The electronic shelf labels (ESL) synchronize the prices and information update in stores.",
+                            "description": "App'etite for Change.",
                             "image": "",
                             "video": "",
                             "main_link": "http://en.hanshow.com/#smart",
@@ -5191,8 +5148,8 @@
                             "uid": "PRT015",
                             "name": "Pricer",
                             "author": "jgp",
-                            "description": "",
-                            "image": "https://www.pricer.com/wp-content/uploads/2018/09/product-image-0.png",
+                            "description": "LinksSquare is a handheld spectrometer to check food quality, verify products, and explore so many things around you. A smart scanner device to take anywhere.",
+                            "image": "",
                             "video": "",
                             "main_link": "https://www.pricer.com/",
                             "article_links": [
@@ -5204,7 +5161,7 @@
                             "uid": "PRT016",
                             "name": "Time on Time",
                             "author": "jgp",
-                            "description": "ç¾Žæ€ç‰¹",
+                            "description": "",
                             "image": "",
                             "video": "",
                             "main_link": "http://www.ontimesmart.com/",
@@ -5217,8 +5174,8 @@
                             "uid": "PRT017",
                             "name": "Shelfie",
                             "author": "jgp",
-                            "description": "Shelfie is an image analytics platform designed to provide insights into the physical shelves of a retail environment. System is made up of an analytics platform, image capturing devices and reporting dashboard.",
-                            "image": "https://shelfierobot.com/wp-content/uploads/2018/10/shelfie.Artboard.png",
+                            "description": "",
+                            "image": "",
                             "video": "",
                             "main_link": "https://shelfierobot.com/",
                             "article_links": [
@@ -5230,7 +5187,7 @@
                             "uid": "PRT018",
                             "name": "bizcargo",
                             "author": "jgp",
-                            "description": "BIZCARGO.com Ã© um portal online para procurar soluÃ§Ãµes de transporte e logÃ­stica multimodais porta-a-porta. Os utilizadores podem pedir cotaÃ§Ãµes, gerir os seus bookings e acompanhar a execuÃ§Ã£o do transporte.",
+                            "description": "",
                             "image": "",
                             "video": "",
                             "main_link": "https://bizcargo.com/#/about",
@@ -5443,7 +5400,7 @@
                             "uid": "IMP127",
                             "name": "Lidl's Margot",
                             "author": "jgp",
-                            "description": "The artificially intelligent chatbot – named Margot – can converse with customers who want to \"make more confident wine choices and have some fun along the way\", Lidl says.",
+                            "description": "",
                             "image": "",
                             "video": "",
                             "main_link": "https://www.telegraph.co.uk/business/2018/01/31/lidl-launches-online-chatbot-recommends-wine-based-budget-food/",
@@ -5457,7 +5414,7 @@
                             "uid": "PRT018",
                             "name": "bizcargo",
                             "author": "jgp",
-                            "description": "BIZCARGO.com Ã© um portal online para procurar soluÃ§Ãµes de transporte e logÃ­stica multimodais porta-a-porta. Os utilizadores podem pedir cotaÃ§Ãµes, gerir os seus bookings e acompanhar a execuÃ§Ã£o do transporte.",
+                            "description": "",
                             "image": "",
                             "video": "",
                             "main_link": "https://bizcargo.com/#/about",
@@ -5483,8 +5440,8 @@
                             "uid": "PRT060",
                             "name": "Bulkbox Foods",
                             "author": "jgp",
-                            "description": "Fill your kitchen with beautiful food and laughter, while knowing you are getting the quality and value of farm to market food that your family deserves.",
-                            "image": "",
+                            "description": "Tubular is the world-leader in social video analytics and sponsored video intelligence to help you grow and monetize your business.",
+                            "image": "http://tubularlabs.com/wp-content/uploads/2017/12/Tubular-Social-Sharing-Image-Facebook@1x.jpg",
                             "video": "",
                             "main_link": "https://bulkboxfoods.com",
                             "article_links": [
@@ -5496,8 +5453,8 @@
                             "uid": "PRT106",
                             "name": "Go Instore",
                             "author": "jgp",
-                            "description": "We bring the worldâ€™s digital experiences to life through our immersive live video technology and expertise - Find out how we increase sales and improve customer experience for global brands like Farfetch, Porsche, Marriott International, Redrow, Sofa.com and how we can help you",
-                            "image": "",
+                            "description": "Flow.ai is a professional software platform for creating conversational UIs, AI assistants and chatbots.",
+                            "image": "https://flow.ai/assets/images/social/facebook.png",
                             "video": "",
                             "main_link": "https://www.goinstore.com/",
                             "article_links": [
@@ -5509,7 +5466,7 @@
                             "uid": "PRT111",
                             "name": "Docplanner",
                             "author": "jgp",
-                            "description": "Find the best physicians, search by location and specialty. Book your doctor appointment online on Doctoralia. Ask an expert.",
+                            "description": "",
                             "image": "",
                             "video": "",
                             "main_link": "https://www.docplanner.com/about-us",
@@ -5522,8 +5479,8 @@
                             "uid": "PRT117",
                             "name": "situm",
                             "author": "jgp",
-                            "description": "Situm is present in thousands of buildings from different industries worldwide, from hospitals, airports and train stations to museums, corporate buildings and factories, providing the most precise indoor positioning with the minimal infrastructure",
-                            "image": "https://situm.es/img/facebook/08zf6jwooduzakd41zbjsi7taqypo7/F0000000460_Situm_indoor_positioning.png",
+                            "description": "",
+                            "image": "",
                             "video": "",
                             "main_link": "https://situm.es/en",
                             "article_links": [
@@ -5535,8 +5492,8 @@
                             "uid": "PRT118",
                             "name": "nevis",
                             "author": "jgp",
-                            "description": "nevisQ - Die intelligenten FuÃŸleisten zur diskreten Ãœberwachung von RÃ¤umen",
-                            "image": "https://www.nevisq.com/pics/nevisQ.jpg",
+                            "description": "",
+                            "image": "",
                             "video": "",
                             "main_link": "https://www.nevisq.com/home",
                             "article_links": [
@@ -5561,8 +5518,8 @@
                             "uid": "PRT121",
                             "name": "PingPilot",
                             "author": "jgp",
-                            "description": "Build human connections across the universe by using voice, sms, and live chat for sales, marketing, and customer support in your websites and beyond.",
-                            "image": "https://live-pingpilot.pantheonsite.io/wp-content/uploads/2017/08/facebook-og-image.png",
+                            "description": "",
+                            "image": "",
                             "video": "",
                             "main_link": "https://pingpilot.com/",
                             "article_links": [
@@ -5574,8 +5531,8 @@
                             "uid": "PRT127",
                             "name": "flow.ai",
                             "author": "jgp",
-                            "description": "Flow.ai is a professional software platform for creating conversational UIs, AI assistants and chatbots.",
-                            "image": "https://flow.ai/assets/images/social/facebook.png",
+                            "description": "",
+                            "image": "",
                             "video": "",
                             "main_link": "https://www.flow.ai/",
                             "article_links": [
@@ -5587,8 +5544,8 @@
                             "uid": "PRT128",
                             "name": "Kami AI",
                             "author": "jgp",
-                            "description": "KAMI's Conversational AI architecture is designed to empower machines with the abilities of understanding and generating natural dialogue.",
-                            "image": "https://kami.ai/wp-content/themes/Kami/img/logo-dark.png",
+                            "description": "",
+                            "image": "",
                             "video": "",
                             "main_link": "https://kami.ai/",
                             "article_links": [
@@ -5661,8 +5618,8 @@
                             "uid": "IMP120",
                             "name": "Kroger Driverless Cars to Deliver Groceries",
                             "author": "jgp",
-                            "description": "The nationâ€™s largest grocery chain stepped into the driverless delivery market Tuesday, bringing milk, eggs and other items to a customerâ€™s home in a vehicle with nobody at the wheel.",
-                            "image": "http://s.marketwatch.com/public/resources/MWimages/MW-HA605_driver_ZG_20181218221453.jpg",
+                            "description": "",
+                            "image": "",
                             "video": "",
                             "main_link": "https://www.marketwatch.com/story/kroger-rolls-out-driverless-cars-to-deliver-groceries-2018-12-18?fbclid=IwAR3_YflqEDM1O38t98aCk6ro1OT_KJ_kbVVGwPw-BXHV8iTlfbMssDSZ09A",
                             "article_links": [
@@ -5687,7 +5644,7 @@
                             "uid": "PRT133",
                             "name": "Arpa Elastic Solutions",
                             "author": "jgp",
-                            "description": "ARPA TECH",
+                            "description": "",
                             "image": "",
                             "video": "",
                             "main_link": "http://www.arpa.tech/indexe.html",
@@ -6041,7 +5998,7 @@
                             "uid": "IMP127",
                             "name": "Lidl's Margot",
                             "author": "jgp",
-                            "description": "The artificially intelligent chatbot – named Margot – can converse with customers who want to \"make more confident wine choices and have some fun along the way\", Lidl says.",
+                            "description": "",
                             "image": "",
                             "video": "",
                             "main_link": "https://www.telegraph.co.uk/business/2018/01/31/lidl-launches-online-chatbot-recommends-wine-based-budget-food/",
@@ -6076,8 +6033,8 @@
                             "uid": "PRT043",
                             "name": "COMPT",
                             "author": "jgp",
-                            "description": "",
-                            "image": "",
+                            "description": "Cambridge Crops develops natural and edible solutions for extending freshness. ",
+                            "image": "https://static.wixstatic.com/media/b73a26_18c0779e75754be2803b0c60247080af~mv2.png/v1/fill/w_1732,h_476,al_c/b73a26_18c0779e75754be2803b0c60247080af~mv2.png",
                             "video": "",
                             "main_link": "https://www.compt.io/?ref=betalist",
                             "article_links": [
@@ -6125,7 +6082,7 @@
                             "uid": "PRT037",
                             "name": "Aiconix",
                             "author": "jgp",
-                            "description": "",
+                            "description": "Reach into the future of virtual and augmented reality with the most advanced hand tracking on Earth, used by over 300,000 developers worldwide.",
                             "image": "",
                             "video": "",
                             "main_link": "http://www.aiconix.de/en",
@@ -6138,8 +6095,8 @@
                             "uid": "PRT132",
                             "name": "adpack",
                             "author": "jgp",
-                            "description": "We provide real-time audience targeting through face detection with our screen-based out-of-home solution. adpack identifies persons in front of a screen by age and gender and plays targeted content. ",
-                            "image": "https://websitewp.adpack.tv/wp-content/uploads/2018/05/Adpack_Logo_rgb_300.png",
+                            "description": "",
+                            "image": "",
                             "video": "",
                             "main_link": "https://www.adpack.tv/",
                             "article_links": [
@@ -6394,7 +6351,7 @@
                             "name": "SmartFlower",
                             "author": "tpc",
                             "description": "SmartFlower is a all-in-one solar module that includes a sun tracker and storage capacity capable of enabling off the grid buildings",
-                            "image": "http://smartflowersolar.com/app/uploads/2017/01/background-bubble-smartflower.jpg",
+                            "image": "",
                             "video": "https://youtu.be/vZuQOUA9rLk",
                             "main_link": "http://smartflowersolar.com/",
                             "article_links": [
@@ -6407,7 +6364,7 @@
                             "name": "Tesla solar Powerpack systems",
                             "author": "tpc",
                             "description": "Tesla solar and Powerpack systems can be used by commercial organizations to achieve greater control, reliability and security. Powerpack integrates seamlessly with solar to shave peak energy usage, lower demand charges and generate new revenue streams from grid services and demand response programs.",
-                            "image": "https://www.tesla.com/content/dam/tesla/social-sharing/solarroofFB.jpg",
+                            "image": "https://shelfierobot.com/wp-content/uploads/2018/10/shelfie.Artboard.png",
                             "video": "",
                             "main_link": "https://www.tesla.com/en_EU/solarroof?redirect=no",
                             "article_links": [
@@ -6497,7 +6454,7 @@
                             "name": "SmartFlower",
                             "author": "tpc",
                             "description": "SmartFlower is a all-in-one solar module that includes a sun tracker and storage capacity capable of enabling off the grid buildings",
-                            "image": "http://smartflowersolar.com/app/uploads/2017/01/background-bubble-smartflower.jpg",
+                            "image": "",
                             "video": "https://youtu.be/vZuQOUA9rLk",
                             "main_link": "http://smartflowersolar.com/",
                             "article_links": [
@@ -6580,7 +6537,7 @@
                             "uid": "PRT031",
                             "name": "aquaponics Iberia",
                             "author": "jgp",
-                            "description": "Consultoria, Projetos e FormaÃ§Ã£o em AQUAPONIA e Aquacultura sustentÃ¡vel",
+                            "description": "",
                             "image": "",
                             "video": "",
                             "main_link": "https://www.aquaponicsiberia.com/?lang=en",
@@ -6593,8 +6550,8 @@
                             "uid": "PRT032",
                             "name": "ReVibe",
                             "author": "jgp",
-                            "description": "We power the Industrial IoT by transforming vibrations into electricity. Power your IoT units without the need for standard batteries or expensive cables.",
-                            "image": "https://revibeenergy.com/wp-content/uploads/2017/12/Revibe-logotyp-copy1-e1512760099761.png",
+                            "description": "Welcome to the BOL foods website. Browse our product range, learn about our story, dive into our values and read the #plantlife blog to join our plant-based journey.",
+                            "image": "http://www.bolfoods.com//uploads/promos/Carousel-01_180119_100436.jpg",
                             "video": "",
                             "main_link": "https://revibeenergy.com/",
                             "article_links": [
@@ -6632,7 +6589,7 @@
                             "uid": "PRT116",
                             "name": "ionseed",
                             "author": "jgp",
-                            "description": "Distributed Energy Storage. Your Energy. Your Rules",
+                            "description": "",
                             "image": "",
                             "video": "",
                             "main_link": "http://www.ionseed.eu/",
@@ -6758,8 +6715,8 @@
                             "uid": "PRT079",
                             "name": "Forge",
                             "author": "jgp",
-                            "description": "",
-                            "image": "",
+                            "description": "Toptal is a rapidly growing tech start-up connecting the top 3% of talent in business, design, and technology to top professional clients.",
+                            "image": "https://bs-assets.toptal.io/blackfish-assets/public/base/images/logo/og_image_default_f7e298.png",
                             "video": "",
                             "main_link": "https://www.joinforge.com/",
                             "article_links": [
@@ -6808,7 +6765,7 @@
                             "name": "OLIO",
                             "author": "jgp",
                             "description": "OLIO connects neighbours with each other and with local shops so surplus food and other items can be shared, not thrown away.\nIf you love food, hate waste, care about the environment or want to connect with your community, OLIO is for you.",
-                            "image": "https://olioex.com/wp-content/uploads/2017/03/facebook-share.png",
+                            "image": "",
                             "video": "",
                             "main_link": "https://olioex.com/",
                             "article_links": [
@@ -6820,8 +6777,8 @@
                             "uid": "PRT078",
                             "name": "twoosk",
                             "author": "jgp",
-                            "description": "Find more about twoosk! Why we exist and our Story. What values we believe and that are the basis for matching opportunities within a trustful curated community",
-                            "image": "",
+                            "description": "The Better Cotton Initiative exists to make global cotton production better for the people who produce it, the environment it grows in and the sectorâ€™s future",
+                            "image": "https://bettercotton.org/wp-content/uploads/2013/12/11850731595_1174368db5_o.jpg",
                             "video": "",
                             "main_link": "https://www.twoosk.com/page/about-us",
                             "article_links": [
@@ -6956,8 +6913,8 @@
                             "uid": "PRT041",
                             "name": "Sonder People",
                             "author": "aec",
-                            "description": "",
-                            "image": "",
+                            "description": "Delight your customers, build stronger teams, scale your business â€” with our translation solutions, you can do what you do best, better.",
+                            "image": "https://unbabel.com/img/social-unbabel.jpg",
                             "video": "",
                             "main_link": "https://sonderpeople.com/",
                             "article_links": [
@@ -6969,8 +6926,8 @@
                             "uid": "PRT042",
                             "name": "wemonty",
                             "author": "jgp",
-                            "description": "Everything necessary, delivered intelligently",
-                            "image": "https://betalist.imgix.net/attachments/d2cadd09-358e-4209-9a6e-acaddc1e0ed3/image.jpg?ixlib=rb-1.1.0",
+                            "description": "Reduce food waste and increase sales with dynamic pricing",
+                            "image": "/Bs.WebApp.Models.Page/1/meta_image.png",
                             "video": "",
                             "main_link": "https://betalist.com/startups/wemonty",
                             "article_links": [
@@ -7018,8 +6975,8 @@
                             "uid": "PRT065",
                             "name": "Pikkart",
                             "author": "jgp",
-                            "description": "Azienda IT, unica in Italia a possedere un software di RealtÃ  Aumentata proprietario. Professionisti di Computer Vision, Deep Learning, Machine Learning ed Intelligenza Artificiale",
-                            "image": "/immagini/logo/thumb.jpg",
+                            "description": "Algama creates the next-generation daily food product that harnesses the unique potential of microalgae with a tasty spoonful of joy: good for people and sustainable.",
+                            "image": "",
                             "video": "",
                             "main_link": "http://www.pikkart.com",
                             "article_links": [
@@ -7031,8 +6988,8 @@
                             "uid": "PRT066",
                             "name": "TRUST",
                             "author": "jgp",
-                            "description": "",
-                            "image": "",
+                            "description": "KRIKET is a delicious snack. An irresistible mix of nuts, grains, seeds and crickets, and 100% sourced in Brussels.",
+                            "image": "https://kriket.be/images/share.jpg",
                             "video": "",
                             "main_link": "http://www.trusttm.com/en/",
                             "article_links": [
@@ -7100,8 +7057,8 @@
                             "uid": "PRT026",
                             "name": "Mucho",
                             "author": "jgp",
-                            "description": "",
-                            "image": "",
+                            "description": "The a2 Milk Companyâ„¢ is in the business of pioneering a2 Milkâ„¢ and making its unique health benefits understood and available to everybody around the world",
+                            "image": "https://thea2milkcompany.com/wp-content/uploads/a2_Rel1_Aus_TM_FullCol_small.png",
                             "video": "",
                             "main_link": "https://www.getmucho.com/",
                             "article_links": [
@@ -7126,8 +7083,8 @@
                             "uid": "PRT028",
                             "name": "Spoonshot",
                             "author": "jgp",
-                            "description": "Spoonshot's technology leverages food science and artificial intelligence to predict consumer tastes and food trends. We've built our several solutions from this core technology to solve some of the food & beverage industry's key challenges.",
-                            "image": "",
+                            "description": "We create solutions that help diabetics monitor their health and live a healthier lifestyle.",
+                            "image": "https://res.cloudinary.com/hrscywv4p/image/upload/c_limit,fl_lossy,h_630,w_1200,f_auto,q_auto/v1/1289343/Spike_Logo_Square-01_bfphaw.png",
                             "video": "",
                             "main_link": "https://spoonshot.com/",
                             "article_links": [
@@ -7139,8 +7096,8 @@
                             "uid": "PRT107",
                             "name": "shelfai",
                             "author": "jgp",
-                            "description": "We bring artificial intelligence to e-commerce, empowering grocery retailers to engage directly with customers, in truly personalised shopping experiences.",
-                            "image": "https://shelf.ai/website/wp-content/uploads/2016/10/shelfai_logo_sm.png",
+                            "description": "KAMI's Conversational AI architecture is designed to empower machines with the abilities of understanding and generating natural dialogue.",
+                            "image": "",
                             "video": "",
                             "main_link": "https://shelf.ai/",
                             "article_links": [
@@ -7167,7 +7124,7 @@
                             "uid": "IMP127",
                             "name": "Lidl's Margot",
                             "author": "jgp",
-                            "description": "The artificially intelligent chatbot – named Margot – can converse with customers who want to \"make more confident wine choices and have some fun along the way\", Lidl says.",
+                            "description": "",
                             "image": "",
                             "video": "",
                             "main_link": "https://www.telegraph.co.uk/business/2018/01/31/lidl-launches-online-chatbot-recommends-wine-based-budget-food/",
@@ -7240,8 +7197,8 @@
                             "uid": "PRT056",
                             "name": "oko",
                             "author": "jgp",
-                            "description": "Intelligent Newsroom Assistant",
-                            "image": "images/oko_logo.png",
+                            "description": "Welcome! OLIO connects neighbours and local shops so surplus food & other household items can be shared. Featured by the BBC, Wired, TimeOut",
+                            "image": "https://olioex.com/wp-content/uploads/2017/03/facebook-share.png",
                             "video": "",
                             "main_link": "https://oko.ai/",
                             "article_links": [
@@ -7253,8 +7210,8 @@
                             "uid": "PRT117",
                             "name": "situm",
                             "author": "jgp",
-                            "description": "Situm is present in thousands of buildings from different industries worldwide, from hospitals, airports and train stations to museums, corporate buildings and factories, providing the most precise indoor positioning with the minimal infrastructure",
-                            "image": "https://situm.es/img/facebook/08zf6jwooduzakd41zbjsi7taqypo7/F0000000460_Situm_indoor_positioning.png",
+                            "description": "",
+                            "image": "",
                             "video": "",
                             "main_link": "https://situm.es/en",
                             "article_links": [
@@ -7266,8 +7223,8 @@
                             "uid": "PRT118",
                             "name": "nevis",
                             "author": "jgp",
-                            "description": "nevisQ - Die intelligenten FuÃŸleisten zur diskreten Ãœberwachung von RÃ¤umen",
-                            "image": "https://www.nevisq.com/pics/nevisQ.jpg",
+                            "description": "",
+                            "image": "",
                             "video": "",
                             "main_link": "https://www.nevisq.com/home",
                             "article_links": [
@@ -7301,8 +7258,8 @@
                             "uid": "PRT095",
                             "name": "SAP Global Batch Traceability",
                             "author": "nlg",
-                            "description": "Get real-time insight into batch genealogy with our product traceability software â€“ SAP Global Batch Traceability.",
-                            "image": "http://www.sap.com/dam/application/imagelibrary/photos/277000/277277_prod2hero_Cloud4Analytics_Visualize.jpg.adapt.640_-1.false.true.false.false.jpg",
+                            "description": "Distributed Energy Storage. Your Energy. Your Rules",
+                            "image": "",
                             "video": "",
                             "main_link": "https://www.sap.com/products/batch-product-traceability.html",
                             "article_links": [
@@ -7314,8 +7271,8 @@
                             "uid": "PRT096",
                             "name": "traace",
                             "author": "jgp",
-                            "description": "",
-                            "image": "",
+                            "description": "Situm is present in thousands of buildings from different industries worldwide, from hospitals, airports and train stations to museums, corporate buildings and factories, providing the most precise indoor positioning with the minimal infrastructure",
+                            "image": "https://situm.es/img/facebook/08zf6jwooduzakd41zbjsi7taqypo7/F0000000460_Situm_indoor_positioning.png",
                             "video": "",
                             "main_link": "https://traace.io/\r\n",
                             "article_links": [
@@ -7327,8 +7284,8 @@
                             "uid": "PRT097",
                             "name": "smartLOGO",
                             "author": "jgp",
-                            "description": "smartLOGO, la vera alternativa al qr-code ti permette di ingaggiare il tuo consumatore con contenuti rilevanti\n",
-                            "image": "",
+                            "description": "nevisQ - Die intelligenten FuÃŸleisten zur diskreten Ãœberwachung von RÃ¤umen",
+                            "image": "https://www.nevisq.com/pics/nevisQ.jpg",
                             "video": "",
                             "main_link": "http://www.smartlogo.it/",
                             "article_links": [
@@ -7340,8 +7297,8 @@
                             "uid": "PRT098",
                             "name": "UWINLOC",
                             "author": "jgp",
-                            "description": "Tag your assets, reduce your delays, and optimize your stock flow with UWINLOC's innovative indoor location system, a new standard for IoT assets tracking.",
-                            "image": "",
+                            "description": "",
+                            "image": "//nebula.wsimg.com/95d084e810e28480825274d30e885bd9?AccessKeyId=159E94A845D5D9049890&disposition=0&alloworigin=1",
                             "video": "",
                             "main_link": "https://uwinloc.com/",
                             "article_links": [
@@ -7389,8 +7346,8 @@
                             "uid": "PRT099",
                             "name": "Better Cotton Initiative",
                             "author": "nlg",
-                            "description": "The Better Cotton Initiative exists to make global cotton production better for the people who produce it, the environment it grows in and the sectorâ€™s future",
-                            "image": "https://bettercotton.org/wp-content/uploads/2013/12/11850731595_1174368db5_o.jpg",
+                            "description": "",
+                            "image": "",
                             "video": "",
                             "main_link": "https://bettercotton.org/",
                             "article_links": [
@@ -7471,8 +7428,8 @@
                             "uid": "PRT106",
                             "name": "Go Instore",
                             "author": "jgp",
-                            "description": "We bring the worldâ€™s digital experiences to life through our immersive live video technology and expertise - Find out how we increase sales and improve customer experience for global brands like Farfetch, Porsche, Marriott International, Redrow, Sofa.com and how we can help you",
-                            "image": "",
+                            "description": "Flow.ai is a professional software platform for creating conversational UIs, AI assistants and chatbots.",
+                            "image": "https://flow.ai/assets/images/social/facebook.png",
                             "video": "",
                             "main_link": "https://www.goinstore.com/",
                             "article_links": [
@@ -7531,8 +7488,8 @@
                             "uid": "IMP118",
                             "name": "SafeSpray",
                             "author": "jgp",
-                            "description": "Desenvolvido por um grupo de investigaÃ§Ã£o do Instituto PolitÃ©cnico de BraganÃ§a, o SafeSpray quer substituir o plÃ¡stico na conservaÃ§Ã£o de alimentos. De origem natural e comestÃ­vel, o produto foi premiado e jÃ¡ chamou a atenÃ§Ã£o de empresas.",
-                            "image": "https://imagens.publicocdn.com/imagens.aspx/1320823?tp=UH&db=IMAGENS&type=JPG&share=1&o=BarraFacebook_P3.png",
+                            "description": "",
+                            "image": "",
                             "video": "",
                             "main_link": "https://www.publico.pt/2019/01/11/p3/noticia/spray-portugues-quer-subsituir-o-plastico-na-conservacao-de-alimentos-1857507#gs.yzRGWbEh",
                             "article_links": [
@@ -7571,7 +7528,7 @@
                             "uid": "PRT006",
                             "name": "Packtin",
                             "author": "jgp",
-                            "description": "",
+                            "description": "We bring artificial intelligence to e-commerce, empowering grocery retailers to engage directly with customers, in truly personalised shopping experiences.",
                             "image": "",
                             "video": "",
                             "main_link": "https://www.packtin.com/en/",
@@ -7659,8 +7616,8 @@
                             "uid": "PRT074",
                             "name": "dropwater",
                             "author": "jgp",
-                            "description": "Drop Water is reinventing how bottled water is made and distributed. Our kiosks bottle drinks at the point of purchase in 100% compostable bottles.",
-                            "image": "https://static.wixstatic.com/media/7dcc42_9c3c7dbcbe9445c5965c43e847f852b3%7Emv2.png",
+                            "description": "Get real-time insight into batch genealogy with our product traceability software â€“ SAP Global Batch Traceability.",
+                            "image": "http://www.sap.com/dam/application/imagelibrary/photos/277000/277277_prod2hero_Cloud4Analytics_Visualize.jpg.adapt.640_-1.false.true.false.false.jpg",
                             "video": "",
                             "main_link": "https://www.dropwater.co/",
                             "article_links": [
@@ -7725,8 +7682,8 @@
                             "uid": "PRT060",
                             "name": "Bulkbox Foods",
                             "author": "jgp",
-                            "description": "Fill your kitchen with beautiful food and laughter, while knowing you are getting the quality and value of farm to market food that your family deserves.",
-                            "image": "",
+                            "description": "Tubular is the world-leader in social video analytics and sponsored video intelligence to help you grow and monetize your business.",
+                            "image": "http://tubularlabs.com/wp-content/uploads/2017/12/Tubular-Social-Sharing-Image-Facebook@1x.jpg",
                             "video": "",
                             "main_link": "https://bulkboxfoods.com",
                             "article_links": [
@@ -7738,8 +7695,8 @@
                             "uid": "PRT074",
                             "name": "dropwater",
                             "author": "jgp",
-                            "description": "Drop Water is reinventing how bottled water is made and distributed. Our kiosks bottle drinks at the point of purchase in 100% compostable bottles.",
-                            "image": "https://static.wixstatic.com/media/7dcc42_9c3c7dbcbe9445c5965c43e847f852b3%7Emv2.png",
+                            "description": "Get real-time insight into batch genealogy with our product traceability software â€“ SAP Global Batch Traceability.",
+                            "image": "http://www.sap.com/dam/application/imagelibrary/photos/277000/277277_prod2hero_Cloud4Analytics_Visualize.jpg.adapt.640_-1.false.true.false.false.jpg",
                             "video": "",
                             "main_link": "https://www.dropwater.co/",
                             "article_links": [
@@ -7870,8 +7827,8 @@
                             "uid": "PRT062",
                             "name": "Unbabel",
                             "author": "jgp",
-                            "description": "Delight your customers, build stronger teams, scale your business â€” with our translation solutions, you can do what you do best, better.",
-                            "image": "https://unbabel.com/img/social-unbabel.jpg",
+                            "description": "Enjoy healthy, low fat vegetarian versions of your favourite recipes. Browse products & learn about our mission to produce healthy protein for a healthy planet.",
+                            "image": "https://www.quorn.co.uk/img/content/share-home.jpg",
                             "video": "",
                             "main_link": "https://unbabel.com/",
                             "article_links": [
@@ -7985,8 +7942,8 @@
                             "uid": "PRT108",
                             "name": "ecodyger",
                             "author": "jgp",
-                            "description": "Ecodyger traite les dÃ©chets organiques sur place et permet d'en rÃ©suire le volume de 70% Ã  90% qu'il ne devienne des ordures. Le substrat obtenu est utilisable comme compost de haute qualitÃ©",
-                            "image": "http://ecodyger.com/wp-content/uploads/2014/07/socialicon.jpg",
+                            "description": "",
+                            "image": "",
                             "video": "",
                             "main_link": "http://ecodyger.com/",
                             "article_links": [
@@ -7998,7 +7955,7 @@
                             "uid": "PRT109",
                             "name": "Elvis & Kresse",
                             "author": "jgp",
-                            "description": "",
+                            "description": "Emotion Recognition Software and Analysis",
                             "image": "",
                             "video": "",
                             "main_link": "https://www.elvisandkresse.com/",
@@ -8061,7 +8018,7 @@
                             "uid": "PRT008",
                             "name": "Qopius",
                             "author": "jgp",
-                            "description": "",
+                            "description": "VueStyle is an AI Stylist for Fashion Retailers | Styling and Outfitting Solution for Fashion Ecommerce Websites | Online Personal Stylist",
                             "image": "",
                             "video": "",
                             "main_link": "http://www.qopius.ai/",
@@ -8074,8 +8031,8 @@
                             "uid": "PRT063",
                             "name": "Wasteless RFID",
                             "author": "aec",
-                            "description": "Reduce food waste and increase sales with dynamic pricing",
-                            "image": "/Bs.WebApp.Models.Page/1/meta_image.png",
+                            "description": "",
+                            "image": "",
                             "video": "https://www.youtube.com/watch?time_continue=44&v=RPsigzml4Ck",
                             "main_link": "https://www.wasteless.co/",
                             "article_links": [
@@ -8087,8 +8044,8 @@
                             "uid": "PRT064",
                             "name": "Cambridge Crops",
                             "author": "jgp",
-                            "description": "Cambridge Crops develops natural and edible solutions for extending freshness. ",
-                            "image": "https://static.wixstatic.com/media/b73a26_18c0779e75754be2803b0c60247080af~mv2.png/v1/fill/w_1732,h_476,al_c/b73a26_18c0779e75754be2803b0c60247080af~mv2.png",
+                            "description": "Healty and made with our productsOver 2000 retailers across CanadaDiscover products and recipes",
+                            "image": "https://cuisinesoleil.com/wp-content/uploads/2018/04/logo-1x.jpg",
                             "video": "",
                             "main_link": "https://www.cambridge-crops.com/",
                             "article_links": [
@@ -8139,15 +8096,15 @@
             "label": "Personalized Consumer Goods",
             "meta": {
                 "icon": {
-                    "small": "https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png",
-                    "large": "https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png"
+                    "small": "",
+                    "large": ""
                 },
                 "description": "",
                 "list": "Trend Application",
-                "year": "Hiper Personalization",
+                "year": "",
                 "multinational": false,
                 "highlighttype": [
-                    "Personalized Content"
+                    ""
                 ],
                 "highlights": {
                     "partner": [
@@ -8155,8 +8112,8 @@
                             "uid": "PRT003",
                             "name": "Magic Candy Factory",
                             "author": "jgp",
-                            "description": "Magic Candy Factory \nThe Katjes Magic Candy Factory is a completely unique form of event entertainment, fusing innovative technology and candy to produce a fun interactive experience that provides the ultimate WOW factor!",
-                            "image": "http://magiccandyfactory.com/wp-content/uploads/2019/01/Magic-candy-factory-logo-s.png",
+                            "description": "As Europe's leading supplier, ITAB has the experience and expertise to help retail chains choose the right equipment for the checkout aisle based on the shop's size, flow of goods and number of visitors.\n\nAs an alternative to manned checkouts, ITAB has developed efficient self checkout solutions which mean that consumers can quickly, conveniently and reliably check and scan their items themselves at the checkout. We also have a new solution for the \"just walkout technology\", AirFLOW. ",
+                            "image": "",
                             "video": "",
                             "main_link": "http://magiccandyfactory.com/events/",
                             "article_links": [
@@ -8168,7 +8125,7 @@
                             "uid": "PRT059",
                             "name": "NOURISH3D",
                             "author": "jgp",
-                            "description": "At nourish3D we invented a radical new way for your daily vitamins & minerals. We print chewable, delicious stacks containing 7 personalised inclusions from a selection of 27 active ingredients. 1 of over 100 billion combinations will be just right for you. To be one of the very first to get your stack: Pre-Order now!",
+                            "description": "",
                             "image": "",
                             "video": "",
                             "main_link": "https://get-nourished.com/",
@@ -8181,8 +8138,8 @@
                             "uid": "PRT115",
                             "name": "The Book of Everyone",
                             "author": "jgp",
-                            "description": "Create a beautifully designed, personalised gift book celebrating someone's life, based on their birth date. Make a book in only 40 seconds!",
-                            "image": "https://dmwtc4afbu6an.cloudfront.net/images/og_card-41e44799368bdf181ce01cef8444edb7.jpg?vsn=d",
+                            "description": "",
+                            "image": "",
                             "video": "",
                             "main_link": "https://thebookofeveryone.com/",
                             "article_links": [
@@ -9930,6 +9887,13 @@
             "subject": "app_INSTWRTP",
             "predicate": "broader",
             "object": "vocabulary_ich_1268",
+            "weight": 2,
+            "edgetype": "app_to_mega"
+        },
+        {
+            "subject": "app_PERCONGDS",
+            "predicate": "broader",
+            "object": "#N/A",
             "weight": 2,
             "edgetype": "app_to_mega"
         }

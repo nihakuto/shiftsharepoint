@@ -21,7 +21,7 @@ function mkmicrotrendNodes(csv) {
         // console.log(tempcatlist);
         // console.log(tempcatlist);
         artnamelist=new Array([data[row]["article_name_list"]][0]);        artnamelist=String(artnamelist).split(",");
-        arturllist=new Array([data[row]["article_name_list"]][0]);        arturllist=String(arturllist).split(",");
+        arturllist=new Array([data[row]["article_url_list"]][0]);        arturllist=String(arturllist).split(",");
         microtrendcode = ("micro_"+data[row]["trend_id"]);
         microObj = {
             "type": "element",
@@ -260,7 +260,7 @@ function mkMegatrendArray(csv) { // THE OUTPUT OF THIS FUNCTION HAS TO BE COPIED
         megacode = (data[row]["mega_code"]);
         megarel = (data[row]["mega_relevance"]);
         megaimg = (data[row]["mega_image"]);
-        megadesc = (data[row]["description"]+"</br>"+(data[row]["opinion_piece"]));
+        megadesc = (data[row]["description"]+"</br></br><h5>Opinion Piece</h5>"+(data[row]["opinion_piece"]));
 
         megaObj = {
             "id": megacode,

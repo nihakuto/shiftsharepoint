@@ -1,429 +1,412 @@
 radar_include,app_CODE,App_name,app_image,Author,Linked_megatrends,main_mega_link,Count mega trends,linked_microtrends,micro_code_list,MicroT #1,MicroT #2,MicroT #3,MicroT #4,MegaT #1,MegaT #2,MegaT #3,MegaT #4,App_description,implementation,technology,partner
-1,VIRTASSI,Virtual Assistants,,tpc,"Seamlessness/Ease
+1,VIRTASSI,Virtual Assistants,https://imagesvc.timeincapp.com/v3/mm/image?url=https%3A%2F%2Ffortunedotcom.files.wordpress.com%2F2016%2F12%2Fgatebox-hikari-youtube.jpg&w=800&q=85,tpc,"Seamlessness/Ease
 
 
-",vocabulary_ich_1269,1,"A-Commerce,Body As Interface,Instant Written Customer Service","MT11,MT22,MT03",MT11,MT22,MT03,,Seamlessness/Ease,Seamlessness/Ease,Seamlessness/Ease,,"Virtual assistants can provide quick information to customers, employees or partners on the go. These assistants can be available to remote users through smartphones, smart speakers, or smart appliances. Presential users can access these assistants through kiosks. Chatbots can provide quick information to customers, employees or partners on the go. Can be made available through dedicated messaging APPs like WhatsAPP or embedded in existing channels like the on-line stores or APPs.",#N/A,#N/A,#N/A
-1,AUTOORDE,Automatic Order and Checkout,,aec,"Seamlessness/Ease
+",vocabulary_ich_1269,1,"A-Commerce,Body As Interface,Instant Written Customer Service","MT11,MT22,MT03",MT11,MT22,MT03,,Seamlessness/Ease,Seamlessness/Ease,Seamlessness/Ease,,"Virtual assistants can provide quick information to customers, employees or partners on the go. These assistants can be available to remote users through smartphones, smart speakers, or smart appliances. Presential users can access these assistants through kiosks. Chatbots can provide quick information to customers, employees or partners on the go. Can be made available through dedicated messaging APPs like WhatsAPP or embedded in existing channels like the on-line stores or APPs.",5,0,5
+1,AUTOORDE,Automatic Order and Checkout,https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png,aec,"Seamlessness/Ease
 Continuous Connection
 
-",vocabulary_ich_1269,2,"A-Commerce,Instant Gratification","MT11,MT36",MT11,MT36,,,Seamlessness/Ease,Continuous Connection,,,"It is no secret that the portuguese demographic pyramid is getting dangerously top-heavy. What may be changing, at least in the professional market, is what companies can use to face this threat. Companies should brace for a powerful hit in the form of retirement benefits and healthcare as baby boomers maintain leadership and it simultaneously becomes harder to attract (and maintain) young talent. The uberization of every field is one way this is being tackled (or rather, circumvented), but awareness (and investment along with it) needs to increase for companies to find creative ways of facing this looming threat.
-
-Include ZERO FRICTION CHECKOUT",#N/A,#N/A,#N/A
-1,AUTOSTYL,Automatic Styling or Curatorship,,aec,"Seamlessness/Ease
-
-
-",vocabulary_ich_1269,1,A-Commerce,MT11,MT11,,,,Seamlessness/Ease,,,,"Technology has finally matured enough for customers to start trusting it to avoid some of the most inefficient parts of their shopping experience. Machine learning is helping people to complete their shopping list while artificial vision is enabling the skipping of those never-ending checkout lines. Many other applications are being implemented to optimize people’s time and maximize their life quality. 
-
-Include subscription box implementations and surprise boxes",#N/A,#N/A,#N/A
-1,EMPOAWAR,Empower and Raise awareness,,aec,"Corporate Responsibility
+",vocabulary_ich_1269,2,"A-Commerce,Instant Gratification","MT11,MT36",MT11,MT36,,,Seamlessness/Ease,Continuous Connection,,,"Automatic ordering and checkout is the simplest embodiment of the A-commerce trend. The aim of this application is always to rid the customer journey of all friction at the checkout and ordering stages. Subconsciously, if companies already carry so much data on consumers, why should they ever have to ask for confirmation/details on an action they've performed tens, hundreds or even thousands of times.
+I've bought the same toilet paper for 3 years in a row, can the multi-million euro retailer I shop at pick up on that? ",4,0,8
+1,AUTOSTYL,Automatic Styling or Curatorship,https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png,aec,"Seamlessness/Ease
 
 
-",vocabulary_ich_1284,1,Aging Workforce,MT19,MT19,,,,Corporate Responsibility,,,,"A social trend that has closely followed the technological advances in interfacing, it is shifting the paradigm of how we connect with machines. There is a reason babies today can outperform their parents on a tablet at the age of 2 (imagine doing that with MS-DOS in the 80s) and there will also be consequences.
-For one, there will be zero tolerance for unintuitive UI, users will simply move to one of your 100 competitors for a better experience. We need to build for any human to use, with bonus points if the interface is adaptive to the individual user.",#N/A,#N/A,#N/A
-1,ENHACAPA,Enhancing capabilities,,tpc,"Corporate Responsibility
+",vocabulary_ich_1269,1,A-Commerce,MT11,MT11,,,,Seamlessness/Ease,,,,"Automated styling is the most organic practical hemisphere of automated commerce. This previously sci-fi reserved ambition, would in theory (not for long) curate a consumer's cart whenever they need an extra hand with choosing or simply aren't interested in spending time differentiating between two products. For some, shopping for a summer wardrobe is a ritual, for others a pain. Despite it all, with select products and services, a majority of people don't necessarily value time spent in choosing - think detergent, toilet paper, toothpaste. Wouldn't it be amazing to have the ""just choose the cheapest one"" or ""get my anything whitening and minty"".",4,0,2
+1,EMPOAWAR,Empower and Raise awareness,https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png,aec,"Corporate Responsibility
 
 
-",vocabulary_ich_1284,1,Aging Workforce,MT19,MT19,,,,Corporate Responsibility,,,,,#N/A,#N/A,#N/A
-1,SILVINCL,Silver age inclusion,,aec,"Corporate Responsibility
+",vocabulary_ich_1284,1,Aging Workforce,MT19,MT19,,,,Corporate Responsibility,,,,"While we can tackle the aging problem by leveraging complex engineering solutions, the human dimension remains. This sphere is often harder to approach due to its inherent abstractiveness and inertia for culture change. A well-oiled corporate environment in the future will necessarily nurture collaboration between senior and junior employees - optimizing knowledge transfer and better exploring the value of experience so commonly overlooked.",6,2,0
+1,GREYGIGS,Grey Gigs,https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png,nlg,"Corporate Responsibility
 
 
-",vocabulary_ich_1284,1,Aging Workforce,MT19,MT19,,,,Corporate Responsibility,,,,,#N/A,#N/A,#N/A
-1,GREYGIGS,Grey Gigs,,nlg,"Corporate Responsibility
+",vocabulary_ich_1284,1,Aging Workforce,MT19,MT19,,,,Corporate Responsibility,,,,Making part-time or freelance job opportunities available to retirees to overcome scarcity of labour and allow them an extra income stream and a renewed sense of purpose.,1,0,0
+1,CRUEFREE,Cruelty free products,https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png,tpc,"Corporate Responsibility
 
 
-",vocabulary_ich_1284,1,Aging Workforce,MT19,MT19,,,,Corporate Responsibility,,,,,#N/A,#N/A,#N/A
-1,CRUEFREE,Cruelty free products,,tpc,"Corporate Responsibility
+",vocabulary_ich_1284,1,Animal Rights,MT43,MT43,,,,Corporate Responsibility,,,,,4,0,1
+1,AWARCAMP,Awareness Campaigns,https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png,man,"Corporate Responsibility
 
 
-",vocabulary_ich_1284,1,Animal Rights,MT43,MT43,,,,Corporate Responsibility,,,,,#N/A,#N/A,#N/A
-1,AWARCAMP,Awareness Campaigns,,man,"Corporate Responsibility
-
-
-",vocabulary_ich_1284,1,Animal Rights,MT43,MT43,,,,Corporate Responsibility,,,,,#N/A,#N/A,#N/A
-1,TOOLHUMA,Tools to provide humanized services,,tpc,"Authenticity/Disconnection
+",vocabulary_ich_1284,1,Animal Rights,MT43,MT43,,,,Corporate Responsibility,,,,,1,0,0
+1,TOOLHUMA,Tools to provide humanized services,https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png,tpc,"Authenticity/Disconnection
 Seamlessness/Ease
 
-",vocabulary_ich_1265,2,"Authentic People,Instant Written Customer Service","MT07,MT03",MT07,MT03,,,Authenticity/Disconnection,Seamlessness/Ease,,,Provide tools that deliver quick and relevant information for employees of customer care (call centres) to allow the written contact with several customers simultaneously. ,#N/A,#N/A,#N/A
-1,PRAIHUMA,Praise humanity,,aec,"Authenticity/Disconnection
+",vocabulary_ich_1265,2,"Authentic People,Instant Written Customer Service","MT07,MT03",MT07,MT03,,,Authenticity/Disconnection,Seamlessness/Ease,,,Provide tools that deliver quick and relevant information for employees of customer care (call centres) to allow the written contact with several customers simultaneously. ,0,0,1
+1,PRAIHUMA,Praise humanity,https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png,aec,"Authenticity/Disconnection
 
 
-",vocabulary_ich_1265,1,Authentic People,MT07,MT07,,,,Authenticity/Disconnection,,,,,#N/A,#N/A,#N/A
-1,OFFLPROD,Offline products and services,,tpc,"Authenticity/Disconnection
+",vocabulary_ich_1265,1,Authentic People,MT07,MT07,,,,Authenticity/Disconnection,,,,"With robots and automation making more and more frequent appearances in our everyday lives, we, people, are confronted with the progressive decrease in human interaction. Despite this, at our core, we are social animals, and we like being with other people (whether we like it or not, ah!). A collateral consequence that arises is that people give authenticity and humanity higher value. Federico Marchetti said it beautifully when he predicted that ""in the future there will be one label that will convey [a sense quality] to the customers - 'Made by Humans'"".
+Making the right choices when it comes to automation isn't always limited to efficiency and cost. Allowing the human touch to permeate your products and services where it matters most, can be a powerful loyalty driver, justifying and even contradicting RPAs or seamlessness.",3,1,2
+1,OFFLPROD,Offline products and services,https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png,tpc,"Authenticity/Disconnection
 
 
-",vocabulary_ich_1265,1,Authentic People,MT07,MT07,,,,Authenticity/Disconnection,,,,,#N/A,#N/A,#N/A
-1,MULTCITI,Multicultural Cities,,man,"Authenticity/Disconnection
+",vocabulary_ich_1265,1,Authentic People,MT07,MT07,,,,Authenticity/Disconnection,,,,,3,0,0
+1,MULTCITI,Multicultural Cities,https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png,man,"Authenticity/Disconnection
 
 
-",vocabulary_ich_1265,1,Authentic People,MT07,MT07,,,,Authenticity/Disconnection,,,,,#N/A,#N/A,#N/A
-1,VOICCONT,Voice Control,,aec,"Seamlessness/Ease
+",vocabulary_ich_1265,1,Authentic People,MT07,MT07,,,,Authenticity/Disconnection,,,,,0,0,0
+1,VOICCONT,Voice Control,https://cdn.pixabay.com/photo/2018/02/14/21/18/audio-3153963_960_720.jpg,aec,"Seamlessness/Ease
 
 
-",vocabulary_ich_1269,1,Body As Interface,MT22,MT22,,,,Seamlessness/Ease,,,,,#N/A,#N/A,#N/A
-1,MOTICONT,Motion Control,,aec,"Seamlessness/Ease
+",vocabulary_ich_1269,1,Body As Interface,MT22,MT22,,,,Seamlessness/Ease,,,,"Interfacing is a hot topic nowadays. Depending on the industry, a platform's ease of use (or lack thereof) can overturn entire business ventures. It is unquestionable that we veer towards a future where human-machine interfaces are more organic, aiming to eradicate learning curves.
+Currently, voice control is, with little doubt, the closest we have to achieving the fluidity necessary for this - we certainly must teach someone what ""Ctrl+A"" is, and does anything interesting, but shouting ""Hey Siri, play me the Beatles"" comes second to language (and some good taste...).",4,0,1
+1,MOTICONT,Motion Control,http://www.flamanko.com/wp-content/uploads/nathan-fertig-334383-1920x1080-c-default.jpg,aec,"Seamlessness/Ease
 
 
-",vocabulary_ich_1269,1,Body As Interface,MT22,MT22,,,,Seamlessness/Ease,,,,"Total foreign residency in Portugal has been steadily rising for a few years, to a point where a significant demographic segment has different primary languages and cultures. If the current political climate remains relatively stable, this is only expected to accelerate.
-With today's advances in personalization, behavior analysis and related tools, great oportunities lie in adjusting supply to a changing customer base.",#N/A,#N/A,#N/A
-1,BIOMVALI,Biometric Validation,,tpc,"Seamlessness/Ease
+",vocabulary_ich_1269,1,Body As Interface,MT22,MT22,,,,Seamlessness/Ease,,,,"Another iteration in the new interface world, motion control is one that ambitions (arguably) the easiest learning processes. Motion for control is an obvious extension of our sensorial world. A trivial example is the simple but revolutionary ""pinch-to-zoom"" gesture popularised to omnipresence (and usually attributed to Apple's first iPhone).",2,4,3
+1,BIOMVALI,Biometric Validation and Analytics,https://d1sr9z1pdl3mb7.cloudfront.net/wp-content/uploads/2018/05/25115416/universal-biometric-identity-1024x576.jpg,tpc,"Seamlessness/Ease
 
 
-",vocabulary_ich_1269,1,Body As Interface,MT22,MT22,,,,Seamlessness/Ease,,,,"People use their unique biological traits to be identified, manage access to resources or authorize payments through voice, fingerprint or iris recognition. After the biometric identification employees, partners and customers access admission-controlled assets (e.g. offices, technical areas, or lockers) or classified information (e.g. interaction with customer care, or APPs) without using codes or cards.",#N/A,#N/A,#N/A
-1,REFIPACK,Refill Packages/Reusable Packages,,man,"Sustainability
+",vocabulary_ich_1269,1,Body As Interface,MT22,MT22,,,,Seamlessness/Ease,,,,"People use their unique biological traits to be identified, manage access to resources or authorize payments through voice, fingerprint or iris recognition. After the biometric identification employees, partners and customers access admission-controlled assets (e.g. offices, technical areas, or lockers) or classified information (e.g. interaction with customer care, or APPs) without using codes or cards.",2,1,4
+1,REFIPACK,Refill Packages/Reusable Packages,https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png,man,"Sustainability
 
 
-",vocabulary_ich_1286,1,Bulk Foods,MT33,MT33,,,,Sustainability,,,,,#N/A,#N/A,#N/A
-1,OMNIBULK,Omnichannel bulk foods,,man,"Sustainability
+",vocabulary_ich_1286,1,Bulk Foods,MT33,MT33,,,,Sustainability,,,,,1,0,2
+1,OMNIBULK,Omnichannel bulk foods,https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png,man,"Sustainability
 
 
-",vocabulary_ich_1286,1,Bulk Foods,MT33,MT33,,,,Sustainability,,,,,#N/A,#N/A,#N/A
-1,FOODPREP,Instore Food Preparation,,man,"Sustainability
+",vocabulary_ich_1286,1,Bulk Foods,MT33,MT33,,,,Sustainability,,,,,2,0,1
+1,FOODPREP,Instore Food Preparation,https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png,man,"Sustainability
 
 
-",vocabulary_ich_1286,1,Bulk Foods,MT33,MT33,,,,Sustainability,,,,,#N/A,#N/A,#N/A
-1,CORPOASI,Corporate Oasis,,aec,"Corporate Responsibility
+",vocabulary_ich_1286,1,Bulk Foods,MT33,MT33,,,,Sustainability,,,,,0,0,2
+1,CORPOASI,Corporate Oasis,https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png,aec,"Corporate Responsibility
 
 
-",vocabulary_ich_1284,1,Corporate Campuses,MT24,MT24,,,,Corporate Responsibility,,,,"Without touching the discussion topic to what caused this movement, it is unquestionably that there is a fast-rising concern for how ""gut-friendly"" the food we buy really is. Fashionable expressions such as pro or prebiotics are dealbreakers in the daily choices made by a growingly significant segment of society. To the unaware, the myriad of intolerances we hear about seems to have sprung from nowhere, but it certainly drove an unforeseen demand for the likes of tempeh, kefir, kimchi, flaxseed, and anything else that helps the consumer to steer clear from the wide selection of ingredients they've found harmful (think gluten, sat, unsat or trans fat, lactose, etc...).",#N/A,#N/A,#N/A
-1,LEARFACI,Learning facilitators,,tpc,"Informed People
+",vocabulary_ich_1284,1,Corporate Campuses,MT24,MT24,,,,Corporate Responsibility,,,,While Flexible Workplaces is an unquestionable trending success,2,0,1
+1,LEARFACI,Learning facilitators,https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png,tpc,"Sustainability
 
 
-",vocabulary_ich_1263,1,Eternal Newbies,MT12,MT12,,,,Informed People,,,,,#N/A,#N/A,#N/A
-1,CONTTRAI,Continuous Employee Training,,jgp,"Informed People
+",vocabulary_ich_1286,1,Eternal Newbies,MT12,MT12,,,,Sustainability,,,,,0,0,1
+1,CONTTRAI,Continuous Employee Training,https://thewire-cableonebiz.com/wp-content/uploads/2017/12/thewire-The-Importance-of-Continuous-Training-for-Employees.jpg,jgp,"Sustainability
 
 
-",vocabulary_ich_1263,1,Eternal Newbies,MT12,MT12,,,,Informed People,,,,,#N/A,#N/A,#N/A
-1,OPENCOUR,Open online courses,,nlg,"Informed People
+",vocabulary_ich_1286,1,Eternal Newbies,MT12,MT12,,,,Sustainability,,,,"The new technological revolution is drastically decreasing the average half-life of learned skills. Thus, it's of the utmost importance for companies and employees to adapt to the roulette of new scenarios by gathering as many tools as possible. Knowledge is quantic nowadays. ",6,1,1
+1,OPENCOUR,Open online courses,https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png,nlg,"Sustainability
 
 
-",vocabulary_ich_1263,1,Eternal Newbies,MT12,MT12,,,,Informed People,,,,,#N/A,#N/A,#N/A
-1,EDUCRETA,Educational retail,,nlg,"Informed People
+",vocabulary_ich_1286,1,Eternal Newbies,MT12,MT12,,,,Sustainability,,,,Offering open enrollment courses through the web/mobile.,0,0,0
+1,EDUCRETA,Educational retail,https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png,nlg,"Sustainability
 
 
-",vocabulary_ich_1263,1,Eternal Newbies,MT12,MT12,,,,Informed People,,,,,#N/A,#N/A,#N/A
-1,TRIBECOM,Tribalize eCommerce,,jgp,"Continuous Connection
+",vocabulary_ich_1286,1,Eternal Newbies,MT12,MT12,,,,Sustainability,,,,Organizing courses and workshops to help customers make the best choices and the best use of the products/services they buy.,2,0,0
+1,TRIBECOM,Tribalize eCommerce,https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png,jgp,"Continuous Connection
 
 
-",vocabulary_ich_1268,1,Fear Of Missing Out,MT37,MT37,,,,Continuous Connection,,,,,#N/A,#N/A,#N/A
-1,TEMPCAMP,Temporary Exclusive Campaigns,,jgp,"Continuous Connection
+",vocabulary_ich_1268,1,Fear Of Missing Out,MT37,MT37,,,,Continuous Connection,,,,"Addressing the need to belong is the oldest commercial trick in the book. People want to be a part of something and brands must be able to address that social requirement. The good news is that the digital transformation that we're living in is boosting the businesses' ability to do it.
+
+The digital age is skyrocketing the (peer) pressure through the roof, which, for retailers, represents both an opportunity (the feeling of emergency and the fear of missing out are sales drivers) and a threat (people's increasing desire to disconnect and to subscribe to digital detox programs or lifestyles).",1,0,0
+1,TEMPCAMP,Temporary Exclusive Campaigns,https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png,jgp,"Continuous Connection
 
 
-",vocabulary_ich_1268,1,Fear Of Missing Out,MT37,MT37,,,,Continuous Connection,,,,,#N/A,#N/A,#N/A
-1,WORKFLEX,Total work flexibility,,jgp,"Seamlessness/Ease
+",vocabulary_ich_1268,1,Fear Of Missing Out,MT37,MT37,,,,Continuous Connection,,,,"Brands are living inside its customers' pockets 24/7. The ability for retailers to create the feeling of emergency is, therefore, higher than it ever was. 
+
+People want to belong and to feel unique and businesses have an unprecedented opportunity to take advantage of those (apparently) paradoxical needs.",3,0,2
+1,WORKFLEX,Total work flexibility,https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png,jgp,"Seamlessness/Ease
 Experiences
 
-",vocabulary_ich_1269,2,"Flexible Workplaces,Meaningfull Work","MT38,MT42",MT38,MT42,,,Seamlessness/Ease,Experiences,,,,#N/A,#N/A,#N/A
-1,UNDOOFFI,Undocked offices,,jgp,"Seamlessness/Ease
+",vocabulary_ich_1269,2,"Flexible Workplaces,Meaningfull Work","MT38,MT42",MT38,MT42,,,Seamlessness/Ease,Experiences,,,"It's not just about flexible hours or hot desks anymore. Different employees have different needs and now more than ever, companies must be willing to listen and to accommodate as many requirements as possible.",0,0,3
+1,UNDOOFFI,Undocked offices,https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png,jgp,"Seamlessness/Ease
 
 
-",vocabulary_ich_1269,1,Flexible Workplaces,MT38,MT38,,,,Seamlessness/Ease,,,,,#N/A,#N/A,#N/A
-1,COWOSPAC,Coworking spaces/communities,,nlg,"Seamlessness/Ease
+",vocabulary_ich_1269,1,Flexible Workplaces,MT38,MT38,,,,Seamlessness/Ease,,,,,4,0,2
+1,COWOSPAC,Coworking spaces/communities,https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png,nlg,"Seamlessness/Ease
 
 
-",vocabulary_ich_1269,1,Flexible Workplaces,MT38,MT38,,,,Seamlessness/Ease,,,,,#N/A,#N/A,#N/A
-1,REMOWORK,Remote workforce,,nlg,"Seamlessness/Ease
+",vocabulary_ich_1269,1,Flexible Workplaces,MT38,MT38,,,,Seamlessness/Ease,,,,Offering spaces in store that invite and provide adequate conditions for customers to work and organize gatherings. ,3,0,0
+1,REMOWORK,Remote workforce,https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png,nlg,"Seamlessness/Ease
 
 
-",vocabulary_ich_1269,1,Flexible Workplaces,MT38,MT38,,,,Seamlessness/Ease,,,,,#N/A,#N/A,#N/A
-1,OUTDWORK,Outdoor workspaces,,nlg,"Seamlessness/Ease
+",vocabulary_ich_1269,1,Flexible Workplaces,MT38,MT38,,,,Seamlessness/Ease,,,,Allowing employees to work partly or mainly from other places than office.,0,0,0
+1,OUTDWORK,Outdoor workspaces,https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png,nlg,"Seamlessness/Ease
 
 
-",vocabulary_ich_1269,1,Flexible Workplaces,MT38,MT38,,,,Seamlessness/Ease,,,,,#N/A,#N/A,#N/A
-1,SUBSPROT,Substitute Proteins,,man,"Hiper Personalization
+",vocabulary_ich_1269,1,Flexible Workplaces,MT38,MT38,,,,Seamlessness/Ease,,,,Creating open air workspaces within company premises and/or allowing employees to wotk in open air spaces.,0,0,0
+1,SUBSPROT,Substitute Proteins,https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png,man,"Hiper Personalization
 Experiences
 
-",vocabulary_ich_1267,2,"Flexitarianism,Healthy Junk Food","MT10,MT31",MT10,MT31,,,Hiper Personalization,Experiences,,,,#N/A,#N/A,#N/A
-1,FLEXCAMP,Flexitarian campaigns,,man,"Hiper Personalization
+",vocabulary_ich_1267,2,"Flexitarianism,Healthy Junk Food","MT10,MT31",MT10,MT31,,,Hiper Personalization,Experiences,,,,4,0,11
+1,FLEXCAMP,Flexitarian campaigns,https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png,man,"Hiper Personalization
 
 
-",vocabulary_ich_1267,1,Flexitarianism,MT10,MT10,,,,Hiper Personalization,,,,,#N/A,#N/A,#N/A
-1,GLASSBOX,Glass Box Companies,,aec,"Corporate Responsibility
+",vocabulary_ich_1267,1,Flexitarianism,MT10,MT10,,,,Hiper Personalization,,,,,4,0,1
+1,GLASSBOX,Glass Box Companies,https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png,aec,"Corporate Responsibility
 
 
-",vocabulary_ich_1284,1,"Food Transparency,Transparency (Non-Food)","MT09,MT05",MT09,MT05,,,Corporate Responsibility,Corporate Responsibility,,,"People will compare players, even from different industries, using the same criteria. Customers are indifferent to cost structure: if a store offers free bags, they’ll expect the same treat from every other store. To stay competitive, companies should be able to optimize their cost structure and establish what’s essential to provide what the customers are expecting. To do so, they must understand that people’s expectations can come from the least expectable places.
-
-Be transparent about internal practices related with controversial social topics such as employment, donations, data management, environmental impact, and waste management. Use this exposure of fragilities to collect contributions of ideas or initiatives to improve creating public empathy rather than accusations.",#N/A,#N/A,#N/A
-1,TRACEABI,Traceability,,man,"Corporate Responsibility
+",vocabulary_ich_1284,1,"Food Transparency,Transparency (Non-Food)","MT09,MT05",MT09,MT05,,,Corporate Responsibility,Corporate Responsibility,,,,0,0,3
+1,TRACEABI,Traceability,https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png,man,"Corporate Responsibility
 
 
-",vocabulary_ich_1284,1,Food Transparency,MT09,MT09,,,,Corporate Responsibility,,,,Provide tools that ease the collection and reading of traceability information of food and non-food products.,#N/A,#N/A,#N/A
-1,ETHIINFO,Ethical and Sustainable Information,,man,"Corporate Responsibility
+",vocabulary_ich_1284,1,Food Transparency,MT09,MT09,,,,Corporate Responsibility,,,,Provide tools that ease the collection and reading of traceability information of food and non-food products.,3,0,7
+1,ETHIINFO,Ethical and Sustainable Information,https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png,man,"Corporate Responsibility
 
 
-",vocabulary_ich_1284,1,Food Transparency,MT09,MT09,,,,Corporate Responsibility,,,,,#N/A,#N/A,#N/A
-1,CLEALABE,Clean Label,,man,"Corporate Responsibility
+",vocabulary_ich_1284,1,Food Transparency,MT09,MT09,,,,Corporate Responsibility,,,,,0,0,0
+1,CLEALABE,Clean Label,https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png,man,"Corporate Responsibility
 
 
-",vocabulary_ich_1284,1,Food Transparency,MT09,MT09,,,,Corporate Responsibility,,,,Falar Nutrition Info ,#N/A,#N/A,#N/A
-1,CULTOFFE,Multicultural Service and Product Offer,,tpc,"Corporate Responsibility
+",vocabulary_ich_1284,1,Food Transparency,MT09,MT09,,,,Corporate Responsibility,,,,Falar Nutrition Info ,3,0,5
+1,CULTOFFE,Multicultural Service and Product Offer,https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png,tpc,"Corporate Responsibility
 Experiences
 
-",vocabulary_ich_1284,2,"Foreign Residents,Welcome Tourism","MT16,MT26",MT16,MT26,,,Corporate Responsibility,Experiences,,,,#N/A,#N/A,#N/A
-1,FOODMDCN,Food as Medicine Counseling,,man,"Health And Wellness
+",vocabulary_ich_1284,2,"Foreign Residents,Welcome Tourism","MT16,MT26",MT16,MT26,,,Corporate Responsibility,Experiences,,,,0,0,0
+1,FOODMDCN,Food as Medicine Counseling,https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png,man,"Health And Wellness
 
 
-",vocabulary_ich_1264,1,Functional Food,MT30,MT30,,,,Health And Wellness,,,,,#N/A,#N/A,#N/A
-1,FUNCFOOD,Range of Functional Food,,man,"Health And Wellness
+",vocabulary_ich_1264,1,Functional Food,MT30,MT30,,,,Health And Wellness,,,,,1,0,1
+1,FUNCFOOD,Range of Functional Food,https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png,man,"Health And Wellness
 
 
-",vocabulary_ich_1264,1,Functional Food,MT30,MT30,,,,Health And Wellness,,,,,#N/A,#N/A,#N/A
-1,NON-CALO,Non-empty Calories,,man,"Health And Wellness
+",vocabulary_ich_1264,1,Functional Food,MT30,MT30,,,,Health And Wellness,,,,,4,2,7
+1,NON-CALO,Non-empty Calories,https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png,man,"Health And Wellness
 
 
-",vocabulary_ich_1264,1,Functional Food,MT30,MT30,,,,Health And Wellness,,,,,#N/A,#N/A,#N/A
-1,FOODPURP,Food Purpose Communication,,jgp,"Health And Wellness
+",vocabulary_ich_1264,1,Functional Food,MT30,MT30,,,,Health And Wellness,,,,,0,0,0
+1,FOODPURP,Food Purpose Communication,https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png,jgp,"Health And Wellness
 
 
-",vocabulary_ich_1264,1,Functional Food,MT30,MT30,,,,Health And Wellness,,,,,#N/A,#N/A,#N/A
-1,INCLFACI,Inclusive Facilities,,man,"Corporate Responsibility
+",vocabulary_ich_1264,1,Functional Food,MT30,MT30,,,,Health And Wellness,,,,,1,0,1
+1,INCLFACI,Inclusive Facilities,https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png,man,"Corporate Responsibility
 Experiences
 
-Seamlessness/Ease",vocabulary_ich_1284,3,"Genderless / Gender Neutral,Welcome Tourism,Foreign Residents,Flexible Workplaces","MT32,MT26,MT16,MT38",MT32,MT26,MT16,MT38,Corporate Responsibility,Experiences,Corporate Responsibility,Seamlessness/Ease,,#N/A,#N/A,#N/A
-1,GENDDESI,Genderless Product Design,,man,"Corporate Responsibility
+Seamlessness/Ease",vocabulary_ich_1284,3,"Genderless / Gender Neutral,Welcome Tourism,Foreign Residents,Flexible Workplaces","MT32,MT26,MT16,MT38",MT32,MT26,MT16,MT38,Corporate Responsibility,Experiences,Corporate Responsibility,Seamlessness/Ease,,0,0,0
+1,GENDDESI,Genderless Product Design,https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png,man,"Corporate Responsibility
 
 
-",vocabulary_ich_1284,1,Genderless / Gender Neutral,MT32,MT32,,,,Corporate Responsibility,,,,,#N/A,#N/A,#N/A
-1,NUTRCOUN,Nutritional Personal Counseling,,man,"Corporate Responsibility
-Health And Wellness
-
-",vocabulary_ich_1284,2,"Gut-Friendly Food,Health Consciousness,Functional Food","MT14,MT08,MT30",MT14,MT08,MT30,,Corporate Responsibility,Health And Wellness,Health And Wellness,,,#N/A,#N/A,#N/A
-1,PROBIOTI,Pro and Prebiotics,,aec,"Corporate Responsibility
+",vocabulary_ich_1284,1,Genderless / Gender Neutral,MT32,MT32,,,,Corporate Responsibility,,,,,1,0,1
+1,NUTRCOUN,Nutritional Personal Counseling,https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png,man,"Health And Wellness
 
 
-",vocabulary_ich_1284,1,Gut-Friendly Food,MT14,MT14,,,,Corporate Responsibility,,,,"Today's means of acquiring knowledge in any topic is widely different from a few years ago. Content creation in the web today has reached a granularity that allows for whomever, with whichever skillbase to quickly find informative content from the most practical topics such as ""How to: fry, bake, poach and scramble eggs"" to the most complex and abstract subjects in Advanced Mathematics or Quantum Mechanics.
-While true volume exists mostly in english, with instant contextual translation making strides, it is all quickly being democratized to all.
-This trend is being felt at the corporate level too, with Google, Apple and other powerhouses announcing that academic degrees are no longer weighted the way they were.
-Companies should much rather employ someone who can quickly and effectively learn skill X when current standard Y turns obsolete than a proven expert in Y.",#N/A,#N/A,#N/A
-1,FREEFROM,Free From Products,,man,"Corporate Responsibility
-Health And Wellness
-
-",vocabulary_ich_1284,2,"Gut-Friendly Food,Functional Food","MT14,MT30",MT14,MT30,,,Corporate Responsibility,Health And Wellness,,,"Technology adoption among is universally attributed to Millenials and younger generations. This is partly true, but leads to a gross underestimation of tech use in older generations. Especially older urban dwellers are more than happy to adopt smart locks for safety, kitchen assistants for convenient cooking and uber to stop waiting for a taxi while it's raining.
-This proves to be a greatly misrepresented segment that embodies a great business oportunity, if only companies start planning around it (remember older generations also have greater purchasing power).",#N/A,#N/A,#N/A
-1,HEALSUPP,Health Support Range,,tpc,"Health And Wellness
+",vocabulary_ich_1264,1,"Gut-Friendly Food,Health Consciousness,Functional Food","MT14,MT08,MT30",MT14,MT08,MT30,,Health And Wellness,Health And Wellness,Health And Wellness,,,0,0,2
+1,PROBIOTI,Pro and Prebiotics,https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png,aec,"Health And Wellness
 
 
-",vocabulary_ich_1264,1,Health Consciousness,MT08,MT08,,,,Health And Wellness,,,,Provide a range of products that ease the health monitoring. A range of services that take advantage of these health monitoring devices such as sleep advising.,#N/A,#N/A,#N/A
-1,PROMHEAL,Promote and Communicate Health,,tpc,"Health And Wellness
+",vocabulary_ich_1264,1,Gut-Friendly Food,MT14,MT14,,,,Health And Wellness,,,,,1,0,0
+1,FREEFROM,Free From Products,https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png,man,"Health And Wellness
+
+
+",vocabulary_ich_1264,1,"Gut-Friendly Food,Functional Food","MT14,MT30",MT14,MT30,,,Health And Wellness,Health And Wellness,,,"Technology adoption among is universally attributed to Millenials and younger generations. This is partly true, but leads to a gross underestimation of tech use in older generations. Especially older urban dwellers are more than happy to adopt smart locks for safety, kitchen assistants for convenient cooking and uber to stop waiting for a taxi while it's raining.
+This proves to be a greatly misrepresented segment that embodies a great business oportunity, if only companies start planning around it (remember older generations also have greater purchasing power).",0,1,2
+1,HEALSUPP,Health Support Range,https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png,tpc,"Health And Wellness
+
+
+",vocabulary_ich_1264,1,Health Consciousness,MT08,MT08,,,,Health And Wellness,,,,Provide a range of products that ease the health monitoring. A range of services that take advantage of these health monitoring devices such as sleep advising.,1,0,3
+1,PROMHEAL,Promote and Communicate Health,https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png,tpc,"Health And Wellness
 Hiper Personalization
 
 ",vocabulary_ich_1264,2,"Health Consciousness,Flexitarianism","MT08,MT10",MT08,MT10,,,Health And Wellness,Hiper Personalization,,,"Besides providing products with heathy features, communicate these features through the adequate channels. People are eager to learn more about health, so provide information for customers and employees about what is healthy (foods and behaviours) and promote discussions about pros and cons of controversy topics.
 
-Create initiatives for customer and for employees that promote healthy habits such as sports events, or educative workshops about food, postures, or stress management.",#N/A,#N/A,#N/A
-1,HEALINDU,Healthier Versions of Indulgences,,man,"Experiences
+Create initiatives for customer and for employees that promote healthy habits such as sports events, or educative workshops about food, postures, or stress management.",1,0,0
+1,HEALINDU,Healthier Versions of Indulgences,https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png,man,"Experiences
 Health And Wellness
 Informed People
-",vocabulary_ich_1287,3,"Healthy Junk Food,Health Consciousness,Liquid Expectations","MT31,MT08,MT18",MT31,MT08,MT18,,Experiences,Health And Wellness,Informed People,,Superfood enriched sweets,#N/A,#N/A,#N/A
-1,GRMTJNKR,Gourmet Junk Foods in restaurants,,man,"Experiences
+",vocabulary_ich_1287,3,"Healthy Junk Food,Health Consciousness,Liquid Expectations","MT31,MT08,MT18",MT31,MT08,MT18,,Experiences,Health And Wellness,Informed People,,Superfood enriched sweets,2,1,6
+1,GRMTJNKR,Gourmet Junk Foods in restaurants,https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png,man,"Experiences
 Informed People
 
-",vocabulary_ich_1287,2,"Healthy Junk Food,Liquid Expectations","MT31,MT18",MT31,MT18,,,Experiences,Informed People,,,,#N/A,#N/A,#N/A
-1,GRMTJNKK,Gourmet Junk Foods in kits,,man,"Experiences
+",vocabulary_ich_1287,2,"Healthy Junk Food,Liquid Expectations","MT31,MT18",MT31,MT18,,,Experiences,Informed People,,,,0,0,0
+1,GRMTJNKK,Gourmet Junk Foods in kits,https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png,man,"Experiences
 
 
-",vocabulary_ich_1287,1,Healthy Junk Food,MT31,MT31,,,,Experiences,,,,,#N/A,#N/A,#N/A
-1,QICKDLVR,Quick deliveries,,tpc,"Continuous Connection
+",vocabulary_ich_1287,1,Healthy Junk Food,MT31,MT31,,,,Experiences,,,,,0,0,1
+1,QICKDLVR,Quick deliveries,https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png,tpc,"Continuous Connection
 Seamlessness/Ease
 
 ",vocabulary_ich_1268,2,"Instant Gratification,Quicker Frequent Shopping","MT36,MT21",MT36,MT21,,,Continuous Connection,Seamlessness/Ease,,,"It is now up to companies and institutions to invest in two complementary and necessary venues: transparency so that the person never feels they're being misled and privacy protection methods and structures.
 
-Talk about FREQUENT ONLINE deliveries",#N/A,#N/A,#N/A
-1,REWASTEP,Reward for each Consumer Journey Step,,jgp,"Continuous Connection
+Talk about FREQUENT ONLINE deliveries",3,0,0
+1,REWASTEP,Reward for each Consumer Journey Step,https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png,jgp,"Continuous Connection
 
 
-",vocabulary_ich_1268,1,Instant Gratification,MT36,MT36,,,,Continuous Connection,,,,,#N/A,#N/A,#N/A
-1,SOCICOMM,Social Network Commerce,,tpc,"Continuous Connection
+",vocabulary_ich_1268,1,Instant Gratification,MT36,MT36,,,,Continuous Connection,,,,,1,0,6
+1,SOCICOMM,Social Network Commerce,https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png,tpc,"Continuous Connection
 
 
-",vocabulary_ich_1268,1,Lifecasting,MT28,MT28,,,,Continuous Connection,,,,,#N/A,#N/A,#N/A
-1,VLOGGING,Vlogging,,aec,"Continuous Connection
+",vocabulary_ich_1268,1,Lifecasting,MT28,MT28,,,,Continuous Connection,,,,,1,0,3
+1,VLOGGING,Vlogging,https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png,aec,"Continuous Connection
 
 
-",vocabulary_ich_1268,1,Lifecasting,MT28,MT28,,,,Continuous Connection,,,,,#N/A,#N/A,#N/A
-1,CHEACHEA,As cheap as the cheapest,,tpc,"Informed People
+",vocabulary_ich_1268,1,Lifecasting,MT28,MT28,,,,Continuous Connection,,,,,0,0,0
+1,CHEACHEA,As cheap as the cheapest,https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png,tpc,"Informed People
 
 
-",vocabulary_ich_1263,1,Liquid Expectations,MT18,MT18,,,,Informed People,,,,Not every entity has the magnitude of Facebook to withstand the loss of trust and finantial hit breach after breach.,#N/A,#N/A,#N/A
-1,SIMPSHOW,Simple and beautiful showrooms,,aec,"Informed People
+",vocabulary_ich_1263,1,Liquid Expectations,MT18,MT18,,,,Informed People,,,,Not every entity has the magnitude of Facebook to withstand the loss of trust and finantial hit breach after breach.,0,1,15
+1,SIMPSHOW,Simple and beautiful showrooms,https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png,aec,"Informed People
 
 
-",vocabulary_ich_1263,1,Liquid Expectations,MT18,MT18,,,,Informed People,,,,"Schizophrenic (or non-linear) consumption portrays the fact that some consumers are willing to spend less money on some purchases so that they can dive into some other indulgences (e.g. exclusively buying white brand food to save for an iPhone). This behavior can be fostered by financial savviness or can simply be arbitrary.
-
-Harvard Business Review shows how middle-market consumers “tend to trade up to the premium product in categories that are important to them but trade down—buying a low-cost brand or private label, or even going without—in categories that are less meaningful to them”.",#N/A,#N/A,#N/A
-1,CONVCONV,As convenient as the most convenient,,jgp,"Informed People
+",vocabulary_ich_1263,1,Liquid Expectations,MT18,MT18,,,,Informed People,,,,,3,0,0
+1,CONVCONV,As convenient as the most convenient,https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png,jgp,"Informed People
 
 
-",vocabulary_ich_1263,1,Liquid Expectations,MT18,MT18,,,,Informed People,,,,,#N/A,#N/A,#N/A
-1,AUTOTASK,Automate repetitive tasks,,tpc,"Experiences
+",vocabulary_ich_1263,1,Liquid Expectations,MT18,MT18,,,,Informed People,,,,,7,0,14
+1,AUTOTASK,Automate repetitive tasks,https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png,tpc,"Experiences
 
 
-",vocabulary_ich_1287,1,Meaningfull Work,MT42,MT42,,,,Experiences,,,,Identify repetitive mechanical tasks and replace with machines.,#N/A,#N/A,#N/A
-1,JOBROTAT,Job rotation,,tpc,"Experiences
+",vocabulary_ich_1287,1,Meaningfull Work,MT42,MT42,,,,Experiences,,,,Identify repetitive mechanical tasks and replace with machines.,2,0,1
+1,JOBROTAT,Job rotation,https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png,tpc,"Experiences
 
 
-",vocabulary_ich_1287,1,Meaningfull Work,MT42,MT42,,,,Experiences,,,,Promote the rotation of jobs mostly when the tasks are too physical demanding or do not promote intellectual development.,#N/A,#N/A,#N/A
-1,SMALFORM,Small form factors,,tpc,"Hiper Personalization
+",vocabulary_ich_1287,1,Meaningfull Work,MT42,MT42,,,,Experiences,,,,Promote the rotation of jobs mostly when the tasks are too physical demanding or do not promote intellectual development.,0,0,0
+1,SMALFORM,Small form factors,https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png,tpc,"Hiper Personalization
 
 
-",vocabulary_ich_1267,1,Mini-Doses,MT41,MT41,,,,Hiper Personalization,,,,"Develop single dose products in all ranges in food, hygiene and home care. Packaging must be innovative to provide economic and environmental sustainability.",#N/A,#N/A,#N/A
-1,VIRTCARD,Virtual Card Acceptance,,man,"Seamlessness/Ease
+",vocabulary_ich_1267,1,Mini-Doses,MT41,MT41,,,,Hiper Personalization,,,,"Develop single dose products in all ranges in food, hygiene and home care. Packaging must be innovative to provide economic and environmental sustainability.",4,0,0
+1,VIRTCARD,Virtual Card Acceptance,https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png,man,"Seamlessness/Ease
 Informed People
 
-",vocabulary_ich_1269,2,"Mobile Payments,Liquid Expectations","MT23,MT18",MT23,MT18,,,Seamlessness/Ease,Informed People,,,,#N/A,#N/A,#N/A
-1,LUXURANG,Luxury in every range,,aec,"Informed People
+",vocabulary_ich_1269,2,"Mobile Payments,Liquid Expectations","MT23,MT18",MT23,MT18,,,Seamlessness/Ease,Informed People,,,,2,0,1
+1,LUXURANG,Luxury in every range,https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png,aec,"Informed People
 
 
-",vocabulary_ich_1263,1,New Luxury,MT34,MT34,,,,Informed People,,,,"According to BBC, 400 million tons of plastic is produced every year with 40% of its applications being thrown out after the first use. Plastic is not biodegradable, which means it will stay around for hundreds of years – representing a big threat for the environment. 
-The debate on reducing plastic production is gathering more followers every day and people expect retailers to be a part of the process to save the world. Sustainable materials for packaging and bulk food are some of the solutions that customers value and are willing to pay extra to get. ",#N/A,#N/A,#N/A
-1,AFFOLUXU,Affordable luxury/exquisite items,,nlg,"Informed People
+",vocabulary_ich_1263,1,New Luxury,MT34,MT34,,,,Informed People,,,,,0,0,0
+1,AFFOLUXU,Affordable luxury/exquisite items,https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png,nlg,"Informed People
 
 
-",vocabulary_ich_1263,1,New Luxury,MT34,MT34,,,,Informed People,,,,,#N/A,#N/A,#N/A
-1,ADAPCONV,Adapt the conversation,,jgp,"Hiper Personalization
+",vocabulary_ich_1263,1,New Luxury,MT34,MT34,,,,Informed People,,,,"Offering products/services perceived as sophisticated, exquisite or luxurious at an affordable price.",5,0,0
+1,ADAPCONV,Adapt the conversation,https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png,jgp,"Hiper Personalization
 
 
-",vocabulary_ich_1267,1,Non-Linear Interactive Video Content,MT20,MT20,,,,Hiper Personalization,,,,,#N/A,#N/A,#N/A
-1,SILVSURF,Silver Surfers,,aec,"Informed People
+",vocabulary_ich_1267,1,Non-Linear Interactive Video Content,MT20,MT20,,,,Hiper Personalization,,,,,1,0,1
+1,SILVSURF,Silver Surfers,https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png,aec,"Informed People
 
 
-",vocabulary_ich_1263,1,Old Age New Millenials,MT06,MT06,,,,Informed People,,,,"Less than a quarter of the food that is wasted in the US, UK and Europe could feed the one billion hungry people all around the world. With an estimation of 1.3 billion tonnes of food being wasted every year, people are looking for this topic with particular concern and expect the companies where they spend their money to tackle this issue.",#N/A,#N/A,#N/A
-1,EDUCEMPL,Educate your employee,,aec,"Seamlessness/Ease
-Informed People
-
-",vocabulary_ich_1269,2,"Online Learning,Eternal Newbies","MT17,MT12",MT17,MT12,,,Seamlessness/Ease,Informed People,,,,#N/A,#N/A,#N/A
-1,DIFFSTRY,Every employee has a different story,,jgp,"Hiper Personalization
+",vocabulary_ich_1263,1,Old Age New Millenials,MT06,MT06,,,,Informed People,,,,,2,0,0
+1,DIFFSTRY,Every employee has a different story,https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png,jgp,"Hiper Personalization
 Authenticity/Disconnection
 
-",vocabulary_ich_1267,2,"Personalized Content,Authentic People","MT02,MT07",MT02,MT07,,,Hiper Personalization,Authenticity/Disconnection,,,,#N/A,#N/A,#N/A
-1,COMPCONT,Computer generated original content,,nlg,"Hiper Personalization
+",vocabulary_ich_1267,2,"Personalized Content,Authentic People","MT02,MT07",MT02,MT07,,,Hiper Personalization,Authenticity/Disconnection,,,,0,0,1
+1,COMPCONT,Computer generated original content,https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png,nlg,"Hiper Personalization
 
 
-",vocabulary_ich_1267,1,Personalized Content,MT02,MT02,,,,Hiper Personalization,,,,,#N/A,#N/A,#N/A
-1,PREVPROT,Preventive Protection,,aec,"Corporate Responsibility
+",vocabulary_ich_1267,1,Personalized Content,MT02,MT02,,,,Hiper Personalization,,,,Creating original marketing/storytelling content through the use of computer algorithms.,1,0,2
+1,PREVPROT,Preventive Protection,https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png,aec,"Corporate Responsibility
 
 
-",vocabulary_ich_1284,1,Privacy Protection,MT01,MT01,,,,Corporate Responsibility,,,,,#N/A,#N/A,#N/A
-1,REACTRAN,Reactive Transparency,,aec,"Corporate Responsibility
+",vocabulary_ich_1284,1,Privacy Protection,MT01,MT01,,,,Corporate Responsibility,,,,,2,0,1
+1,REACTRAN,Reactive Transparency,https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png,aec,"Corporate Responsibility
 
 
-",vocabulary_ich_1284,1,Privacy Protection,MT01,MT01,,,,Corporate Responsibility,,,,,#N/A,#N/A,#N/A
-1,SAFEBACK,Keep your backyard safe,,nlg,"Corporate Responsibility
+",vocabulary_ich_1284,1,Privacy Protection,MT01,MT01,,,,Corporate Responsibility,,,,,0,0,0
+1,SAFEBACK,Keep your backyard safe,https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png,nlg,"Corporate Responsibility
 
 
-",vocabulary_ich_1284,1,Privacy Protection,MT01,MT01,,,,Corporate Responsibility,,,,,#N/A,#N/A,#N/A
-1,AGILSHOP,Agile shopping experience,,tpc,"Seamlessness/Ease
+",vocabulary_ich_1284,1,Privacy Protection,MT01,MT01,,,,Corporate Responsibility,,,,Protecting customers from unauthorized or involuntary access or use of their personal/proprietary data.,2,0,0
+1,AGILSHOP,Agile shopping experience,https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png,tpc,"Seamlessness/Ease
 
 
-",vocabulary_ich_1269,1,Quicker Frequent Shopping,MT21,MT21,,,,Seamlessness/Ease,,,,,#N/A,#N/A,#N/A
-1,INTERENE,Internalize Renewable energy ,,tpc,"Sustainability
+",vocabulary_ich_1269,1,Quicker Frequent Shopping,MT21,MT21,,,,Seamlessness/Ease,,,,,0,0,1
+1,INTERENE,Internalize Renewable energy ,https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png,tpc,"Sustainability
 
 
-",vocabulary_ich_1286,1,Renewable Charged Future,MT13,MT13,,,,Sustainability,,,,,#N/A,#N/A,#N/A
-1,COMMRENE,Commercialize Renewable energy ,,tpc,"Sustainability
+",vocabulary_ich_1286,1,Renewable Charged Future,MT13,MT13,,,,Sustainability,,,,,0,4,5
+1,COMMRENE,Commercialize Renewable energy ,https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png,tpc,"Sustainability
 
 
-",vocabulary_ich_1286,1,Renewable Charged Future,MT13,MT13,,,,Sustainability,,,,,#N/A,#N/A,#N/A
-1,ELECTRUC,Electric Trucks ,,man,"Sustainability
+",vocabulary_ich_1286,1,Renewable Charged Future,MT13,MT13,,,,Sustainability,,,,,0,1,2
+1,ELECTRUC,Electric Trucks ,https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png,man,"Sustainability
 
 
-",vocabulary_ich_1286,1,Renewable Charged Future,MT13,MT13,,,,Sustainability,,,,,#N/A,#N/A,#N/A
-1,ELECDELI,Last mile electric deliveries,,man,"Sustainability
+",vocabulary_ich_1286,1,Renewable Charged Future,MT13,MT13,,,,Sustainability,,,,,0,0,0
+1,ELECDELI,Last mile electric deliveries,https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png,man,"Sustainability
 
 
-",vocabulary_ich_1286,1,Renewable Charged Future,MT13,MT13,,,,Sustainability,,,,,#N/A,#N/A,#N/A
-1,AUTOSUST,Auto-sustainable stores & companies,,man,"Sustainability
+",vocabulary_ich_1286,1,Renewable Charged Future,MT13,MT13,,,,Sustainability,,,,,0,0,0
+1,AUTOSUST,Auto-sustainable stores & companies,https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png,man,"Sustainability
 
 
-",vocabulary_ich_1286,1,Renewable Charged Future,MT13,MT13,,,,Sustainability,,,,,#N/A,#N/A,#N/A
-1,PARAOFFE,Paradoxical Offer,,tpc,"Informed People
+",vocabulary_ich_1286,1,Renewable Charged Future,MT13,MT13,,,,Sustainability,,,,,1,0,6
+1,PARAOFFE,Paradoxical Offer,https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png,tpc,"Informed People
 
 
-",vocabulary_ich_1263,1,Schizophrenic Consumption,MT40,MT40,,,,Informed People,,,,,#N/A,#N/A,#N/A
-1,PARAPROD,Paradoxical products,,nlg,"Informed People
+",vocabulary_ich_1263,1,Schizophrenic Consumption,MT40,MT40,,,,Informed People,,,,,0,0,0
+1,PARAPROD,Paradoxical products,https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png,nlg,"Informed People
 
 
-",vocabulary_ich_1263,1,Schizophrenic Consumption,MT40,MT40,,,,Informed People,,,,,#N/A,#N/A,#N/A
-1,SHARTALE,Share Talent,,jgp,"Sustainability
+",vocabulary_ich_1263,1,Schizophrenic Consumption,MT40,MT40,,,,Informed People,,,,Offering products that embrace the inner ambiguities and contradictions of customers' needs and wants.,2,0,0
+1,SHARTALE,Share Talent,https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png,jgp,"Sustainability
 
 
-",vocabulary_ich_1286,1,Sharing Economy,MT04,MT04,,,,Sustainability,,,,,#N/A,#N/A,#N/A
-1,SHARFUTU,Share a better future,,jgp,"Sustainability
+",vocabulary_ich_1286,1,Sharing Economy,MT04,MT04,,,,Sustainability,,,,,1,0,1
+1,SHARFUTU,Share a better future,https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png,jgp,"Sustainability
 
 
-",vocabulary_ich_1286,1,Sharing Economy,MT04,MT04,,,,Sustainability,,,,,#N/A,#N/A,#N/A
-1,CUSTSTOR,Customer neverending story,,jgp,"Experiences
+",vocabulary_ich_1286,1,Sharing Economy,MT04,MT04,,,,Sustainability,,,,,0,0,2
+1,CUSTSTOR,Customer neverending story,https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png,jgp,"Experiences
 Authenticity/Disconnection
 Hiper Personalization
-",vocabulary_ich_1287,3,"Storytelling,Authentic People,Personalized Content","MT35,MT07,MT02",MT35,MT07,MT02,,Experiences,Authenticity/Disconnection,Hiper Personalization,,,#N/A,#N/A,#N/A
-1,PRODSTOR,Product neverending story,,jgp,"Experiences
+",vocabulary_ich_1287,3,"Storytelling,Authentic People,Personalized Content","MT35,MT07,MT02",MT35,MT07,MT02,,Experiences,Authenticity/Disconnection,Hiper Personalization,,,8,0,2
+1,PRODSTOR,Product neverending story,https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png,jgp,"Experiences
 
 
-",vocabulary_ich_1287,1,Storytelling,MT35,MT35,,,,Experiences,,,,,#N/A,#N/A,#N/A
-1,EMPLSTOR,Employee neverending story,,jgp,"Experiences
+",vocabulary_ich_1287,1,Storytelling,MT35,MT35,,,,Experiences,,,,,1,0,2
+1,EMPLSTOR,Employee neverending story,https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png,jgp,"Experiences
 
 
-",vocabulary_ich_1287,1,Storytelling,MT35,MT35,,,,Experiences,,,,,#N/A,#N/A,#N/A
-1,AUTORECO,Automatic Recommendations,,tpc,"Seamlessness/Ease
+",vocabulary_ich_1287,1,Storytelling,MT35,MT35,,,,Experiences,,,,,1,0,0
+1,AUTORECO,Automatic Recommendations,https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png,tpc,"Seamlessness/Ease
 
 
-",vocabulary_ich_1269,1,Too Much Choice/ Simplification,MT39,MT39,,,,Seamlessness/Ease,,,,,#N/A,#N/A,#N/A
-1,KILLNOIS,Kill the noise,,jgp,"Seamlessness/Ease
+",vocabulary_ich_1269,1,Too Much Choice/ Simplification,MT39,MT39,,,,Seamlessness/Ease,,,,,1,0,5
+1,KILLNOIS,Kill the noise,https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png,jgp,"Seamlessness/Ease
 
 
-",vocabulary_ich_1269,1,Too Much Choice/ Simplification,MT39,MT39,,,,Seamlessness/Ease,,,,,#N/A,#N/A,#N/A
-1,TRACAPPL,Traceability applications,,nlg,"Corporate Responsibility
+",vocabulary_ich_1269,1,Too Much Choice/ Simplification,MT39,MT39,,,,Seamlessness/Ease,,,,,2,0,4
+1,TRACAPPL,Traceability applications,https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png,nlg,"Corporate Responsibility
 
 
-",vocabulary_ich_1284,1,Transparency (Non-Food),MT05,MT05,,,,Corporate Responsibility,,,,,#N/A,#N/A,#N/A
-1,TRANWATC,Transparency watchdogs,,nlg,"Corporate Responsibility
+",vocabulary_ich_1284,1,Transparency (Non-Food),MT05,MT05,,,,Corporate Responsibility,,,,Adopting solutions and establishing partnerships that enable a supply-chain-wide traceability.,0,0,4
+1,TRANWATC,Transparency watchdogs,https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png,nlg,"Corporate Responsibility
 
 
-",vocabulary_ich_1284,1,Transparency (Non-Food),MT05,MT05,,,,Corporate Responsibility,,,,,#N/A,#N/A,#N/A
-1,HOMETRYO,Home Try on real products,,tpc,"Informed People
+",vocabulary_ich_1284,1,Transparency (Non-Food),MT05,MT05,,,,Corporate Responsibility,,,,Adopting solutions and establishing partnerships that supervise the compliance of supply-chain practices with established standards.,1,0,1
+1,HOMETRYO,Home Try on real products,https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png,tpc,"Informed People
 
 
-",vocabulary_ich_1263,1,Try Before You Buy,MT25,MT25,,,,Informed People,,,,,#N/A,#N/A,#N/A
-1,VIRTTRYO,Virtual try on (remote or instore),,tpc,"Informed People
+",vocabulary_ich_1263,1,Try Before You Buy,MT25,MT25,,,,Informed People,,,,,1,0,0
+1,VIRTTRYO,Virtual try on (remote or instore),https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png,tpc,"Informed People
 
 
-",vocabulary_ich_1263,1,Try Before You Buy,MT25,MT25,,,,Informed People,,,,,#N/A,#N/A,#N/A
-1,ALTEPLAS,Alternative materials to plastic,,aec,"Sustainability
+",vocabulary_ich_1263,1,Try Before You Buy,MT25,MT25,,,,Informed People,,,,,0,0,2
+1,ALTEPLAS,Alternative materials to plastic,https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png,aec,"Sustainability
 
 
-",vocabulary_ich_1286,1,"War On Plastic,Zero Waste","MT27,MT15",MT27,MT15,,,Sustainability,Sustainability,,,,#N/A,#N/A,#N/A
-1,REUSPACK,Reusable Packaging,,aec,"Sustainability
+",vocabulary_ich_1286,1,"War On Plastic,Zero Waste","MT27,MT15",MT27,MT15,,,Sustainability,Sustainability,,,,3,1,5
+1,REUSPACK,Reusable Packaging,https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png,aec,"Sustainability
 
 
-",vocabulary_ich_1286,1,"War On Plastic,Zero Waste,Bulk Foods","MT27,MT15,MT33",MT27,MT15,MT33,,Sustainability,Sustainability,Sustainability,,,#N/A,#N/A,#N/A
-1,RETHPACK,Rethink packages,,man,"Sustainability
+",vocabulary_ich_1286,1,"War On Plastic,Zero Waste,Bulk Foods","MT27,MT15,MT33",MT27,MT15,MT33,,Sustainability,Sustainability,Sustainability,,,1,0,2
+1,RETHPACK,Rethink packages,https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png,man,"Sustainability
 
 
-",vocabulary_ich_1286,1,"War On Plastic,Zero Waste","MT27,MT15",MT27,MT15,,,Sustainability,Sustainability,,,,#N/A,#N/A,#N/A
-1,EDUCCUST,Educate customers,,man,"Sustainability
+",vocabulary_ich_1286,1,"War On Plastic,Zero Waste","MT27,MT15",MT27,MT15,,,Sustainability,Sustainability,,,,1,0,2
+1,EDUCCUST,Educate customers,https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png,man,"Sustainability
 
 
-",vocabulary_ich_1286,1,"War On Plastic,Zero Waste","MT27,MT15",MT27,MT15,,,Sustainability,Sustainability,,,,#N/A,#N/A,#N/A
-1,RECYCLES,Recycle ,,man,"Sustainability
+",vocabulary_ich_1286,1,"War On Plastic,Zero Waste","MT27,MT15",MT27,MT15,,,Sustainability,Sustainability,,,,0,0,0
+1,RECYCLES,Recycle ,https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png,man,"Sustainability
 
 
-",vocabulary_ich_1286,1,"War On Plastic,Zero Waste","MT27,MT15",MT27,MT15,,,Sustainability,Sustainability,,,,#N/A,#N/A,#N/A
-1,OMNILING,Omnilingue,,man,"Experiences
+",vocabulary_ich_1286,1,"War On Plastic,Zero Waste","MT27,MT15",MT27,MT15,,,Sustainability,Sustainability,,,,2,0,0
+1,OMNILING,Omnilingue,https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png,man,"Experiences
 Corporate Responsibility
 
-",vocabulary_ich_1287,2,"Welcome Tourism,Foreign Residents","MT26,MT16",MT26,MT16,,,Experiences,Corporate Responsibility,,,,#N/A,#N/A,#N/A
-1,VISIPAIN,Visitors' Pains Killer,,nlg,"Experiences
+",vocabulary_ich_1287,2,"Welcome Tourism,Foreign Residents","MT26,MT16",MT26,MT16,,,Experiences,Corporate Responsibility,,,,0,0,2
+1,VISIPAIN,Visitors' Pains Killer,https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png,nlg,"Experiences
 
 
-",vocabulary_ich_1287,1,Welcome Tourism,MT26,MT26,,,,Experiences,,,,,#N/A,#N/A,#N/A
-1,VISIPERK,Visitors' Perks,,nlg,"Experiences
+",vocabulary_ich_1287,1,Welcome Tourism,MT26,MT26,,,,Experiences,,,,Offering products and services that solve or mitigate nuisances and inconveniences of foreign visitors.,2,0,0
+1,VISIPERK,Visitors' Perks,https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png,nlg,"Experiences
 
 
-",vocabulary_ich_1287,1,Welcome Tourism,MT26,MT26,,,,Experiences,,,,,#N/A,#N/A,#N/A
-1,WASTBASE,Waste based products,,tpc,"Sustainability
+",vocabulary_ich_1287,1,Welcome Tourism,MT26,MT26,,,,Experiences,,,,Offering advantages and benefits to foreign visitors that help them make the most of their visits and optimize their experience.,1,0,0
+1,WASTBASE,Waste based products,https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png,tpc,"Sustainability
 
 
-",vocabulary_ich_1286,1,Zero Waste,MT15,MT15,,,,Sustainability,,,,,#N/A,#N/A,#N/A
-1,OPTICYCL,Optimize Product Life Cycle,,man,"Sustainability
+",vocabulary_ich_1286,1,Zero Waste,MT15,MT15,,,,Sustainability,,,,,1,0,2
+1,OPTICYCL,Optimize Product Life Cycle,https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png,man,"Sustainability
 
 
-",vocabulary_ich_1286,1,Zero Waste,MT15,MT15,,,,Sustainability,,,,,#N/A,#N/A,#N/A
-1,PERCONGDS,Personalized Consumer Goods,,jgp,Hiper Personalization,#N/A,,,,,,,,,,,,,,,
+",vocabulary_ich_1286,1,Zero Waste,MT15,MT15,,,,Sustainability,,,,,1,0,5
+1,PERCONGDS,Personalized Consumer Goods,https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png,jgp,Hiper Personalization,vocabulary_ich_1267,1,Personalized Content,MT02,MT02,,,,Hiper Personalization,,,,,3,0,3
+1,INSTWRTF,Insta-Worthy Facilities,https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png,jgp,Continuous Connection,vocabulary_ich_1268,1,Lifecasting,MT28,MT28,,,,Continuous Connection,,,,,1,0,0
+1,INSTWRTP,Insta-Worthy Products,https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png,jgp,Continuous Connection,vocabulary_ich_1268,1,Lifecasting,MT28,MT28,,,,Continuous Connection,,,,,1,0,0

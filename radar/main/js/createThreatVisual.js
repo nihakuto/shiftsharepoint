@@ -5,13 +5,26 @@
 //////////////////////////////////////////////////////////////
 function createThreatVisual() {
 
+    // //TEST TEST TEST
+    // const myInputBox = document.getElementById('myInput');
+    // const searchBarDiv = document.getElementById('search-bar');
+
+    // ['crimson', 'royalblue', 'turquoise'].forEach((val) => {
+    //   const element = document.createElement('div');
+      
+    //   element.textContent = val;
+    //   element.addEventListener('mouseover', () => document.body.style.background = val);
+    //   searchBarDiv.appendChild(element);
+    // });
+
+
     //Constants
     const pi = Math.PI
     const pi2 = Math.PI * 2
     const pi1_2 = Math.PI / 2
 
     //Sizes
-    let base_size = 1600
+    let base_size = 1800
     let width = 1600, height = 1600
     let total_width, total_height
     let margin = {
@@ -177,10 +190,10 @@ function createThreatVisual() {
         "color": "#332288",
         "megatrend_relevance": "99",
         "icon": {
-            "small": "https://trello-attachments.s3.amazonaws.com/5c3c5633d9bfc4792a65502c/5c3c59e3f14359604cb1e208/af4c42f0ec57bd09704cf53374246911/black-and-white-computer-device-163017.jpg",
-            "large": "https://trello-attachments.s3.amazonaws.com/5c3c5633d9bfc4792a65502c/5c3c59e3f14359604cb1e208/af4c42f0ec57bd09704cf53374246911/black-and-white-computer-device-163017.jpg"
+            "small": "https://trello-attachments.s3.amazonaws.com/5c3c5633d9bfc4792a65502c/5c3c59b44bf940147abd176f/bd23aebc60a9a4c2609da37a9e8accf8/background-balance-beach-289586.jpg",
+            "large": "https://trello-attachments.s3.amazonaws.com/5c3c5633d9bfc4792a65502c/5c3c59b44bf940147abd176f/bd23aebc60a9a4c2609da37a9e8accf8/background-balance-beach-289586.jpg"
         },
-        "description": "On average, people are spending almost 2 hours every day on social media (5 years and 4 months over a lifetime - socialmediatoday.com). This number has been growing in the past few years, but it might have reached its peak already. \nAccording to the website Statista, “spending more time with family and friends” is one of the top 10 new year’s resolutions for 2019 (US). The quest for more authentic connections with others is gathering an increasing number of supporters as we’re diving into a digital detox era.\nPeople want to be continually connected as much as they want to be less connected. It seems paradoxical, but it probably isn’t. \nSilicon Valley is already addressing this particular need: iOS 12 offers “detailed information and tools to help users understand and control the time they spend with apps and websites, how often they pick up their iPhone or iPad during the day and how they receive notifications” (Craig Federighi, Apple’s Senior Vice President of Software Engineering).</br>Companies are turning this threat into an opportunity and new solutions are popping up in all shapes and sizes:meditation apps such as Stop, Breath & Think are helping people staying mindful; Platforms like Forest have real-world impact as they plant trees as rewards for the time users spend off their phones;  voice assistants are booming due to the generalized craving for authentic interactions. \nTo provide a scalable and viable human customer interaction, the companies must equip the staff that contacts with customers with tools to improve their efficiency and effectiveness.",
+        "description": "On average, people are spending almost 2 hours every day on social media (5 years and 4 months over a lifetime - socialmediatoday.com). This number has been growing in the past few years, but it might have reached its peak already. \nAccording to the website Statista, “spending more time with family and friends” is one of the top 10 new year’s resolutions for 2019 (US). The quest for more authentic connections with others is gathering an increasing number of supporters as we’re diving into a digital detox era.\nPeople want to be continually connected as much as they want to be less connected. It seems paradoxical, but it probably isn’t. \nSilicon Valley is already addressing this particular need: iOS 12 offers “detailed information and tools to help users understand and control the time they spend with apps and websites, how often they pick up their iPhone or iPad during the day and how they receive notifications” (Craig Federighi, Apple’s Senior Vice President of Software Engineering).</br></br><h5>Opinion Piece</h5>Companies are turning this threat into an opportunity and new solutions are popping up in all shapes and sizes:meditation apps such as Stop, Breath & Think are helping people staying mindful; Platforms like Forest have real-world impact as they plant trees as rewards for the time users spend off their phones;  voice assistants are booming due to the generalized craving for authentic interactions. \nTo provide a scalable and viable human customer interaction, the companies must equip the staff that contacts with customers with tools to improve their efficiency and effectiveness.",
         "list": "megatrend",
         "year": "",
         "multinational": true,
@@ -191,10 +204,10 @@ function createThreatVisual() {
         "color": "#88ccee",
         "megatrend_relevance": "140",
         "icon": {
-            "small": "https://trello-attachments.s3.amazonaws.com/5c3c5633d9bfc4792a65502c/5c3c59e3f14359604cb1e208/af4c42f0ec57bd09704cf53374246911/black-and-white-computer-device-163017.jpg",
-            "large": "https://trello-attachments.s3.amazonaws.com/5c3c5633d9bfc4792a65502c/5c3c59e3f14359604cb1e208/af4c42f0ec57bd09704cf53374246911/black-and-white-computer-device-163017.jpg"
+            "small": "https://trello-attachments.s3.amazonaws.com/5c3c5633d9bfc4792a65502c/5c3c59ce58d1e28d883edd7d/2db87446f8c8a7d0952a2a0fcdf80813/american-casual-cellphone-1262971.jpg",
+            "large": "https://trello-attachments.s3.amazonaws.com/5c3c5633d9bfc4792a65502c/5c3c59ce58d1e28d883edd7d/2db87446f8c8a7d0952a2a0fcdf80813/american-casual-cellphone-1262971.jpg"
         },
-        "description": "It’s a common online joke that Maslow’s Pyramid of Needs should have “Wi-Fi” on its base. \nNowadays, the ability to share something is perceived as having the same importance as the most basic human needs. People want to track their number of steps, but they also want to compare it with their friends and family. \nData mining and machine learning tools pushed consumer’s expectations to stratospheric levels: people are placing all their trust into algorithms that suggest the content they should consume or the products or services they should purchase. To feed those algorithms, all they need to do is to continually generate (and track) huge amounts of data. \nThere are free lunches, if you’re willing to share a picture of what you ate.</br>Paying your lunch with a Revolut card and immediately getting a notification on your smartwatch is the kind of brilliant interactions that we currently take for granted. \nIn fact, Integration may end up being the most important verb in the near future. Take the Apple Watch Series 4 as an example: you can wear a gadget on your wrist that is able to make phone calls, read emails, track your all-day activity, perform ECGs and, eventually, call an ambulance.\nThis example shows that people are willing to share their data if there’s a clear benefit for them in the deal. Thus, geo-location exclusive promotions, gamification campaigns and offers powered by data mining may have a big impact on consumer’s choices from now on.",
+        "description": "It’s a common online joke that Maslow’s Pyramid of Needs should have “Wi-Fi” on its base. \nNowadays, the ability to share something is perceived as having the same importance as the most basic human needs. People want to track their number of steps, but they also want to compare it with their friends and family. \nData mining and machine learning tools pushed consumer’s expectations to stratospheric levels: people are placing all their trust into algorithms that suggest the content they should consume or the products or services they should purchase. To feed those algorithms, all they need to do is to continually generate (and track) huge amounts of data. \nThere are free lunches, if you’re willing to share a picture of what you ate.</br></br><h5>Opinion Piece</h5>Paying your lunch with a Revolut card and immediately getting a notification on your smartwatch is the kind of brilliant interactions that we currently take for granted. \nIn fact, Integration may end up being the most important verb in the near future. Take the Apple Watch Series 4 as an example: you can wear a gadget on your wrist that is able to make phone calls, read emails, track your all-day activity, perform ECGs and, eventually, call an ambulance.\nThis example shows that people are willing to share their data if there’s a clear benefit for them in the deal. Thus, geo-location exclusive promotions, gamification campaigns and offers powered by data mining may have a big impact on consumer’s choices from now on.",
         "list": "megatrend",
         "year": "",
         "multinational": true,
@@ -205,10 +218,10 @@ function createThreatVisual() {
         "color": "#44aa99",
         "megatrend_relevance": "242",
         "icon": {
-            "small": "https://trello-attachments.s3.amazonaws.com/5c3c5633d9bfc4792a65502c/5c3c59e3f14359604cb1e208/af4c42f0ec57bd09704cf53374246911/black-and-white-computer-device-163017.jpg",
-            "large": "https://trello-attachments.s3.amazonaws.com/5c3c5633d9bfc4792a65502c/5c3c59e3f14359604cb1e208/af4c42f0ec57bd09704cf53374246911/black-and-white-computer-device-163017.jpg"
+            "small": "https://trello-attachments.s3.amazonaws.com/5c3c5633d9bfc4792a65502c/5c3c59f574b782708d04a9c3/b49801c02c2d5ef4b966baa0dc48f3f5/20-fenchurch-street-architecture-buildings-34092.jpg",
+            "large": "https://trello-attachments.s3.amazonaws.com/5c3c5633d9bfc4792a65502c/5c3c59f574b782708d04a9c3/b49801c02c2d5ef4b966baa0dc48f3f5/20-fenchurch-street-architecture-buildings-34092.jpg"
         },
-        "description": "With the advent of the information society, people started keeping big entities accountable for their social and environmental footprints. \nCareer opportunities are being democratized, as the debate on religious, racial and gender inclusion keeps getting louder by the day.</br>People expect companies to tackle recruiting biases, the gender pay gap and all the other inclusion-inefficient processes. Those who fail to address people’s concerns may also lose their preference.",
+        "description": "With the advent of the information society, people started keeping big entities accountable for their social and environmental footprints. \nCareer opportunities are being democratized, as the debate on religious, racial and gender inclusion keeps getting louder by the day.</br></br><h5>Opinion Piece</h5>People expect companies to tackle recruiting biases, the gender pay gap and all the other inclusion-inefficient processes. Those who fail to address people’s concerns may also lose their preference.",
         "list": "megatrend",
         "year": "",
         "multinational": true,
@@ -219,10 +232,10 @@ function createThreatVisual() {
         "color": "#117733",
         "megatrend_relevance": "588",
         "icon": {
-            "small": "https://trello-attachments.s3.amazonaws.com/5c3c5633d9bfc4792a65502c/5c3c59e3f14359604cb1e208/af4c42f0ec57bd09704cf53374246911/black-and-white-computer-device-163017.jpg",
-            "large": "https://trello-attachments.s3.amazonaws.com/5c3c5633d9bfc4792a65502c/5c3c59e3f14359604cb1e208/af4c42f0ec57bd09704cf53374246911/black-and-white-computer-device-163017.jpg"
+            "small": "https://trello-attachments.s3.amazonaws.com/5c3c5633d9bfc4792a65502c/5c3c59d8c468d449f3215466/aeb0dfa3ac871f6d33b71eae8894c429/adult-african-afro-1059115.jpg",
+            "large": "https://trello-attachments.s3.amazonaws.com/5c3c5633d9bfc4792a65502c/5c3c59d8c468d449f3215466/aeb0dfa3ac871f6d33b71eae8894c429/adult-african-afro-1059115.jpg"
         },
-        "description": "There is a fundamental shift in consumer values towards experiences over things that bring happiness and well-being, with spending on experiences like travel, leisure and food service to rise to US$8.0 trillion by 2030, according with Euromonitor.\nWe can observe a touristic boom in most cities around the world. Few destinations have witnessed a boom in tourism over the last few years quite like Portugal. People are showing and apparent consumption schizophrenia subjecting themselves to low cost products such as tight seats in low-cost airlines but not looking at expenses to buy a good experience such as a dinner in a starred restaurant.\nThe preference of experience over things also affect employment, now HR offices are compelled to use all sorts of inexpensive and easy-to-try technologies (e.g. constant feedback, benefits-on-demand, recognition, social integrations) that will help develop an employee experience based on big data and two-way feedback.\n[1] https://blog.euromonitor.com/experiences-overtaking-consumers-buying/</br>Those at the front line such as retailers and restaurateurs are tackling this trend head on by placing more emphasis on the consumer experience as a vehicle for boosting sales and margins. Creating more intimate experiences with consumers, providing a seamless shopping environment whether online or in-store and storytelling massively.\nThe experience trend is impacting across sectors, from the importance of the shopping experience in the retail sector, and the value placed on the dine-in experience in consumer food service. The food is required to deliver an experience per se.",
+        "description": "There is a fundamental shift in consumer values towards experiences over things that bring happiness and well-being, with spending on experiences like travel, leisure and food service to rise to US$8.0 trillion by 2030, according with Euromonitor.\nWe can observe a touristic boom in most cities around the world. Few destinations have witnessed a boom in tourism over the last few years quite like Portugal. People are showing and apparent consumption schizophrenia subjecting themselves to low cost products such as tight seats in low-cost airlines but not looking at expenses to buy a good experience such as a dinner in a starred restaurant.\nThe preference of experience over things also affect employment, now HR offices are compelled to use all sorts of inexpensive and easy-to-try technologies (e.g. constant feedback, benefits-on-demand, recognition, social integrations) that will help develop an employee experience based on big data and two-way feedback.\n[1] https://blog.euromonitor.com/experiences-overtaking-consumers-buying/</br></br><h5>Opinion Piece</h5>Those at the front line such as retailers and restaurateurs are tackling this trend head on by placing more emphasis on the consumer experience as a vehicle for boosting sales and margins. Creating more intimate experiences with consumers, providing a seamless shopping environment whether online or in-store and storytelling massively.\nThe experience trend is impacting across sectors, from the importance of the shopping experience in the retail sector, and the value placed on the dine-in experience in consumer food service. The food is required to deliver an experience per se.",
         "list": "megatrend",
         "year": "",
         "multinational": true,
@@ -233,10 +246,10 @@ function createThreatVisual() {
         "color": "#999933",
         "megatrend_relevance": "615",
         "icon": {
-            "small": "https://trello-attachments.s3.amazonaws.com/5c3c5633d9bfc4792a65502c/5c3c59e3f14359604cb1e208/af4c42f0ec57bd09704cf53374246911/black-and-white-computer-device-163017.jpg",
-            "large": "https://trello-attachments.s3.amazonaws.com/5c3c5633d9bfc4792a65502c/5c3c59e3f14359604cb1e208/af4c42f0ec57bd09704cf53374246911/black-and-white-computer-device-163017.jpg"
+            "small": "https://trello-attachments.s3.amazonaws.com/5c3c5633d9bfc4792a65502c/5c3c56ba3edf251f4322696e/52fc7162caa0cd5f8df42c9f5c316cfc/apricot-background-berry-1028599.jpg",
+            "large": "https://trello-attachments.s3.amazonaws.com/5c3c5633d9bfc4792a65502c/5c3c56ba3edf251f4322696e/52fc7162caa0cd5f8df42c9f5c316cfc/apricot-background-berry-1028599.jpg"
         },
-        "description": "This may not look like a trend, because healthy lifestyles have been a big part of the social paradigm in the past few years. But the truth is that emergent technologies and new business models are leveraging disruptive behaviors and new opportunities for companies to explore. \nA big example of these new opportunities is the appearance of standardized treatments, tailored from personal data collected from continuous connected platforms and devices. The successful advancements in anti-aging research are also a huge breakthrough, as life expectancy is predicted to exceed 90 years in coming decades. \nWith the mental health taboo finally being addressed by companies and the public opinion, solutions to tackle depression or to boost mindfulness will continue to increase in value perceived by the consumers.</br>The progress in preventive healthcare, the expansion of life expectancy and the increasing openness for new debates will probably have a considerable impact on customer profiling, as people will experience extended life quality and will no longer be hesitant in looking for solutions to tackle mental illnesses.",
+        "description": "This may not look like a trend, because healthy lifestyles have been a big part of the social paradigm in the past few years. But the truth is that emergent technologies and new business models are leveraging disruptive behaviors and new opportunities for companies to explore. \nA big example of these new opportunities is the appearance of standardized treatments, tailored from personal data collected from continuous connected platforms and devices. The successful advancements in anti-aging research are also a huge breakthrough, as life expectancy is predicted to exceed 90 years in coming decades. \nWith the mental health taboo finally being addressed by companies and the public opinion, solutions to tackle depression or to boost mindfulness will continue to increase in value perceived by the consumers.</br></br><h5>Opinion Piece</h5>The progress in preventive healthcare, the expansion of life expectancy and the increasing openness for new debates will probably have a considerable impact on customer profiling, as people will experience extended life quality and will no longer be hesitant in looking for solutions to tackle mental illnesses.",
         "list": "megatrend",
         "year": "",
         "multinational": true,
@@ -250,7 +263,7 @@ function createThreatVisual() {
             "small": "https://trello-attachments.s3.amazonaws.com/5c3c5633d9bfc4792a65502c/5c3c59e3f14359604cb1e208/af4c42f0ec57bd09704cf53374246911/black-and-white-computer-device-163017.jpg",
             "large": "https://trello-attachments.s3.amazonaws.com/5c3c5633d9bfc4792a65502c/5c3c59e3f14359604cb1e208/af4c42f0ec57bd09704cf53374246911/black-and-white-computer-device-163017.jpg"
         },
-        "description": "Digitalization is the couples’ therapy that retailers and its customers always needed. Companies can now listen like they never could. They can pay more attention to people’s needs and continually increase their value proposition by addressing every customer as a unique individual. \nA good example of this new marital life is Netflix and the way it’s customizing content creation according to its users’ preferences. (Spoiler Alert) In the first 30 seconds of House of Cards, the main character kills a dog. Through Big Data analytics, Netflix learned that a lot of users switched to another show after that scene. So, the company learned that some people don’t like to watch dogs being killed and it probably won’t suggest them a similar show anymore.\nSocial media is being used as a platform for people to promote themselves as their own personal brand, which is boosting the demand for unique and personalized products.</br>Globalization is opening new lifestyles opportunities for everyone. Thus, as customers keep exploring new habits and hobbies, companies need to be able to keep up with this granular streaming of expectations. \nData mining campaigns powered by effective loyalty programs can help families with different diet restrictions, undecided online buyers, and many more.",
+        "description": "Digitalization is the couples’ therapy that retailers and its customers always needed. Companies can now listen like they never could. They can pay more attention to people’s needs and continually increase their value proposition by addressing every customer as a unique individual. \nA good example of this new marital life is Netflix and the way it’s customizing content creation according to its users’ preferences. (Spoiler Alert) In the first 30 seconds of House of Cards, the main character kills a dog. Through Big Data analytics, Netflix learned that a lot of users switched to another show after that scene. So, the company learned that some people don’t like to watch dogs being killed and it probably won’t suggest them a similar show anymore.\nSocial media is being used as a platform for people to promote themselves as their own personal brand, which is boosting the demand for unique and personalized products.</br></br><h5>Opinion Piece</h5>Globalization is opening new lifestyles opportunities for everyone. Thus, as customers keep exploring new habits and hobbies, companies need to be able to keep up with this granular streaming of expectations. \nData mining campaigns powered by effective loyalty programs can help families with different diet restrictions, undecided online buyers, and many more.",
         "list": "megatrend",
         "year": "",
         "multinational": true,
@@ -261,10 +274,10 @@ function createThreatVisual() {
         "color": "#cc6677",
         "megatrend_relevance": "298",
         "icon": {
-            "small": "https://trello-attachments.s3.amazonaws.com/5c3c5633d9bfc4792a65502c/5c3c59e3f14359604cb1e208/af4c42f0ec57bd09704cf53374246911/black-and-white-computer-device-163017.jpg",
-            "large": "https://trello-attachments.s3.amazonaws.com/5c3c5633d9bfc4792a65502c/5c3c59e3f14359604cb1e208/af4c42f0ec57bd09704cf53374246911/black-and-white-computer-device-163017.jpg"
+            "small": "https://trello-attachments.s3.amazonaws.com/5c3c5633d9bfc4792a65502c/5c3c59ec24fa7a8b15f90972/42d28d4a9599686d7748e386b25d143e/analysis-business-businesswoman-955447.jpg",
+            "large": "https://trello-attachments.s3.amazonaws.com/5c3c5633d9bfc4792a65502c/5c3c59ec24fa7a8b15f90972/42d28d4a9599686d7748e386b25d143e/analysis-business-businesswoman-955447.jpg"
         },
-        "description": "According to Euromonitor International, by 2013, three-fourths of the global population will have access to the Internet. Digitalization keeps democratizing the access to content and information, which is triggering new and unpredictable socioeconomic impacts.\nConvenience, simplicity and knowledge are a few of the perks that the information era brought to the consumers. Thus, additionally to expecting zero-effort experiences, people know exactly what they want, how they want it, and where they can find it. \nThe helicopter view over the whole market is becoming more and more accessible to all customers. At any moment, with the tip of their fingers, people can compare prices, quality, customer service, and understand which supply chain is a better match for their needs and beliefs. </br>As irrationality keeps losing space in the decision-making process, companies should prepare and be ready to address demanding customers that are more aware then ever of the market’s big picture. That presents a continuous challenge/opportunity trade-off for retailers: people can now compare competitors by the smallest details, but the companies can also identify, and address people’s needs a lot more efficiently. \nSocial Media presence and Search Engine Optimization (SEO) are powerful tools to take advantage of this social trend. A best practice example of how to address the advent of the informed society is Worten’s campaign “Preço Mínimo Garantido”.",
+        "description": "According to Euromonitor International, by 2013, three-fourths of the global population will have access to the Internet. Digitalization keeps democratizing the access to content and information, which is triggering new and unpredictable socioeconomic impacts.\nConvenience, simplicity and knowledge are a few of the perks that the information era brought to the consumers. Thus, additionally to expecting zero-effort experiences, people know exactly what they want, how they want it, and where they can find it. \nThe helicopter view over the whole market is becoming more and more accessible to all customers. At any moment, with the tip of their fingers, people can compare prices, quality, customer service, and understand which supply chain is a better match for their needs and beliefs. </br></br><h5>Opinion Piece</h5>As irrationality keeps losing space in the decision-making process, companies should prepare and be ready to address demanding customers that are more aware then ever of the market’s big picture. That presents a continuous challenge/opportunity trade-off for retailers: people can now compare competitors by the smallest details, but the companies can also identify, and address people’s needs a lot more efficiently. \nSocial Media presence and Search Engine Optimization (SEO) are powerful tools to take advantage of this social trend. A best practice example of how to address the advent of the informed society is Worten’s campaign “Preço Mínimo Garantido”.",
         "list": "megatrend",
         "year": "",
         "multinational": true,
@@ -275,10 +288,10 @@ function createThreatVisual() {
         "color": "#882255",
         "megatrend_relevance": "159",
         "icon": {
-            "small": "https://trello-attachments.s3.amazonaws.com/5c3c5633d9bfc4792a65502c/5c3c59e3f14359604cb1e208/af4c42f0ec57bd09704cf53374246911/black-and-white-computer-device-163017.jpg",
-            "large": "https://trello-attachments.s3.amazonaws.com/5c3c5633d9bfc4792a65502c/5c3c59e3f14359604cb1e208/af4c42f0ec57bd09704cf53374246911/black-and-white-computer-device-163017.jpg"
+            "small": "https://trello-attachments.s3.amazonaws.com/5c3c5633d9bfc4792a65502c/5c3c59fdfa11208579e077ff/461a7a2dbea925a57c61f57eb5aa04e7/android-wallpaper-artistic-asphalt-799443_(1).jpg",
+            "large": "https://trello-attachments.s3.amazonaws.com/5c3c5633d9bfc4792a65502c/5c3c59fdfa11208579e077ff/461a7a2dbea925a57c61f57eb5aa04e7/android-wallpaper-artistic-asphalt-799443_(1).jpg"
         },
-        "description": " “The only thing that moves faster than the speed of technology is the speed of our expectations” – this is how Martin Harbech, Group Director at Facebook, summarized the search for friction-free experiences and the current rise of our impatience levels. “We used to be completely comfortable with booking a cab within a period of 24 hours. Now, we’ll go completely nuts if we have to wait more than 5 minutes for an Uber ride”, he added.\nNowadays, not only the customer is always right, but his/her thumb is also always almighty. Omnichannel solutions are shaping the way business is done, as people’s expectations keep evolving every day. </br>With customer journeys becoming more dynamic by the second, retailers should focus on providing every possible solution to address the always changing needs of its clients. This effervescency will only get stronger as emergent technologies and new information will keep on lifting people’s expectations.\nNowadays, customers want everything, right now, at their door. And they want to try it before they buy it. And, if possible, they will pay it with their phones. Successful examples such as Amazon Go, Revolut or Apple Pay show that people want Retail to become a friction-free industry. ",
+        "description": " “The only thing that moves faster than the speed of technology is the speed of our expectations” – this is how Martin Harbech, Group Director at Facebook, summarized the search for friction-free experiences and the current rise of our impatience levels. “We used to be completely comfortable with booking a cab within a period of 24 hours. Now, we’ll go completely nuts if we have to wait more than 5 minutes for an Uber ride”, he added.\nNowadays, not only the customer is always right, but his/her thumb is also always almighty. Omnichannel solutions are shaping the way business is done, as people’s expectations keep evolving every day. </br></br><h5>Opinion Piece</h5>With customer journeys becoming more dynamic by the second, retailers should focus on providing every possible solution to address the always changing needs of its clients. This effervescency will only get stronger as emergent technologies and new information will keep on lifting people’s expectations.\nNowadays, customers want everything, right now, at their door. And they want to try it before they buy it. And, if possible, they will pay it with their phones. Successful examples such as Amazon Go, Revolut or Apple Pay show that people want Retail to become a friction-free industry. ",
         "list": "megatrend",
         "year": "",
         "multinational": true,
@@ -289,10 +302,10 @@ function createThreatVisual() {
         "color": "#aa4499",
         "megatrend_relevance": "400",
         "icon": {
-            "small": "https://trello-attachments.s3.amazonaws.com/5c3c5633d9bfc4792a65502c/5c3c59e3f14359604cb1e208/af4c42f0ec57bd09704cf53374246911/black-and-white-computer-device-163017.jpg",
-            "large": "https://trello-attachments.s3.amazonaws.com/5c3c5633d9bfc4792a65502c/5c3c59e3f14359604cb1e208/af4c42f0ec57bd09704cf53374246911/black-and-white-computer-device-163017.jpg"
+            "small": "https://trello-attachments.s3.amazonaws.com/5c3c5633d9bfc4792a65502c/5c3c5a03391e4d3ae3dbb21f/ff117a46e9ac96da51f82fae7dc9d18b/art-close-up-ecology-886521.jpg",
+            "large": "https://trello-attachments.s3.amazonaws.com/5c3c5633d9bfc4792a65502c/5c3c5a03391e4d3ae3dbb21f/ff117a46e9ac96da51f82fae7dc9d18b/art-close-up-ecology-886521.jpg"
         },
-        "description": "It is very common to exclusively link Sustainability to environmental issues. But in fact, the concept is much broader as it addresses different (yet interconnected) domains: environment, economic and social.\nAccording to the Bruntland Report for the World Commission on Environment and Development (1992), Sustainability is defined as \"development that meets the needs of the present without compromising the ability of future generations to meet their own needs\".\nThe number of people putting on their ethical lenses is increasing every day, as many studies show that most consumers are willing to pay more for responsibly-produced goods and services. \nFrom an ecological point of view, it's of paramount importance for all businesses to convert processes across the entire supply chain in order to conserve resources and reduce emissions.\nAs for sustainable work, the Gig Economy boosted the debate about responsible work practices (e.g. #slaveroo).</br>Sonae has been tackling the Social Sustainability topic for a long time with initiatives addressing the general society such as Missão Continente, Para um Futuro com Mais Bebés and Colega Mudei-te a Casa. Also, in environmental sustainability, SONAE developed economic consequential projects such as Transformar.te or Waste2Energy.\nIn the next years, Sustainability will continue to be a big part of the public debate while new solutions to address it will continue to pop up. More than a moral duty for all companies and individuals, addressing it is a responsible and business-efficient decision.",
+        "description": "It is very common to exclusively link Sustainability to environmental issues. But in fact, the concept is much broader as it addresses different (yet interconnected) domains: environment, economic and social.\nAccording to the Bruntland Report for the World Commission on Environment and Development (1992), Sustainability is defined as \"development that meets the needs of the present without compromising the ability of future generations to meet their own needs\".\nThe number of people putting on their ethical lenses is increasing every day, as many studies show that most consumers are willing to pay more for responsibly-produced goods and services. \nFrom an ecological point of view, it's of paramount importance for all businesses to convert processes across the entire supply chain in order to conserve resources and reduce emissions.\nAs for sustainable work, the Gig Economy boosted the debate about responsible work practices (e.g. #slaveroo).</br></br><h5>Opinion Piece</h5>Sonae has been tackling the Social Sustainability topic for a long time with initiatives addressing the general society such as Missão Continente, Para um Futuro com Mais Bebés and Colega Mudei-te a Casa. Also, in environmental sustainability, SONAE developed economic consequential projects such as Transformar.te or Waste2Energy.\nIn the next years, Sustainability will continue to be a big part of the public debate while new solutions to address it will continue to pop up. More than a moral duty for all companies and individuals, addressing it is a responsible and business-efficient decision.",
         "list": "megatrend",
         "year": "",
         "multinational": true,
@@ -366,7 +379,7 @@ function createThreatVisual() {
     //Other
     let font_family = "Oswald"
     let scale_factor = 1
-    let scale_multiplier = 1
+    let scale_multiplier = 0.9
     let threat_definitions
     let ICH_num, ICH_num_all
     let showModal = function(element) { console.log(element) }
@@ -706,6 +719,7 @@ function createThreatVisual() {
             return 0
         })
         window.globalelements = elements; // RADAR
+
     }//function dataPreparation
 
     ////////////////// Calculate node placement //////////////////
@@ -759,7 +773,7 @@ function createThreatVisual() {
         // offset = 0
         start_angle = -pi1_2 + offset
         end_angle = pi1_2 - offset
-        let padding = 0.04
+        let padding = 0.02 //default=0.04
         pie_concept
             .startAngle(start_angle)
             .endAngle(end_angle)
