@@ -1684,8 +1684,8 @@ function createThreatVisual() {
             // get search box content
             var txtName = new RegExp(d3.select("#txtName").node().value,"i");
             // dim all nodes that don't match
-            elements.forEach(n => { n.opacity = (txtName.test(n.meta.description) ? 1 : 0.1)})
-            threats.forEach(n => { n.opacity = (txtName.test(n.meta.description) ? 1 : 0.1)})
+            elements.forEach(n => { n.opacity = (txtName.test([n.label,n.meta.description]) ? 1 : 0.1)})
+            threats.forEach(n => { n.opacity = (txtName.test([n.label,n.meta.description]) ? 1 : 0.1)})
             concepts.forEach(n => {
                 mergedHLtext = []; foundflag = false;
                 if (n.meta.highlights) {
