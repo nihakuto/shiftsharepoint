@@ -190,11 +190,14 @@ promises.push(font3.load())
 
 Promise.all(promises).then(values => {
     ////////////////////// Data preparation //////////////////////
+    console.log("Json ---> Data:",values[0])
     graph = values[0]
     let nodes = prepareNodes(graph)
     let edges = prepareEdges(graph)
     ////////////////////// Create the visual //////////////////////
+    // console.log(nodes)
     container.call(threatVisual, nodes, edges, language, getFilteredData)
+    queryURLparams();
 })//promises
 
 //////////////////////////////////////////////////////////////
@@ -266,7 +269,7 @@ function prepareEdges(graph) {
     return edges
 }//function prepareEdges
 
-
+//----------------------------------------------------------------------------------------------------------------
 
 
 
@@ -302,7 +305,6 @@ jQuery.getJSON("../data/graph_edited_en.json", function(json) {
 // window.myjson = d3.json("../data/graph_edited_en.json"); //RADAR
 
 // myjson;
-console.log("/^country/");
 function deletestuff(reg) {
     i=0;
     for (x in myjson.nodes) {
@@ -334,7 +336,7 @@ Papa.parse("../data/tempconcepts.csv", {
     header: true,
     complete: function(results) {
         window.tempcsv = results;
-        console.log(results);
+        // console.log(results);
     }
 });
 
@@ -583,7 +585,6 @@ Papa.parse("../data/tempmicros.csv", {
     header: true,
     complete: function(results) {
         window.tempmicroscsv = results;
-        console.log(results);
     }
 });
 

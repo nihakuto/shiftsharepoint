@@ -17,7 +17,6 @@ function createThreatVisual() {
     //   searchBarDiv.appendChild(element);
     // });
 
-
     //Constants
     const pi = Math.PI
     const pi2 = Math.PI * 2
@@ -337,6 +336,7 @@ function createThreatVisual() {
     const pie_nodes = d3.pie()
         .sort(null)
         .value(1)
+    const element_edge_skew_factor = 0.7 // 1 = right on the element (source)
 
     //Threat categories
     const radius_threats = 580
@@ -591,7 +591,6 @@ function createThreatVisual() {
             else if (d.type === "concept") return (d.group === "threat" ? true : false)
             else return false
         })//filter
-
         //Create a node -> node id mapping: 52 ICH elements, 9 categories & 54 threats
         node_by_id = {}
         nodes.forEach(d => { node_by_id[d.id] = d })
@@ -682,7 +681,6 @@ function createThreatVisual() {
             if(a.label > b.label) return 1
             return 0
         })//sort
-        console.log(concepts);window.globalconcepts=concepts;
 
         concepts_other = concepts.filter(d => d.threat_category !== "vocabulary_ich_1286")
         //Those threats connected to "Weakened practice and transmission (categ)"
@@ -722,6 +720,8 @@ function createThreatVisual() {
 
     }//function dataPreparation
 
+        const scaleXfactor = 1.5
+        const scaleYfactor = 1
     ////////////////// Calculate node placement //////////////////
     function nodePlacement() {
         let num, start_angle, end_angle
@@ -736,17 +736,17 @@ function createThreatVisual() {
             d.angle = i/(num-1) * (end_angle - start_angle) + start_angle
             let sign = i%2 === 0 ? -1 : 1
             let rad = radius_elements + sign * radius_elements_offset
-            d.x = rad * Math.cos(d.angle - pi1_2)
-            d.y = rad * Math.sin(d.angle - pi1_2)
+            d.x = rad * Math.cos(d.angle - pi1_2) * scaleXfactor
+            d.y = rad * Math.sin(d.angle - pi1_2) * scaleYfactor
         })//forEach
 
         //////////////////// THREAT CATEGORIES /////////////////// (MIDDLE EQUATOR LINE)
 
         num = threats.length
-        let total_width = 2 * radius_threats
+        let total_width = 2 * radius_threats * scaleXfactor// CHANGE WIDTH HORIZONTAL SCALE scaleXfactor
         let space = total_width / num
         threats.forEach((d,i) => {
-            d.x = (i + 0.5) * space - radius_threats
+            d.x = (i + 0.5) * space - radius_threats * scaleXfactor
             d.y = 0
             d.space = space
 
@@ -793,9 +793,10 @@ function createThreatVisual() {
             //Loop over each concept within this threat category
             d.data.values.forEach(n => {
                 n.angle = angle
+                // n.test = "lol"
                 n.angle_width = angle_step
-                n.x = radius_concept * Math.cos(angle - pi1_2)
-                n.y = radius_concept * Math.sin(angle - pi1_2)
+                n.x = radius_concept * Math.cos(angle - pi1_2) * scaleXfactor
+                n.y = radius_concept * Math.sin(angle - pi1_2) * scaleYfactor
                 n.r = concept_radius
                 n.width = ctx_nodes.measureText(n.label).width
                 angle = angle + angle_step
@@ -856,7 +857,7 @@ function createThreatVisual() {
             let dx = d.target.x - d.source.x
             let dy = d.target.y - d.source.y
 
-            let r_source = radius_elements //Math.sqrt(sq(d.source.x) + sq(d.source.y))
+            let r_source = Math.sqrt(sq(d.source.x) + sq(d.source.y))*element_edge_skew_factor; //Math.sqrt(sq(d.source.x) + sq(d.source.y)) //prev: radius_elements
             let r_source_offset = Math.sqrt(sq(dx) + sq(dy))
             let angle_offset = Math.atan2(dy, dx) - pi1_2 + pi2
 
@@ -904,27 +905,33 @@ function createThreatVisual() {
         text = text ? text : ICH_num + " | " + translations[language].titles[0]
         //Create a white arc on the background so cover the potential fixed title
         if(type === "hover") {
+            ctx.scale(scaleXfactor,scaleYfactor)
             ctx.fillStyle = "white"
             ctx.beginPath()
             ctx.arc(0, 0, radius_elements + 2*radius_elements_offset + 10, pi * 0.05, pi * 0.95)
             ctx.arc(0, 0, radius_elements_title + 40, pi * 0.95, pi * 0.05, true)
             ctx.closePath()
             ctx.fill()
+            ctx.scale(1/scaleXfactor,1/scaleYfactor)
         }//if
 
         //Draw a background arc
+        ctx.scale(scaleXfactor,scaleYfactor)
         ctx.fillStyle = (type === "nodes" ? arc_gradient_nodes : arc_gradient_hover)
         ctx.beginPath()
         ctx.arc(0, 0, radius_elements_title, pi * 0.15, pi * 0.85)
         ctx.arc(0, 20, radius_elements_title - 8, pi * 0.87, pi * 0.17, true)
         ctx.fill() //18 -8 0.82 0.22
+        ctx.scale(1/scaleXfactor,1/scaleYfactor)
 
         //Draw the text
+        ctx.scale(scaleXfactor,scaleYfactor)
         ctx.textBaseline = 'middle'
         ctx.textAlign = 'center'
         ctx.font = "normal normal 400 36px " + font_family
         ctx.fillStyle = "black"
         drawTextAlongArc(ctx, text, pi, radius_elements_title, "down", 0.6, false)
+        ctx.scale(1/scaleXfactor,1/scaleYfactor)
 
         // let font_size = fitText(ctx, text, 34, 2*radius_elements_title)
         // ctx.font = "normal normal 400 " + font_size + "px " + font_family
@@ -1080,14 +1087,27 @@ function createThreatVisual() {
             .style("pointer-events", "all")
             .style("cursor", "pointer")
 
+// console.log(g_scale.selectAll(".threat-hover-path").data(concepts))
         //Draw the invisible arcs over the outside threats
         hover_concept = g_scale.selectAll(".threat-hover-path")
             .data(concepts)
-            .enter().append("path")
+            // .enter().append("path")
+        .enter().append("rect")
             .attr("class", "threat-hover-path")
-            .attr("d", arc_concept)
+        // .attr("transform", d => (d.angle > 0 ? "rotate("+40+")" : "rotate("+40+")"))
+        // .attr('transform', d => 'translate(200,100)rotate(-45)')
+        .attr("transform",function (d) {
+                return `rotate(${d.angle*(180/pi)-180}, ${d.x},  ${d.y} )`
+        }) 
+        .attr("width", 20)
+        .attr("height", d => d.width+20)
+        .attr("x", function (d) {return (d.x-d3.select(this).attr("width")/2)})
+        .attr("y", d => d.y-10)
+            // .attr("d", arc_concept)
+                // .attr("transform", "scale(" + scaleXfactor + "," + scaleYfactor +")")
             .style("fill", "none")
-            // .style("opacity", "0.4")
+            // .style("opacity", "0.2")
+            // .style("stroke", "black")
             .style("pointer-events", "all")
             .style("cursor", "pointer")
     }//function drawHiddenElements
@@ -1117,7 +1137,6 @@ function createThreatVisual() {
                 showModal(d)
                 clearSelection()
             })
-
             .on("mouseover", d => {
                 if(!click_active) mouseOverCategory(d)
                 else {
@@ -1130,7 +1149,12 @@ function createThreatVisual() {
             })
             .on("mouseout", d => {
                 if(!click_active) mouseOverReset()
-                else clearCanvas([ctx_hover])
+                else {
+                    clearCanvas([ctx_hover])
+                    if (click_active && current_click.type == "concept" && current_click.group == "threat") {
+                        showConceptTitle(ctx_hover, current_click);
+                    }
+                }
             })
 
         hover_concept
@@ -1143,8 +1167,13 @@ function createThreatVisual() {
                 clearSelection()
             })
             .on("mouseover", d => {
-                if(!click_active) mouseOverConcept(d)
-                else {
+                if(!click_active) {
+                    mouseOverConcept(d)
+                } else {
+                    // mouseOverReset() // Fix to remove current title
+            // mouse_hover_active = false
+            // hover_type = null
+            // current_hover = null
                     clearCanvas([ctx_hover])
                     ctx_hover.textBaseline = 'middle'
                     ctx_hover.font = "normal normal 300 19px " + font_family
@@ -1154,7 +1183,12 @@ function createThreatVisual() {
             })
             .on("mouseout", d => {
                 if(!click_active) mouseOverReset()
-                else clearCanvas([ctx_hover])
+                else {
+                    clearCanvas([ctx_hover])
+                    if (click_active && current_click.type == "concept" && current_click.group == "threat") {
+                        showConceptTitle(ctx_hover, current_click);
+                    }
+                }
             })
     }//function setHiddenHovers
 
@@ -1201,9 +1235,9 @@ function createThreatVisual() {
 
         //Rotate and then move the canvas origin to the concept "dot" location
         ctx.save()
+        ctx.translate(d.x,d.y)
         ctx.rotate(d.angle > 0 + flip ? d.angle - pi1_2 : d.angle + pi1_2)
-        ctx.translate((d.angle > 0 + flip ? 1 : -1) * radius_concept, 0)
-
+        // ctx.translate((d.angle > 0 + flip ? 1 : -1) * radius_concept, 0) // I (alex) commented this to translate it before the rotate to d.x,d.y
         //Draw the large degree based concept circle
         ctx.globalCompositeOperation = "multiply"
         ctx.beginPath()
@@ -1388,8 +1422,8 @@ function createThreatVisual() {
     ////////////////////// Clear all canvases ////////////////////
     function clearCanvas(ctxs) {
         ctxs.forEach(d => {
-            d.clearRect((-margin.left - width/2)/scale_factor, (-margin.top - height/2)/scale_factor,
-            total_width/scale_factor, total_height/scale_factor)
+            d.clearRect((-margin.left - width/2)/scale_factor*scaleXfactor, (-margin.top - height/2)/scale_factor*scaleYfactor,
+            total_width/scale_factor*scaleXfactor, total_height/scale_factor*scaleYfactor)
         })
     }//function clearCanvas
 
@@ -1399,7 +1433,7 @@ function createThreatVisual() {
         clearCanvas([ctx_edges, ctx_nodes, ctx_hover])
 
         //Draw the edges between the categories and the threats
-        ctx_edges.lineWidth = 3
+        ctx_edges.lineWidth = 5
         drawEdgesConcepts()
         //Draw the edges between the categories and the ICH elements
         drawEdgesElements()
@@ -1410,71 +1444,64 @@ function createThreatVisual() {
         ctx_nodes.font = "normal normal 400 24px " + font_family
         threats.forEach(d => { drawCategories(ctx_nodes, d) })
 
-        //DELETETHIS
-        threats.forEach(d => { 
-            ctx_nodes.save();
-            ctx_nodes.translate(d.x, d.y-50)
-            ctx_nodes.rotate(0 * Math.PI / 180 + d.x*0.004);
-            ctx_nodes.fillStyle = "black";
-            // ctx_nodes.fillText(d.id,0,0); // ids for editing RADAR
-            ctx_nodes.restore();
-            //svg.append("text").attr("x",d.x*0.85+550).attr("y", d.y*0.85+550).attr("text-anchor","left").attr("font-size", "14px").text(d.id)
-            //console.log(ctx_nodes)
-             })
-        // elements.forEach().append("text")
-        //             .attr("x", (width / 2))             
-        //             .attr("y", 0)
-        //             .attr("text-anchor", "middle")  
-        //             .style("font-size", "14px")
-        //             .text("lololol");
-        //DELETETHIS
-
         //Draw the other concepts around the top outside
         ctx_nodes.textBaseline = 'middle'
-        ctx_nodes.font = "normal normal 300 19px " + font_family
+        ctx_nodes.font = "normal normal 300 19px " + font_family // controls font for concepts (applications)
         concepts.forEach(d => { drawConcepts(ctx_nodes, d) })
-        //DELETETHIS
-        concepts.forEach(d => { 
-            ctx_nodes.save();
-            ctx_nodes.font = "normal normal 600 19px sans-serif"
-            ctx_nodes.translate(d.x * 0.97, d.y * 0.97)
-            ctx_nodes.rotate(90 * Math.PI / 180 + d.x*0.001);
-            ctx_nodes.fillStyle = "black";
-            // ctx_nodes.fillText(d.id.split("_").pop(),0,0); // ids for editing RADAR
-            // ctx_nodes.fillText(d.id,0,0); // ids for editing RADAR
-            ctx_nodes.restore();
-             })
-        // DELETETHIS
 
         //Draw the ICH elements around the bottom outside
         elements.forEach(d => { drawElements(ctx_nodes, d) })
-
-        //DELETETHIS
-        elements.forEach(d => { 
-            ctx_nodes.save();
-            ctx_nodes.font = "normal normal 600 19px sans-serif"
-            ctx_nodes.translate(d.x * 0.97, d.y * 0.97)
-            ctx_nodes.rotate(90 * Math.PI / 180 + d.x*0.001);
-            ctx_nodes.fillStyle = "black";
-            // ctx_nodes.fillText(d.id.split("_").pop(),0,0); // ids for editing RADAR
-            // ctx_nodes.fillText(d.id,0,0); // ids for editing RADAR
-            ctx_nodes.restore();
-             })
-        // DELETETHIS
 
         //Show the title
         if(mouse_hover_active) {
             if(hover_type === "element") showElementTitle(ctx_nodes, "nodes", current_hover.label)
             else showElementTitle(ctx_nodes, "nodes", null, ICH_num)
             //Show threat concept title when hovered over top threat
-            if(hover_type === "concept") showConceptTitle(ctx_nodes, current_hover)
+            if(hover_type === "concept") showConceptTitle(ctx_hover, current_hover)
             if(hover_type === "category") showCategoryRing(ctx_nodes, current_hover, 1)
         } else if(click_active) {
             if(hover_type === "element") showElementTitle(ctx_nodes, current_click.label, "nodes")
-            else if(hover_type === "concept") showConceptTitle(ctx_nodes, current_click)
+            else if(hover_type === "concept") showConceptTitle(ctx_hover, current_click)
         } else {
             showElementTitle(ctx_nodes, "nodes", null, ICH_num_all)
         }//else
+
+        // LOOPS TO TAG EVERY NODE WITH ITS ID FOR DEVELOPMENT
+        //DELETETHIS
+        // threats.forEach(d => { 
+        //     ctx_nodes.save();
+        //     ctx_nodes.translate(d.x, d.y-50)
+        //     ctx_nodes.rotate(0 * Math.PI / 180 + d.x*0.004);
+        //     ctx_nodes.fillStyle = "black";
+        //     // ctx_nodes.fillText(d.id,0,0); // ids for editing RADAR
+        //     ctx_nodes.restore();
+        //     //console.log(ctx_nodes)
+        //      })
+        //DELETETHIS
+        //DELETETHIS
+        // concepts.forEach(d => { 
+        //     ctx_nodes.save();
+        //     ctx_nodes.font = "normal normal 600 19px sans-serif"
+        //     ctx_nodes.translate(d.x * 0.97, d.y * 0.97)
+        //     ctx_nodes.rotate(90 * Math.PI / 180 + d.x*0.001);
+        //     ctx_nodes.fillStyle = "black";
+        //     // ctx_nodes.fillText(d.id.split("_").pop(),0,0); // ids for editing RADAR
+        //     // ctx_nodes.fillText(d.id,0,0); // ids for editing RADAR
+        //     ctx_nodes.restore();
+        //      })
+        // DELETETHIS
+        //DELETETHIS
+        // elements.forEach(d => { 
+        //     ctx_nodes.save();
+        //     ctx_nodes.font = "normal normal 600 19px sans-serif"
+        //     ctx_nodes.translate(d.x * 0.97, d.y * 0.97)
+        //     ctx_nodes.rotate(90 * Math.PI / 180 + d.x*0.001);
+        //     ctx_nodes.fillStyle = "black";
+        //     // ctx_nodes.fillText(d.id.split("_").pop(),0,0); // ids for editing RADAR
+        //     // ctx_nodes.fillText(d.id,0,0); // ids for editing RADAR
+        //     ctx_nodes.restore();
+        //      })
+        // DELETETHIS
     }//function drawCanvas
 
     //////////////////////////////////////////////////////////////
@@ -1509,10 +1536,25 @@ function createThreatVisual() {
         let m = d3.mouse(this)
         let x = (m[0] - total_width/2)/scale_factor
         let y = (m[1] - total_height/2)/scale_factor
-        let r = Math.sqrt(x*x + y*y)
 
+        let xR = radius_elements*scaleXfactor
+        let yR = radius_elements*scaleYfactor
+        let gap = 2.2*radius_elements_offset
+        // let r = Math.sqrt(x*x + y*y) //deprecated since we lost circular simetry
+        // // visualize Ellipse
+        // const ellipses = [{"cx":  0, "cy":  0, "rx": xR-gap, "ry": yR-gap},
+        //     {"cx":  0, "cy":  0, "rx": xR+gap, "ry": yR+gap}
+        // ];
+        // const svgEllipses = g_scale.selectAll("ellipse").data(ellipses).enter().append("ellipse");
+        // svgEllipses.attr("cx", (d,i) => { return d.cx; })
+        //     .attr("cy", (d,i) => { return d.cy; })
+        //     .attr("rx", (d,i) => { return d.rx; })
+        //     .attr("ry", (d,i) => { return d.ry; });
+        // svgEllipses.attr('fill', 'blue').attr('fill-opacity','0.2');
+        // // End visualize Ellipse
         //Only continue of the mouse is somewhere near the ICH element arc
-        if(y > 70 && r > radius_elements - 2*radius_elements_offset && r < radius_elements + 2*radius_elements_offset) {
+        // if(y > 70 && r > radius_elements - 2*radius_elements_offset && r < radius_elements + 2*radius_elements_offset) { //deprecated sqrt since we lost circular simetry
+        if(y > 70 && (x**2/(xR-gap)**2+y**2/(yR-gap)**2>1 && x**2/(xR+gap)**2+y**2/(yR+gap)**2<1)) { // ellipse equation instead of circle
             //Search for nearby ICH element
             let found = diagram.find(x, y, (node_radius * 2)/scale_factor)
             //A match is found and it's a new one
@@ -1534,8 +1576,18 @@ function createThreatVisual() {
                 current_hover = null
             }//else if
         } //if
-        else if(click_active && y > 70 && r > radius_elements - 2*radius_elements_offset - 40) clearCanvas([ctx_hover])
+        else if(y > 70 && (x**2/(xR-gap)**2+y**2/(yR-gap)**2>1)) {
+            clearCanvas([ctx_hover])
+            if (click_active && current_click.type == "concept" && current_click.group == "threat") {
+                showConceptTitle(ctx_hover, current_click);
+            }
+        }
+        // else if(click_active && y > 70 && r > radius_elements - 2*radius_elements_offset - 40) clearCanvas([ctx_hover]) // deprecated bcuz of elliptical geom
         else if (!click_active && mouse_hover_active && hover_type === "element")  mouseOverReset()
+        else if (y > 70 && (x**2/(xR+gap)**2+y**2/(yR+gap)**2<1) && (click_active && current_click.type == "concept" && current_click.group == "threat") ) { // check if we need to redraw concept title on center
+            clearCanvas([ctx_hover])
+            showConceptTitle(ctx_hover, current_click);
+        }
     }//function findElement
 
     function mouseOverElement(d) {
@@ -1609,7 +1661,7 @@ function createThreatVisual() {
         edges_elements.forEach(l => { l.opacity = (l.source.threats.indexOf(id) >= 0 && l.target.id === d.threat_category ? 0.5 : 0) })
 
         //Draw the connected ICH circles
-        elements.forEach(n => { n.opacity = (n.threats.indexOf(id) >= 0 ? 1 : 0.1) })
+        elements.forEach(n => { n.opacity = (n.threats.indexOf(id) >= 0 ? 1 : 0.1)})
         ICH_num = elements.filter(n => n.threats.indexOf(id) >= 0 ).length
 
         //Draw connected threat categories
@@ -1621,6 +1673,131 @@ function createThreatVisual() {
         //Draw it all
         drawCanvas()
     }//function mouseOverConcept
+
+    ///////////////////// Search Box function for highlighting nodes /////////////////////
+    (function searchBoxHighlight() {
+        //If the canvas fade is still active, stop it
+        if(timer_draw) timer_draw.stop()
+
+        d3.select("#txtName").on("input", focussearchresults = function() {
+            clearCanvas([ctx_edges, ctx_nodes, ctx_hover])
+            // get search box content
+            var txtName = new RegExp(d3.select("#txtName").node().value,"i");
+            // dim all nodes that don't match
+            elements.forEach(n => { n.opacity = (txtName.test(n.meta.description) ? 1 : 0.1)})
+            threats.forEach(n => { n.opacity = (txtName.test(n.meta.description) ? 1 : 0.1)})
+            concepts.forEach(n => {
+                mergedHLtext = []; foundflag = false;
+                if (n.meta.highlights) {
+                    for (let [hltype, hlobj] of Object.entries(n.meta.highlights)) {
+                        hlobj.forEach(e => {
+                            mergedHLtext.push(e.name,e.description)
+                        })
+                    }
+                }
+                mergedHLtext = mergedHLtext.filter(Boolean);
+                foundflag = (txtName.test(n.label) || txtName.test(n.meta.description) || txtName.test(mergedHLtext))
+                n.opacity = ( foundflag ? 1 : 0.1)
+            })
+            // hide edges for less confusion
+            edges_concepts.forEach(l => { l.opacity = 0 })
+            edges_elements.forEach(l => { l.opacity = 0 })
+            // dummy object to prevent errors
+            current_click = {
+                type: "search",
+                group: "search",
+                label: txtName
+            }
+            click_active = true
+            // elements.forEach(n => { n.opacity = 0})
+
+            // elements.forEach(n => { (n.meta.description.search(txtName) >= 0 ? console.log("found | "+txtName+" | in | "+ n.label) : console.log("didn't find "+txtName))})
+            // circles.style("fill", function(d) {
+            //   return d.doc === txtName ? "red" : "black";
+            // })
+            // If search box is !=null, draw cancel button
+            if (d3.select("#txtName").node().value && d3.select("#txtName").node().value.length>0) {
+                d3.select("#searchCancel").style("opacity",1)
+            } else {
+                d3.select("#searchCancel").style("opacity",0)
+            }
+            drawCanvas()
+        })
+        d3.select("#searchCancel").on("click", function() {
+            d3.select("#txtName").node().value="";
+            d3.select("#searchCancel").style("opacity",0)
+            focussearchresults();
+        })
+    })()//function searchBoxHighlight
+    ///////////////////// Filter function with URL query parameter parsing /////////////////////
+    // filterStrFn();
+    queryURLparams = (function filterStrFn() {
+        //If the canvas fade is still active, stop it
+        if(timer_draw) timer_draw.stop()
+        //parse query url params
+        var i=0;
+        var telem;
+        var search_values=location.search.replace('\?','').split('&');
+        var query={}
+        for(i=0;i<search_values.length;i++){
+            telem=search_values[i].split('=');
+            query[telem[0]]=telem[1];
+        }
+        console.log("Query Parameters:",query);
+        if (query.filter && query.filter.length>0) {
+            clearCanvas([ctx_edges, ctx_nodes, ctx_hover])
+            // Dim everything in preparation for focusing the results
+            edges_concepts.forEach(l => { l.opacity = 0 })
+            edges_elements.forEach(l => { l.opacity = 0 })
+            elements.forEach(m => { m.opacity = 0.1 })
+            threats.forEach(m => { m.opacity = 0.1 })
+            concepts.forEach(m => { m.opacity = 0.1 })
+            // Get filter query parameter ?filter=XXXX
+            var filterStr = query.filter;
+            concepts.forEach(n => {
+                if (n.meta.filterlists.indexOf(filterStr) >= 0) {
+                    n.opacity = (n.meta.filterlists.indexOf(filterStr) >= 0 ? 1 : 0.1);
+                    if(timer_draw) timer_draw.stop()
+                    mouse_hover_active = true
+                    hover_type = "concept"
+                    current_hover = n
+                    let id = n.id
+                    //Draw the edges from the threat to the threat category
+                    edges_concepts.forEach(l => { l.opacity = (l.source.id === id ? 0.1 : l.opacity) })
+                    //Draw the edges from connected elements to threat category
+                    edges_elements.forEach(l => { l.opacity = (l.source.threats.indexOf(id) >= 0 && l.target.id === n.threat_category ? 0.1 : l.opacity) })
+                    //Draw the connected ICH circles
+                    elements.forEach(m => { m.opacity = (m.threats.indexOf(id) >= 0 ? 1 : m.opacity)})
+                    ICH_num = elements.filter(m => m.threats.indexOf(id) >= 0 ).length
+                    //Draw connected threat categories
+                    threats.forEach(m => { m.opacity = (m.id === n.threat_category ? 1 : m.opacity)})
+                    //Draw threats
+                    // concepts.forEach(n => { n.opacity = (n.id === id ? 1 : n.opacity) })
+                    //Draw it all
+                }
+            })
+            console.log("IMGASMODOIASDKOSAKDOA")
+            d3.select("#filterCancel").style("opacity",1)
+            d3.select("#filterCancel").on("click", function() {
+                window.location.replace(window.location.href.split('?')[0]);
+                // d3.select("#filterCancel").style("opacity",0) //not needed, since we reload the page with no query params
+            })
+            // dummy object to prevent errors
+            current_click = {
+                type: "filter",
+                group: "filter",
+                label: filterStr
+            }
+            click_active = true
+            // elements.forEach(n => { n.opacity = 0})
+
+            // elements.forEach(n => { (n.meta.description.search(txtName) >= 0 ? console.log("found | "+txtName+" | in | "+ n.label) : console.log("didn't find "+txtName))})
+            // circles.style("fill", function(d) {
+            //   return d.doc === txtName ? "red" : "black";
+            // })
+            drawCanvas()
+        }
+    })//function searchBoxHighlight
 
     //////////////////////////////////////////////////////////////
     ///////////////////// Mouse out functions ////////////////////

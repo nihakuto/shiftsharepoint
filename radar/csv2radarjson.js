@@ -3,7 +3,7 @@ Papa.parse("../data/microtrendData.csv", {
     header: true,
     complete: function(results) {
         window.microTrendData = results;
-        console.log(results);
+        console.log("Raw Micros from CSV: ",results);
     }
 });
 
@@ -83,7 +83,7 @@ Papa.parse("../data/appData.csv", {
     header: true,
     complete: function(results) {
         window.appData = results;
-        console.log(results);
+        console.log("Raw Applications from CSV",results);
     }
 });
 
@@ -102,6 +102,7 @@ function mkappNodes(csv) {
         //separate micro code list
         micronamelist=new Array([data[row]["linked_microtrends"]][0]);        micronamelist=String(micronamelist).split(",");
         // micronamelist=micronamelist.map(function(el) {return 'micro_' + el});//console.log(micronamelist);
+        filterlists=new Array([data[row]["filter_lists"]][0]);        filterlists=String(filterlists).split(",");
 
         appObj = {
             "type": "concept",
@@ -122,7 +123,8 @@ function mkappNodes(csv) {
                 // "howtoapproach": "",
                 // "images": [],
                 // "video": [],
-                "highlighttype": micronamelist
+                "highlighttype": micronamelist,
+                "filterlists": filterlists
             },
         }
         appNodes[appcode]=appObj;
@@ -160,7 +162,7 @@ Papa.parse("../data/highlightData.csv", {
     header: true,
     complete: function(results) {
         window.highlightData = results;
-        console.log(results);
+        console.log("Raw Highlights from CSV",results);
     }
 });
 
@@ -244,7 +246,7 @@ Papa.parse("../data/megatrendData.csv", {
     header: true,
     complete: function(results) {
         window.megatrendData = results;
-        console.log(results);
+        console.log("Raw Megatrends from CSV",results);
     }
 });
 function mkMegatrendArray(csv) { // THE OUTPUT OF THIS FUNCTION HAS TO BE COPIED TO createThreatVisual.js

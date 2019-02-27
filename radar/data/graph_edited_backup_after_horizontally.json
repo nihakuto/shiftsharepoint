@@ -1,7 +1,7 @@
 {
     "meta": {
         "language": "en",
-        "generated": "2019-02-27T10:21:24.711Z"
+        "generated": "2019-02-21T11:18:57.634Z"
     },
     "nodes": {
         "vocabulary_ich_1265": {
@@ -1220,9 +1220,6 @@
                     "Body As Interface",
                     "Instant Written Customer Service"
                 ],
-                "filterlists": [
-                    "logistics"
-                ],
                 "highlights": {
                     "implementation": [
                         {
@@ -1371,11 +1368,7 @@
                 "multinational": false,
                 "highlighttype": [
                     "A-Commerce",
-                    "Instant Gratification",
-                    "Quicker Frequent Shopping"
-                ],
-                "filterlists": [
-                    "pcg"
+                    "Instant Gratification"
                 ],
                 "highlights": {
                     "implementation": [
@@ -1546,16 +1539,12 @@
                     "small": "https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png",
                     "large": "https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png"
                 },
-                "description": "Automated styling is the most organic practical hemisphere of automated commerce. This previously sci-fi reserved ambition, would in theory (not for long) curate a consumer's cart whenever they need an extra hand with choosing or simply aren't interested in spending time differentiating between two products. For some, shopping for a summer wardrobe is a ritual, for others a pain. Despite it all, with select products and services, a majority of people don't necessarily value time spent in choosing - think detergent, toilet paper, toothpaste. Wouldn't it be amazing to have the \"just choose the cheapest one\" or \"get me anything whitening and minty\".",
+                "description": "Automated styling is the most organic practical hemisphere of automated commerce. This previously sci-fi reserved ambition, would in theory (not for long) curate a consumer's cart whenever they need an extra hand with choosing or simply aren't interested in spending time differentiating between two products. For some, shopping for a summer wardrobe is a ritual, for others a pain. Despite it all, with select products and services, a majority of people don't necessarily value time spent in choosing - think detergent, toilet paper, toothpaste. Wouldn't it be amazing to have the \"just choose the cheapest one\" or \"get my anything whitening and minty\".",
                 "list": "Trend Application",
                 "year": "Seamlessness/Ease",
                 "multinational": false,
                 "highlighttype": [
-                    "A-Commerce",
-                    "Quicker Frequent Shopping"
-                ],
-                "filterlists": [
-                    "humanresources"
+                    "A-Commerce"
                 ],
                 "highlights": {
                     "implementation": [
@@ -1654,9 +1643,6 @@
                 "multinational": false,
                 "highlighttype": [
                     "Aging Workforce"
-                ],
-                "filterlists": [
-                    "logistics"
                 ],
                 "highlights": {
                     "implementation": [
@@ -1785,9 +1771,6 @@
                 "highlighttype": [
                     "Aging Workforce"
                 ],
-                "filterlists": [
-                    "pcg"
-                ],
                 "highlights": {
                     "implementation": [
                         {
@@ -1821,9 +1804,6 @@
                 "multinational": false,
                 "highlighttype": [
                     "Animal Rights"
-                ],
-                "filterlists": [
-                    "humanresources"
                 ],
                 "highlights": {
                     "implementation": [
@@ -1911,9 +1891,6 @@
                 "highlighttype": [
                     "Animal Rights"
                 ],
-                "filterlists": [
-                    "logistics"
-                ],
                 "highlights": {
                     "implementation": [
                         {
@@ -1948,9 +1925,6 @@
                 "highlighttype": [
                     "Authentic People",
                     "Instant Written Customer Service"
-                ],
-                "filterlists": [
-                    "pcg"
                 ],
                 "highlights": {
                     "partner": [
@@ -1989,9 +1963,6 @@
                 "multinational": false,
                 "highlighttype": [
                     "Authentic People"
-                ],
-                "filterlists": [
-                    "humanresources"
                 ],
                 "highlights": {
                     "implementation": [
@@ -2096,9 +2067,6 @@
                 "highlighttype": [
                     "Authentic People"
                 ],
-                "filterlists": [
-                    "logistics"
-                ],
                 "highlights": {
                     "implementation": [
                         {
@@ -2150,15 +2118,12 @@
                     "small": "https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png",
                     "large": "https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png"
                 },
-                "description": "With an increasing number of open borders and conflit fleeding populations, big cities incorporate the work of more and more nationalities. This forces cultures to cohabit in the same spaces, having influences in food and cultural options available.",
+                "description": "",
                 "list": "Trend Application",
                 "year": "Authenticity/Disconnection",
                 "multinational": false,
                 "highlighttype": [
                     "Authentic People"
-                ],
-                "filterlists": [
-                    "pcg"
                 ]
             }
         },
@@ -2177,9 +2142,6 @@
                 "multinational": false,
                 "highlighttype": [
                     "Body As Interface"
-                ],
-                "filterlists": [
-                    "humanresources"
                 ],
                 "highlights": {
                     "implementation": [
@@ -2268,9 +2230,6 @@
                 "multinational": false,
                 "highlighttype": [
                     "Body As Interface"
-                ],
-                "filterlists": [
-                    "logistics"
                 ],
                 "highlights": {
                     "implementation": [
@@ -2422,9 +2381,6 @@
                 "highlighttype": [
                     "Body As Interface"
                 ],
-                "filterlists": [
-                    "pcg"
-                ],
                 "highlights": {
                     "partner": [
                         {
@@ -2541,9 +2497,6 @@
                 "highlighttype": [
                     "Bulk Foods"
                 ],
-                "filterlists": [
-                    "humanresources"
-                ],
                 "highlights": {
                     "implementation": [
                         {
@@ -2606,9 +2559,6 @@
                 "highlighttype": [
                     "Bulk Foods"
                 ],
-                "filterlists": [
-                    "logistics"
-                ],
                 "highlights": {
                     "implementation": [
                         {
@@ -2663,15 +2613,12 @@
                     "small": "https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png",
                     "large": "https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png"
                 },
-                "description": "Lives are changing, with easy access to different lifestyles people may not be dedicated to traditional activities anymore. This means that tasks like buying raw and cooking may be replaced for ordering in, having take-away food or eating out. By transforming supermarkets into food preparation locations we are creating an in-between of restaurants and home-cooking. ",
+                "description": "",
                 "list": "Trend Application",
                 "year": "Sustainability",
                 "multinational": false,
                 "highlighttype": [
                     "Bulk Foods"
-                ],
-                "filterlists": [
-                    "pcg"
                 ],
                 "highlights": {
                     "partner": [
@@ -2720,9 +2667,6 @@
                 "multinational": false,
                 "highlighttype": [
                     "Corporate Campuses"
-                ],
-                "filterlists": [
-                    "humanresources"
                 ],
                 "highlights": {
                     "implementation": [
@@ -2787,9 +2731,6 @@
                 "highlighttype": [
                     "Eternal Newbies"
                 ],
-                "filterlists": [
-                    "logistics"
-                ],
                 "highlights": {
                     "partner": [
                         {
@@ -2824,9 +2765,6 @@
                 "multinational": false,
                 "highlighttype": [
                     "Eternal Newbies"
-                ],
-                "filterlists": [
-                    "pcg"
                 ],
                 "highlights": {
                     "implementation": [
@@ -2952,9 +2890,6 @@
                 "multinational": false,
                 "highlighttype": [
                     "Eternal Newbies"
-                ],
-                "filterlists": [
-                    "humanresources"
                 ]
             }
         },
@@ -2973,9 +2908,6 @@
                 "multinational": false,
                 "highlighttype": [
                     "Eternal Newbies"
-                ],
-                "filterlists": [
-                    "logistics"
                 ],
                 "highlights": {
                     "implementation": [
@@ -3023,9 +2955,6 @@
                 "highlighttype": [
                     "Fear Of Missing Out"
                 ],
-                "filterlists": [
-                    "pcg"
-                ],
                 "highlights": {
                     "implementation": [
                         {
@@ -3059,9 +2988,6 @@
                 "multinational": false,
                 "highlighttype": [
                     "Fear Of Missing Out"
-                ],
-                "filterlists": [
-                    "humanresources"
                 ],
                 "highlights": {
                     "implementation": [
@@ -3150,9 +3076,6 @@
                     "Flexible Workplaces",
                     "Meaningfull Work"
                 ],
-                "filterlists": [
-                    "logistics"
-                ],
                 "highlights": {
                     "partner": [
                         {
@@ -3213,9 +3136,6 @@
                 "multinational": false,
                 "highlighttype": [
                     "Flexible Workplaces"
-                ],
-                "filterlists": [
-                    "pcg"
                 ],
                 "highlights": {
                     "implementation": [
@@ -3315,9 +3235,6 @@
                 "highlighttype": [
                     "Flexible Workplaces"
                 ],
-                "filterlists": [
-                    "humanresources"
-                ],
                 "highlights": {
                     "implementation": [
                         {
@@ -3375,9 +3292,6 @@
                 "multinational": false,
                 "highlighttype": [
                     "Flexible Workplaces"
-                ],
-                "filterlists": [
-                    "logistics"
                 ]
             }
         },
@@ -3396,9 +3310,6 @@
                 "multinational": false,
                 "highlighttype": [
                     "Flexible Workplaces"
-                ],
-                "filterlists": [
-                    "pcg"
                 ]
             }
         },
@@ -3418,9 +3329,6 @@
                 "highlighttype": [
                     "Flexitarianism",
                     "Healthy Junk Food"
-                ],
-                "filterlists": [
-                    "humanresources"
                 ],
                 "highlights": {
                     "implementation": [
@@ -3649,9 +3557,6 @@
                 "highlighttype": [
                     "Flexitarianism"
                 ],
-                "filterlists": [
-                    "logistics"
-                ],
                 "highlights": {
                     "implementation": [
                         {
@@ -3739,9 +3644,6 @@
                     "Food Transparency",
                     "Transparency (Non-Food)"
                 ],
-                "filterlists": [
-                    "pcg"
-                ],
                 "highlights": {
                     "partner": [
                         {
@@ -3802,9 +3704,6 @@
                 "multinational": false,
                 "highlighttype": [
                     "Food Transparency"
-                ],
-                "filterlists": [
-                    "humanresources"
                 ],
                 "highlights": {
                     "implementation": [
@@ -3904,15 +3803,12 @@
                     "small": "https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png",
                     "large": "https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png"
                 },
-                "description": "Information by request is already a reality in a selection of fields. Food past and characteristics seem like a logical next step that may align with the crescendo of worries about the environment and a fairer world.",
+                "description": "",
                 "list": "Trend Application",
                 "year": "Corporate Responsibility",
                 "multinational": false,
                 "highlighttype": [
                     "Food Transparency"
-                ],
-                "filterlists": [
-                    "logistics"
                 ]
             }
         },
@@ -3931,9 +3827,6 @@
                 "multinational": false,
                 "highlighttype": [
                     "Food Transparency"
-                ],
-                "filterlists": [
-                    "pcg"
                 ],
                 "highlights": {
                     "implementation": [
@@ -4067,9 +3960,6 @@
                 "highlighttype": [
                     "Foreign Residents",
                     "Welcome Tourism"
-                ],
-                "filterlists": [
-                    "humanresources"
                 ]
             }
         },
@@ -4088,9 +3978,6 @@
                 "multinational": false,
                 "highlighttype": [
                     "Functional Food"
-                ],
-                "filterlists": [
-                    "logistics"
                 ],
                 "highlights": {
                     "implementation": [
@@ -4140,9 +4027,6 @@
                 "multinational": false,
                 "highlighttype": [
                     "Functional Food"
-                ],
-                "filterlists": [
-                    "pcg"
                 ],
                 "highlights": {
                     "implementation": [
@@ -4330,15 +4214,12 @@
                     "small": "https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png",
                     "large": "https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png"
                 },
-                "description": "Eating is more than consuming calories and a awareness to eating healthy and coping with the right quantities of nutrients is arising, therefore benefiting enriched foods that provide more than \"empty\" calories.  ",
+                "description": "",
                 "list": "Trend Application",
                 "year": "Health And Wellness",
                 "multinational": false,
                 "highlighttype": [
                     "Functional Food"
-                ],
-                "filterlists": [
-                    "humanresources"
                 ]
             }
         },
@@ -4357,9 +4238,6 @@
                 "multinational": false,
                 "highlighttype": [
                     "Functional Food"
-                ],
-                "filterlists": [
-                    "logistics"
                 ],
                 "highlights": {
                     "implementation": [
@@ -4403,7 +4281,7 @@
                     "small": "https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png",
                     "large": "https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png"
                 },
-                "description": "Living in a world of personalization means stop applying the one size fits all to everyone and that means accepting people in their differences in more serious environments.",
+                "description": "",
                 "list": "Trend Application",
                 "year": "Corporate Responsibility",
                 "multinational": false,
@@ -4412,9 +4290,6 @@
                     "Welcome Tourism",
                     "Foreign Residents",
                     "Flexible Workplaces"
-                ],
-                "filterlists": [
-                    "pcg"
                 ]
             }
         },
@@ -4433,9 +4308,6 @@
                 "multinational": false,
                 "highlighttype": [
                     "Genderless / Gender Neutral"
-                ],
-                "filterlists": [
-                    "humanresources"
                 ],
                 "highlights": {
                     "partner": [
@@ -4479,7 +4351,7 @@
                     "small": "https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png",
                     "large": "https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png"
                 },
-                "description": "With specific tests being more affordable - like genetic tests - diet plans can be more informed and tackle different types of bodies and what works for them.  ",
+                "description": "",
                 "list": "Trend Application",
                 "year": "Health And Wellness",
                 "multinational": false,
@@ -4487,9 +4359,6 @@
                     "Gut-Friendly Food",
                     "Health Consciousness",
                     "Functional Food"
-                ],
-                "filterlists": [
-                    "logistics"
                 ],
                 "highlights": {
                     "partner": [
@@ -4539,9 +4408,6 @@
                 "highlighttype": [
                     "Gut-Friendly Food"
                 ],
-                "filterlists": [
-                    "pcg"
-                ],
                 "highlights": {
                     "implementation": [
                         {
@@ -4576,9 +4442,6 @@
                 "highlighttype": [
                     "Gut-Friendly Food",
                     "Functional Food"
-                ],
-                "filterlists": [
-                    "humanresources"
                 ],
                 "highlights": {
                     "partner": [
@@ -4643,9 +4506,6 @@
                 "multinational": false,
                 "highlighttype": [
                     "Health Consciousness"
-                ],
-                "filterlists": [
-                    "logistics"
                 ],
                 "highlights": {
                     "partner": [
@@ -4723,9 +4583,6 @@
                     "Health Consciousness",
                     "Flexitarianism"
                 ],
-                "filterlists": [
-                    "pcg"
-                ],
                 "highlights": {
                     "implementation": [
                         {
@@ -4761,9 +4618,6 @@
                     "Healthy Junk Food",
                     "Health Consciousness",
                     "Liquid Expectations"
-                ],
-                "filterlists": [
-                    "humanresources"
                 ],
                 "highlights": {
                     "implementation": [
@@ -4907,9 +4761,6 @@
                 "highlighttype": [
                     "Healthy Junk Food",
                     "Liquid Expectations"
-                ],
-                "filterlists": [
-                    "logistics"
                 ]
             }
         },
@@ -4928,9 +4779,6 @@
                 "multinational": false,
                 "highlighttype": [
                     "Healthy Junk Food"
-                ],
-                "filterlists": [
-                    "pcg"
                 ],
                 "highlights": {
                     "partner": [
@@ -4967,9 +4815,6 @@
                 "highlighttype": [
                     "Instant Gratification",
                     "Quicker Frequent Shopping"
-                ],
-                "filterlists": [
-                    "humanresources"
                 ],
                 "highlights": {
                     "implementation": [
@@ -5028,9 +4873,6 @@
                 "multinational": false,
                 "highlighttype": [
                     "Instant Gratification"
-                ],
-                "filterlists": [
-                    "logistics"
                 ],
                 "highlights": {
                     "implementation": [
@@ -5146,9 +4988,6 @@
                 "highlighttype": [
                     "Lifecasting"
                 ],
-                "filterlists": [
-                    "pcg"
-                ],
                 "highlights": {
                     "implementation": [
                         {
@@ -5223,9 +5062,6 @@
                 "multinational": false,
                 "highlighttype": [
                     "Lifecasting"
-                ],
-                "filterlists": [
-                    "humanresources"
                 ]
             }
         },
@@ -5244,9 +5080,6 @@
                 "multinational": false,
                 "highlighttype": [
                     "Liquid Expectations"
-                ],
-                "filterlists": [
-                    "logistics"
                 ],
                 "highlights": {
                     "partner": [
@@ -5484,9 +5317,6 @@
                 "highlighttype": [
                     "Liquid Expectations"
                 ],
-                "filterlists": [
-                    "pcg"
-                ],
                 "highlights": {
                     "implementation": [
                         {
@@ -5545,9 +5375,6 @@
                 "multinational": false,
                 "highlighttype": [
                     "Liquid Expectations"
-                ],
-                "filterlists": [
-                    "humanresources"
                 ],
                 "highlights": {
                     "implementation": [
@@ -5828,9 +5655,6 @@
                 "highlighttype": [
                     "Meaningfull Work"
                 ],
-                "filterlists": [
-                    "logistics"
-                ],
                 "highlights": {
                     "implementation": [
                         {
@@ -5894,9 +5718,6 @@
                 "multinational": false,
                 "highlighttype": [
                     "Meaningfull Work"
-                ],
-                "filterlists": [
-                    "pcg"
                 ]
             }
         },
@@ -5915,9 +5736,6 @@
                 "multinational": false,
                 "highlighttype": [
                     "Mini-Doses"
-                ],
-                "filterlists": [
-                    "humanresources"
                 ],
                 "highlights": {
                     "implementation": [
@@ -5995,9 +5813,6 @@
                     "Mobile Payments",
                     "Liquid Expectations"
                 ],
-                "filterlists": [
-                    "logistics"
-                ],
                 "highlights": {
                     "implementation": [
                         {
@@ -6058,9 +5873,6 @@
                 "multinational": false,
                 "highlighttype": [
                     "New Luxury"
-                ],
-                "filterlists": [
-                    "pcg"
                 ]
             }
         },
@@ -6079,9 +5891,6 @@
                 "multinational": false,
                 "highlighttype": [
                     "New Luxury"
-                ],
-                "filterlists": [
-                    "humanresources"
                 ],
                 "highlights": {
                     "implementation": [
@@ -6158,15 +5967,12 @@
                     "small": "https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png",
                     "large": "https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png"
                 },
-                "description": "Adopt new models to access content. People are quitting classical media and moving towards platforms where they can choose the content they want when they want it.",
+                "description": "",
                 "list": "Trend Application",
                 "year": "Hiper Personalization",
                 "multinational": false,
                 "highlighttype": [
                     "Non-Linear Interactive Video Content"
-                ],
-                "filterlists": [
-                    "logistics"
                 ],
                 "highlights": {
                     "implementation": [
@@ -6217,9 +6023,6 @@
                 "highlighttype": [
                     "Old Age New Millenials"
                 ],
-                "filterlists": [
-                    "pcg"
-                ],
                 "highlights": {
                     "implementation": [
                         {
@@ -6267,9 +6070,6 @@
                     "Personalized Content",
                     "Authentic People"
                 ],
-                "filterlists": [
-                    "humanresources"
-                ],
                 "highlights": {
                     "partner": [
                         {
@@ -6304,9 +6104,6 @@
                 "multinational": false,
                 "highlighttype": [
                     "Personalized Content"
-                ],
-                "filterlists": [
-                    "logistics"
                 ],
                 "highlights": {
                     "implementation": [
@@ -6370,9 +6167,6 @@
                 "highlighttype": [
                     "Privacy Protection"
                 ],
-                "filterlists": [
-                    "pcg"
-                ],
                 "highlights": {
                     "implementation": [
                         {
@@ -6433,9 +6227,6 @@
                 "multinational": false,
                 "highlighttype": [
                     "Privacy Protection"
-                ],
-                "filterlists": [
-                    "humanresources"
                 ]
             }
         },
@@ -6454,9 +6245,6 @@
                 "multinational": false,
                 "highlighttype": [
                     "Privacy Protection"
-                ],
-                "filterlists": [
-                    "logistics"
                 ],
                 "highlights": {
                     "implementation": [
@@ -6504,9 +6292,6 @@
                 "highlighttype": [
                     "Quicker Frequent Shopping"
                 ],
-                "filterlists": [
-                    "pcg"
-                ],
                 "highlights": {
                     "partner": [
                         {
@@ -6541,9 +6326,6 @@
                 "multinational": false,
                 "highlighttype": [
                     "Renewable Charged Future"
-                ],
-                "filterlists": [
-                    "humanresources"
                 ],
                 "highlights": {
                     "technology": [
@@ -6692,9 +6474,6 @@
                 "highlighttype": [
                     "Renewable Charged Future"
                 ],
-                "filterlists": [
-                    "logistics"
-                ],
                 "highlights": {
                     "technology": [
                         {
@@ -6758,9 +6537,6 @@
                 "multinational": false,
                 "highlighttype": [
                     "Renewable Charged Future"
-                ],
-                "filterlists": [
-                    "pcg"
                 ]
             }
         },
@@ -6779,9 +6555,6 @@
                 "multinational": false,
                 "highlighttype": [
                     "Renewable Charged Future"
-                ],
-                "filterlists": [
-                    "humanresources"
                 ]
             }
         },
@@ -6800,9 +6573,6 @@
                 "multinational": false,
                 "highlighttype": [
                     "Renewable Charged Future"
-                ],
-                "filterlists": [
-                    "logistics"
                 ],
                 "highlights": {
                     "partner": [
@@ -6917,9 +6687,6 @@
                 "multinational": false,
                 "highlighttype": [
                     "Schizophrenic Consumption"
-                ],
-                "filterlists": [
-                    "pcg"
                 ]
             }
         },
@@ -6938,9 +6705,6 @@
                 "multinational": false,
                 "highlighttype": [
                     "Schizophrenic Consumption"
-                ],
-                "filterlists": [
-                    "humanresources"
                 ],
                 "highlights": {
                     "implementation": [
@@ -6987,9 +6751,6 @@
                 "multinational": false,
                 "highlighttype": [
                     "Sharing Economy"
-                ],
-                "filterlists": [
-                    "logistics"
                 ],
                 "highlights": {
                     "partner": [
@@ -7040,9 +6801,6 @@
                 "highlighttype": [
                     "Sharing Economy"
                 ],
-                "filterlists": [
-                    "pcg"
-                ],
                 "highlights": {
                     "partner": [
                         {
@@ -7092,9 +6850,6 @@
                     "Storytelling",
                     "Authentic People",
                     "Personalized Content"
-                ],
-                "filterlists": [
-                    "humanresources"
                 ],
                 "highlights": {
                     "implementation": [
@@ -7243,9 +6998,6 @@
                 "highlighttype": [
                     "Storytelling"
                 ],
-                "filterlists": [
-                    "logistics"
-                ],
                 "highlights": {
                     "implementation": [
                         {
@@ -7308,9 +7060,6 @@
                 "highlighttype": [
                     "Storytelling"
                 ],
-                "filterlists": [
-                    "pcg"
-                ],
                 "highlights": {
                     "implementation": [
                         {
@@ -7344,9 +7093,6 @@
                 "multinational": false,
                 "highlighttype": [
                     "Too Much Choice/ Simplification"
-                ],
-                "filterlists": [
-                    "humanresources"
                 ],
                 "highlights": {
                     "partner": [
@@ -7449,9 +7195,6 @@
                 "highlighttype": [
                     "Too Much Choice/ Simplification"
                 ],
-                "filterlists": [
-                    "logistics"
-                ],
                 "highlights": {
                     "implementation": [
                         {
@@ -7552,9 +7295,6 @@
                 "highlighttype": [
                     "Transparency (Non-Food)"
                 ],
-                "filterlists": [
-                    "pcg"
-                ],
                 "highlights": {
                     "partner": [
                         {
@@ -7629,9 +7369,6 @@
                 "highlighttype": [
                     "Transparency (Non-Food)"
                 ],
-                "filterlists": [
-                    "humanresources"
-                ],
                 "highlights": {
                     "implementation": [
                         {
@@ -7681,9 +7418,6 @@
                 "highlighttype": [
                     "Try Before You Buy"
                 ],
-                "filterlists": [
-                    "logistics"
-                ],
                 "highlights": {
                     "implementation": [
                         {
@@ -7717,9 +7451,6 @@
                 "multinational": false,
                 "highlighttype": [
                     "Try Before You Buy"
-                ],
-                "filterlists": [
-                    "pcg"
                 ],
                 "highlights": {
                     "partner": [
@@ -7769,9 +7500,6 @@
                 "highlighttype": [
                     "War On Plastic",
                     "Zero Waste"
-                ],
-                "filterlists": [
-                    "humanresources"
                 ],
                 "highlights": {
                     "implementation": [
@@ -7925,9 +7653,6 @@
                     "Zero Waste",
                     "Bulk Foods"
                 ],
-                "filterlists": [
-                    "logistics"
-                ],
                 "highlights": {
                     "partner": [
                         {
@@ -7994,9 +7719,6 @@
                     "War On Plastic",
                     "Zero Waste"
                 ],
-                "filterlists": [
-                    "pcg"
-                ],
                 "highlights": {
                     "partner": [
                         {
@@ -8062,9 +7784,6 @@
                 "highlighttype": [
                     "War On Plastic",
                     "Zero Waste"
-                ],
-                "filterlists": [
-                    "humanresources"
                 ]
             }
         },
@@ -8084,9 +7803,6 @@
                 "highlighttype": [
                     "War On Plastic",
                     "Zero Waste"
-                ],
-                "filterlists": [
-                    "logistics"
                 ],
                 "highlights": {
                     "implementation": [
@@ -8134,9 +7850,6 @@
                 "highlighttype": [
                     "Welcome Tourism",
                     "Foreign Residents"
-                ],
-                "filterlists": [
-                    "pcg"
                 ],
                 "highlights": {
                     "partner": [
@@ -8186,9 +7899,6 @@
                 "highlighttype": [
                     "Welcome Tourism"
                 ],
-                "filterlists": [
-                    "humanresources"
-                ],
                 "highlights": {
                     "implementation": [
                         {
@@ -8235,9 +7945,6 @@
                 "highlighttype": [
                     "Welcome Tourism"
                 ],
-                "filterlists": [
-                    "logistics"
-                ],
                 "highlights": {
                     "implementation": [
                         {
@@ -8271,9 +7978,6 @@
                 "multinational": false,
                 "highlighttype": [
                     "Zero Waste"
-                ],
-                "filterlists": [
-                    "pcg"
                 ],
                 "highlights": {
                     "partner": [
@@ -8336,9 +8040,6 @@
                 "multinational": false,
                 "highlighttype": [
                     "Zero Waste"
-                ],
-                "filterlists": [
-                    "humanresources"
                 ],
                 "highlights": {
                     "implementation": [
@@ -8448,9 +8149,6 @@
                 "highlighttype": [
                     "Personalized Content"
                 ],
-                "filterlists": [
-                    "logistics"
-                ],
                 "highlights": {
                     "partner": [
                         {
@@ -8550,9 +8248,6 @@
                 "highlighttype": [
                     "Lifecasting"
                 ],
-                "filterlists": [
-                    "pcg"
-                ],
                 "highlights": {
                     "implementation": [
                         {
@@ -8586,9 +8281,6 @@
                 "multinational": false,
                 "highlighttype": [
                     "Lifecasting"
-                ],
-                "filterlists": [
-                    "humanresources"
                 ],
                 "highlights": {
                     "implementation": [

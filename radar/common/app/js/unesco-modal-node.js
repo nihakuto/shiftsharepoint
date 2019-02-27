@@ -7,8 +7,14 @@ function createModal(obj) {
     // console.log(obj)
     d3.select("#chart-modal-img-slider").html('');
     d3.select("#modal-node-snippets").html('');
-    if(obj.meta && obj.meta.icon) {
+    if(obj.meta && obj.meta.icon && (obj.meta.icon.large != "https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png")) {
         d3.select("#chart-modal-full-img").style("background-image", `url("${obj.meta.icon.large}")`)
+        d3.select("#chart-modal-full-img").style("padding-bottom", "40%");
+        d3.select("#chart-modal-full-img").style("min-height", "200px");
+        if (obj.id.startsWith("app_")) {
+            d3.select("#chart-modal-full-img").style("padding-bottom", "0");
+            d3.select("#chart-modal-full-img").style("min-height", "0");
+        }
         //Change to 2nd image if the first is portrait, hoping the 2nd one isn't...
         /*
         let img = new Image()
@@ -17,7 +23,11 @@ function createModal(obj) {
             if (this.width < this.height) d3.select("#chart-modal-full-img").style("background-image", `url("${obj.meta.images[1].url}")`)
         }//onload
         */
-    }//if
+    } else if (!(obj.meta.icon) || obj.meta.icon.large == "https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png") {
+        d3.select("#chart-modal-full-img").style("background-image", `url("#")`);
+        d3.select("#chart-modal-full-img").style("padding-bottom", 0);
+        d3.select("#chart-modal-full-img").style("min-height", 0);
+    }
 
     //Change titles
     d3.select("#modal-node-type").html((obj.meta && obj.meta.list) ? common_translations[language][obj.meta.list.toLowerCase()] : typeConversion(obj.type))
@@ -356,7 +366,7 @@ function createModal(obj) {
 
                 // need to parse string of URLs
                 externalurlArray = new Array(obj.meta.highlights.technology[i].externalurls[0]);        externalurlArray=String(externalurlArray).split(",");
-                console.log(obj.meta.highlights.technology[i])
+                // console.log(obj.meta.highlights.technology[i])
                 if (externalurlArray[0].length) {
                     for(j = 0; j < externalurlArray.length; j++) {
 

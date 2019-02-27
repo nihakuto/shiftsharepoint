@@ -1,71 +1,67 @@
-<?php
-   $json = file_get_contents("https://dexonline.ro/definitie/skate?format=json");
-?>
+
 <!DOCTYPE html>
-<html>
-<head>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-        <!-- <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script> -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/4.6.3/papaparse.js"></script>
-        <!-- <script src="./url-metadata/urlmeta.js"></script> -->
-        <!-- <script src="./urlmetastandalone.js"></script> -->
-    <title>test</title>
-</head>
+	<head>
+
+	    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+	    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+
+        <title>Sonae Trend Radar</title>
+
+
+		<!-- Styling -->
+<!--         <link href="../common/vendor/css/glide.core.min.css" rel="stylesheet">
+        <link href="../common/vendor/css/glide.theme.min.css" rel="stylesheet">
+        <link href="../common/app/css/style.css" rel="stylesheet">
+        <link href="../common/app/css/modal.css" rel="stylesheet">
+        <link href="../common/app/css/snippets.css" rel="stylesheet"> -->
+        <!-- <link href="../common/app/css/menu.css" rel="stylesheet"> -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+        <!-- Google fonts -->
+        <!--Font Awesome-->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+		<!-- JavaScript files -->
+<!--         <script src="../common/vendor/js/d3.v5.min.js"></script>
+        <script src="../common/vendor/js/chroma.min.js"></script>
+        <script src="../common/vendor/js/modal.min.js"></script>
+        <script src="../common/vendor/js/fontfaceobserver.js"></script>
+        <script src="../common/vendor/js/search-params-polyfill.js"></script>
+        <script src="../common/vendor/js/glide.min.js"></script>
+        <script src="../data/version.js"></script> -->
+
+        <!-- The visual function -->
+
+	</head>
+
+	
 <body>
+    <!-- Image and text -->
+    <nav class="navbar navbar-light">
+      <a class="navbar-brand" href="#">
+        <img src="img/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+        Bootstrap
+      </a>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+      <ul class="navbar-nav">
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Notifications <span class="badge badge-secondary">0</span>
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+         </li>
+      </ul>
+    </nav>
 
-<input type="text" placeholder="Type URL here" value="http://www.sonae.pt" />
-<button>Get Meta Data</button>
-
-<pre>
-  <div>Title: <div id="metatitle"></div></div>
-  <div>Meta Keyword: <div id="kw"></div></div>
-  <div>Description: <div id="des"></div></div>
-  <div>Image: <div id="img"></div></div>
-  <div>OGImage: <div id="ogimage"></div></div>
-</pre>
-
-
-
-
-<script>
-
-$('button').click(function() {
-  $.ajax({
-    url: 'https://cors-anywhere.herokuapp.com/' + $('input').val()
-  }).then(function(data) {
-    var html = $(data);
-    window.test = html;
-
-    $('#metatitle').html(getMetaContent(html, 'title') || 'no keywords found');
-    $('#kw').html(getMetaContent(html, 'description') || 'no keywords found');
-    $('#des').html(getMetaContent(html, 'keywords') || 'no description found');
-    $('#img').html(html.find('img').attr('src') || 'no image found');
-    $('#ogimage').html(getMetaPropertyContent(html, 'og:image') || 'no ogimage found');
-  });
-});
-
-function getMetaContent(html, name) {
-  return html.filter(
-  (index, tag) => tag && tag.name && tag.name == name).attr('content');
-}
-function getMetaPropertyContent(html, name) {
-  return html.filter(
-  (index, tag) => tag && tag.property && tag.property == name).attr('content');
-}
-
-
-// // const urlMetadata = require('url-metadata')
-// urlMetadata('http://sonae.pt').then(
-//   function (metadata) { // success handler
-//     console.log(metadata)
-//   },
-//   function (error) { // failure handler
-//     console.log(error)
-//   })
-
-</script>
 
 </body>
 </html>
