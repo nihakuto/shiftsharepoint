@@ -16,58 +16,170 @@
 .card-text {
     font-size: .8rem;
 }
-.card-1 .full-thumbnail {
-    background-image: url("https://www.growthmarketingpro.com/wp-content/uploads/2017/07/warby-parker-ecommerce.png");
-}
-.card-2 .full-thumbnail {
-    background-image: url("https://www.scarymommy.com/wp-content/uploads/2018/03/amazon-samples-featured.jpg");
-}
-.card-3 .full-thumbnail {
-    background-image: url("https://d3ss0gp3e5d7m3.cloudfront.net/assets/images/referral_link_sharing.33cwk.jpg");
-}
-.card-4 .full-thumbnail {
-    background-image: url("https://thumbor.forbes.com/thumbor/600x315/https%3A%2F%2Fspecials-images.forbesimg.com%2Fdam%2Fimageserve%2F1091566090%2F960x0.jpg%3Ffit%3Dscale");
-}
 
-.case-card-1 .full-thumbnail {
-    background-image: url("https://via.placeholder.com/150?text=Placeholder");
-}
-.case-card-2 .full-thumbnail {
-    background-image: url("https://via.placeholder.com/150?text=Placeholder");
-}
-.case-card-3 .full-thumbnail {
-    background-image: url("https://img.reality.news/img/97/77/63646258249156/0/mac-cosmetics-stores-get-ar-makeover-with-virtual-try-mirrors.1280x600.jpg");
-}
-.case-card-4 .full-thumbnail {
-    background-image: url("https://via.placeholder.com/150?text=Placeholder");
-}
-
-.tech-card-1 .full-thumbnail {
-    background-image: url("https://upload.wikimedia.org/wikipedia/commons/d/d4/Virtual-Fixtures-USAF-AR.jpg");
-}
-.tech-card-2 .full-thumbnail {
-    background-image: url("https://upload.wikimedia.org/wikipedia/commons/7/70/Data_Networks_classification_by_spatial_scope.png");
-}
-.tech-card-3 .full-thumbnail {
-    background-image: url("http://intelligent-future.com/wp-dev/wp-content/uploads/2017/08/Emotion-AI-Summit-HeaderV8.jpg");
-}
-.tech-card-4 .full-thumbnail {
-    background-image: url("https://upload.wikimedia.org/wikipedia/commons/8/82/Green_screens_compare_with_Iman_Crosson_20110524.png");
+.card-body strong {
+    font-size: 13px;
 }
 
 
-.partner-card-1 .full-thumbnail {
-    background-size: contain!important;
-    background-image: url("https://is3-ssl.mzstatic.com/image/thumb/Purple128/v4/62/c1/58/62c158c4-72eb-b38b-209f-f860ba08f196/source/512x512bb.jpg");
+
+
+.redlight-bar-container {
+  /*margin: 50px 100px;*/
+  margin-left: -0.5rem;
+  margin-right: -0.5rem;
+  left: 0.5rem;
 }
-.partner-card-2 .full-thumbnail {
-    background-size: contain!important;
-    background-image: url("https://i.imgur.com/jrc9Rlq.png");
+.redlight-bar {
+  position: relative;
+  display: flex;
+  box-sizing: content-box; 
 }
-.partner-card-3 .full-thumbnail {
-    background-size: contain!important;
-    background-image: url("http://www.getlisteduae.com/wp-content/uploads/2018/05/sensemi-logo.png");
+.redlight-bar .redlight-bar-track {
+  position: absolute;
+  top: 5px;
+  width: 100%;
+  height: 5px;
+  background-color: #dfe3e4;
+  z-index: 0;
 }
+.redlight-bar .redlight-bar-step {
+  position: relative;
+  width: 100%;
+  font-size: 12px;
+  text-align: center;
+  color: #dfe3e4;
+}
+.redlight-bar .redlight-bar-step:last-child:after {
+  display: none;
+}
+.redlight-bar .redlight-bar-step:before {
+  content: "";
+  display: flex;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  width: 14px;
+  height: 14px;
+  background: #fff;
+  border: 4px solid #dfe3e4;
+  border-radius: 100%;
+  color: #fff;
+}
+.redlight-bar .redlight-bar-step:after {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 50%;
+  width: 0%;
+  transition: width 1s ease-in;
+  height: 5px;
+  background: #dfe3e4;
+  z-index: 0;
+}
+.redlight-bar .redlight-bar-step.is-active {
+  color: #5dad5d;
+}
+.redlight-bar .redlight-bar-step.is-active:before {
+  /*border: 4px solid #dfe3e4;*/
+  border: 4px solid #5dad5d;
+  /*animation: turngreen 0.5s linear 1s 1 forwards;*/
+  /*animation: pulse 2s infinite;*/
+}
+.redlight-bar .redlight-bar-step.is-complete {
+  color: #dfe3e4;;
+}
+.redlight-bar .redlight-bar-step.is-complete:before {
+  font-family: FontAwesome;
+  font-size: 10px;
+  color: #fff;
+  background: #5dad5d;
+  border: 4px solid transparent;
+}
+.redlight-bar .redlight-bar-step.is-complete:after {
+  background: #5dad5d;
+  width: 100%;
+  /*animation: nextStep 1s;
+  animation-fill-mode: forwards;*/
+}
+
+#table-container table {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  border-collapse: collapse;
+  /*border: 1px solid red;*/
+}
+#table-container tbody {
+    font-size: 14px;
+}
+.bodycells tspan {
+    display: inline-block;
+    font-size: 12px;
+    margin-bottom: .5rem;
+    border-radius: 5px;
+    padding: 2px;
+    text-align: left;
+}
+
+tr[rowid="very_high"] tspan {background-color: rgba(255,0,0,0.1)}
+tr[rowid="high"] tspan {background-color: rgba(0,255,0,0.1)}
+tr[rowid="medium"] tspan {background-color: rgba(0,0,255,0.1)}
+tr[rowid="low"] tspan {background-color: rgba(255,0,255,0.1)}
+
+.bodycells {
+    width: 21%;
+}
+.bodycells tspan:last-child {
+    margin-bottom: 0!important;
+    /*text-align: center;*/
+}
+#table-container td {
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    vertical-align: middle!important;
+}
+#table-container th {
+    text-align: center;
+    border-top: 0;
+}
+.idxcolumn {
+    text-align: right;
+    vertical-align: middle!important;
+    width: 16%;
+    font-weight: bold;
+}
+
+.admin-data-container {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    font: 12px sans-serif;
+}
+
+/*@keyframes turngreen {
+  0% {
+    border: 4px solid #dfe3e4;
+  }
+  100% {
+    border: 4px solid #5dad5d;
+  }
+}
+@keyframes nextStep {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}*/
+
+
 /*
 .card{
   font-family: 'Nunito', sans-serif;

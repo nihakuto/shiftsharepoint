@@ -331,14 +331,14 @@ threat_metadata = [
         { id: "vocabulary_ich_1267", color: "#7EB852", megatrend_relevance: 174}, //Socioeconomical problems                     // RADAR   Hiper Personalization
     ]
 
-Papa.parse("../data/tempconcepts.csv", {
-    download: true,
-    header: true,
-    complete: function(results) {
-        window.tempcsv = results;
-        // console.log(results);
-    }
-});
+// Papa.parse("../data/tempconcepts.csv", {
+//     download: true,
+//     header: true,
+//     complete: function(results) {
+//         window.tempcsv = results;
+//         // console.log(results);
+//     }
+// });
 
 // function changeconcepts(reg) { //this function was deprecated for the new createNewConceptsObjectArray
 //     index=0;jindex=0;
@@ -580,13 +580,13 @@ function resetMicroEdges(oldjson,microarray) { //setAllMicroEdgesToSameMega(myjs
 };
 
 
-Papa.parse("../data/tempmicros.csv", {
-    download: true,
-    header: true,
-    complete: function(results) {
-        window.tempmicroscsv = results;
-    }
-});
+// Papa.parse("../data/tempmicros.csv", {
+//     download: true,
+//     header: true,
+//     complete: function(results) {
+//         window.tempmicroscsv = results;
+//     }
+// });
 
 function createNewMicrosObjectArray(csv,microsarray) { // createNewMicrosObjectArray(tempmicroscsv,globalelements)
     // create array with object for every concept in csv
@@ -633,6 +633,79 @@ function replaceOldMicros(oldjson,newmicros) { //replaceOldConcepts(myjson,newmi
     };
 };
 
+(function adminDataUpdate() {
+    //parse query url params
+    var i=0;
+    var telem;
+    var search_values=location.search.replace('\?','').split('&');
+    var query={}
+    for(i=0;i<search_values.length;i++){
+        telem=search_values[i].split('=');
+        query[telem[0]]=telem[1];
+    }
+
+    if (query.admin && query.admin.length>0 && query.admin == 'shift') {
+        var rowToHtml = function( row ) {
+            var result = "";
+            for (key in row) {
+                result += key + ": " + row[key] + "<br/>"
+            }
+            return result;
+        }
+
+        var previewCsvUrl = function( csvUrl ) {
+             d3.csv( csvUrl, function( rows ) {
+                // console.log(d3.csv( csvUrl))
+                   d3.select("div#adminpreview").html(
+                     "<b>First row:</b><br/>" + rowToHtml( rows[0] ));
+             })
+        }
+
+        filenamearray = ['appData.csv', 'megatrendData.csv', 'microtrendData.csv', 'highlightData.csv'];
+        var csvpromises
+        window.admin_appData = null, window.admin_highlightData = null, window.admin_microtrendData = null, window.admin_megatrendData = null
+
+        d3.select(".admin-data-container")
+          .selectAll("div.fileinputs")
+          .data(filenamearray)
+          .enter()
+          .append("div")
+          .append("label")
+          .text(function(d) {return (d+' | ')})
+          .append("input")
+          .attr("type", "file")
+          .attr("accept", ".csv")
+          // .style("margin", "5px")
+          .on("change", function(d) {
+            // console.log(d)
+            var file = d3.event.target.files[0];
+            if (file) {
+              var reader = new FileReader();
+                reader.onloadend = function(evt) {
+                  var dataUrl = evt.target.result;
+                  // The following call results in an "Access denied" error in IE.
+                  csvpromises = d3.csv(dataUrl);
+                  (csvpromises).then(function(values) {
+                        window['admin_'+d.substr(0, d.indexOf('.'))] = values;
+                    });
+                  // previewCsvUrl(dataUrl);
+              };
+             reader.readAsDataURL(file);
+            }
+         })
+
+        d3.select(".admin-data-container")
+            .append('button')
+            .text('Submit')
+            .on('click', function(d) {
+                if (admin_appData!=null && admin_highlightData!=null && admin_microtrendData!=null && admin_megatrendData!=null && admin_appData.length>0 && admin_highlightData.length>0 && admin_microtrendData.length>0 && admin_megatrendData.length>0) {
+                    window.finaljson = mkFinalDataJson(admin_microtrendData,admin_megatrendData,admin_highlightData,admin_appData);
+                    alert('Files successfully loaded, please overwrite graph_edited_en.json in data folder to see changes. Reload with CTRL+F5 to see changes. (If something broke, restore graph_edited_en.json)')
+                    downloadjson(finaljson, 'graph_edited_en.json', 'json');
+                } else {alert('Files missing or wrongfully loaded. Check if you uploaded the correct files.')}
+            })
+    }
+})()
 
 // function setNewMicro2ConceptEdges(oldjson,conceptcsv) { //setAllMicroEdgesToSameMega(myjson,"vocabulary_ich_1284",globalelements)
 //     // create array with object for every concept in csv

@@ -13,7 +13,6 @@ const common_translations = {
         "megatrend": "Megatrend",
         "usl": "Urgent Safeguarding List",
         "gsp": "Register of Good Safeguarding Practices",
-        "watch": "See the video and the images",
         "more": "Click here to read more about this element",
         "menu_search": "Search",
         "menu_intro": "Introduction",
@@ -33,7 +32,11 @@ const common_translations = {
         "trend evidence": "Trend Evidence",
         "real trend implementation": "Real Trend Implementation",
         "trend enabling technology": "Trend Enabling Technology",
-        "trend application": "Trend Application"
+        "trend application": "Trend Application",
+        "watch": "Keep Vigilant Watch",
+        "study": "Study in Depth",
+        "experiment": "Experiment & Pilot",
+        "implement": "Start Implementing"
     },
     "fr": {
         "ich": "Patrimoine culturel immatériel",

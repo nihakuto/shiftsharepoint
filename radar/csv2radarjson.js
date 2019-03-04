@@ -9,11 +9,11 @@ Papa.parse("../data/microtrendData.csv", {
 
 function mkmicrotrendNodes(csv) {
     // create array with object for every concept in csv
-    data = csv.data;
+    if (csv.hasOwnProperty('data')) {data = csv.data; stoplength=data.length-1} else {data = csv; stoplength=data.length}
     microNodes = [];
     // console.log([data[0]["threat_categories"]][0].split(","))
     for (row in data) {
-        if (row===data.length-1) break;
+        if (row===stoplength) break;
         // console.log(data[row]["radar_include"]);
         if (data[row]["radar_include"] != 1) continue;
         tempcatlist=new Array([data[row]["threat_categories"]][0])//.split(",");
@@ -52,11 +52,11 @@ function mkmicrotrendNodes(csv) {
 
 function mkmicroappEdges(csv) {
     // create array with object for every concept in csv
-    data = csv.data;
+    if (csv.hasOwnProperty('data')) {data = csv.data; stoplength=data.length-1} else {data = csv; stoplength=data.length}
     microappEdges = [];
     // console.log([data[0]["threat_categories"]][0].split(","))
     for (row in data) {
-        if (row===data.length-1) break;
+        if (row===stoplength) break;
         if (data[row]["radar_include"] != 1) continue; //skip cycle if micro is not to be included.
         microtrendcode = ("micro_"+data[row]["trend_id"]);
         //separate app list
@@ -89,11 +89,11 @@ Papa.parse("../data/appData.csv", {
 
 function mkappNodes(csv) {
     // create array with object for every concept in csv
-    data = csv.data;
+    if (csv.hasOwnProperty('data')) {data = csv.data; stoplength=data.length-1} else {data = csv; stoplength=data.length}
     appNodes = [];
     // console.log([data[0]["threat_categories"]][0].split(","))
     for (row in data) {
-        if (row===data.length-1) break;
+        if (row===stoplength) break;
         // console.log(data[row]["radar_include"]);
         if (data[row]["radar_include"] != 1) continue;
 
@@ -134,11 +134,11 @@ function mkappNodes(csv) {
 
 function mkappmegaEdges(csv) {
     // create array with object for every concept in csv
-    data = csv.data;
+    if (csv.hasOwnProperty('data')) {data = csv.data; stoplength=data.length-1} else {data = csv; stoplength=data.length}
     appmegaEdges = [];
     // console.log([data[0]["threat_categories"]][0].split(","))
     for (row in data) {
-        if (row===data.length-1) break;
+        if (row===stoplength) break;
         if (data[row]["radar_include"] != 1) continue; //skip cycle if micro is not to be included.
 
         appcode = ("app_"+data[row]["app_CODE"]);
@@ -168,13 +168,13 @@ Papa.parse("../data/highlightData.csv", {
 
 function appendHighlights(hl_csv,oldAppNodesObj) {
     // create array with object for every concept in csv
-    data = hl_csv.data;
+    if (hl_csv.hasOwnProperty('data')) {data = hl_csv.data; stoplength=data.length-1} else {data = hl_csv; stoplength=data.length}
     newAppNodesObj = oldAppNodesObj;
     // console.log([data[0]["threat_categories"]][0].split(","))
     for (appcode in newAppNodesObj) {
         excel_appcode = appcode.split("app_");        excel_appcode = excel_appcode[1]; // remove app_ prefix because of notation in Excel
         for (row in data) {
-            if (row===data.length-1) break;
+            if (row===stoplength) break;
             highlightAppCodeList = new Array([data[row]["app_code_list"]][0]);        highlightAppCodeList=String(highlightAppCodeList).split(",");
 
             if (!(highlightAppCodeList.includes(excel_appcode))) continue;
@@ -229,7 +229,8 @@ function appendHighlights(hl_csv,oldAppNodesObj) {
                         "prevwork" : data[row]["tech_previous_work_description"],
                         "prevworkurl" : data[row]["tech_previous_work_url"],
                         "externalurls" : articlearray,
-                        "recommendation" : data[row]["tech_recommendation"]
+                        "recommendation" : data[row]["tech_recommendation"],
+                        "impact" : data[row]["tech_impact"]
                     };
                     break;
             }
@@ -251,11 +252,11 @@ Papa.parse("../data/megatrendData.csv", {
 });
 function mkMegatrendArray(csv) { // THE OUTPUT OF THIS FUNCTION HAS TO BE COPIED TO createThreatVisual.js
     // create array with object for every concept in csv
-    data = csv.data;
+    if (csv.hasOwnProperty('data')) {data = csv.data; stoplength=data.length-1} else {data = csv; stoplength=data.length}
     megatrendsArray = [];
     var colors = palette('tol', 9).map(function(el) {return '#' + el});//console.log(colors);
     for (row in data) {
-        if (row==data.length-1) {break};
+        if (row==stoplength) {break};
         console.log(data[row].mega_name);
         // if (data[row]["radar_include"] != 1) continue;
 
@@ -285,10 +286,10 @@ function mkMegatrendArray(csv) { // THE OUTPUT OF THIS FUNCTION HAS TO BE COPIED
 
 function mkmegaNodes(csv) { // THE OUTPUT OF THIS FUNCTION HAS TO BE COPIED TO createThreatVisual.js
     // create array with object for every concept in csv
-    data = csv.data;
+    if (csv.hasOwnProperty('data')) {data = csv.data; stoplength=data.length-1} else {data = csv; stoplength=data.length}
     megaNodeArray = [];
     for (row in data) {
-        if (row==data.length-1) {break};
+        if (row==stoplength) {break};
         // console.log(data[row].mega_name);
         // if (data[row]["radar_include"] != 1) continue;
 
@@ -306,7 +307,7 @@ function mkmegaNodes(csv) { // THE OUTPUT OF THIS FUNCTION HAS TO BE COPIED TO c
 };
 
 
-function mkFinalDataJson() { // THE OUTPUT OF THIS FUNCTION HAS TO BE COPIED TO createThreatVisual.js
+function mkFinalDataJson(microvar,megavar,hlvar,appvar) { // THE OUTPUT OF THIS FUNCTION HAS TO BE COPIED TO createThreatVisual.js
     currentdate = new Date();
     metaobj = {
         "meta": {
@@ -314,16 +315,16 @@ function mkFinalDataJson() { // THE OUTPUT OF THIS FUNCTION HAS TO BE COPIED TO 
             "generated": currentdate
         }
     };
-    microappedgesobj = mkmicroappEdges(microTrendData);
-    appmegaedgesobj = mkappmegaEdges(appData);
-    edges = microappedgesobj.concat(appmegaedgesobj);
+    microappedgesobj = mkmicroappEdges(microvar);// prev microTrendData
+    appmegaedgesobj = mkappmegaEdges(appvar);// prev appData
+    edges = microappedgesobj.concat(appmegaedgesobj);// prev appmegaedgesobj
     // console.log(edges);
 
-    meganodesobj = mkmegaNodes(megatrendData);
-    micronodesobj = mkmicrotrendNodes(microTrendData);
-    pre_appnodesobj = mkappNodes(appData);
-    appnodesobj = appendHighlights(highlightData,pre_appnodesobj);
-    nodesobj = {...meganodesobj,...micronodesobj, ...appnodesobj};
+    meganodesobj = mkmegaNodes(megavar);// prev megatrendData
+    micronodesobj = mkmicrotrendNodes(microvar);// prev microTrendData
+    pre_appnodesobj = mkappNodes(appvar);// prev appData
+    appnodesobj = appendHighlights(hlvar,pre_appnodesobj);// prev (highlightData,pre_appnodesobj)
+    nodesobj = {...meganodesobj,...micronodesobj, ...appnodesobj};// prev ...meganodesobj,...micronodesobj, ...appnodesobj
 
     mergedJson = {
         "meta": metaobj.meta,

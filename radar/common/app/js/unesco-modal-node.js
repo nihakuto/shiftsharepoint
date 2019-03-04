@@ -273,12 +273,12 @@ function createModal(obj) {
                     impTitleAnchor.setAttribute('href', obj.meta.highlights.implementation[i].main_link);
                 }
                 let impDescParagraph = document.createElement('p');
-                impDescParagraph.setAttribute('class', 'card-text mb-auto');
+                impDescParagraph.setAttribute('class', 'card-text mb-2');
                 if (obj.meta.highlights.implementation[i].description) {
                     impDescParagraph.append(obj.meta.highlights.implementation[i].description);
                 }
                 let impLinksParagraph = document.createElement('p');
-                impLinksParagraph.setAttribute('class', 'card-text mb-auto');
+                impLinksParagraph.setAttribute('class', 'card-text mb-2');
                 if (obj.meta.highlights.implementation[i].article_links[0].length) {
                     for(j = 0; j < obj.meta.highlights.implementation[i].article_links.length; j++) {
                         let impArticleAnchor = document.createElement('a');
@@ -319,8 +319,10 @@ function createModal(obj) {
                 } else {
                     thumbDiv.setAttribute('style', "background-image: url('https://via.placeholder.com/150?text=Placeholder')");
                 }
+                let cardBodyRecWrapper = document.createElement('div');
+                cardBodyRecWrapper.setAttribute('class', 'd-flex flex-column align-items-start w-100');
                 let cardBodyDiv = document.createElement('div');
-                cardBodyDiv.setAttribute('class', 'card-body d-flex flex-column align-items-start p-2');
+                cardBodyDiv.setAttribute('class', 'card-body d-flex flex-column align-items-start p-2 w-100');
                 
                 let techTitleH6 = document.createElement('h6');
                 techTitleH6.setAttribute('class', 'mb-1');
@@ -340,22 +342,15 @@ function createModal(obj) {
                 }
                 if (obj.meta.highlights.technology[i].prevwork) {
                     let techPrevWorkParagraph = document.createElement('p');
-                    techPrevWorkParagraph.setAttribute('class', 'card-text mb-auto');
+                    techPrevWorkParagraph.setAttribute('class', 'card-text mb-2');
                     let techPrevWorkStrongTag = document.createElement('strong');techPrevWorkStrongTag.append('Previous work in SONAE: ');
                     techPrevWorkParagraph.append(techPrevWorkStrongTag);
                     techPrevWorkParagraph.append(obj.meta.highlights.technology[i].prevwork);
                     cardBodyDiv.append(techPrevWorkParagraph) // Append PrevWork Paragraph
                 }
-                if (obj.meta.highlights.technology[i].recommendation) {
-                    let techRecParagraph = document.createElement('p');
-                    techRecParagraph.setAttribute('class', 'card-text mb-auto');
-                    let techRecStrongTag = document.createElement('strong');techRecStrongTag.append('Recommended action for '+ (new Date()).getFullYear()+': ');
-                    techRecParagraph.append(techRecStrongTag);
-                    techRecParagraph.append(obj.meta.highlights.technology[i].recommendation);
-                    cardBodyDiv.append(techRecParagraph) // Append Recommendation Paragraph
-                }
+
                 let techLinksParagraph = document.createElement('p');
-                techLinksParagraph.setAttribute('class', 'card-text mb-auto');
+                techLinksParagraph.setAttribute('class', 'card-text mb-2');
                 if (obj.meta.highlights.technology[i].prevworkurl) {
                     let techIntUrlAnchor = document.createElement('a');
                     techIntUrlAnchor.setAttribute('href', obj.meta.highlights.technology[i].prevworkurl);
@@ -363,7 +358,6 @@ function createModal(obj) {
                     techLinksParagraph.append(techIntUrlAnchor);
                     if (obj.meta.highlights.technology[i].externalurls.length) {techLinksParagraph.append(" | ")}
                 }
-
                 // need to parse string of URLs
                 externalurlArray = new Array(obj.meta.highlights.technology[i].externalurls[0]);        externalurlArray=String(externalurlArray).split(",");
                 // console.log(obj.meta.highlights.technology[i])
@@ -380,7 +374,43 @@ function createModal(obj) {
                 if (obj.meta.highlights.technology[i].externalurls.length || obj.meta.highlights.technology[i].prevworkurl) {
                     cardBodyDiv.append(techLinksParagraph)// Append Tech Links Paragraph
                 }
-                cardDiv.append(thumbDiv,cardBodyDiv);
+
+                if (obj.meta.highlights.technology[i].recommendation) {
+                    var techRecDiv = document.createElement('div'); techRecDiv.setAttribute('class', 'redlight-bar-container w-100');
+                    let techRecBarDiv = document.createElement('div'); techRecBarDiv.setAttribute('class', 'redlight-bar');
+                    let techRecBarTrack = document.createElement('div'); techRecBarTrack.setAttribute('class', 'redlight-bar-track');
+                    techRecBarDiv.append(techRecBarTrack);
+                    let recKey = ["watch","study","experiment","implement"]
+                    switch(obj.meta.highlights.technology[i].recommendation) {
+                        case "watch": activestepidx = 1;break;
+                        case "study": activestepidx = 2;break;
+                        case "experiment": activestepidx = 3;break;
+                        case "implement": activestepidx = 4;break;
+                        default: activestepidx = 1;break;
+                    }
+                    for (var stepidx = 1; stepidx < 5; stepidx++) {
+                        var currentStepDiv = document.createElement('div')
+                        if (stepidx < activestepidx) {
+                            currentStepDiv.setAttribute('class', 'redlight-bar-step is-complete');
+                        } else if (stepidx == activestepidx) {
+                            currentStepDiv.setAttribute('class', 'redlight-bar-step is-active');
+                        } else if (stepidx > activestepidx) {
+                            currentStepDiv.setAttribute('class', 'redlight-bar-step');
+                        }
+                        currentStepDiv.append(common_translations[language][recKey[stepidx-1]])
+                        techRecBarDiv.append(currentStepDiv);
+                    }
+
+                    let techRecStrongTag = document.createElement('strong');techRecStrongTag.append('Recommended action for '+ (new Date()).getFullYear()+': ');
+                    cardBodyDiv.append(techRecStrongTag); //just title on body
+                    techRecDiv.append(techRecBarDiv);
+                    // techRecDiv.append(obj.meta.highlights.technology[i].recommendation);
+                    // cardBodyDiv.append(techRecDiv) // Append Recommendation Paragraph
+                }
+
+                cardBodyRecWrapper.append(cardBodyDiv,techRecDiv);
+
+                cardDiv.append(thumbDiv,cardBodyRecWrapper);
                 colDiv.append(cardDiv);
                 techRowDiv.append(colDiv);
             }
@@ -429,7 +459,7 @@ function createModal(obj) {
                     cardBodyDiv.append(partDescParagraph) // Append Description Paragraph
                 }
                 partLinksParagraph = document.createElement('p');
-                partLinksParagraph.setAttribute('class', 'card-text mb-auto');
+                partLinksParagraph.setAttribute('class', 'card-text mb-2');
                 if (obj.meta.highlights.partner[i].sonae_link) {
                     partIntUrlAnchor = document.createElement('a');
                     partIntUrlAnchor.setAttribute('href', obj.meta.highlights.partner[i].sonae_link);

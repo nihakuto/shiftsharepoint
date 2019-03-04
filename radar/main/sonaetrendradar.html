@@ -66,9 +66,21 @@
 	</head>
 
 	<body>
-
     <!-- The dropdown menu -->
     <nav id="menu-container">
+
+      <div class="admin-data-container"></div>
+      <div class="" id="adminpreview"></div>
+
+      <div class="d-flex justify-content-left h-100 mb-1">
+        <div class="searchbar">
+          <div class="actualsearch">
+            <input class="search_input" id="txtName" name="txt-Name" type="search" name="" placeholder="Search...">
+            <a href="#" class="search_icon" id="searchbutton"><i class="fas fa-search"></i></a>
+          </div>
+          <button class="cancelButton" target="txtName" type="button" id="searchCancel"><i class="fas fa-times"></i></button>
+        </div>
+      </div>
 
       <nav class="navbar navbar-dark mb-1 p-0">
         <ul class="navbar-nav">
@@ -97,17 +109,6 @@
             <a class="dropdown-item" href="#">Something else here</a>
           </div>
         </div> -->
-
-        <div class="d-flex justify-content-left h-100 mb-1">
-          <div class="searchbar">
-            <div class="actualsearch">
-              <input class="search_input" id="txtName" name="txt-Name" type="search" name="" placeholder="Search...">
-              <a href="#" class="search_icon" id="searchbutton"><i class="fas fa-search"></i></a>
-            </div>
-            <button class="cancelButton" target="txtName" type="button" id="searchCancel"><i class="fas fa-times"></i></button>
-          </div>
-        </div>
-
 
       <nav id="menu">
         <button id="menu-button"><i class="fas fa-question"></i></button>
@@ -169,6 +170,9 @@
                 <div id="modal-node-description"></div>
                 <!-- <div id="modal-node-link"></div> -->
                 <div id="modal-node-snippets"></div>
+                <div id="table-container"></div>
+            </div>
+        </div>
 
         <!-- The intro modal's content -->
         <div id="intro-modal" style="display:none">

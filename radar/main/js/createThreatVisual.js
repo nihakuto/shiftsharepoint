@@ -1117,6 +1117,7 @@ function createThreatVisual() {
                 // showModal(d)
             })
             .on("dblclick", d => {
+                d3.selectAll('#table-container').style('display','none');
                 showModal(d)
                 clearSelection()
             })
@@ -1129,6 +1130,7 @@ function createThreatVisual() {
                 // showModal(d) //RADAR
             })
             .on("dblclick", d => {
+                d3.selectAll('#table-container').style('display','block');
                 showModal(d)
                 clearSelection()
             })
@@ -1158,6 +1160,7 @@ function createThreatVisual() {
                 // showModal(d) //RADAR
             })
             .on("dblclick", d => {
+                d3.selectAll('#table-container').style('display','none');
                 showModal(d)
                 clearSelection()
             })
@@ -1635,6 +1638,114 @@ function createThreatVisual() {
 
         //Draw connected threats
         concepts.forEach(n => { n.opacity = (n.threat_category === id ? 1 : 0.1) })
+        megaTechSummaryArr = [];
+        concepts.forEach(n => {
+            if (n.threat_category === id && n.meta.highlights && n.meta.highlights.technology) {
+                for (var i = n.meta.highlights.technology.length - 1; i >= 0; i--) {
+                    if (!containsTech(n.meta.highlights.technology[i],megaTechSummaryArr)) {
+                        megaTechSummaryArr.push(n.meta.highlights.technology[i])
+                    }
+                }
+            }
+        })
+        console.log(megaTechSummaryArr)
+
+        function containsTech(obj, list) {
+            var i;
+            for (i = 0; i < list.length; i++) {
+                if (list[i].uid === obj.uid) {
+                    return true;
+                }
+            }
+            return false;
+        }
+                        function tabulatetech(data, columnnames, rownames) {
+                            var table = d3.select("#table-container").append("table").attr('class','table table-striped'),
+                                thead = table.append("thead"),
+                                tbody = table.append("tbody");
+
+                            // append the header row (column names)
+                            col1=[''];newcolnames=col1.concat(columnnames)
+                            thead.append("tr")
+                                .selectAll("th")
+                                .data(newcolnames)
+                                .enter()
+                                .append("th")
+                                .text(function(columnname) { return columnname; })
+                                .attr('colid',function(d) {
+                                    return d;
+                                })
+                                .attr('scope','col');
+                            // create a row for each row name
+                            var rows = tbody.selectAll("tr")
+                                .data(rownames)
+                                .enter()
+                                .append("tr")
+                                .attr('rowid',function(d) {
+                                    return d;
+                                })
+                                .attr('scope','row');
+                            // fill first column with row names
+                            var col1cells = rows.data(rownames)
+                                .append('td')
+                                .text(function(d) {
+                                    return d;
+                                })
+                                // .attr('rowid',function(d) {
+                                //     return d;
+                                // })
+                                .attr('colid','idxcolumn')
+                                .attr('class','idxcolumn')
+                                .enter();
+                            // fill table body
+                            var bodycells = rows.selectAll("td.bodycells")
+                                .data(columnnames)
+                                .enter()
+                                .append('td')
+                                .attr('colid',function(d) {
+                                    return d;console.log(columnnames)
+                                })
+                                .each(function(d) {
+                                    var currenttechnamearray = [];
+                                    var currenttspan
+                                    for (var i = megaTechSummaryArr.length - 1; i >= 0; i--) {
+                                        // console.log(megaTechSummaryArr[i].impact," =?= ",this.parentNode.attributes.rowid.value)
+                                        if (megaTechSummaryArr[i].impact==this.parentNode.attributes.rowid.value &&
+                                        megaTechSummaryArr[i].recommendation==this.attributes.colid.value) {
+                                            currenttspan = d3.select(this).append('tspan');//.attr('x', 9).attr('dy', '.35em')
+                                            currenttspan.text(megaTechSummaryArr[i].name).append('br')
+                                        }
+                                    }
+                                    // return currenttechnamearray
+                                })
+                                .attr('class','bodycells');
+
+                            return table;
+                        }
+                        // render the table
+                        d3.select("#table-container").html('') //clear old table container
+
+                        tableH5 = d3.select("#table-container").append('h5');
+                        tableH5.attr('class', 'mt-4 mb-4').text('Technologies included under this Megatrend');
+
+                        var techTable = tabulatetech(megaTechSummaryArr, ["watch","study","experiment","implement"], ["very_high","high","medium","low"]);
+                        // uppercase the column headers and clean _underscores_
+                        techTable.selectAll("thead th,td.idxcolumn")
+                            .text(function(textcntnt) {
+                                var cleanstr = textcntnt.replace("_"," ");
+                                return cleanstr.charAt(0).toUpperCase() + cleanstr.substr(1);
+                            });
+                        // SORT?
+                        // techTable.selectAll("tbody tr")
+                        //     .sort(function(a, b) {
+                        //         console.log(a,b)
+                        //         return d3.descending(a["text"], b.age);
+                        //     });
+      
+
+
+
+
 
         //Draw it all
         drawCanvas()
