@@ -1,8 +1,3 @@
-//////////////////////////////////////////////////////////////
-//////////// Visualization designed & developed by ///////////
-//////////////////////// Nadieh Bremer ///////////////////////
-///////////////////// VisualCinnamon.com /////////////////////
-//////////////////////////////////////////////////////////////
 function createThreatVisual() {
 
     //Constants
@@ -11,14 +6,14 @@ function createThreatVisual() {
     const pi1_2 = Math.PI / 2
 
     //Sizes
-    let base_size = 1800
+    let base_size = 1600
     let width = 1600, height = 1600
     let total_width, total_height
     let margin = {
-        top: 0,
-        right: 0,
-        bottom: 0,
-        left: 0
+        top: -100,
+        right: 50,
+        bottom: -100,
+        left: 50
     }
 
     //Containers SVG
@@ -520,6 +515,11 @@ function createThreatVisual() {
         //Change sizes of the svg
         svg.attr("width", total_width).attr("height", total_height)
         g.attr("transform", "translate(" + (margin.left + width/2) + "," + (margin.top + height/2) + ")")
+
+        svg.attr("preserveAspectRatio", "xMinYMin meet")
+           .attr("viewBox", "0 0 " + total_width + " " + total_height)
+           //class to make it responsive
+           .classed("svg-content-responsive", true); 
 
         //Get the scale factor to resize
         let size = Math.min(total_height, total_width)
@@ -1846,12 +1846,16 @@ function createThreatVisual() {
             }
             drawCanvas()
         })
-        d3.select("#searchCancel").on("click", function() {
+        d3.select("#searchCancel")
+            .on("click", cancelSearchFn)
+            .on("focus", cancelSearchFn);
+        function cancelSearchFn() {
             d3.select("#txtName").node().value="";
+            console.log("lol")
             d3.select("#searchCancel").style("opacity",0)
             focussearchresults();
             if (filterflag) {queryURLparams()}
-        })
+        }
     })()}//function searchBoxHighlight
     ///////////////////// Filter function with URL query parameter parsing /////////////////////
     // filterStrFn();

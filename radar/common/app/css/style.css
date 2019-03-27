@@ -5,24 +5,46 @@
     box-sizing: border-box;
     position: relative;
 }
-
+html {height: 100%;}
 body {
     font-family: 'IBM Plex Serif', serif;
+    height: 100%;
 }
 
 #chart {
-	text-align: center;
-	position: relative;
+/*	text-align: center;
+	position: relative;*/
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    padding-bottom: 0%; /* aspect ratio */
+    /*height: 100%;*/
+    vertical-align: top;
+    overflow: hidden;
+    text-align: center;
 }
 
 #chart canvas {
-	position: absolute;
+/*	position: absolute;
 	top: 0;
 	pointer-events: none;
-	z-index: -1;
+	z-index: -1;*/
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    /*left: 50%;*/
+    pointer-events: none;
+    z-index: -1;
+    height: 100%!important;
 }
 
 #chart svg {
+/*    z-index: 2;
+    cursor: default;*/
+    display: inline-block;
+    /*position: absolute;*/
+    top: 0px;
+    /*left: 50%;*/
     z-index: 2;
     cursor: default;
 }

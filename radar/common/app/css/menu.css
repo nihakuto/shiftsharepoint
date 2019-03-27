@@ -147,7 +147,7 @@
 .search_input::placeholder  {
     color: transparent;
 }
-.cancelButton:focus {content: 'LOLOLLOOL'}
+/*.cancelButton:focus {content: 'LOLOLLOOL'}*/
 .searchbar:focus-within .search_input::placeholder  {
     color: rgba(255,255,255,.5);
 }

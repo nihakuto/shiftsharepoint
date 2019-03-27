@@ -1,5 +1,5 @@
 radar_include,trend_id,trend_title,trend_id_2,Impact,Certainty,main_mega_trend,count_apps,apps_list,apps_code_list,new_description,word_count,old_description,Authenticity/Disconnection,Continuous Connection,Experiences,Health And Wellness,Hiper Personalization,Informed People,Corporate Responsibility,Seamlessness/Ease,Sustainability,micro_image,article_name_list,article_url_list,article_name1,article_url1,article_name2,article_url2,article_name3,article_url3,relevance_horizon,threat_categories
-1,MT01,Privacy Protection,MT01,High,High degree,Corporate Responsibility,3,"Preventive Protection
+1,MT01,Privacy Protection,MT01,High,High degree,Corporate Responsibility,3,"Prevention and Reactive Transparency
 Reactive Transparency
 Keep your backyard safe
 ","PREVPROT,REACTRAN,SAFEBACK","We have entered a sometimes-unconfortable weird duality where we want an extremely personalized experience everywhere but also tend to reject any prying attempts to learn patterns of ours.
@@ -15,7 +15,7 @@ What’s the key takeaway?
 Privacy protection will soon become one of the key selling points",,,,,5,15,80,,,https://images.pexels.com/photos/60504/security-protection-anti-virus-software-60504.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940,,,,,,,,,> 2 Years,"vocabulary_ich_1267,vocabulary_ich_1263,vocabulary_ich_1284"
 1,MT02,Personalized Content,MT02,High,High degree,Hiper Personalization,2,"Every employee has a different story
 Computer generated original content
-Customer neverending story
+Neverending story
 ","DIFFSTRY,COMPCONT,CUSTSTOR","With the slew of machine learning and AI implementations to monitor behavior and find patterns in everything, the field of personalization has never been more fertile - and people will embrace it.
 The crucial factor here is to find the right balance between customer data and driving convenience - customer loyalty will reside in the entity that can meet that one consumer's demands to a T.",65,"The top content marketing trend for 2018 is delivering highly personalized messages. Remember that personalized content is not limited to “Hello $First Name$” messages. With an advanced marketing automation platform, you can create timely and relevant content based on a customer's history and behavior.",,,,,100,,,,,https://images.pexels.com/photos/1148998/pexels-photo-1148998.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940,,,,,,,,,1 to 2 Years,vocabulary_ich_1267
 1,MT03,Instant Written Customer Service,MT03,High,High degree,Seamlessness/Ease,0,"Virtual Assistants
@@ -28,8 +28,9 @@ The regular user is - of course - relatively agnostic to how a service operates.
 To businesses operating with their core parallel to these players, it is urgent that they form partnerships, because the advantages in speed, efficiency and ease of maintenance/cost to run seem unrivalled and piling up.",102,"The sharing economy has rapidly emerged as a large and expanding force. At first glance, it seems mainly limited to the mobility industry (Uber and China’s Didi Chuxing) and the hospitality industry (Airbnb). But the economic foundations of sharing are broad. Many other industries could soon face the disruption experienced by taxi fleets and hotel chains—as the emergence of Boatbound (leisure boat rental), PeerBy (neighborhood exchange of household items), and Vrumi (rooms rented out as office space) illustrates.",,,,,,,,20,80,https://images.pexels.com/photos/943630/pexels-photo-943630.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940,,,,,,,,,> 2 Years,"vocabulary_ich_1269,vocabulary_ich_1286"
 1,MT05,Transparency (Non-Food),MT05,High,High degree,Corporate Responsibility,2,"Glass Box Companies
 Traceability applications
+DEPRECATED
 Transparency watchdogs
-","GLASSBOX,TRACAPPL,TRANWATC","Part of a greater whole, transparency has never been as present in people's minds as today. Besides paying attention to the supply chain footprint of the food we buy, society is increasingly privileging options in every field that operate in a glassdoor manner. Clothes coming from Southeast Asia resonate with humans rights violations. Users are glad to know that Apple is promising to use 100% recycled Aluminum and stride to recycle 100% in their own and (already billions) other iPhones sold.",81,"Conhecer todos os processos, possibilitando a abertura e confiança, e além disso facilitar a prestação de contas aos seus grupos de interesse. (Ajuda pensarmos nas marcas como uma ""pessoa"" em que a confiança é o vínculo mais forte que conseguimos estabelecer. Uma vez quebrada essa ""confiança"" dificilmente iremos conseguir repor esse valor)",,,,,,40,60,,,https://images.pexels.com/photos/5190/man-person-clouds-apple.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940,,,,,,,,,> 2 Years,"vocabulary_ich_1263,vocabulary_ich_1284"
+","GLASSBOX,TRACEABI,TRACAPPL,TRANWATC","Part of a greater whole, transparency has never been as present in people's minds as today. Besides paying attention to the supply chain footprint of the food we buy, society is increasingly privileging options in every field that operate in a glassdoor manner. Clothes coming from Southeast Asia resonate with humans rights violations. Users are glad to know that Apple is promising to use 100% recycled Aluminum and stride to recycle 100% in their own and (already billions) other iPhones sold.",81,"Conhecer todos os processos, possibilitando a abertura e confiança, e além disso facilitar a prestação de contas aos seus grupos de interesse. (Ajuda pensarmos nas marcas como uma ""pessoa"" em que a confiança é o vínculo mais forte que conseguimos estabelecer. Uma vez quebrada essa ""confiança"" dificilmente iremos conseguir repor esse valor)",,,,,,40,60,,,https://images.pexels.com/photos/5190/man-person-clouds-apple.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940,,,,,,,,,> 2 Years,"vocabulary_ich_1263,vocabulary_ich_1284"
 1,MT06,Old Age New Millenials,MT06,High,High degree,Informed People,1,"Silver Surfers
 ",SILVSURF,"Technology adoption among is universally attributed to Millenials and younger generations. This is partly true, but leads to a gross underestimation of tech use in older generations. Especially older urban dwellers are more than happy to adopt smart locks for safety, kitchen assistants for convenient cooking and uber to stop waiting for a taxi while it's raining.
 This proves to be a greatly misrepresented segment that embodies a great business oportunity, if only companies start planning around it (remember older generations also have greater purchasing power).",85,Crescimento do uso de tecnologia entre as pessoas de mais de 60 anos que procuram partilhar as suas experiências.,,,30,,,50,20,,,https://images.pexels.com/photos/1369642/pexels-photo-1369642.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940,,,,,,,,,> 2 Years,"vocabulary_ich_1287,vocabulary_ich_1263,vocabulary_ich_1284"
@@ -38,15 +39,15 @@ Praise humanity
 Offline products and services
 Multicultural Cities
 Every employee has a different story
-Customer neverending story
+Neverending story
 ","TOOLHUMA,PRAIHUMA,OFFLPROD,MULTCITI,DIFFSTRY,CUSTSTOR","There’s an increasing saturation over the massification of artificially fabricated lifestyles projected by TV, Facebook, and Instagram accounts. People are craving for authenticity and real-human connections. ",27,"Pessoas que procuram cada vez mais conversar com outras pessoas e menos estereótipos emocionais (os influencers de sucesso são pessoas reais, com imperfeições que as tornam autênticas)",70,,,,10,20,,,,https://images.pexels.com/photos/1796281/pexels-photo-1796281.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940,,,,,,,,,> 2 Years,"vocabulary_ich_1265,vocabulary_ich_1267,vocabulary_ich_1263"
 1,MT08,Health Consciousness,MT08,High,High degree,Health And Wellness,1,"Nutritional Personal Counseling
 Health Support Range
 Promote and Communicate Health
 Healthier Versions of Indulgences
 ","NUTRCOUN,HEALSUPP,PROMHEAL,HEALINDU","Having an active interest in one's health. Be health consciousness implies to know what good health is and what are healthy and unhealthy practices; to monitor health condition like body weight, sleep control, sight and hearing test, mental checkups; to avoid practices that adversely affect one’s health; to take corrective actions whenever your health is not within acceptable norms.",59,"One retailer that’s adjusting its strategy to fit this trend? CVS. In 2017, CVS unveiled plans to accelerate a retail renovation project that puts more focus on health and nutrition. According to USA Today, the retailer plans to “implement the new format at several hundred stores by the end of 2018, demonstrating the company’s commitment to remake itself as a beacon of healthy living rather than a place devoted primarily to treating illnesses and selling candy bars.”",,,,50,,40,10,,,https://images.pexels.com/photos/461428/pexels-photo-461428.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940,,,,,,,,,1 to 2 Years,"vocabulary_ich_1264,vocabulary_ich_1263,vocabulary_ich_1284"
-1,MT09,Food Transparency,MT09,High,High degree,Corporate Responsibility,3,"Glass Box Companies
-Traceability
+1,MT09,Food Transparency,MT09,High,High degree,Corporate Responsibility,2,"Glass Box Companies
+Traceability applications
 Ethical and Sustainable Information
 Clean Label
 ","GLASSBOX,TRACEABI,ETHIINFO,CLEALABE",,1,"The report cites a general mistrust of food safety throughout manufacturing and supply chains, with only one in five Canadian adults saying that they trusted manufacturer labels on product packaging. As a result, foodservice retailers, manufacturers and distributors at all levels should see an increased call for accountability. “In addition to disclosing more specific transparency details, the next wave of clean label challenges manufacturers and retailers to democratize transparency and traceability so that products are accessible to all consumers regardless of household income,” writes the author of the report, Jenny Zegler, Mintel global food and drink analyst. ",,,,10,,40,50,,,https://images.pexels.com/photos/533360/pexels-photo-533360.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940,,,,,,,,,1 to 2 Years,"vocabulary_ich_1264,vocabulary_ich_1263,vocabulary_ich_1284"
@@ -54,7 +55,7 @@ Clean Label
 Flexitarian campaigns
 Promote and Communicate Health
 ","SUBSPROT,FLEXCAMP,PROMHEAL",,1,"Hong Kong entrepreneur David Yeung is championing the change he sees will become the future of food. He spearheaded the Green Monday campaign, encouraging people to eat less meat in their diet at least one day a week, without quitting cold turkey. Unlike veganism, which advocates for quitting meat completely, and removing animal products such as dairy and eggs, Yeung is spearheading flexitarianism-- which is precisely what the name suggests, being flexible but conscious about food decisions-- and being aware of ethical and environmental concerns. ""You don't really see the word 'vegan' used in our space,"" says Yeung",,,,20,50,20,10,,,https://images.pexels.com/photos/1640774/pexels-photo-1640774.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940,,,,,,,,,> 2 Years,"vocabulary_ich_1264,vocabulary_ich_1267,vocabulary_ich_1263,vocabulary_ich_1284"
-1,MT11,A-Commerce,MT11,High,High degree,Seamlessness/Ease,1,"Virtual Assistants
+1,MT11,A-Commerce,MT11,High,High degree,Seamlessness/Ease,0,"Virtual Assistants
 Automatic Order and Checkout
 Automatic Styling or Curatorship
 ","VIRTASSI,AUTOORDE,AUTOSTYL",Technology has finally matured enough for customers to start trusting it to avoid some of the most inefficient parts of their shopping experience. Machine learning is helping people to complete their shopping list while artificial vision is enabling the skipping of those never-ending checkout lines. Many other applications are being implemented to optimize people’s time and maximize their life quality. ,61,"Because in 2018, shoppers with more important things to do – and that’s all of them – will embrace the outsourcing of certain retail experiences to algorithms and smart devices. A world of A-COMMERCE means the automation of hunting, negotiating, purchasing, delivery arrangements and more. ",,10,,,,10,,80,,https://images.pexels.com/photos/1781489/pexels-photo-1781489.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940,,,,,,,,,> 2 Years,"vocabulary_ich_1268,vocabulary_ich_1263,vocabulary_ich_1269"
@@ -67,12 +68,12 @@ The pace of technological change is increasing almost every day, and it is easy 
 1,MT13,Renewable Charged Future,MT13,High,High degree,Sustainability,5,"Internalize Renewable energy 
 Commercialize Renewable energy 
 Electric Trucks 
-Last mile electric deliveries
+Electric Transportation
 Auto-sustainable stores & companies
 ","INTERENE,COMMRENE,ELECTRUC,ELECDELI,AUTOSUST","Collected from renewable sources such as sunlight, wind, rain, tides, waves and geothermal heat, renewable energy is charging the future. “It is expected that by 2040 the production of renewable electricity will be able to guarantee, in a cost-effective way, the total annual electricity consumption of mainland Portugal” advanced the Portuguese Renewable Energy Association as in March 2018, renewable energy generated 104% of Portugal’s electricity consumption. According to the same source, this successful event demonstrated that “renewable energy can be relied upon as a secure and viable source with which to completely meet the country’s electricity demands”. Some of the biggest companies in the world, including Apple, Facebook, Google, and Microsoft, are massively buying renewable energy and, consequently, reshaping the entire supply chain. “The IT sector has been responsible for more than 7GW of new renewable energy globally – enough to power 5m homes” says Gary Cook, Greenpeace’s senior corporate campaigner. ",152,"A connected world will require mobile power. Keeping the power flowing will be as critical as maintaining connectivity; if either goes down, instant disruption will ensue.
 There are of course many aspects to how we will power our hyper-connected lives. Sustainability of resources might be one reason why consumers now rate electricity as the most popular energy source – 48 percent even think electricity should power airplanes. ",,,,,,,40,,60,https://images.pexels.com/photos/1108814/pexels-photo-1108814.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940,,,,,,,,,1 to 2 Years,"vocabulary_ich_1284,vocabulary_ich_1286"
 1,MT14,Gut-Friendly Food,MT14,High,High degree,Health And Wellness,1,"Nutritional Personal Counseling
-Pro and Prebiotics
+Range of Gut-Friendly Food
 Free From Products
 ","NUTRCOUN,PROBIOTI,FREEFROM","Without touching the discussion topic to what caused this movement, it is unquestionably that there is a fast-rising concern for how ""gut-friendly"" the food we buy really is. Fashionable expressions such as pro or prebiotics are dealbreakers in the daily choices made by a growingly significant segment of society. To the unaware, the myriad of intolerances we hear about seems to have sprung from nowhere, but it certainly drove an unforeseen demand for the likes of tempeh, kefir, kimchi, flaxseed, and anything else that helps the consumer to steer clear from the wide selection of ingredients they've found harmful (think gluten, sat, unsat or trans fat, lactose, etc...).",108,"2017 was full of lactose, dairy and gluten intolerances. So this year, everyone’s going to be looking out for your gut. With fermenting, pickling and preserving gaining popularity for their gut benefits, foods such as a kimchi, miso and kefir will be seeing a surge in 2018. 
 
@@ -82,14 +83,14 @@ Read more at:
 1,MT15,Zero Waste,MT15,High,High degree,Sustainability,2,"Alternative materials to plastic
 Reusable Packaging
 Rethink packages
-Educate customers
+Sustainability Evangelization
 Recycle 
 Waste based products
 Optimize Product Life Cycle
 ","ALTEPLAS,REUSPACK,RETHPACK,EDUCCUST,RECYCLES,WASTBASE,OPTICYCL","Less than a quarter of the food that is wasted in the US, UK and Europe could feed the one billion hungry people all around the world. With an estimation of 1.3 billion tonnes of food being wasted every year, people are looking for this topic with particular concern and expect the companies where they spend their money to tackle this issue.",62,"By taking environmental impacts and the extent of food waste into consideration, consumer behaviour is shifting with individuals becoming more ethically inclined. As costs of living increase, individuals are focusing on ensuring zero waste when cooking from home. Waitrose suggested that instead of following three meals a day or eating excessively, consumers tend to graze throughout the day and adjust their eating routine to suit their busy lives. Likewise, fewer people are choosing to do a weekly ‘big shop’, and are instead opting to purchase fresh produce multiple times per week. This behaviour will continue to contribute to reducing waste, as less product is being thrown out. According to Whole Foods, food manufacturers are responding to this shift in consumer behaviour and values “by using parts of plants or animals that were once considered trash, such as pickled watermelon rinds or broccoli-stem slaw”.
 
 ",,,,,,,40,,60,https://images.pexels.com/photos/128421/pexels-photo-128421.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940,,,,,,,,,> 2 Years,"vocabulary_ich_1284,vocabulary_ich_1286"
-1,MT16,Foreign Residents,MT16,High,High degree,Corporate Responsibility,0,"Multicultural Service and Product Offer
+1,MT16,Foreign Residents,MT16,High,High degree,Corporate Responsibility,0,"Multicultural Facilities and Offer
 Inclusive Facilities
 Omnilingue
 ","CULTOFFE,INCLFACI,OMNILING","Total foreign residency in Portugal has been steadily rising for a few years, to a point where a significant demographic segment has different primary languages and cultures. If the current political climate remains relatively stable, this is only expected to accelerate.
@@ -101,11 +102,12 @@ Companies should much rather employ someone who can quickly and effectively lear
 2. The next wave of learning credentials. One of the most disrupted industries is education, with more third parties offering courses, credentials and certifications than ever before. There is now an abundance of online courses provided by LinkedIn Learning, Coursera, edX, Udemy, Udacity, The Khan Academy and others. Pew Research reports that self-directed learning is driving the need for new credentialing systems. More employees will be accepting different types of credentials as they seek to build diverse talent pools and expand their reach. Almost three out of every four adults agrees that individuals have the responsibility to make sure that the workforce has the right skills and education to be successful in today's economy compared to only 52% of colleges and 49% of employers. Younger generations are starting to resist the traditional degree due to the ever increasing cost of tuition, which grew by nine percent from last year for four-year public schools. Some are avoiding college altogether and are pursuing these free or low cost online courses that provide enough education on important skills to get by. As companies continue to accept non-traditional credentials, students will be able to avoid debt and study at their own convenience, without fear of unemployment.",,,10,,,20,20,40,10,https://images.pexels.com/photos/6335/man-coffee-cup-pen.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940,,,,,,,,,> 2 Years,"vocabulary_ich_1287,vocabulary_ich_1263,vocabulary_ich_1284,vocabulary_ich_1269,vocabulary_ich_1286"
 1,MT18,Liquid Expectations,MT18,High,High degree,Informed People,3,"Healthier Versions of Indulgences
 Gourmet Junk Foods in restaurants
+Gourmet Junk Food
 As cheap as the cheapest
 Simple and beautiful showrooms
 As convenient as the most convenient
 Virtual Card Acceptance
-","HEALINDU,GRMTJNKR,CHEACHEA,SIMPSHOW,CONVCONV,VIRTCARD","People will compare players, even from different industries, using the same criteria. Customers are indifferent to cost structure: if a store offers free bags, they'll expect the same treat from every other store. To stay competitive, companies should be able to optimize their cost structure and establish what's essential to provide what the customers are expecting. To do so, they must understand that people's expectations can come from the least expectable places.",72,"People are not available to pay much for commodities. Companies need to control the costs to serve even better. Ver o exemplo das  Companhias Low cost.
+","HEALINDU,GRMTJNKR,GRMTJNKK,CHEACHEA,SIMPSHOW,CONVCONV,VIRTCARD","People will compare players, even from different industries, using the same criteria. Customers are indifferent to cost structure: if a store offers free bags, they'll expect the same treat from every other store. To stay competitive, companies should be able to optimize their cost structure and establish what's essential to provide what the customers are expecting. To do so, they must understand that people's expectations can come from the least expectable places.",72,"People are not available to pay much for commodities. Companies need to control the costs to serve even better. Ver o exemplo das  Companhias Low cost.
 
 Gone are the days where customers would only compare you to your direct competitors. Today's customer compares you to all brands with which they interact. Accenture refers to this phenomenon as “Liquid Expectations.” For example, even if Apple's products don't compete with yours, customers are comparing your website to Apple.com.
 
@@ -120,9 +122,11 @@ Grey Gigs
 Over the past five years, TV viewers have embraced connected devices from brands like  Amazon Fire TV, Apple TV, Roku and others as a way to watch programming. While linear TV still represents the majority of viewers’ watch time—with over 132 hours of linear TV viewing per month versus 42 hours per month using connected TV devices—there's no question the OTT space is a major growth market.
 
 At Nielsen, our data shows that two-thirds of Americans own at least a single connected device, enabling 224 million people to consume media and advertising on their terms, from catching a live episode of their favorite sitcom to binge-watching an entire season of a show through an OTT app. Simply put, connected TV has made living room viewing a more personalized, choice-driven experience and has opened the door to new premium opportunities for advertisers to connect with consumers.",,,,,80,20,,,,https://images.pexels.com/photos/265685/pexels-photo-265685.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940,,,,,,,,,> 2 Years,"vocabulary_ich_1267,vocabulary_ich_1263"
-1,MT21,Quicker Frequent Shopping,MT21,High,High degree,Seamlessness/Ease,1,"Quick deliveries
+1,MT21,Quicker Frequent Shopping,MT21,High,High degree,Seamlessness/Ease,1,"Automatic Order and Checkout
+Automatic Styling or Curatorship
+Quick deliveries
 Agile shopping experience
-","QICKDLVR,AGILSHOP","According to ConvenienceStore, “the increase in shoppers looking for meals ‘for the next three days’ is growing with 55% of shoppers claiming to visit a convenience store for a top-up mission, 11% for a meal prep mission and 17% for food-to-go”.
+","AUTOORDE,AUTOSTYL,QICKDLVR,AGILSHOP","According to ConvenienceStore, “the increase in shoppers looking for meals ‘for the next three days’ is growing with 55% of shoppers claiming to visit a convenience store for a top-up mission, 11% for a meal prep mission and 17% for food-to-go”.
 As the shopping experience keeps getting more convenient, people tend to privilege smaller baskets and increase the frequency of their visits to the store. Retailers are accompanying this trend by reducing store’s dimensions, while optimizing their cost per square meter. ",81,"The increase in shoppers looking for meals for the next-three-days is growing: 55% of shoppers claim to visit a convenience store for a top-up mission, 11% for a meal prep mission and 17% for food-to-go.
 
 Driving frequency of visits and encouraging more small basket purchases is likely to be a key driver of growth for retailers in the first half of 2018; and with 77% of shoppers actively look for a promotion, this could be one way for convenience retailers to help encourage one extra item in the basket behaviours.
@@ -131,7 +135,7 @@ Driving frequency of visits and encouraging more small basket purchases is likel
 1,MT22,Body As Interface,MT22,High,High degree,Seamlessness/Ease,3,"Virtual Assistants
 Voice Control
 Motion Control
-Biometric Validation
+Biometric Validation and Analytics
 ","VIRTASSI,VOICCONT,MOTICONT,BIOMVALI","A social trend that has closely followed the technological advances in interfacing, it is shifting the paradigm of how we connect with machines. There is a reason babies today can outperform their parents on a tablet at the age of 2 (imagine doing that with MS-DOS in the 80s) and there will also be consequences.
 For one, there will be zero tolerance for unintuitive UI, users will simply move to one of your 100 competitors for a better experience. We need to build for any human to use, with bonus points if the interface is adaptive to the individual user.",99,"Consumers who already use intelligent voice assistants are leading a behavioral change. In fact, more than half of them believe we will use body language, intonation, touch and gestures to interact with tech just like we do with people; two out of three think this will happen in only three years. 
 
@@ -153,16 +157,16 @@ Virtual try on (remote or instore)
 There’s a whole community of creators testing and evaluating products, including yours. That means users will be validating any claims you make, so make sure your product can live up to them.
 
 An alternative is Warby Parker's model of sending 5 pairs of glasses to the client's home for some time and letting them return whichever they dislike.",,,40,,,60,,,,https://images.pexels.com/photos/404159/pexels-photo-404159.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940,,,,,,,,,> 2 Years,"vocabulary_ich_1287,vocabulary_ich_1263"
-1,MT26,Welcome Tourism,MT26,High,High degree,Experiences,2,"Multicultural Service and Product Offer
+1,MT26,Welcome Tourism,MT26,High,High degree,Experiences,2,"Multicultural Facilities and Offer
 Inclusive Facilities
 Omnilingue
-Visitors' Pains Killer
+Global Citizen Painkillers
 Visitors' Perks
-","CULTOFFE,INCLFACI,OMNILING,VISIPAIN,VISIPERK",,1,"mudar o Nome para ""Touristic invasion"".  Como não tem descrição. É preciso rever a classificação…",20,,80,,,,,,,https://images.pexels.com/photos/1167192/pexels-photo-1167192.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940,,,,,,,,,> 2 Years,"vocabulary_ich_1265,vocabulary_ich_1287"
+","CULTOFFE,INCLFACI,OMNILING,VISIPAIN,VISIPERK",,1,"mudar o Nome para ""Touristic invasion"".  Como não tem descrição. É preciso rever a classificação…",20,,80,,,,,,,https://images.pexels.com/photos/1167192/pexels-photo-1167192.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940,"Multicultural Cities: Toronto, New York, and Los Angeles",https://books.google.pt/books?id=PdsQDAAAQBAJ&lpg=PA110&ots=V69XVRqTLY&dq=SUPERMARKET%20MULTICULTURAL%20CITIES&pg=PA109#v=onepage&q&f=false,,,,,,,> 2 Years,"vocabulary_ich_1265,vocabulary_ich_1287"
 1,MT27,War On Plastic,MT27,High,High degree,Sustainability,0,"Alternative materials to plastic
 Reusable Packaging
 Rethink packages
-Educate customers
+Sustainability Evangelization
 Recycle 
 ","ALTEPLAS,REUSPACK,RETHPACK,EDUCCUST,RECYCLES","According to BBC, 400 million tons of plastic is produced every year with 40% of its applications being thrown out after the first use. Plastic is not biodegradable, which means it will stay around for hundreds of years – representing a big threat for the environment. 
 The debate on reducing plastic production is gathering more followers every day and people expect retailers to be a part of the process to save the world. Sustainable materials for packaging and bulk food are some of the solutions that customers value and are willing to pay extra to get. ",97,"Solid waste and pollution issues are catching up with plastic, so much so that 2018 could mark the beginning of a “war on plastic.” Packaged goods makers are beginning to move away from traditional plastic packaging, and toward sustainable options like sugarcane “plastic” tubes as well as bowls made from plant fibers. But the “war on plastic” is about more than just packaging; growing concern over the presence of microplastics in the oceans land water eco systems is casting the long term viability of personal care ingredients like microbeads and glitter into question. Look for beverage makers to respond to the trend, as Nestle Waters North America is doing in February with the launch of Nestlé Pure Life purified water in new bottles made from 100 percent food grade recycled plastic (rPET).
@@ -170,7 +174,8 @@ The debate on reducing plastic production is gathering more followers every day 
 ",,,,,,,40,,60,https://images.pexels.com/photos/761297/pexels-photo-761297.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940,,,,,,,,,Unsure,"vocabulary_ich_1284,vocabulary_ich_1286"
 1,MT28,Lifecasting,MT28,High,High degree,Continuous Connection,4,"Social Network Commerce
 Vlogging
-","SOCICOMM,VLOGGING","Consumers are shifting their attention from TV to Youtube, Facebook and Instagram. Social media influencers are the new epicenter of new lifestyles, behaviors and social trends. This represents an opportunity for retailers to promote their products in a more decentralized (and effective) way. Companies who provide digital sharable products and experiences increase their reach with continuously growing scalability. ",59,Previously Outfit of the Day; Obsolete description (Apps and hardware made for sharing outfits to communities are here to stay. With the launch of the Amazon Echo Look and the lingering popularization of smart mirrors in fashiong stores (see Alibaba's/Guess's FashionAI concept store) we expect to see people sharing a lot more of their fashion choices.),,60,20,,20,,,,,https://images.pexels.com/photos/267350/pexels-photo-267350.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940,,,,,,,,,> 2 Years,"vocabulary_ich_1268,vocabulary_ich_1287,vocabulary_ich_1267"
+Insta-Worthy Facilities
+","SOCICOMM,VLOGGING,INSTWRTF","Consumers are shifting their attention from TV to Youtube, Facebook and Instagram. Social media influencers are the new epicenter of new lifestyles, behaviors and social trends. This represents an opportunity for retailers to promote their products in a more decentralized (and effective) way. Companies who provide digital sharable products and experiences increase their reach with continuously growing scalability. ",59,Previously Outfit of the Day; Obsolete description (Apps and hardware made for sharing outfits to communities are here to stay. With the launch of the Amazon Echo Look and the lingering popularization of smart mirrors in fashiong stores (see Alibaba's/Guess's FashionAI concept store) we expect to see people sharing a lot more of their fashion choices.),,60,20,,20,,,,,https://images.pexels.com/photos/267350/pexels-photo-267350.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940,,,,,,,,,> 2 Years,"vocabulary_ich_1268,vocabulary_ich_1287,vocabulary_ich_1267"
 1,MT29,P2P 2.0 Payment,MT29,High,High degree,Seamlessness/Ease,0,,,,1,MB WAY; Venmo; Zelle; Apple Pay; Square cash,,10,,,10,,,80,,https://images.pexels.com/photos/618544/pexels-photo-618544.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940,,,,,,,,,1 to 2 Years,"vocabulary_ich_1268,vocabulary_ich_1267,vocabulary_ich_1269"
 1,MT30,Functional Food,MT30,High,High degree,Health And Wellness,4,"Food as Medicine Counseling
 Range of Functional Food
@@ -186,10 +191,10 @@ and 43% of Indonesian adult
 metropolitan consumers say
 managing or releasing stress
 properly is an important factor for a healthy lifestyle.",,,,70,20,10,,,,https://images.pexels.com/photos/988865/pexels-photo-988865.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940,,,,,,,,,> 2 Years,"vocabulary_ich_1264,vocabulary_ich_1267,vocabulary_ich_1263"
-1,MT31,Healthy Junk Food,MT31,High,High degree,Experiences,1,"Substitute Proteins
+1,MT31,Healthy Junk Food,MT31,High,High degree,Experiences,0,"Substitute Proteins
 Healthier Versions of Indulgences
 Gourmet Junk Foods in restaurants
-Gourmet Junk Foods in kits
+Gourmet Junk Food
 ","SUBSPROT,HEALINDU,GRMTJNKR,GRMTJNKK",,1,"Snacks considered to be junk food are getting a healthy makeover with “better for you” ingredients. Snack makers are using ingredients perceived as being “better for you” as a virtue-signaling mechanism to induce health-conscious consumers to try snacks that may have previously been off limits for health and nutrition reasons. Healthful ingredients like avocado and coconut oil along with plant-based proteins are changing the face of so-called ‘junk food’. Novel ingredients like jackfruit and moringa are also finding their way into junk food, which are challenging consumer perceptions. Look for innovators to disrupt popular, but nutrition-challenged sectors like puffed snacks with products like Vedic Brands Lily Puffs which is part of a wave of healthful puffed snacks made from the seeds of an Asian water lily plant.",,,50,40,,,,10,,https://images.pexels.com/photos/416594/pexels-photo-416594.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940,,,,,,,,,> 2 Years,"vocabulary_ich_1287,vocabulary_ich_1264,vocabulary_ich_1269"
 1,MT32,Genderless / Gender Neutral,MT32,High,High degree,Corporate Responsibility,1,"Inclusive Facilities
 Genderless Product Design
@@ -205,9 +210,8 @@ Reusable Packaging
 According to Melissa Breyer at TreeHugger, bulk purchasing may “require less overall transportation for delivery to consumers. There is much less packaging that needs to be produced and transported prior to being filled.” Not only does that benefit packaging manufacturers, but it’s also a win for the environment.
 
 F&B managers and C-store owners who want to start stocking bulk products in their stores should check out these 12 recent trends and practices regarding bulk food.",,,,,,,,,100,https://images.pexels.com/photos/1479192/pexels-photo-1479192.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940,,,,,,,,,> 2 Years,vocabulary_ich_1286
-1,MT34,New Luxury,MT34,High,High degree,Informed People,2,"Luxury in every range
-Affordable luxury/exquisite items
-","LUXURANG,AFFOLUXU",,1,"But today we are witnessing a different phenomenon:
+1,MT34,New Luxury,MT34,High,High degree,Informed People,1,"Luxury in every range
+",LUXURANG,,1,"But today we are witnessing a different phenomenon:
 the democratization of luxury. We define it as middlemarket
 consumers selectively trading up to higher levels
 of quality, taste, and aspiration.
@@ -219,10 +223,8 @@ this force has transformed a score of markets. (See
 Exhibit 1.) Many more categories are ripe for the taking.
 The question for established marketers is, Who
 will be first to bring the new luxury to my category? ",,,10,,,50,,,40,https://images.pexels.com/photos/949590/pexels-photo-949590.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940,,,,,,,,,> 2 Years,"vocabulary_ich_1287,vocabulary_ich_1263,vocabulary_ich_1286"
-1,MT35,Storytelling,MT35,High,High degree,Experiences,2,"Customer neverending story
-Product neverending story
-Employee neverending story
-","CUSTSTOR,PRODSTOR,EMPLSTOR","Consumers want to know the story of the product. A study conducted by Origin/Hill Holiday found that people are willing to pay more for a product that's accompanied by a narrative - its perceived value will increase if it's followed by the producer’s story, another user's review or any other type of content that helps people relating to that particular item or service.",63,"Consumers perceive higher value in products that tell a tale, have a backstory, show humanity. The following experiment by Origin/Hill Holliday depicts the trend clearly.
+1,MT35,Storytelling,MT35,High,High degree,Experiences,0,"Neverending story
+",CUSTSTOR,"Consumers want to know the story of the product. A study conducted by Origin/Hill Holiday found that people are willing to pay more for a product that's accompanied by a narrative - its perceived value will increase if it's followed by the producer’s story, another user's review or any other type of content that helps people relating to that particular item or service.",63,"Consumers perceive higher value in products that tell a tale, have a backstory, show humanity. The following experiment by Origin/Hill Holliday depicts the trend clearly.
 https://www.adweek.com/files/imagecache/node-blog/telling-tales.png
 
 É ela por ela. Pedra papel ou tesoura?",,,80,,,20,,,,https://images.pexels.com/photos/1043512/pexels-photo-1043512.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940,,,,,,,,,1 to 2 Years,"vocabulary_ich_1287,vocabulary_ich_1263"

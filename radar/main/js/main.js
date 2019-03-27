@@ -191,6 +191,7 @@ promises.push(font3.load())
 Promise.all(promises).then(values => {
     ////////////////////// Data preparation //////////////////////
     console.log("Json ---> Data:",values[0])
+    console.log(values[0].nodes.app_ADAPCONV)
     graph = values[0]
     let nodes = prepareNodes(graph)
     let edges = prepareEdges(graph)
@@ -198,6 +199,7 @@ Promise.all(promises).then(values => {
     // console.log(nodes)
     container.call(threatVisual, nodes, edges, language, getFilteredData)
     queryURLparams();
+    fillFilterMenu();
 })//promises
 
 //////////////////////////////////////////////////////////////
@@ -706,6 +708,34 @@ function replaceOldMicros(oldjson,newmicros) { //replaceOldConcepts(myjson,newmi
             })
     }
 })()
+
+function fillFilterMenu() {
+    input = graph.nodes;
+    var keys = [];
+    for (i in input)
+    {
+        Object.keys(input).forEach(function(key){
+            if (typeof input[key].meta != "undefined" && typeof input[key].meta.filterlists != "undefined") {
+                for (k in input[key].meta.filterlists) {
+                    if(keys.indexOf(input[key].meta.filterlists[k]) == -1) {
+                        keys.push(input[key].meta.filterlists[k]);
+                    }
+                }
+            }
+        });
+    }
+    // console.log(keys)
+
+    d3.select("#filterOptionsHyperlinks")
+    .selectAll("a.dropdown-item")
+    .data(keys)
+    .enter()
+    .append("a")
+    .attr("class", "dropdown-item")
+    .attr("href", function(d) {return ("?filter="+d)})
+    .html(function(d) {return d})
+}
+
 
 // function setNewMicro2ConceptEdges(oldjson,conceptcsv) { //setAllMicroEdgesToSameMega(myjson,"vocabulary_ich_1284",globalelements)
 //     // create array with object for every concept in csv

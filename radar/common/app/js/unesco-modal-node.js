@@ -259,7 +259,7 @@ function createModal(obj) {
                 if (obj.meta.highlights.implementation[i].image) {
                     thumbDiv.setAttribute('style', "background-image: url('" + obj.meta.highlights.implementation[i].image + "');");
                 } else {
-                    thumbDiv.setAttribute('style', "background-image: url('https://via.placeholder.com/150?text=Placeholder')");
+                    thumbDiv.setAttribute('style', "background-image: url('https://dummyimage.com/1x1/cccccc/cccccc.png')");
                 }
                 let cardBodyDiv = document.createElement('div');
                 cardBodyDiv.setAttribute('class', 'card-body d-flex flex-column align-items-start p-2');
@@ -317,7 +317,7 @@ function createModal(obj) {
                 if (obj.meta.highlights.technology[i].image) {
                     thumbDiv.setAttribute('style', "background-image: url('" + obj.meta.highlights.technology[i].image + "');");
                 } else {
-                    thumbDiv.setAttribute('style', "background-image: url('https://via.placeholder.com/150?text=Placeholder')");
+                    thumbDiv.setAttribute('style', "background-image: url('https://dummyimage.com/1x1/cccccc/cccccc.png')");
                 }
                 let cardBodyRecWrapper = document.createElement('div');
                 cardBodyRecWrapper.setAttribute('class', 'd-flex flex-column align-items-start w-100');
@@ -436,7 +436,7 @@ function createModal(obj) {
                 if (obj.meta.highlights.partner[i].image) {
                     thumbDiv.setAttribute('style', "background-image: url('" + obj.meta.highlights.partner[i].image + "');");
                 } else {
-                    thumbDiv.setAttribute('style', "background-image: url('https://via.placeholder.com/150?text=Placeholder')");
+                    thumbDiv.setAttribute('style', "background-image: url('https://dummyimage.com/1x1/cccccc/cccccc.png')");
                 }
                 cardBodyDiv = document.createElement('div');
                 cardBodyDiv.setAttribute('class', 'card-body d-flex flex-column align-items-start p-2');
